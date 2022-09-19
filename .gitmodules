@@ -1,4 +1,5 @@
 [submodule "user"]
 	path = user
 	url = git@github.com:UNICEFECAR/USupport-user.git
+	update = merge
 	branch = development
