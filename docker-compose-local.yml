@@ -1,0 +1,38 @@
+version: "3.8"
+services:
+  user:
+    container_name: user
+    restart: "unless-stopped"
+    image: node:16.5.0-alpine3.13
+    working_dir: /home/node/app
+    volumes:
+      - ./user/service:/home/node/app
+    env_file:
+      - ./user/service/.env.local
+    ports:
+      - 3001:3001
+    expose:
+      - 3001
+    command: >
+      sh -c "npm ci &&
+              npm run dev"
+    networks:
+      - uSupportMeNet
+
+  userdb:
+    container_name: userDB
+    build:
+      context: ./user/db
+      dockerfile: Dockerfile
+    hostname: userdb
+    volumes:
+      - ./user/db/data/db/:/var/lib/postgresql/data/
+    env_file:
+      - ./user/db/.env.local
+    ports:
+      - "5436:5432"
+    networks:
+      - uSupportMeNet
+
+networks:
+  uSupportMeNet:
