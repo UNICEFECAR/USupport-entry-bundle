@@ -1,6 +1,6 @@
-[submodule "user"]
+[submodule "client"]
 	path = client
-	url = git@github.com:UNICEFECAR/USupport-user.git
+	url = git@github.com:UNICEFECAR/USupport-client.git
 	update = merge
 	branch = development
 [submodule "provider"]
