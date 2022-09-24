@@ -1,10 +1,10 @@
 # Welcome
 
-Main repository for the USupportMe API services
+Main repository for the USupport API services
 
 ## Installation
 
-This is the entry bundle repository for all USupportMe web services (webapps + API services).
+This is the entry bundle repository for all USupport web services (webapps + API services).
 
 To clone and populate all submodules use:
 
