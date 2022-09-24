@@ -1,5 +1,40 @@
 [submodule "user"]
-	path = user
+	path = client
 	url = git@github.com:UNICEFECAR/USupport-user.git
+	update = merge
+	branch = development
+[submodule "provider"]
+	path = provider
+	url = git@github.com:UNICEFECAR/USupport-provider.git
+	update = merge
+	branch = development
+[submodule "admin"]
+	path = admin
+	url = git@github.com:UNICEFECAR/USupport-admin.git
+	update = merge
+	branch = development
+[submodule "notifications"]
+	path = notifications
+	url = git@github.com:UNICEFECAR/USupport-notifications.git
+	update = merge
+	branch = development
+[submodule "video"]
+	path = video
+	url = git@github.com:UNICEFECAR/USupport-video.git
+	update = merge
+	branch = development
+[submodule "messaging"]
+	path = messaging
+	url = git@github.com:UNICEFECAR/USupport-messaging.git
+	update = merge
+	branch = development
+[submodule "payments"]
+	path = payments
+	url = git@github.com:UNICEFECAR/USupport-payments.git
+	update = merge
+	branch = development
+[submodule "cms"]
+	path = cms
+	url = git@github.com:UNICEFECAR/USupport-cms.git
 	update = merge
 	branch = development
