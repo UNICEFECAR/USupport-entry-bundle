@@ -1,6 +1,23 @@
 version: "3.8"
 services:
-# TODO: Add webproxy container
+  webproxy:
+    container_name: webproxy
+    # domainname: usupport.com 
+    restart: "unless-stopped"
+    build:
+      context: ./webproxy
+      dockerfile: Dockerfile
+    depends_on:
+      - gateway
+    volumes:
+      - ./webproxy/nginx_production.conf:/etc/nginx/nginx.conf
+      - ./webproxy/logs/:/var/log/nginx/
+      - /etc/nginx/ssl/:/etc/nginx/ssl/
+    ports:
+      - "80:80"
+      - "443:443"
+    networks:
+      - USupportNet
 
   gateway:
     container_name: gateway

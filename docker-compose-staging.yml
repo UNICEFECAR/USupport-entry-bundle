@@ -1,6 +1,22 @@
 version: "3.8"
 services:
-# TODO: Add webproxy container
+  webproxy:
+    container_name: webproxy
+    build:
+      context: ./webproxy
+      dockerfile: Dockerfile
+    depends_on:
+      - gateway
+    restart: "unless-stopped"
+    volumes:
+      - ./webproxy/nginx_staging.conf:/etc/nginx/nginx.conf
+      - ./webproxy/logs/:/var/log/nginx/
+      - /etc/letsencrypt/:/etc/letsencrypt/
+    ports:
+      - "80:80"
+      - "443:443"
+    networks:
+      - USupportNet
 
   gateway:
     container_name: gateway
