@@ -1,5 +1,7 @@
-# Install bundle dependencies
+# Make sure all submodules are on development branch
+git submodule foreach git checkout development
 
+# Install bundle dependencies
 echo "Entering Admin API"
 cd admin/service && npm ci
 

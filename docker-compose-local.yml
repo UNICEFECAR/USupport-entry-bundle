@@ -1,14 +1,18 @@
 version: "3.8"
 services:
-  user:
-    container_name: user
+  client:
+    container_name: client
     restart: "unless-stopped"
     image: node:16.5.0-alpine3.13
     working_dir: /home/node/app
+    depends_on:
+      - piidb
+      - clinicaldb
+      - masterdb
     volumes:
-      - ./user/service:/home/node/app
+      - ./client/service:/home/node/app
     env_file:
-      - ./user/service/.env.local
+      - ./client/service/.env.local
     ports:
       - 3001:3001
     expose:
@@ -17,22 +21,249 @@ services:
       sh -c "npm ci &&
               npm run dev"
     networks:
-      - uSupportMeNet
+      - USupportNet
 
-  userdb:
-    container_name: userDB
-    build:
-      context: ./user/db
-      dockerfile: Dockerfile
-    hostname: userdb
+  provider:
+    container_name: provider
+    restart: "unless-stopped"
+    image: node:16.5.0-alpine3.13
+    working_dir: /home/node/app
+    depends_on:
+      - piidb
+      - clinicaldb
+      - masterdb
     volumes:
-      - ./user/db/data/db/:/var/lib/postgresql/data/
+      - ./provider/service:/home/node/app
     env_file:
-      - ./user/db/.env.local
+      - ./provider/service/.env.local
+    ports:
+      - 3002:3002
+    expose:
+      - 3002
+    command: >
+      sh -c "npm ci &&
+              npm run dev"
+    networks:
+      - USupportNet
+  
+  video:
+    container_name: video
+    restart: "unless-stopped"
+    image: node:16.5.0-alpine3.13
+    working_dir: /home/node/app
+    depends_on:
+      - piidb
+      - clinicaldb
+      - masterdb
+    volumes:
+      - ./video/service:/home/node/app
+    env_file:
+      - ./video/service/.env.local
+    ports:
+      - 3003:3003
+    expose:
+      - 3003
+    command: >
+      sh -c "npm ci &&
+              npm run dev"
+    networks:
+      - USupportNet
+  
+  payments:
+    container_name: payments
+    restart: "unless-stopped"
+    image: node:16.5.0-alpine3.13
+    working_dir: /home/node/app
+    depends_on:
+      - piidb
+      - clinicaldb
+      - masterdb
+    volumes:
+      - ./payments/service:/home/node/app
+    env_file:
+      - ./payments/service/.env.local
+    ports:
+      - 3004:3004
+    expose:
+      - 3004
+    command: >
+      sh -c "npm ci &&
+              npm run dev"
+    networks:
+      - USupportNet
+
+  notifications:
+    container_name: notifications
+    restart: "unless-stopped"
+    image: node:16.5.0-alpine3.13
+    working_dir: /home/node/app
+    depends_on:
+      - piidb
+      - clinicaldb
+      - masterdb
+    volumes:
+      - ./notifications/service:/home/node/app
+    env_file:
+      - ./notifications/service/.env.local
+    ports:
+      - 3005:3005
+    expose:
+      - 3005
+    command: >
+      sh -c "npm ci &&
+              npm run dev"
+    networks:
+      - USupportNet
+
+  messaging:
+    container_name: messaging
+    restart: "unless-stopped"
+    image: node:16.5.0-alpine3.13
+    working_dir: /home/node/app
+    depends_on:
+      - piidb
+      - clinicaldb
+      - masterdb
+    volumes:
+      - ./messaging/service:/home/node/app
+    env_file:
+      - ./messaging/service/.env.local
+    ports:
+      - 3006:3006
+    expose:
+      - 3006
+    command: >
+      sh -c "npm ci &&
+              npm run dev"
+    networks:
+      - USupportNet
+
+  admin:
+    container_name: admin
+    restart: "unless-stopped"
+    image: node:16.5.0-alpine3.13
+    working_dir: /home/node/app
+    depends_on:
+      - piidb
+      - clinicaldb
+      - masterdb
+    volumes:
+      - ./admin/service:/home/node/app
+    env_file:
+      - ./admin/service/.env.local
+    ports:
+      - 3007:3007
+    expose:
+      - 3007
+    command: >
+      sh -c "npm ci &&
+              npm run dev"
+    networks:
+      - USupportNet
+
+  email:
+    container_name: email
+    restart: "unless-stopped"
+    image: node:16.5.0-alpine3.13
+    working_dir: /home/node/app
+    depends_on:
+      - piidb
+      - clinicaldb
+      - masterdb
+    volumes:
+      - ./email/service:/home/node/app
+    env_file:
+      - ./email/service/.env.local
+    ports:
+      - 3008:3008
+    expose:
+      - 3008
+    command: >
+      sh -c "npm ci &&
+              npm run dev"
+    networks:
+      - USupportNet
+
+  cms:
+    container_name: cms
+    restart: "unless-stopped"
+    image: node:16.5.0-alpine3.13
+    working_dir: /home/node/app
+    depends_on:
+      - cmsdb
+    volumes:
+      - ./cms/service:/home/node/app
+    env_file:
+      - ./cms/service/.env.local
+    ports:
+      - 3009:3009
+    expose:
+      - 3009
+    command: >
+      sh -c "npm ci &&
+              npm run dev"
+    networks:
+      - USupportNet
+
+  masterdb:
+    container_name: masterDB
+    build:
+      context: ./databases/masterDB
+      dockerfile: Dockerfile
+    hostname: masterdb
+    volumes:
+      - ./databases/masterDB/data/db/:/var/lib/postgresql/data/
+    env_file:
+      - ./databases/masterDB/.env.local
+    ports:
+      - "5435:5432"
+    networks:
+      - USupportNet
+
+  piidb:
+    container_name: piiDB
+    build:
+      context: ./databases/piiDB
+      dockerfile: Dockerfile
+    hostname: piidb
+    volumes:
+      - ./databases/piiDB/data/db/:/var/lib/postgresql/data/
+    env_file:
+      - ./databases/piiDB/.env.local
     ports:
       - "5436:5432"
     networks:
-      - uSupportMeNet
+      - USupportNet
+
+  clinicaldb:
+    container_name: clinicalDB
+    build:
+      context: ./databases/clinicalDB
+      dockerfile: Dockerfile
+    hostname: clinicaldb
+    volumes:
+      - ./databases/clinicalDB/data/db/:/var/lib/postgresql/data/
+    env_file:
+      - ./databases/clinicalDB/.env.local
+    ports:
+      - "5437:5432"
+    networks:
+      - USupportNet
+
+  cmsdb:
+    container_name: cmsDB
+    build:
+      context: ./cms/db
+      dockerfile: Dockerfile
+    hostname: cmsdb
+    volumes:
+      - ./cms/db/data/db/:/var/lib/postgresql/data/
+    env_file:
+      - ./cms/db/.env.local
+    ports:
+      - "5435:5432"
+    networks:
+      - USupportNet
 
 networks:
-  uSupportMeNet:
+  USupportNet:
