@@ -1,0 +1,206 @@
+version: "3.8"
+services:
+# TODO: Add webproxy container
+
+  gateway:
+    container_name: gateway
+    restart: "unless-stopped"
+    image: node:16.5.0-alpine3.13
+    working_dir: /home/node/app
+    depends_on:
+      - client
+      - provider
+      - video
+      - payments
+      - notifications
+      - messaging
+      - admin
+      - email
+      - cms
+    volumes:
+      - ./gateway:/home/node/app
+    env_file:
+      - ./gateway/.env.staging
+    ports:
+      - 3000:3000
+    expose:
+      - 3000
+    command: >
+      sh -c "npm ci &&
+              npm run dev"
+    networks:
+      - USupportNet
+
+  client:
+    container_name: client
+    restart: "unless-stopped"
+    image: node:16.5.0-alpine3.13
+    working_dir: /home/node/app
+    volumes:
+      - ./client/service:/home/node/app
+    env_file:
+      - ./client/service/.env.staging
+    ports:
+      - 3001:3001
+    expose:
+      - 3001
+    command: >
+      sh -c "npm ci &&
+              npm run dev"
+    networks:
+      - USupportNet
+
+  provider:
+    container_name: provider
+    restart: "unless-stopped"
+    image: node:16.5.0-alpine3.13
+    working_dir: /home/node/app
+    volumes:
+      - ./provider/service:/home/node/app
+    env_file:
+      - ./provider/service/.env.staging
+    ports:
+      - 3002:3002
+    expose:
+      - 3002
+    command: >
+      sh -c "npm ci &&
+              npm run dev"
+    networks:
+      - USupportNet
+  
+  video:
+    container_name: video
+    restart: "unless-stopped"
+    image: node:16.5.0-alpine3.13
+    working_dir: /home/node/app
+    volumes:
+      - ./video/service:/home/node/app
+    env_file:
+      - ./video/service/.env.staging
+    ports:
+      - 3003:3003
+    expose:
+      - 3003
+    command: >
+      sh -c "npm ci &&
+              npm run dev"
+    networks:
+      - USupportNet
+  
+  payments:
+    container_name: payments
+    restart: "unless-stopped"
+    image: node:16.5.0-alpine3.13
+    working_dir: /home/node/app
+    volumes:
+      - ./payments/service:/home/node/app
+    env_file:
+      - ./payments/service/.env.staging
+    ports:
+      - 3004:3004
+    expose:
+      - 3004
+    command: >
+      sh -c "npm ci &&
+              npm run dev"
+    networks:
+      - USupportNet
+
+  notifications:
+    container_name: notifications
+    restart: "unless-stopped"
+    image: node:16.5.0-alpine3.13
+    working_dir: /home/node/app
+    volumes:
+      - ./notifications/service:/home/node/app
+    env_file:
+      - ./notifications/service/.env.staging
+    ports:
+      - 3005:3005
+    expose:
+      - 3005
+    command: >
+      sh -c "npm ci &&
+              npm run dev"
+    networks:
+      - USupportNet
+
+  messaging:
+    container_name: messaging
+    restart: "unless-stopped"
+    image: node:16.5.0-alpine3.13
+    working_dir: /home/node/app
+    volumes:
+      - ./messaging/service:/home/node/app
+    env_file:
+      - ./messaging/service/.env.staging
+    ports:
+      - 3006:3006
+    expose:
+      - 3006
+    command: >
+      sh -c "npm ci &&
+              npm run dev"
+    networks:
+      - USupportNet
+
+  admin:
+    container_name: admin
+    restart: "unless-stopped"
+    image: node:16.5.0-alpine3.13
+    working_dir: /home/node/app
+    volumes:
+      - ./admin/service:/home/node/app
+    env_file:
+      - ./admin/service/.env.staging
+    ports:
+      - 3007:3007
+    expose:
+      - 3007
+    command: >
+      sh -c "npm ci &&
+              npm run dev"
+    networks:
+      - USupportNet
+
+  email:
+    container_name: email
+    restart: "unless-stopped"
+    image: node:16.5.0-alpine3.13
+    working_dir: /home/node/app
+    volumes:
+      - ./email/service:/home/node/app
+    env_file:
+      - ./email/service/.env.staging
+    ports:
+      - 3008:3008
+    expose:
+      - 3008
+    command: >
+      sh -c "npm ci &&
+              npm run dev"
+    networks:
+      - USupportNet
+
+  cms:
+    container_name: cms
+    restart: "unless-stopped"
+    image: node:16.5.0-alpine3.13
+    working_dir: /home/node/app
+    volumes:
+      - ./cms/service:/home/node/app
+    env_file:
+      - ./cms/service/.env.staging
+    ports:
+      - 3009:3009
+    expose:
+      - 3009
+    command: >
+      sh -c "npm ci &&
+              npm run dev"
+    networks:
+      - USupportNet
+
+networks:
+  USupportNet:
