@@ -22,3 +22,12 @@ cd ../../provider/service && npm ci
 
 echo "Entering Video API"
 cd ../../video/service && npm ci
+
+echo "Entering Email API"
+cd ../../email/service && npm ci
+
+echo "Entering API Gateway"
+cd ../../gateway && npm ci
+
+cd ..
+echo "Setup completed..."

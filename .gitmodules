@@ -41,3 +41,8 @@
 [submodule "email"]
 	path = email
 	url = git@github.com:UNICEFECAR/USupport-email.git
+[submodule "gateway"]
+	path = gateway
+	url = git@github.com:UNICEFECAR/USupport-api-gateway.git
+	update = merge
+	branch = development
