@@ -4,8 +4,6 @@ DROP=$2
 
 export COMPOSE_PROJECT_NAME=usupport-services
 
-printf "Running deployment for local environment"
-
 if [ "$ENV" = 'local' ] || [ "$ENV" = 'staging' ]  || [ "$ENV" = 'production' ] 
 then
     printf "Running deployment for %s \n" "$ENV"
