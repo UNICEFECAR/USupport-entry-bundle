@@ -1,5 +1,21 @@
 version: "3.8"
 services:
+  webproxy:
+    container_name: webproxy
+    restart: "unless-stopped"
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    depends_on:
+      - gateway
+    volumes:
+      - ./webproxy/nginx-local.conf:/etc/nginx/nginx.conf
+      - ./webproxy/logs/:/var/log/nginx/
+    ports:
+      - "3010:80"
+    networks:
+      - USupportNet
+
   gateway:
     container_name: gateway
     restart: "unless-stopped"
@@ -222,8 +238,6 @@ services:
       - cmsdb
     volumes:
       - ./cms/service:/home/node/app
-    env_file:
-      - ./cms/service/.env.local
     ports:
       - 3009:3009
     expose:
@@ -290,7 +304,7 @@ services:
     env_file:
       - ./cms/db/.env.local
     ports:
-      - "5435:5432"
+      - "5438:5432"
     networks:
       - USupportNet
 

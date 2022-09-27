@@ -10,7 +10,7 @@ services:
     depends_on:
       - gateway
     volumes:
-      - ./webproxy/nginx_production.conf:/etc/nginx/nginx.conf
+      - ./webproxy/nginx-production.conf:/etc/nginx/nginx.conf
       - ./webproxy/logs/:/var/log/nginx/
       - /etc/nginx/ssl/:/etc/nginx/ssl/
     ports:

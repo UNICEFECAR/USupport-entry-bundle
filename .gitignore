@@ -31,7 +31,7 @@ yarn-debug.log*
 yarn-error.log*
 
 # mongodb
-*/data/db/*
+**/data/db/*
 
 # api logs
 api/logs/*

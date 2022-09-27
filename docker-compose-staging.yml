@@ -9,7 +9,7 @@ services:
       - gateway
     restart: "unless-stopped"
     volumes:
-      - ./webproxy/nginx_staging.conf:/etc/nginx/nginx.conf
+      - ./webproxy/nginx-staging.conf:/etc/nginx/nginx.conf
       - ./webproxy/logs/:/var/log/nginx/
       - /etc/letsencrypt/:/etc/letsencrypt/
     ports:
