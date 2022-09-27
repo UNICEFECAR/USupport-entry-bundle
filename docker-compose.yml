@@ -100,15 +100,15 @@ services:
     networks:
       - USupportNet
 
-  cms:
-    container_name: cms
-    image: node:16.5.0-alpine3.13
-    ports:
-      - 3009:3009
-    expose:
-      - 3009
-    networks:
-      - USupportNet
+  # cms:
+  #   container_name: cms
+  #   image: node:16.5.0-alpine3.13
+  #   ports:
+  #     - 3009:3009
+  #   expose:
+  #     - 3009
+  #   networks:
+  #     - USupportNet
 
   masterdb:
     container_name: masterDB

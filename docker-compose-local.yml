@@ -30,7 +30,6 @@ services:
       - messaging
       - admin
       - email
-      - cms
     volumes:
       - ./gateway:/home/node/app
     env_file:
@@ -229,24 +228,21 @@ services:
     networks:
       - USupportNet
 
-  cms:
-    container_name: cms
-    restart: "unless-stopped"
-    image: node:16.5.0-alpine3.13
-    working_dir: /home/node/app
-    depends_on:
-      - cmsdb
-    volumes:
-      - ./cms/service:/home/node/app
-    ports:
-      - 3009:3009
-    expose:
-      - 3009
-    command: >
-      sh -c "npm ci &&
-              npm run dev"
-    networks:
-      - USupportNet
+  # cms:
+  #   container_name: cms
+  #   restart: "unless-stopped"
+  #   image: node:16.5.0-alpine3.13
+  #   working_dir: /home/node/app
+  #   depends_on:
+  #     - cmsdb
+  #   volumes:
+  #     - ./cms/service:/home/node/app
+  #   ports:
+  #     - 3009:3009
+  #   expose:
+  #     - 3009
+  #   networks:
+  #     - USupportNet
 
   masterdb:
     container_name: masterDB
