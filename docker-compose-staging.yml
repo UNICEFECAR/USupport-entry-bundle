@@ -3,7 +3,7 @@ services:
   webproxy:
     container_name: webproxy
     build:
-      context: ./webproxy
+      context: ./
       dockerfile: Dockerfile
     depends_on:
       - gateway
