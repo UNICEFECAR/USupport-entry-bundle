@@ -48,11 +48,6 @@
 	url = git@github.com:UNICEFECAR/USupport-api-gateway.git
 	update = merge
 	branch = development
-[submodule "admin-ui"]
-	path = admin-ui
-	url = git@github.com:UNICEFECAR/USupport-admin-ui.git
-	update = merge
-	branch = development
 [submodule "client-ui"]
 	path = client-ui
 	url = git@github.com:UNICEFECAR/USupport-client-ui.git
@@ -66,5 +61,20 @@
 [submodule "provider-ui"]
 	path = provider-ui
 	url = git@github.com:UNICEFECAR/USupport-provider-ui.git
+	update = merge
+	branch = development
+[submodule "admin-global-ui"]
+	path = admin-global-ui
+	url = git@github.com:UNICEFECAR/USupport-global-admin-ui.git
+	update = merge
+	branch = development
+[submodule "admin-country-ui"]
+	path = admin-country-ui
+	url = git@github.com:UNICEFECAR/USupport-country-admin-ui.git
+	update = merge
+	branch = development
+[submodule "website"]
+	path = website
+	url = git@github.com:UNICEFECAR/USupport-website-ui.git
 	update = merge
 	branch = development
