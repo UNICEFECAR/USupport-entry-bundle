@@ -51,19 +51,19 @@ RUN npm run build --prod
 RUN npm prune --production
 
 ###
-# Stage 3 - build admin webapp
+# Stage 3 - build country admin webapp
 ###
 
 # set working directory
-WORKDIR /adminApp
+WORKDIR /countryAdminApp
 
 # install app dependencies
-COPY ./admin-ui/package.json ./
-COPY ./admin-ui/package-lock.json ./
+COPY ./admin-country-ui/package.json ./
+COPY ./admin-country-ui/package-lock.json ./
 RUN npm install
 
 # Copy source files
-COPY ./admin-ui/ .
+COPY ./admin-country-ui/ .
 
 # Building app
 RUN npm run build --prod
@@ -72,11 +72,55 @@ RUN npm run build --prod
 RUN npm prune --production
 
 ###
-# Stage 4 - nginx server
+# Stage 4 - build global admin webapp
+###
+
+# set working directory
+WORKDIR /globalAdminApp
+
+# install app dependencies
+COPY ./admin-global-ui/package.json ./
+COPY ./admin-global-ui/package-lock.json ./
+RUN npm install
+
+# Copy source files
+COPY ./admin-global-ui/ .
+
+# Building app
+RUN npm run build --prod
+
+# remove dev dependencies
+RUN npm prune --production
+
+###
+# Stage 5 - build website
+###
+
+# set working directory
+WORKDIR /websiteApp
+
+# install app dependencies
+COPY ./website/package.json ./
+COPY ./website/package-lock.json ./
+RUN npm install
+
+# Copy source files
+COPY ./website/ .
+
+# Building app
+RUN npm run build --prod
+
+# remove dev dependencies
+RUN npm prune --production
+
+###
+# Stage 6 - nginx server
 ###
 FROM ${NGINX_VERSION}
 
 # copy web app builds to nginx/html
 COPY --from=webAppBuilds        /clientApp/dist    /usr/share/nginx/html/client
 COPY --from=webAppBuilds        /providerApp/dist  /usr/share/nginx/html/provider
-COPY --from=webAppBuilds        /adminApp/dist     /usr/share/nginx/html/admin
+COPY --from=webAppBuilds        /countryAdminApp/dist     /usr/share/nginx/html/countryAdmin
+COPY --from=webAppBuilds        /globalAdminApp/dist     /usr/share/nginx/html/globalAdmin
+COPY --from=webAppBuilds        /websiteApp/dist     /usr/share/nginx/html/website
