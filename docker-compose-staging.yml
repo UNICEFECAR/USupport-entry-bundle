@@ -3,7 +3,7 @@ services:
   webproxy:
     container_name: webproxy
     build:
-      context: ./webproxy
+      context: ./
       dockerfile: Dockerfile
     depends_on:
       - gateway
@@ -213,6 +213,25 @@ services:
   #     - 3009
   #   networks:
   #     - USupportNet
+
+  user:
+    container_name: user
+    restart: "unless-stopped"
+    image: node:16.5.0-alpine3.13
+    working_dir: /home/node/app
+    volumes:
+      - ./user/service:/home/node/app
+    env_file:
+      - ./user/service/.env.staging
+    ports:
+      - 3010:3010
+    expose:
+      - 3010
+    command: >
+      sh -c "npm ci &&
+              npm run dev"
+    networks:
+      - USupportNet
 
 networks:
   USupportNet:

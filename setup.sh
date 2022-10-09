@@ -8,6 +8,9 @@ cd admin/service && npm ci
 echo "Entering Client API"
 cd ../../client/service && npm ci
 
+echo "Entering User API"
+cd ../../user/service && npm ci
+
 echo "Entering Messaging API"
 cd ../../messaging/service && npm ci
 
