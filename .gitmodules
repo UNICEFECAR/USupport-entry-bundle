@@ -80,6 +80,6 @@
 	branch = development
 [submodule "user"]
 	path = user
-	url = git@github.com:UNICEFECAR/USupport-user-ui.git
+	url = git@github.com:UNICEFECAR/USupport-user.git
 	update = merge
 	branch = development
