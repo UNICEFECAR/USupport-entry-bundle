@@ -239,7 +239,7 @@ services:
       - ./cms/config:/opt/app/config
       - ./cms/src:/opt/app/src
       - ./cms/package.json:/opt/package.json
-      - ./cms/package-lock.json:/opt/package-lock.json # Replace with package-lock.json if using npm
+      - ./cms/package-lock.json:/opt/package-lock.json 
       - ./cms/.env.local:/opt/app/.env
     ports:
       - "3009:1337"
