@@ -53,11 +53,6 @@
 	url = git@github.com:UNICEFECAR/USupport-client-ui.git
 	update = merge
 	branch = development
-[submodule "cms-ui"]
-	path = cms-ui
-	url = git@github.com:UNICEFECAR/USupport-cms-ui.git
-	update = merge
-	branch = development
 [submodule "provider-ui"]
 	path = provider-ui
 	url = git@github.com:UNICEFECAR/USupport-provider-ui.git
