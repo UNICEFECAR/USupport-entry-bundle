@@ -39,7 +39,7 @@ services:
       - 3002
     networks:
       - USupportNet
-  
+
   video:
     container_name: video
     image: node:16.5.0-alpine3.13
@@ -49,7 +49,7 @@ services:
       - 3003
     networks:
       - USupportNet
-  
+
   payments:
     container_name: payments
     image: node:16.5.0-alpine3.13
@@ -100,15 +100,17 @@ services:
     networks:
       - USupportNet
 
-  # cms:
-  #   container_name: cms
-  #   image: node:16.5.0-alpine3.13
-  #   ports:
-  #     - 3009:3009
-  #   expose:
-  #     - 3009
-  #   networks:
-  #     - USupportNet
+  cms:
+    container_name: cms
+    build:
+      context: ./cms
+      dockerfile: Dockerfile
+    ports:
+      - 3009:3009
+    expose:
+      - 3009
+    networks:
+      - USupportNet
 
   user:
     container_name: user

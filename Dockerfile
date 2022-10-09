@@ -71,6 +71,27 @@ RUN npm run build --prod
 # remove dev dependencies
 RUN npm prune --production
 
+# ###
+# # Stage 4 - build cms webapp
+# ###
+
+# # set working directory
+# WORKDIR /cmsApp
+
+# # install app dependencies
+# COPY ./cms/package.json         ./
+# COPY ./cms/package-lock.json    ./
+# RUN npm install
+
+# # Copy source files
+# COPY ./cms/ .
+
+# # Building app
+# RUN npm run build 
+
+# # remove dev dependencies
+# RUN npm prune --production
+
 ###
 # Stage 4 - build global admin webapp
 ###
