@@ -12,7 +12,7 @@ services:
       - ./webproxy/nginx-local.conf:/etc/nginx/nginx.conf
       - ./webproxy/logs/:/var/log/nginx/
     ports:
-      - "3010:80"
+      - "3011:80"
     networks:
       - USupportNet
 
@@ -89,7 +89,7 @@ services:
               npm run dev"
     networks:
       - USupportNet
-  
+
   video:
     container_name: video
     restart: "unless-stopped"
@@ -112,7 +112,7 @@ services:
               npm run dev"
     networks:
       - USupportNet
-  
+
   payments:
     container_name: payments
     restart: "unless-stopped"
