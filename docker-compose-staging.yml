@@ -204,7 +204,7 @@ services:
       context: ./cms
       dockerfile: Dockerfile
     restart: unless-stopped
-    env_file: ./cms/.env
+    env_file: ./cms/.env.staging
     volumes:
       - ./cms/config:/opt/app/config
       - ./cms/src:/opt/app/src
