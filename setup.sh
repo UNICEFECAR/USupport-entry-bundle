@@ -32,5 +32,10 @@ cd ../../email/service && npm ci
 echo "Entering API Gateway"
 cd ../../gateway && npm ci
 
+echo "Entering Website UI"
+cd ../website && npm ci
+git submodule init
+git submodule update
+
 cd ..
 echo "Setup completed..."
