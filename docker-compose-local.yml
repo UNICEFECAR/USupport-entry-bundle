@@ -317,12 +317,12 @@ services:
   cmsdb:
     container_name: cmsDB
     build:
-      context: ./cms/db
+      context: ./databases/cmsDB
       dockerfile: Dockerfile
     restart: unless-stopped
-    env_file: ./cms/db/.env.local
+    env_file: ./databases/cmsDB/.env.local
     volumes:
-      - ./cms/db/data/db/:/var/lib/postgresql/data/
+      - ./databases/cmsDB/data/db/:/var/lib/postgresql/data/
     ports:
       - "5438:5432"
     networks:
