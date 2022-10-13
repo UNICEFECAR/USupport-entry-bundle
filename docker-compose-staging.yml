@@ -4,7 +4,7 @@ services:
     container_name: webproxy
     build:
       context: ./
-      dockerfile: Dockerfile
+      dockerfile: DockerfileStaging
     depends_on:
       - gateway
     restart: "unless-stopped"
@@ -83,7 +83,7 @@ services:
               npm run dev"
     networks:
       - USupportNet
-  
+
   video:
     container_name: video
     restart: "unless-stopped"
@@ -102,7 +102,7 @@ services:
               npm run dev"
     networks:
       - USupportNet
-  
+
   payments:
     container_name: payments
     restart: "unless-stopped"
@@ -202,14 +202,14 @@ services:
     container_name: cms
     build:
       context: ./cms
-      dockerfile: Dockerfile
+      dockerfile: DockerfileStaging
     restart: unless-stopped
     env_file: ./cms/.env.staging
     volumes:
       - ./cms/config:/opt/app/config
       - ./cms/src:/opt/app/src
       - ./cms/package.json:/opt/package.json
-      - ./cms/package-lock.json:/opt/package-lock.json 
+      - ./cms/package-lock.json:/opt/package-lock.json
       - ./cms/.env.staging:/opt/app/.env
     ports:
       - "3009:1337"
