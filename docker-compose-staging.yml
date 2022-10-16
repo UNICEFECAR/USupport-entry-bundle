@@ -202,7 +202,7 @@ services:
     container_name: cms
     build:
       context: ./cms
-      dockerfile: DockerfileStaging
+      dockerfile: Dockerfile
     restart: unless-stopped
     env_file: ./cms/.env.staging
     volumes:
