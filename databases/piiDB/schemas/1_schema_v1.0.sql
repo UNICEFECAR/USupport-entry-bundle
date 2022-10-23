@@ -8,6 +8,13 @@ CREATE TYPE "specialization_type" AS ENUM (
   'trauma'
 );
 
+CREATE TYPE "sex_type" AS ENUM (
+  'male',
+  'female',
+  'unspecified',
+  'notMentioned'
+);
+
 CREATE TYPE "login_status" AS ENUM (
   'successful',
   'failed'
@@ -18,8 +25,8 @@ CREATE TABLE "user" (
   "user_id" UUID PRIMARY KEY DEFAULT (gen_random_uuid()),
   "country_id" UUID NOT NULL,
   "type" user_type NOT NULL,
-  "client_detail_id" UUID NOT NULL,
-  "provider_detail_id" UUID NOT NULL,
+  "client_detail_id" UUID,
+  "provider_detail_id" UUID,
   "password" varchar NOT NULL,
   "notification_preference_id" UUID NOT NULL,
   "created_at" timestamp DEFAULT (now()),
@@ -31,21 +38,19 @@ CREATE TABLE "provider_detail" (
   "provider_detail_id" UUID PRIMARY KEY DEFAULT (gen_random_uuid()),
   "name" varchar NOT NULL,
   "surname" varchar NOT NULL,
+  "patronym" varchar,
+  "preferred_name" varchar,
+  "username" varchar,
   "email" varchar NOT NULL,
   "phone_prefix" varchar,
   "phone" varchar,
   "image" varchar,
   "address" varchar,
   "video" varchar,
-  "professional_association" varchar,
-  "specialization" UUID,
-  "start_practicing_year" int,
-  "education" JSON,
-  "sex" varchar,
-  "introduction" varchar,
+  "education" varchar,
+  "sex" sex_type,
   "consultation_price" int,
   "description" varchar,
-  "work_with" Array,
   "created_at" timestamp DEFAULT (now()),
   "updated_at" timestamp DEFAULT NULL
 );
@@ -53,14 +58,13 @@ CREATE TABLE "provider_detail" (
 CREATE TABLE "client_detail" (
   "id" SERIAL UNIQUE,
   "client_detail_id" UUID PRIMARY KEY DEFAULT (gen_random_uuid()),
-  "name" varchar NOT NULL,
-  "surname" varchar NOT NULL,
-  "prefered_name" varchar NOT NULL,
+  "name" varchar,
+  "surname" varchar,
+  "username" varchar NOT NULL,
+  "preferred_name" varchar NOT NULL,
   "email" varchar NOT NULL,
-  "phone_prefix" varchar,
-  "phone" varchar,
   "image" varchar,
-  "sex" varchar,
+  "sex" sex_type,
   "push_token" varchar,
   "year_of_birth" int,
   "access_token" varchar,
@@ -69,10 +73,17 @@ CREATE TABLE "client_detail" (
   "updated_at" timestamp DEFAULT NULL
 );
 
-CREATE TABLE "specialization" (
+CREATE TABLE "provider_detail_work_with_links" (
   "id" SERIAL UNIQUE,
-  "specialization_id" UUID PRIMARY KEY DEFAULT (gen_random_uuid()),
-  "type" specialization_type NOT NULL
+  "provider_detail_id" UUID NOT NULL,
+  "work_with_id" UUID NOT NULL,
+  "created_at" timestamp DEFAULT (now())
+);
+
+CREATE TABLE "work_with" (
+  "id" SERIAL UNIQUE,
+  "work_with_id" UUID PRIMARY KEY DEFAULT (gen_random_uuid()),
+  "topic" varchar NOT NULL
 );
 
 CREATE TABLE "provider_detail_language_links" (
@@ -132,13 +143,11 @@ CREATE TABLE "refresh_token" (
 );
 
 ALTER TABLE "user" ADD FOREIGN KEY ("client_detail_id") REFERENCES "client_detail" ("client_detail_id");
-
 ALTER TABLE "user" ADD FOREIGN KEY ("provider_detail_id") REFERENCES "provider_detail" ("provider_detail_id");
-
 ALTER TABLE "user" ADD FOREIGN KEY ("notification_preference_id") REFERENCES "notification_preference" ("notification_preference_id");
 
-ALTER TABLE "specialization" ADD FOREIGN KEY ("specialization_id") REFERENCES "provider_detail" ("specialization");
-
+ALTER TABLE "provider_detail_work_with_links" ADD FOREIGN KEY ("provider_detail_id") REFERENCES "provider_detail" ("provider_detail_id");
+ALTER TABLE "provider_detail_work_with_links" ADD FOREIGN KEY ("work_with_id") REFERENCES "work_with" ("work_with_id");
 ALTER TABLE "provider_detail_language_links" ADD FOREIGN KEY ("provider_detail_id") REFERENCES "provider_detail" ("provider_detail_id");
 
 ALTER TABLE "availability" ADD FOREIGN KEY ("provider_detail_id") REFERENCES "provider_detail" ("provider_detail_id");
