@@ -3,70 +3,109 @@ CREATE TYPE "user_type" AS ENUM (
   'provider'
 );
 
+CREATE TYPE "specialization_type" AS ENUM (
+  'anxiety',
+  'trauma'
+);
+
+CREATE TYPE "sex_type" AS ENUM (
+  'male',
+  'female',
+  'unspecified',
+  'notMentioned'
+);
+
 CREATE TYPE "login_status" AS ENUM (
   'successful',
   'failed'
 );
 
-CREATE TABLE "users" (
+CREATE TABLE "user" (
   "id" SERIAL UNIQUE,
   "user_id" UUID PRIMARY KEY DEFAULT (gen_random_uuid()),
   "country_id" UUID NOT NULL,
   "type" user_type NOT NULL,
-  "client_details_id" UUID NOT NULL,
-  "provider_details_id" UUID NOT NULL,
+  "client_detail_id" UUID,
+  "provider_detail_id" UUID,
+  "password" varchar NOT NULL,
+  "notification_preference_id" UUID NOT NULL,
+  "created_at" timestamp DEFAULT (now()),
+  "updated_at" timestamp DEFAULT NULL
+);
+
+CREATE TABLE "provider_detail" (
+  "id" SERIAL UNIQUE,
+  "provider_detail_id" UUID PRIMARY KEY DEFAULT (gen_random_uuid()),
   "name" varchar NOT NULL,
   "surname" varchar NOT NULL,
+  "patronym" varchar,
+  "preferred_name" varchar,
+  "username" varchar,
+  "email" varchar NOT NULL,
+  "phone_prefix" varchar,
   "phone" varchar,
-  "password" varchar NOT NULL,
   "image" varchar,
-  "notifications_preferences_id" UUID NOT NULL,
-  "created_at" timestamp DEFAULT (now()),
-  "updated_at" timestamp DEFAULT NULL
-);
-
-CREATE TABLE "provider_details" (
-  "id" SERIAL UNIQUE,
-  "provider_details_id" UUID PRIMARY KEY DEFAULT (gen_random_uuid()),
   "address" varchar,
   "video" varchar,
-  "profesional_association" varchar,
-  "specialization" Array,
-  "years_of_experience" int,
-  "education" JSON,
-  "gender" varchar,
-  "introduction" varchar,
+  "education" varchar,
+  "sex" sex_type,
   "consultation_price" int,
-  "languages" Array,
   "description" varchar,
-  "work_with" Array,
   "created_at" timestamp DEFAULT (now()),
   "updated_at" timestamp DEFAULT NULL
 );
 
-CREATE TABLE "client_details" (
+CREATE TABLE "client_detail" (
   "id" SERIAL UNIQUE,
-  "client_details_id" UUID PRIMARY KEY DEFAULT (gen_random_uuid()),
+  "client_detail_id" UUID PRIMARY KEY DEFAULT (gen_random_uuid()),
+  "name" varchar,
+  "surname" varchar,
+  "username" varchar NOT NULL,
+  "preferred_name" varchar NOT NULL,
+  "email" varchar NOT NULL,
+  "image" varchar,
+  "sex" sex_type,
   "push_token" varchar,
+  "year_of_birth" int,
   "access_token" varchar,
   "stripe_customer_id" varchar,
   "created_at" timestamp DEFAULT (now()),
   "updated_at" timestamp DEFAULT NULL
 );
 
+CREATE TABLE "provider_detail_work_with_links" (
+  "id" SERIAL UNIQUE,
+  "provider_detail_id" UUID NOT NULL,
+  "work_with_id" UUID NOT NULL,
+  "created_at" timestamp DEFAULT (now())
+);
+
+CREATE TABLE "work_with" (
+  "id" SERIAL UNIQUE,
+  "work_with_id" UUID PRIMARY KEY DEFAULT (gen_random_uuid()),
+  "topic" varchar NOT NULL
+);
+
+CREATE TABLE "provider_detail_language_links" (
+  "id" SERIAL UNIQUE,
+  "provider_detail_id" UUID NOT NULL,
+  "language_id" UUID NOT NULL,
+  "created_at" timestamp DEFAULT (now())
+);
+
 CREATE TABLE "availability" (
   "id" SERIAL UNIQUE,
   "availability_id" UUID PRIMARY KEY DEFAULT (gen_random_uuid()),
-  "provider_user_id" UUID NOT NULL,
+  "provider_detail_id" UUID NOT NULL,
   "slots" Array,
   "start_date" timestamp NOT NULL,
   "created_at" timestamp DEFAULT (now()),
   "updated_at" timestamp DEFAULT NULL
 );
 
-CREATE TABLE "notifications_preferences" (
+CREATE TABLE "notification_preference" (
   "id" SERIAL UNIQUE,
-  "notifications_preferences_id" UUID PRIMARY KEY DEFAULT (gen_random_uuid()),
+  "notification_preference_id" UUID PRIMARY KEY DEFAULT (gen_random_uuid()),
   "email" boolean DEFAULT true,
   "online" boolean DEFAULT true,
   "push" boolean DEFAULT true,
@@ -74,7 +113,7 @@ CREATE TABLE "notifications_preferences" (
   "updated_at" timestamp DEFAULT NULL
 );
 
-CREATE TABLE "pass_resets" (
+CREATE TABLE "password_reset" (
   "id" SERIAL UNIQUE,
   "pass_reset_id" UUID PRIMARY KEY DEFAULT (gen_random_uuid()),
   "user_id" UUID NOT NULL,
@@ -83,7 +122,7 @@ CREATE TABLE "pass_resets" (
   "created_at" timestamp DEFAULT (now())
 );
 
-CREATE TABLE "login_attempts" (
+CREATE TABLE "login_attempt" (
   "id" SERIAL UNIQUE,
   "login_attempt_id" UUID PRIMARY KEY DEFAULT (gen_random_uuid()),
   "user_id" UUID NOT NULL,
@@ -93,7 +132,7 @@ CREATE TABLE "login_attempts" (
   "created_at" timestamp DEFAULT (now())
 );
 
-CREATE TABLE "refresh_tokens" (
+CREATE TABLE "refresh_token" (
   "id" SERIAL UNIQUE,
   "refresh_token_id" UUID PRIMARY KEY DEFAULT (gen_random_uuid()),
   "user_id" UUID NOT NULL,
@@ -103,16 +142,18 @@ CREATE TABLE "refresh_tokens" (
   "created_at" timestamp DEFAULT (now())
 );
 
-ALTER TABLE "users" ADD FOREIGN KEY ("client_details_id") REFERENCES "client_details" ("client_details_id");
+ALTER TABLE "user" ADD FOREIGN KEY ("client_detail_id") REFERENCES "client_detail" ("client_detail_id");
+ALTER TABLE "user" ADD FOREIGN KEY ("provider_detail_id") REFERENCES "provider_detail" ("provider_detail_id");
+ALTER TABLE "user" ADD FOREIGN KEY ("notification_preference_id") REFERENCES "notification_preference" ("notification_preference_id");
 
-ALTER TABLE "users" ADD FOREIGN KEY ("provider_details_id") REFERENCES "provider_details" ("provider_details_id");
+ALTER TABLE "provider_detail_work_with_links" ADD FOREIGN KEY ("provider_detail_id") REFERENCES "provider_detail" ("provider_detail_id");
+ALTER TABLE "provider_detail_work_with_links" ADD FOREIGN KEY ("work_with_id") REFERENCES "work_with" ("work_with_id");
+ALTER TABLE "provider_detail_language_links" ADD FOREIGN KEY ("provider_detail_id") REFERENCES "provider_detail" ("provider_detail_id");
 
-ALTER TABLE "users" ADD FOREIGN KEY ("notifications_preferences_id") REFERENCES "notifications_preferences" ("notifications_preferences_id");
+ALTER TABLE "availability" ADD FOREIGN KEY ("provider_detail_id") REFERENCES "provider_detail" ("provider_detail_id");
 
-ALTER TABLE "availability" ADD FOREIGN KEY ("provider_user_id") REFERENCES "users" ("user_id");
+ALTER TABLE "password_reset" ADD FOREIGN KEY ("user_id") REFERENCES "user" ("user_id");
 
-ALTER TABLE "pass_resets" ADD FOREIGN KEY ("user_id") REFERENCES "users" ("user_id");
+ALTER TABLE "login_attempt" ADD FOREIGN KEY ("user_id") REFERENCES "user" ("user_id");
 
-ALTER TABLE "login_attempts" ADD FOREIGN KEY ("user_id") REFERENCES "users" ("user_id");
-
-ALTER TABLE "refresh_tokens" ADD FOREIGN KEY ("user_id") REFERENCES "users" ("user_id");
+ALTER TABLE "refresh_token" ADD FOREIGN KEY ("user_id") REFERENCES "user" ("user_id");
