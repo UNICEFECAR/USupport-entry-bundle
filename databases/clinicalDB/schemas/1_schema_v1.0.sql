@@ -44,4 +44,4 @@ CREATE TABLE "notification" (
   "created_at" timestamp DEFAULT (now())
 );
 
-ALTER TABLE "consultation" ADD FOREIGN KEY ("chat_id") REFERENCES "chat" ("id");
+ALTER TABLE "consultation" ADD FOREIGN KEY ("chat_id") REFERENCES "chat" ("chat_id");

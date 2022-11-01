@@ -97,7 +97,7 @@ CREATE TABLE "availability" (
   "id" SERIAL UNIQUE,
   "availability_id" UUID PRIMARY KEY DEFAULT (gen_random_uuid()),
   "provider_detail_id" UUID NOT NULL,
-  "slots" Array,
+  "slots" varcahr[],
   "start_date" timestamp NOT NULL,
   "created_at" timestamp DEFAULT (now()),
   "updated_at" timestamp DEFAULT NULL
