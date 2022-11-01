@@ -62,7 +62,7 @@ CREATE TABLE "client_detail" (
   "surname" varchar,
   "username" varchar NOT NULL,
   "preferred_name" varchar NOT NULL,
-  "email" varchar NOT NULL,
+  "email" varchar,
   "image" varchar,
   "sex" sex_type,
   "push_token" varchar,
@@ -97,7 +97,7 @@ CREATE TABLE "availability" (
   "id" SERIAL UNIQUE,
   "availability_id" UUID PRIMARY KEY DEFAULT (gen_random_uuid()),
   "provider_detail_id" UUID NOT NULL,
-  "slots" varcahr[],
+  "slots" varchar[],
   "start_date" timestamp NOT NULL,
   "created_at" timestamp DEFAULT (now()),
   "updated_at" timestamp DEFAULT NULL
@@ -117,7 +117,7 @@ CREATE TABLE "password_reset" (
   "id" SERIAL UNIQUE,
   "pass_reset_id" UUID PRIMARY KEY DEFAULT (gen_random_uuid()),
   "user_id" UUID NOT NULL,
-  "reset_token" varcahr NOT NULL,
+  "reset_token" varchar NOT NULL,
   "expires_at" timestamp NOT NULL,
   "created_at" timestamp DEFAULT (now())
 );
