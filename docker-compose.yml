@@ -155,7 +155,7 @@ services:
   cmsdb:
     container_name: cmsDB
     build:
-      context: ./cms/db
+      context: ./databases/cmsDB
       dockerfile: Dockerfile
     ports:
       - "5438:5432"
