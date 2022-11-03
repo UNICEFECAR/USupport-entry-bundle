@@ -76,7 +76,7 @@ RUN npm prune --production
 # ###
 
 # # set working directory
-# WORKDIR /cmsApp
+# WORKDIR /cmsAdminApp
 
 # # install app dependencies
 # COPY ./cms/package.json         ./
@@ -87,13 +87,13 @@ RUN npm prune --production
 # COPY ./cms/ .
 
 # # Building app
-# RUN npm run build 
+# RUN npm run build --omit=dev
 
 # # remove dev dependencies
 # RUN npm prune --production
 
 ###
-# Stage 4 - build global admin webapp
+# Stage 5 - build global admin webapp
 ###
 
 # set working directory
@@ -114,7 +114,7 @@ RUN npm run build --prod
 RUN npm prune --production
 
 ###
-# Stage 5 - build website
+# Stage 6 - build website
 ###
 
 # set working directory
@@ -135,7 +135,7 @@ RUN npm run staging
 RUN npm prune --production
 
 ###
-# Stage 6 - nginx server
+# Stage 7 - nginx server
 ###
 FROM ${NGINX_VERSION}
 
@@ -145,3 +145,4 @@ COPY --from=webAppBuilds        /providerApp/dist  /usr/share/nginx/html/provide
 COPY --from=webAppBuilds        /countryAdminApp/dist     /usr/share/nginx/html/countryAdmin
 COPY --from=webAppBuilds        /globalAdminApp/dist     /usr/share/nginx/html/globalAdmin
 COPY --from=webAppBuilds        /websiteApp/dist     /usr/share/nginx/html/website
+# COPY --from=webAppBuilds        /cmsAdminApp/build     /usr/share/nginx/html/cmsAdmin
