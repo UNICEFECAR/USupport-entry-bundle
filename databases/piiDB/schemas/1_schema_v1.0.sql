@@ -126,6 +126,7 @@ CREATE TABLE "password_reset" (
   "pass_reset_id" UUID PRIMARY KEY DEFAULT (gen_random_uuid()),
   "user_id" UUID NOT NULL,
   "reset_token" varchar NOT NULL,
+  "used" boolean DEFAULT false,
   "expires_at" timestamp NOT NULL,
   "created_at" timestamp DEFAULT (now())
 );
