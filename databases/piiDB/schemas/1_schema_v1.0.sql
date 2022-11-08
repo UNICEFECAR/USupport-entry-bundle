@@ -20,6 +20,11 @@ CREATE TYPE "login_status" AS ENUM (
   'failed'
 );
 
+CREATE TYPE "living_type" AS ENUM (
+  'urban',
+  'rural'
+);
+
 CREATE TABLE "user" (
   "id" SERIAL UNIQUE,
   "user_id" UUID PRIMARY KEY DEFAULT (gen_random_uuid()),
@@ -60,13 +65,15 @@ CREATE TABLE "client_detail" (
   "client_detail_id" UUID PRIMARY KEY DEFAULT (gen_random_uuid()),
   "name" varchar,
   "surname" varchar,
-  "username" varchar NOT NULL,
-  "preferred_name" varchar NOT NULL,
-  "email" varchar NOT NULL,
+  "username" varchar,
+  "preferred_name" varchar,
+  "email" varchar,
   "image" varchar,
   "sex" sex_type,
   "push_token" varchar,
   "year_of_birth" int,
+  "living_place" living_type,
+  "data_processing" boolean DEFAULT false,
   "access_token" varchar,
   "stripe_customer_id" varchar,
   "created_at" timestamp DEFAULT (now()),
@@ -97,7 +104,7 @@ CREATE TABLE "availability" (
   "id" SERIAL UNIQUE,
   "availability_id" UUID PRIMARY KEY DEFAULT (gen_random_uuid()),
   "provider_detail_id" UUID NOT NULL,
-  "slots" Array,
+  "slots" varchar[],
   "start_date" timestamp NOT NULL,
   "created_at" timestamp DEFAULT (now()),
   "updated_at" timestamp DEFAULT NULL
@@ -107,6 +114,7 @@ CREATE TABLE "notification_preference" (
   "id" SERIAL UNIQUE,
   "notification_preference_id" UUID PRIMARY KEY DEFAULT (gen_random_uuid()),
   "email" boolean DEFAULT true,
+  "consultation_reminder_min" int DEFAULT 60,
   "online" boolean DEFAULT true,
   "push" boolean DEFAULT true,
   "created_at" timestamp DEFAULT (now()),
@@ -117,7 +125,7 @@ CREATE TABLE "password_reset" (
   "id" SERIAL UNIQUE,
   "pass_reset_id" UUID PRIMARY KEY DEFAULT (gen_random_uuid()),
   "user_id" UUID NOT NULL,
-  "reset_token" varcahr NOT NULL,
+  "reset_token" varchar NOT NULL,
   "expires_at" timestamp NOT NULL,
   "created_at" timestamp DEFAULT (now())
 );
