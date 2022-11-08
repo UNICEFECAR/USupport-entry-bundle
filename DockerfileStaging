@@ -22,7 +22,7 @@ RUN npm install
 COPY ./client-ui/ .
 
 # Building app
-RUN npm run build --prod
+RUN npm run staging
 
 # remove dev dependencies
 RUN npm prune --production
@@ -45,7 +45,7 @@ RUN npm install
 COPY ./provider-ui/ .
 
 # Building app
-RUN npm run build --prod
+RUN npm run staging
 
 # remove dev dependencies
 RUN npm prune --production
@@ -66,7 +66,7 @@ RUN npm install
 COPY ./admin-country-ui/ .
 
 # Building app
-RUN npm run build --prod
+RUN npm run staging
 
 # remove dev dependencies
 RUN npm prune --production
