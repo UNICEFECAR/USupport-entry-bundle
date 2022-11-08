@@ -20,6 +20,11 @@ CREATE TYPE "login_status" AS ENUM (
   'failed'
 );
 
+CREATE TYPE "living_type" AS ENUM (
+  'urban',
+  'rural'
+);
+
 CREATE TABLE "user" (
   "id" SERIAL UNIQUE,
   "user_id" UUID PRIMARY KEY DEFAULT (gen_random_uuid()),
@@ -67,6 +72,8 @@ CREATE TABLE "client_detail" (
   "sex" sex_type,
   "push_token" varchar,
   "year_of_birth" int,
+  "living_place" living_type,
+  "data_processing" boolean DEFAULT false,
   "access_token" varchar,
   "stripe_customer_id" varchar,
   "created_at" timestamp DEFAULT (now()),
@@ -107,6 +114,7 @@ CREATE TABLE "notification_preference" (
   "id" SERIAL UNIQUE,
   "notification_preference_id" UUID PRIMARY KEY DEFAULT (gen_random_uuid()),
   "email" boolean DEFAULT true,
+  "consultation_reminder_min" int DEFAULT 60,
   "online" boolean DEFAULT true,
   "push" boolean DEFAULT true,
   "created_at" timestamp DEFAULT (now()),
