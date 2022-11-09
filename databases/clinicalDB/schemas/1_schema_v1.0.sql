@@ -7,7 +7,7 @@ CREATE TYPE "notification_type" AS ENUM (
   'consultation_suggestion_confirmation',
   'add_new_availability',
   'weekly_report',
-  'monthly_report',
+  'monthly_report'
 );
 
 CREATE TYPE "consultation_status" AS ENUM (
