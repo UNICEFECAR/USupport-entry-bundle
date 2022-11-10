@@ -34,6 +34,7 @@ CREATE TABLE "user" (
   "provider_detail_id" UUID,
   "password" varchar NOT NULL,
   "notification_preference_id" UUID NOT NULL,
+  "is_deleted" BOOLEAN NOT NULL DEFAULT FALSE,
   "created_at" timestamp DEFAULT (now()),
   "updated_at" timestamp DEFAULT NULL
 );
