@@ -89,13 +89,6 @@ CREATE TABLE "language" (
   "deleted_at" timestamp DEFAULT NULL
 );
 
-CREATE TABLE "country_language_links" (
-  "id" SERIAL UNIQUE,
-  "country_id" UUID NOT NULL,
-  "language_id" UUID NOT NULL,
-  "created_at" timestamp DEFAULT (now())
-);
-
 
 ALTER TABLE "country" ADD FOREIGN KEY ("region_id") REFERENCES "region" ("region_id");
 
@@ -108,10 +101,6 @@ ALTER TABLE "admin_country_links" ADD FOREIGN KEY ("admin_id") REFERENCES "admin
 ALTER TABLE "admin_country_links" ADD FOREIGN KEY ("country_id") REFERENCES "country" ("country_id");
 
 ALTER TABLE "service_client_provider_links" ADD FOREIGN KEY ("service_id") REFERENCES "service" ("service_id");
-
-ALTER TABLE "country_language_links" ADD FOREIGN KEY ("country_id") REFERENCES "country" ("country_id");
-
-ALTER TABLE "country_language_links" ADD FOREIGN KEY ("language_id") REFERENCES "language" ("language_id");
 
 -- Populate the database with some initial data --
 
