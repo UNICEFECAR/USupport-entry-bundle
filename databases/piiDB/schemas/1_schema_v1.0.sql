@@ -7,7 +7,7 @@ CREATE TYPE "provider_type" AS ENUM (
   'psychologist',
   'psychotherapist',
   'psychiatrist',
-  'coach',
+  'coach'
 );
 
 CREATE TYPE "sex_type" AS ENUM (
