@@ -152,3 +152,6 @@ INSERT INTO "language" ("name", "alpha2", "is_active") VALUES ('Croatian', 'hr',
 INSERT INTO "language" ("name", "alpha2", "is_active") VALUES ('Romanian', 'ro', false);
 INSERT INTO "language" ("name", "alpha2", "is_active") VALUES ('Slovenian', 'sl', false);
 INSERT INTO "language" ("name", "alpha2", "is_active") VALUES ('English', 'en', true);
+
+-- service table --
+INSERT INTO "service" ("type") VALUES ('text_audio_video_consultation');
