@@ -3,9 +3,11 @@ CREATE TYPE "user_type" AS ENUM (
   'provider'
 );
 
-CREATE TYPE "specialization_type" AS ENUM (
-  'anxiety',
-  'trauma'
+CREATE TYPE "provider_type" AS ENUM (
+  'psychologist',
+  'psychotherapist',
+  'psychiatrist',
+  'coach',
 );
 
 CREATE TYPE "sex_type" AS ENUM (
@@ -43,16 +45,16 @@ CREATE TABLE "provider_detail" (
   "id" SERIAL UNIQUE,
   "provider_detail_id" UUID PRIMARY KEY DEFAULT (gen_random_uuid()),
   "name" varchar NOT NULL,
-  "surname" varchar NOT NULL,
   "patronym" varchar,
+  "surname" varchar NOT NULL,
   "nickname" varchar,
   "email" varchar NOT NULL,
   "phone_prefix" varchar,
   "phone" varchar,
   "image" varchar DEFAULT 'default',
+  "type" provider_type[],
   "address" varchar,
-  "video" varchar,
-  "education" varchar,
+  "education" varchar[],
   "sex" sex_type,
   "consultation_price" int,
   "description" varchar,
