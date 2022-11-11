@@ -113,8 +113,9 @@ CREATE TABLE "notification_preference" (
   "id" SERIAL UNIQUE,
   "notification_preference_id" UUID PRIMARY KEY DEFAULT (gen_random_uuid()),
   "email" boolean DEFAULT true,
+  "consultation_reminder" boolean DEFAULT true,
   "consultation_reminder_min" int DEFAULT 60,
-  "online" boolean DEFAULT true,
+  "in_platform" boolean DEFAULT true,
   "push" boolean DEFAULT true,
   "created_at" timestamp DEFAULT (now()),
   "updated_at" timestamp DEFAULT NULL
