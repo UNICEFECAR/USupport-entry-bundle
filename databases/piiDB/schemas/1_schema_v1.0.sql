@@ -3,7 +3,7 @@ CREATE TYPE "user_type" AS ENUM (
   'provider'
 );
 
-CREATE TYPE "provider_type" AS ENUM (
+CREATE TYPE "specializations_type" AS ENUM (
   'psychologist',
   'psychotherapist',
   'psychiatrist',
@@ -52,7 +52,7 @@ CREATE TABLE "provider_detail" (
   "phone_prefix" varchar,
   "phone" varchar,
   "image" varchar DEFAULT 'default',
-  "type" provider_type[],
+  "specializations" specializations_type[],
   "address" varchar,
   "education" varchar[],
   "sex" sex_type,
