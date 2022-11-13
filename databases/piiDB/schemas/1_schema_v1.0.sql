@@ -3,9 +3,11 @@ CREATE TYPE "user_type" AS ENUM (
   'provider'
 );
 
-CREATE TYPE "specialization_type" AS ENUM (
-  'anxiety',
-  'trauma'
+CREATE TYPE "specializations_type" AS ENUM (
+  'psychologist',
+  'psychotherapist',
+  'psychiatrist',
+  'coach'
 );
 
 CREATE TYPE "sex_type" AS ENUM (
@@ -35,24 +37,24 @@ CREATE TABLE "user" (
   "password" varchar NOT NULL,
   "notification_preference_id" UUID NOT NULL,
   "created_at" timestamp DEFAULT (now()),
-  "updated_at" timestamp DEFAULT NULL
+  "updated_at" timestamp DEFAULT NULL,
+  "deleted_at" timestamp DEFAULT NULL
 );
 
 CREATE TABLE "provider_detail" (
   "id" SERIAL UNIQUE,
   "provider_detail_id" UUID PRIMARY KEY DEFAULT (gen_random_uuid()),
   "name" varchar NOT NULL,
-  "surname" varchar NOT NULL,
   "patronym" varchar,
-  "preferred_name" varchar,
-  "username" varchar,
+  "surname" varchar NOT NULL,
+  "nickname" varchar,
   "email" varchar NOT NULL,
   "phone_prefix" varchar,
   "phone" varchar,
-  "image" varchar,
+  "image" varchar DEFAULT 'default',
+  "specializations" specializations_type[],
   "address" varchar,
-  "video" varchar,
-  "education" varchar,
+  "education" varchar[],
   "sex" sex_type,
   "consultation_price" int,
   "description" varchar,
@@ -65,10 +67,9 @@ CREATE TABLE "client_detail" (
   "client_detail_id" UUID PRIMARY KEY DEFAULT (gen_random_uuid()),
   "name" varchar,
   "surname" varchar,
-  "username" varchar,
-  "preferred_name" varchar,
+  "nickname" varchar NOT NULL,
   "email" varchar,
-  "image" varchar,
+  "image" varchar DEFAULT 'default',
   "sex" sex_type,
   "push_token" varchar,
   "year_of_birth" int,
@@ -114,8 +115,9 @@ CREATE TABLE "notification_preference" (
   "id" SERIAL UNIQUE,
   "notification_preference_id" UUID PRIMARY KEY DEFAULT (gen_random_uuid()),
   "email" boolean DEFAULT true,
+  "consultation_reminder" boolean DEFAULT true,
   "consultation_reminder_min" int DEFAULT 60,
-  "online" boolean DEFAULT true,
+  "in_platform" boolean DEFAULT true,
   "push" boolean DEFAULT true,
   "created_at" timestamp DEFAULT (now()),
   "updated_at" timestamp DEFAULT NULL
@@ -126,6 +128,7 @@ CREATE TABLE "password_reset" (
   "pass_reset_id" UUID PRIMARY KEY DEFAULT (gen_random_uuid()),
   "user_id" UUID NOT NULL,
   "reset_token" varchar NOT NULL,
+  "used" boolean DEFAULT false,
   "expires_at" timestamp NOT NULL,
   "created_at" timestamp DEFAULT (now())
 );
@@ -165,3 +168,19 @@ ALTER TABLE "password_reset" ADD FOREIGN KEY ("user_id") REFERENCES "user" ("use
 ALTER TABLE "login_attempt" ADD FOREIGN KEY ("user_id") REFERENCES "user" ("user_id");
 
 ALTER TABLE "refresh_token" ADD FOREIGN KEY ("user_id") REFERENCES "user" ("user_id");
+
+-- Triggers --
+
+CREATE OR REPLACE FUNCTION update_updated_at_column() 
+RETURNS TRIGGER AS $$
+BEGIN
+    NEW.updated_at = now();
+    RETURN NEW; 
+END;
+$$ language 'plpgsql';
+
+CREATE TRIGGER update_user_updated_at BEFORE UPDATE ON "user" FOR EACH ROW EXECUTE PROCEDURE  update_updated_at_column();
+CREATE TRIGGER update_provider_detail_updated_at BEFORE UPDATE ON provider_detail FOR EACH ROW EXECUTE PROCEDURE  update_updated_at_column();
+CREATE TRIGGER update_client_detail_updated_at BEFORE UPDATE ON client_detail FOR EACH ROW EXECUTE PROCEDURE  update_updated_at_column();
+CREATE TRIGGER update_availability_updated_at BEFORE UPDATE ON "availability" FOR EACH ROW EXECUTE PROCEDURE  update_updated_at_column();
+CREATE TRIGGER update_notification_preference_updated_at BEFORE UPDATE ON notification_preference FOR EACH ROW EXECUTE PROCEDURE  update_updated_at_column();

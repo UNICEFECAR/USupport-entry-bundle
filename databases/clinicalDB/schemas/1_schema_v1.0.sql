@@ -1,54 +1,13 @@
 CREATE TYPE "notification_type" AS ENUM (
-  /**
-   * Client: confirm booked consultation
-   * Provider: notify about booked consultation
-   */
   'consultation_confirmation',
-
-  /**
-   * Client: confirm consultation rescheduling
-   * Provider: notify about consultation rescheduling
-   */
   'consultation_reschedule',
-
-  /**
-   * Client: confirm consultation cancellation
-   * Provider: notify about consultation cancellation
-   */
   'consultation_cancellation',
-
-  /**
-   * Client: notify about consultation start
-   * Provider: notify about consultation start
-   */
   'consultation_reminder',
-
-  /**
-   * Client: notify about consultation suggestion
-   * Provider: confirm consultation suggestion
-   */
   'consultation_suggestion',
-
-  /**
-   * Client: confirm booked consultation suggestion
-   * Provider: notify about booked consultation suggestion
-   */
   'consultation_suggestion_confirmation',
-
-  /**
-   * Provider: remind a provider to add more availability slots to their schedule
-   */
   'add_new_availability',
-
-  /**
-   * Provider: overview of any activites that happened in the past 1 week
-   */
   'weekly_report',
-
-  /**
-   * Provider: overview of any activites that happened in the past 1 month
-   */
-  'monthly_report',
+  'monthly_report'
 );
 
 CREATE TYPE "consultation_status" AS ENUM (
@@ -79,8 +38,7 @@ CREATE TABLE "chat" (
   "messages" JSON,
   "date" timestamp NOT NULL,
   "created_at" timestamp DEFAULT (now()),
-  "updated_at" timestamp DEFAULT NULL,
-  "deleted_at" timestamp DEFAULT NULL
+  "updated_at" timestamp DEFAULT NULL
 );
 
 CREATE TABLE "notification" (
@@ -94,3 +52,16 @@ CREATE TABLE "notification" (
 );
 
 ALTER TABLE "consultation" ADD FOREIGN KEY ("chat_id") REFERENCES "chat" ("chat_id");
+
+-- Triggers --
+
+CREATE OR REPLACE FUNCTION update_updated_at_column() 
+RETURNS TRIGGER AS $$
+BEGIN
+    NEW.updated_at = now();
+    RETURN NEW; 
+END;
+$$ language 'plpgsql';
+
+CREATE TRIGGER update_consultation_updated_at BEFORE UPDATE ON consultation FOR EACH ROW EXECUTE PROCEDURE  update_updated_at_column();
+CREATE TRIGGER update_chat_updated_at BEFORE UPDATE ON chat FOR EACH ROW EXECUTE PROCEDURE  update_updated_at_column();
