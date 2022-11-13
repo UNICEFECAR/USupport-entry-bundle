@@ -36,9 +36,9 @@ CREATE TABLE "user" (
   "provider_detail_id" UUID,
   "password" varchar NOT NULL,
   "notification_preference_id" UUID NOT NULL,
-  "is_deleted" BOOLEAN NOT NULL DEFAULT FALSE,
   "created_at" timestamp DEFAULT (now()),
-  "updated_at" timestamp DEFAULT NULL
+  "updated_at" timestamp DEFAULT NULL,
+  "deleted_at" timestamp DEFAULT NULL
 );
 
 CREATE TABLE "provider_detail" (
@@ -168,6 +168,22 @@ ALTER TABLE "password_reset" ADD FOREIGN KEY ("user_id") REFERENCES "user" ("use
 ALTER TABLE "login_attempt" ADD FOREIGN KEY ("user_id") REFERENCES "user" ("user_id");
 
 ALTER TABLE "refresh_token" ADD FOREIGN KEY ("user_id") REFERENCES "user" ("user_id");
+
+-- Triggers --
+
+CREATE OR REPLACE FUNCTION update_updated_at_column() 
+RETURNS TRIGGER AS $$
+BEGIN
+    NEW.updated_at = now();
+    RETURN NEW; 
+END;
+$$ language 'plpgsql';
+
+CREATE TRIGGER update_user_updated_at BEFORE UPDATE ON "user" FOR EACH ROW EXECUTE PROCEDURE  update_updated_at_column();
+CREATE TRIGGER update_provider_detail_updated_at BEFORE UPDATE ON provider_detail FOR EACH ROW EXECUTE PROCEDURE  update_updated_at_column();
+CREATE TRIGGER update_client_detail_updated_at BEFORE UPDATE ON client_detail FOR EACH ROW EXECUTE PROCEDURE  update_updated_at_column();
+CREATE TRIGGER update_availability_updated_at BEFORE UPDATE ON "availability" FOR EACH ROW EXECUTE PROCEDURE  update_updated_at_column();
+CREATE TRIGGER update_notification_preference_updated_at BEFORE UPDATE ON notification_preference FOR EACH ROW EXECUTE PROCEDURE  update_updated_at_column();
 
 -- Populate the database with some initial data --
 

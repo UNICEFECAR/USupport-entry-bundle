@@ -19,8 +19,7 @@ CREATE TABLE "admin" (
   "password" varchar NOT NULL,
   "role" admin_roles NOT NULL,
   "created_at" timestamp DEFAULT (now()),
-  "updated_at" timestamp DEFAULT NULL,
-  "deleted_at" timestamp DEFAULT NULL
+  "updated_at" timestamp DEFAULT NULL
 );
 
 CREATE TABLE "region" (
@@ -28,8 +27,7 @@ CREATE TABLE "region" (
   "region_id" UUID PRIMARY KEY DEFAULT (gen_random_uuid()),
   "name" varchar NOT NULL,
   "created_at" timestamp DEFAULT (now()),
-  "updated_at" timestamp DEFAULT NULL,
-  "deleted_at" timestamp DEFAULT NULL
+  "updated_at" timestamp DEFAULT NULL
 );
 
 CREATE TABLE "country" (
@@ -47,8 +45,7 @@ CREATE TABLE "country" (
   "article_ids" varchar[] DEFAULT array[]::varchar[],
   "is_active" Boolean DEFAULT false,
   "created_at" timestamp DEFAULT (now()),
-  "updated_at" timestamp DEFAULT NULL,
-  "deleted_at" timestamp DEFAULT NULL
+  "updated_at" timestamp DEFAULT NULL
 );
 
 CREATE TABLE "admin_region_links" (
@@ -70,8 +67,7 @@ CREATE TABLE "service" (
   "service_id" UUID PRIMARY KEY DEFAULT (gen_random_uuid()),
   "type" service_type NOT NULL,
   "created_at" timestamp DEFAULT (now()),
-  "updated_at" timestamp DEFAULT NULL,
-  "deleted_at" timestamp DEFAULT NULL
+  "updated_at" timestamp DEFAULT NULL
 );
 
 CREATE TABLE "service_client_provider_links" (
@@ -90,8 +86,7 @@ CREATE TABLE "language" (
   "alpha2" varchar NOT NULL,
   "is_active" Boolean DEFAULT false,
   "created_at" timestamp DEFAULT (now()),
-  "updated_at" timestamp DEFAULT NULL,
-  "deleted_at" timestamp DEFAULT NULL
+  "updated_at" timestamp DEFAULT NULL
 );
 
 
@@ -101,11 +96,28 @@ ALTER TABLE "admin_region_links" ADD FOREIGN KEY ("admin_id") REFERENCES "admin"
 
 ALTER TABLE "admin_region_links" ADD FOREIGN KEY ("region_id") REFERENCES "region" ("region_id");
 
-ALTER TABLE "admin_country_links" ADD FOREIGN KEY ("admin_id") REFERENCES "admin" ("admin_id");
+ALTER TABLE "admin_country_links"
+ ADD FOREIGN KEY ("admin_id") REFERENCES "admin" ("admin_id");
 
 ALTER TABLE "admin_country_links" ADD FOREIGN KEY ("country_id") REFERENCES "country" ("country_id");
 
 ALTER TABLE "service_client_provider_links" ADD FOREIGN KEY ("service_id") REFERENCES "service" ("service_id");
+
+-- Triggers --
+
+CREATE OR REPLACE FUNCTION update_updated_at_column() 
+RETURNS TRIGGER AS $$
+BEGIN
+    NEW.updated_at = now();
+    RETURN NEW; 
+END;
+$$ language 'plpgsql';
+
+CREATE TRIGGER update_admin_updated_at BEFORE UPDATE ON "admin" FOR EACH ROW EXECUTE PROCEDURE  update_updated_at_column();
+CREATE TRIGGER update_region_updated_at BEFORE UPDATE ON region FOR EACH ROW EXECUTE PROCEDURE  update_updated_at_column();
+CREATE TRIGGER update_country_updated_at BEFORE UPDATE ON country FOR EACH ROW EXECUTE PROCEDURE  update_updated_at_column();
+CREATE TRIGGER update_service_updated_at BEFORE UPDATE ON "service" FOR EACH ROW EXECUTE PROCEDURE  update_updated_at_column();
+CREATE TRIGGER update_language_updated_at BEFORE UPDATE ON "language" FOR EACH ROW EXECUTE PROCEDURE  update_updated_at_column();
 
 -- Populate the database with some initial data --
 
