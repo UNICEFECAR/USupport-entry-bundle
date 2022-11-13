@@ -42,7 +42,7 @@ services:
       - 3000
     command: >
       sh -c "npm ci &&
-              npm run dev"
+              npm run prod"
     networks:
       - USupportNet
 
@@ -61,7 +61,7 @@ services:
       - 3001
     command: >
       sh -c "npm ci &&
-              npm run dev"
+              npm run prod"
     networks:
       - USupportNet
 
@@ -80,7 +80,7 @@ services:
       - 3002
     command: >
       sh -c "npm ci &&
-              npm run dev"
+              npm run prod"
     networks:
       - USupportNet
 
@@ -99,7 +99,7 @@ services:
       - 3003
     command: >
       sh -c "npm ci &&
-              npm run dev"
+              npm run prod"
     networks:
       - USupportNet
 
@@ -118,7 +118,7 @@ services:
       - 3004
     command: >
       sh -c "npm ci &&
-              npm run dev"
+              npm run prod"
     networks:
       - USupportNet
 
@@ -137,7 +137,7 @@ services:
       - 3005
     command: >
       sh -c "npm ci &&
-              npm run dev"
+              npm run prod"
     networks:
       - USupportNet
 
@@ -156,7 +156,7 @@ services:
       - 3006
     command: >
       sh -c "npm ci &&
-              npm run dev"
+              npm run prod"
     networks:
       - USupportNet
 
@@ -175,7 +175,7 @@ services:
       - 3007
     command: >
       sh -c "npm ci &&
-              npm run dev"
+              npm run prod"
     networks:
       - USupportNet
 
@@ -194,7 +194,7 @@ services:
       - 3008
     command: >
       sh -c "npm ci &&
-              npm run dev"
+              npm run prod"
     networks:
       - USupportNet
 
@@ -233,7 +233,7 @@ services:
       - 3010
     command: >
       sh -c "npm ci &&
-              npm run dev"
+              npm run prod"
     networks:
       - USupportNet
 
