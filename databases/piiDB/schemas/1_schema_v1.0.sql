@@ -184,16 +184,3 @@ CREATE TRIGGER update_provider_detail_updated_at BEFORE UPDATE ON provider_detai
 CREATE TRIGGER update_client_detail_updated_at BEFORE UPDATE ON client_detail FOR EACH ROW EXECUTE PROCEDURE  update_updated_at_column();
 CREATE TRIGGER update_availability_updated_at BEFORE UPDATE ON "availability" FOR EACH ROW EXECUTE PROCEDURE  update_updated_at_column();
 CREATE TRIGGER update_notification_preference_updated_at BEFORE UPDATE ON notification_preference FOR EACH ROW EXECUTE PROCEDURE  update_updated_at_column();
-
--- Populate the database with some initial data --
-
--- work_with table --
-INSERT INTO "work_with" ("topic") VALUES ('addiction');
-INSERT INTO "work_with" ("topic") VALUES ('stress');
-INSERT INTO "work_with" ("topic") VALUES ('burnout');
-INSERT INTO "work_with" ("topic") VALUES ('eating-disorder');
-INSERT INTO "work_with" ("topic") VALUES ('depression');
-INSERT INTO "work_with" ("topic") VALUES ('anxiety');
-INSERT INTO "work_with" ("topic") VALUES ('panic-attack');
-INSERT INTO "work_with" ("topic") VALUES ('relationship');
-INSERT INTO "work_with" ("topic") VALUES ('personal-development');
