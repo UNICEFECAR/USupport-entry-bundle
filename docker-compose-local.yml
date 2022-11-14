@@ -228,27 +228,27 @@ services:
     networks:
       - USupportNet
 
-  cms:
-    container_name: cms
-    build:
-      context: ./cms
-      dockerfile: Dockerfile
-    restart: unless-stopped
-    env_file: ./cms/.env
-    volumes:
-      - ./cms/config:/opt/app/config
-      - ./cms/src:/opt/app/src
-      - ./cms/package.json:/opt/package.json
-      - ./cms/package-lock.json:/opt/package-lock.json
-      - ./cms/.env:/opt/app/.env
-    ports:
-      - "3009:1337"
-    expose:
-      - 3009
-    networks:
-      - USupportNet
-    depends_on:
-      - cmsdb
+  # cms:
+  #   container_name: cms
+  #   build:
+  #     context: ./cms
+  #     dockerfile: Dockerfile
+  #   restart: unless-stopped
+  #   env_file: ./cms/.env
+  #   volumes:
+  #     - ./cms/config:/opt/app/config
+  #     - ./cms/src:/opt/app/src
+  #     - ./cms/package.json:/opt/package.json
+  #     - ./cms/package-lock.json:/opt/package-lock.json
+  #     - ./cms/.env:/opt/app/.env
+  #   ports:
+  #     - "3009:1337"
+  #   expose:
+  #     - 3009
+  #   networks:
+  #     - USupportNet
+  #   depends_on:
+  #     - cmsdb
 
   user:
     container_name: user
