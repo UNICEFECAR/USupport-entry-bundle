@@ -24,7 +24,7 @@ CREATE TABLE "consultation" (
   "client_detail_id" UUID NOT NULL,
   "provider_detail_id" UUID NOT NULL,
   "chat_id" UUID,
-  "time" timestamp NOT NULL,
+  "time" timestamptz NOT NULL,
   "status" consultation_status NOT NULL,
   "created_at" timestamp DEFAULT (now()),
   "updated_at" timestamp DEFAULT NULL
@@ -36,7 +36,7 @@ CREATE TABLE "chat" (
   "client_detail_id" UUID NOT NULL,
   "provider_detail_id" UUID NOT NULL,
   "messages" JSON,
-  "date" timestamp NOT NULL,
+  "date" timestamptz NOT NULL,
   "created_at" timestamp DEFAULT (now()),
   "updated_at" timestamp DEFAULT NULL
 );
@@ -51,17 +51,25 @@ CREATE TABLE "notification" (
   "created_at" timestamp DEFAULT (now())
 );
 
-ALTER TABLE "consultation" ADD FOREIGN KEY ("chat_id") REFERENCES "chat" ("chat_id");
+ALTER TABLE
+  "consultation"
+ADD
+  FOREIGN KEY ("chat_id") REFERENCES "chat" ("chat_id");
 
 -- Triggers --
+CREATE
+OR REPLACE FUNCTION update_updated_at_column() RETURNS TRIGGER AS $ $ BEGIN NEW.updated_at = now();
 
-CREATE OR REPLACE FUNCTION update_updated_at_column() 
-RETURNS TRIGGER AS $$
-BEGIN
-    NEW.updated_at = now();
-    RETURN NEW; 
+RETURN NEW;
+
 END;
-$$ language 'plpgsql';
 
-CREATE TRIGGER update_consultation_updated_at BEFORE UPDATE ON consultation FOR EACH ROW EXECUTE PROCEDURE  update_updated_at_column();
-CREATE TRIGGER update_chat_updated_at BEFORE UPDATE ON chat FOR EACH ROW EXECUTE PROCEDURE  update_updated_at_column();
+$ $ language 'plpgsql';
+
+CREATE TRIGGER update_consultation_updated_at BEFORE
+UPDATE
+  ON consultation FOR EACH ROW EXECUTE PROCEDURE update_updated_at_column();
+
+CREATE TRIGGER update_chat_updated_at BEFORE
+UPDATE
+  ON chat FOR EACH ROW EXECUTE PROCEDURE update_updated_at_column();
