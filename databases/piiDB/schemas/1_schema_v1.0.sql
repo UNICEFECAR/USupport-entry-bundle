@@ -1,7 +1,4 @@
-CREATE TYPE "user_type" AS ENUM (
-  'client',
-  'provider'
-);
+CREATE TYPE "user_type" AS ENUM ('client', 'provider');
 
 CREATE TYPE "specializations_type" AS ENUM (
   'psychologist',
@@ -17,15 +14,9 @@ CREATE TYPE "sex_type" AS ENUM (
   'notMentioned'
 );
 
-CREATE TYPE "login_status" AS ENUM (
-  'successful',
-  'failed'
-);
+CREATE TYPE "login_status" AS ENUM ('successful', 'failed');
 
-CREATE TYPE "living_type" AS ENUM (
-  'urban',
-  'rural'
-);
+CREATE TYPE "living_type" AS ENUM ('urban', 'rural');
 
 CREATE TABLE "user" (
   "id" SERIAL UNIQUE,
@@ -52,9 +43,9 @@ CREATE TABLE "provider_detail" (
   "phone_prefix" varchar,
   "phone" varchar,
   "image" varchar DEFAULT 'default',
-  "specializations" specializations_type[],
+  "specializations" specializations_type [],
   "address" varchar,
-  "education" varchar[],
+  "education" varchar [],
   "sex" sex_type,
   "consultation_price" int,
   "description" varchar,
@@ -153,34 +144,82 @@ CREATE TABLE "refresh_token" (
   "created_at" timestamp DEFAULT (now())
 );
 
-ALTER TABLE "user" ADD FOREIGN KEY ("client_detail_id") REFERENCES "client_detail" ("client_detail_id");
-ALTER TABLE "user" ADD FOREIGN KEY ("provider_detail_id") REFERENCES "provider_detail" ("provider_detail_id");
-ALTER TABLE "user" ADD FOREIGN KEY ("notification_preference_id") REFERENCES "notification_preference" ("notification_preference_id");
+ALTER TABLE
+  "user"
+ADD
+  FOREIGN KEY ("client_detail_id") REFERENCES "client_detail" ("client_detail_id");
 
-ALTER TABLE "provider_detail_work_with_links" ADD FOREIGN KEY ("provider_detail_id") REFERENCES "provider_detail" ("provider_detail_id");
-ALTER TABLE "provider_detail_work_with_links" ADD FOREIGN KEY ("work_with_id") REFERENCES "work_with" ("work_with_id");
-ALTER TABLE "provider_detail_language_links" ADD FOREIGN KEY ("provider_detail_id") REFERENCES "provider_detail" ("provider_detail_id");
+ALTER TABLE
+  "user"
+ADD
+  FOREIGN KEY ("provider_detail_id") REFERENCES "provider_detail" ("provider_detail_id");
 
-ALTER TABLE "availability" ADD FOREIGN KEY ("provider_detail_id") REFERENCES "provider_detail" ("provider_detail_id");
+ALTER TABLE
+  "user"
+ADD
+  FOREIGN KEY ("notification_preference_id") REFERENCES "notification_preference" ("notification_preference_id");
 
-ALTER TABLE "password_reset" ADD FOREIGN KEY ("user_id") REFERENCES "user" ("user_id");
+ALTER TABLE
+  "provider_detail_work_with_links"
+ADD
+  FOREIGN KEY ("provider_detail_id") REFERENCES "provider_detail" ("provider_detail_id");
 
-ALTER TABLE "login_attempt" ADD FOREIGN KEY ("user_id") REFERENCES "user" ("user_id");
+ALTER TABLE
+  "provider_detail_work_with_links"
+ADD
+  FOREIGN KEY ("work_with_id") REFERENCES "work_with" ("work_with_id");
 
-ALTER TABLE "refresh_token" ADD FOREIGN KEY ("user_id") REFERENCES "user" ("user_id");
+ALTER TABLE
+  "provider_detail_language_links"
+ADD
+  FOREIGN KEY ("provider_detail_id") REFERENCES "provider_detail" ("provider_detail_id");
+
+ALTER TABLE
+  "availability"
+ADD
+  FOREIGN KEY ("provider_detail_id") REFERENCES "provider_detail" ("provider_detail_id");
+
+ALTER TABLE
+  "password_reset"
+ADD
+  FOREIGN KEY ("user_id") REFERENCES "user" ("user_id");
+
+ALTER TABLE
+  "login_attempt"
+ADD
+  FOREIGN KEY ("user_id") REFERENCES "user" ("user_id");
+
+ALTER TABLE
+  "refresh_token"
+ADD
+  FOREIGN KEY ("user_id") REFERENCES "user" ("user_id");
 
 -- Triggers --
+CREATE
+OR REPLACE FUNCTION update_updated_at_column() RETURNS TRIGGER AS $ $ BEGIN NEW.updated_at = now();
 
-CREATE OR REPLACE FUNCTION update_updated_at_column() 
-RETURNS TRIGGER AS $$
-BEGIN
-    NEW.updated_at = now();
-    RETURN NEW; 
+RETURN NEW;
+
 END;
-$$ language 'plpgsql';
 
-CREATE TRIGGER update_user_updated_at BEFORE UPDATE ON "user" FOR EACH ROW EXECUTE PROCEDURE  update_updated_at_column();
-CREATE TRIGGER update_provider_detail_updated_at BEFORE UPDATE ON provider_detail FOR EACH ROW EXECUTE PROCEDURE  update_updated_at_column();
-CREATE TRIGGER update_client_detail_updated_at BEFORE UPDATE ON client_detail FOR EACH ROW EXECUTE PROCEDURE  update_updated_at_column();
-CREATE TRIGGER update_availability_updated_at BEFORE UPDATE ON "availability" FOR EACH ROW EXECUTE PROCEDURE  update_updated_at_column();
-CREATE TRIGGER update_notification_preference_updated_at BEFORE UPDATE ON notification_preference FOR EACH ROW EXECUTE PROCEDURE  update_updated_at_column();
+$ $ language 'plpgsql';
+
+CREATE TRIGGER update_user_updated_at BEFORE
+UPDATE
+  ON "user" FOR EACH ROW EXECUTE PROCEDURE update_updated_at_column();
+
+CREATE TRIGGER update_provider_detail_updated_at BEFORE
+UPDATE
+  ON provider_detail FOR EACH ROW EXECUTE PROCEDURE update_updated_at_column();
+
+CREATE TRIGGER update_client_detail_updated_at BEFORE
+UPDATE
+  ON client_detail FOR EACH ROW EXECUTE PROCEDURE update_updated_at_column();
+
+CREATE TRIGGER update_availability_updated_at BEFORE
+UPDATE
+  ON "availability" FOR EACH ROW EXECUTE PROCEDURE update_updated_at_column();
+
+CREATE TRIGGER update_notification_preference_updated_at BEFORE
+UPDATE
+  ON notification_preference FOR EACH ROW EXECUTE PROCEDURE update_updated_at_column();
