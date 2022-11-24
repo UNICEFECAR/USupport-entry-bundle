@@ -142,7 +142,7 @@ FROM ${NGINX_VERSION}
 # copy web app builds to nginx/html
 COPY --from=webAppBuilds        /clientApp/dist    /usr/share/nginx/html/client
 COPY --from=webAppBuilds        /providerApp/dist  /usr/share/nginx/html/provider
-COPY --from=webAppBuilds        /countryAdminApp/dist     /usr/share/nginx/html/countryAdmin
-COPY --from=webAppBuilds        /globalAdminApp/dist     /usr/share/nginx/html/globalAdmin
+COPY --from=webAppBuilds        /countryAdminApp/dist     /usr/share/nginx/html/country-admin
+COPY --from=webAppBuilds        /globalAdminApp/dist     /usr/share/nginx/html/global-admin
 COPY --from=webAppBuilds        /websiteApp/dist     /usr/share/nginx/html/website
 COPY --from=webAppBuilds        /cmsAdminApp/build     /usr/share/nginx/html/cmsAdmin
