@@ -20,3 +20,6 @@ CREATE TABLE "password_reset" (
 
 ALTER TABLE "refresh_token" ADD FOREIGN KEY ("admin_id") REFERENCES "admin" ("admin_id");
 ALTER TABLE "password_reset" ADD FOREIGN KEY ("admin_id") REFERENCES "admin" ("admin_id");
+
+ALTER TABLE "country" ADD COLUMN "min_client_age" int DEFAULT 16;
+ALTER TABLE "country" ADD COLUMN "max_client_age" int DEFAULT 24;
