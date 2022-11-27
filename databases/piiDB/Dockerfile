@@ -1,5 +1,7 @@
 FROM postgres:13.3-alpine3.14
 
 COPY ./schemas/1_schema_v1.0.sql /docker-entrypoint-initdb.d
+COPY ./schemas/2_schema_v1.1.sql /docker-entrypoint-initdb.d
+COPY ./schemas/3_schema_v1.2.sql /docker-entrypoint-initdb.d
 
 RUN chmod a+r /docker-entrypoint-initdb.d/*

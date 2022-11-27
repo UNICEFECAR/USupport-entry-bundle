@@ -1,20 +1,20 @@
 version: "3.8"
 services:
-  webproxy:
-    container_name: webproxy
-    restart: "unless-stopped"
-    build:
-      context: ./
-      dockerfile: Dockerfile
-    depends_on:
-      - gateway
-    volumes:
-      - ./webproxy/nginx-local.conf:/etc/nginx/nginx.conf
-      - ./webproxy/logs/:/var/log/nginx/
-    ports:
-      - "3010:80"
-    networks:
-      - USupportNet
+  # webproxy:
+  #   container_name: webproxy
+  #   restart: "unless-stopped"
+  #   build:
+  #     context: ./
+  #     dockerfile: Dockerfile
+  #   depends_on:
+  #     - gateway
+  #   volumes:
+  #     - ./webproxy/nginx-local.conf:/etc/nginx/nginx.conf
+  #     - ./webproxy/logs/:/var/log/nginx/
+  #   ports:
+  #     - "3011:80"
+  #   networks:
+  #     - USupportNet
 
   gateway:
     container_name: gateway
@@ -89,7 +89,7 @@ services:
               npm run dev"
     networks:
       - USupportNet
-  
+
   video:
     container_name: video
     restart: "unless-stopped"
@@ -112,7 +112,7 @@ services:
               npm run dev"
     networks:
       - USupportNet
-  
+
   payments:
     container_name: payments
     restart: "unless-stopped"
@@ -228,21 +228,27 @@ services:
     networks:
       - USupportNet
 
-  # cms:
-  #   container_name: cms
-  #   restart: "unless-stopped"
-  #   image: node:16.5.0-alpine3.13
-  #   working_dir: /home/node/app
-  #   depends_on:
-  #     - cmsdb
-  #   volumes:
-  #     - ./cms/service:/home/node/app
-  #   ports:
-  #     - 3009:3009
-  #   expose:
-  #     - 3009
-  #   networks:
-  #     - USupportNet
+  cms:
+    container_name: cms
+    build:
+      context: ./cms
+      dockerfile: Dockerfile
+    restart: unless-stopped
+    env_file: ./cms/.env
+    volumes:
+      - ./cms/config:/opt/app/config
+      - ./cms/src:/opt/app/src
+      - ./cms/package.json:/opt/package.json
+      - ./cms/package-lock.json:/opt/package-lock.json
+      - ./cms/.env:/opt/app/.env
+    ports:
+      - "3009:1337"
+    expose:
+      - 3009
+    networks:
+      - USupportNet
+    depends_on:
+      - cmsdb
 
   user:
     container_name: user
@@ -311,13 +317,12 @@ services:
   cmsdb:
     container_name: cmsDB
     build:
-      context: ./cms/db
+      context: ./databases/cmsDB
       dockerfile: Dockerfile
-    hostname: cmsdb
+    restart: unless-stopped
+    env_file: ./databases/cmsDB/.env.local
     volumes:
-      - ./cms/db/data/db/:/var/lib/postgresql/data/
-    env_file:
-      - ./cms/db/.env.local
+      - ./databases/cmsDB/data/db/:/var/lib/postgresql/data/
     ports:
       - "5438:5432"
     networks:

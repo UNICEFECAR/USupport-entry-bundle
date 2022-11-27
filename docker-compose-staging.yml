@@ -3,15 +3,15 @@ services:
   webproxy:
     container_name: webproxy
     build:
-      context: ./webproxy
-      dockerfile: Dockerfile
+      context: ./
+      dockerfile: DockerfileStaging
     depends_on:
       - gateway
     restart: "unless-stopped"
     volumes:
       - ./webproxy/nginx-staging.conf:/etc/nginx/nginx.conf
       - ./webproxy/logs/:/var/log/nginx/
-      - /etc/letsencrypt/:/etc/letsencrypt/
+      - /etc/nginx/ssl/:/etc/nginx/ssl/
     ports:
       - "80:80"
       - "443:443"
@@ -42,7 +42,7 @@ services:
       - 3000
     command: >
       sh -c "npm ci &&
-              npm run dev"
+              npm run prod"
     networks:
       - USupportNet
 
@@ -61,7 +61,7 @@ services:
       - 3001
     command: >
       sh -c "npm ci &&
-              npm run dev"
+              npm run prod"
     networks:
       - USupportNet
 
@@ -80,10 +80,10 @@ services:
       - 3002
     command: >
       sh -c "npm ci &&
-              npm run dev"
+              npm run prod"
     networks:
       - USupportNet
-  
+
   video:
     container_name: video
     restart: "unless-stopped"
@@ -99,10 +99,10 @@ services:
       - 3003
     command: >
       sh -c "npm ci &&
-              npm run dev"
+              npm run prod"
     networks:
       - USupportNet
-  
+
   payments:
     container_name: payments
     restart: "unless-stopped"
@@ -118,7 +118,7 @@ services:
       - 3004
     command: >
       sh -c "npm ci &&
-              npm run dev"
+              npm run prod"
     networks:
       - USupportNet
 
@@ -137,7 +137,7 @@ services:
       - 3005
     command: >
       sh -c "npm ci &&
-              npm run dev"
+              npm run prod"
     networks:
       - USupportNet
 
@@ -156,7 +156,7 @@ services:
       - 3006
     command: >
       sh -c "npm ci &&
-              npm run dev"
+              npm run prod"
     networks:
       - USupportNet
 
@@ -175,7 +175,7 @@ services:
       - 3007
     command: >
       sh -c "npm ci &&
-              npm run dev"
+              npm run prod"
     networks:
       - USupportNet
 
@@ -194,25 +194,29 @@ services:
       - 3008
     command: >
       sh -c "npm ci &&
-              npm run dev"
+              npm run prod"
     networks:
       - USupportNet
 
-  # cms:
-  #   container_name: cms
-  #   restart: "unless-stopped"
-  #   image: node:16.5.0-alpine3.13
-  #   working_dir: /home/node/app
-  #   volumes:
-  #     - ./cms/service:/home/node/app
-  #   env_file:
-  #     - ./cms/service/.env.staging
-  #   ports:
-  #     - 3009:3009
-  #   expose:
-  #     - 3009
-  #   networks:
-  #     - USupportNet
+  cms:
+    container_name: cms
+    build:
+      context: ./cms
+      dockerfile: Dockerfile
+    restart: unless-stopped
+    env_file: ./cms/.env.staging
+    volumes:
+      - ./cms/config:/opt/app/config
+      - ./cms/src:/opt/app/src
+      - ./cms/package.json:/opt/package.json
+      - ./cms/package-lock.json:/opt/package-lock.json
+      - ./cms/.env.staging:/opt/app/.env
+    ports:
+      - "3009:1337"
+    expose:
+      - 3009
+    networks:
+      - USupportNet
 
   user:
     container_name: user
@@ -229,7 +233,7 @@ services:
       - 3010
     command: >
       sh -c "npm ci &&
-              npm run dev"
+              npm run prod"
     networks:
       - USupportNet
 

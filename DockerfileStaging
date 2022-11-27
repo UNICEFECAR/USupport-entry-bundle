@@ -22,7 +22,7 @@ RUN npm install
 COPY ./client-ui/ .
 
 # Building app
-RUN npm run build --prod
+RUN npm run staging
 
 # remove dev dependencies
 RUN npm prune --production
@@ -45,7 +45,7 @@ RUN npm install
 COPY ./provider-ui/ .
 
 # Building app
-RUN npm run build --prod
+RUN npm run staging
 
 # remove dev dependencies
 RUN npm prune --production
@@ -66,31 +66,31 @@ RUN npm install
 COPY ./admin-country-ui/ .
 
 # Building app
-RUN npm run build --prod
+RUN npm run staging
 
 # remove dev dependencies
 RUN npm prune --production
 
-###
-# Stage 4 - build cms webapp
-###
+# ###
+# # Stage 4 - build cms webapp
+# ###
 
-# set working directory
-WORKDIR /cmsAdminApp
+# # set working directory
+# WORKDIR /cmsAdminApp
 
-# install app dependencies
-COPY ./cms/package.json         ./
-COPY ./cms/package-lock.json    ./
-RUN npm install
+# # install app dependencies
+# COPY ./cms/package.json         ./
+# COPY ./cms/package-lock.json    ./
+# RUN npm install
 
-# Copy source files
-COPY ./cms/ .
+# # Copy source files
+# COPY ./cms/ .
 
-# Building app
-RUN npm run build --omit=dev
+# # Building app
+# RUN npm run build --omit=dev
 
-# remove dev dependencies
-RUN npm prune --production
+# # remove dev dependencies
+# RUN npm prune --production
 
 ###
 # Stage 5 - build global admin webapp
@@ -129,7 +129,7 @@ RUN npm install
 COPY ./website/ .
 
 # Building app
-RUN npm run build --prod
+RUN npm run staging
 
 # remove dev dependencies
 RUN npm prune --production
@@ -145,4 +145,4 @@ COPY --from=webAppBuilds        /providerApp/dist  /usr/share/nginx/html/provide
 COPY --from=webAppBuilds        /countryAdminApp/dist     /usr/share/nginx/html/country-admin
 COPY --from=webAppBuilds        /globalAdminApp/dist     /usr/share/nginx/html/global-admin
 COPY --from=webAppBuilds        /websiteApp/dist     /usr/share/nginx/html/website
-COPY --from=webAppBuilds        /cmsAdminApp/build     /usr/share/nginx/html/cmsAdmin
+# COPY --from=webAppBuilds        /cmsAdminApp/build     /usr/share/nginx/html/cmsAdmin
