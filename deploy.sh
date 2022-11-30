@@ -29,8 +29,6 @@ then
         git stash       # in case we changed something locally
         git pull origin staging
         git submodule foreach git pull origin staging
-
-        # TODO: ADD LOGIC TO COPY OVER .env.staging FILES
         
         docker-compose -f docker-compose-staging.yml up -d --build
         ;;
@@ -41,8 +39,6 @@ then
         git stash       # in case we changed something locally
         git pull origin main
         git submodule foreach git pull origin main
-
-        # TODO: ADD LOGIC TO COPY OVER .env.production FILES
 
         docker-compose -f docker-compose-production.yml up -d --build
         ;;
