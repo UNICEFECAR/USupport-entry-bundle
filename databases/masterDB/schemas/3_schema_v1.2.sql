@@ -23,3 +23,5 @@ ALTER TABLE "password_reset" ADD FOREIGN KEY ("admin_id") REFERENCES "admin" ("a
 
 ALTER TABLE "country" ADD COLUMN "min_client_age" int DEFAULT 16;
 ALTER TABLE "country" ADD COLUMN "max_client_age" int DEFAULT 24;
+
+ALTER TABLE "admin" ADD COLUMN "is_active" Boolean DEFAULT false;
