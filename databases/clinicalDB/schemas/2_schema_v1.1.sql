@@ -10,3 +10,8 @@ ALTER TYPE "notification_type" ADD VALUE 'consultation_suggestion_cancellation';
 ALTER TYPE "notification_type" RENAME VALUE 'add_new_availability' TO 'add_more_availability_slots';
 
 ALTER TABLE "consultation" ALTER COLUMN "time" TYPE timestamptz USING "time" :: timestamp with time zone;
+
+ALTER TABLE "consultation" ADD COLUMN "client_join_time" timestamptz;
+ALTER TABLE "consultation" ADD COLUMN "provider_join_time" timestamptz;
+ALTER TABLE "consultation" ADD COLUMN "client_leave_time" timestamptz;
+ALTER TABLE "consultation" ADD COLUMN "provider_leave_time" timestamptz;
