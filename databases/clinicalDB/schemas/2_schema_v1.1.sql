@@ -20,3 +20,5 @@ ALTER TABLE "consultation" ADD COLUMN "provider_reminder_sent" Boolean DEFAULT f
 
 ALTER TABLE "chat" DROP COLUMN "messages";
 ALTER TABLE "chat" ADD COLUMN "messages" JSON[];
+ALTER TABLE "chat" ADD COLUMN "client_socket_id" varchar;
+ALTER TABLE "chat" ADD COLUMN "provider_socket_id" varchar;
