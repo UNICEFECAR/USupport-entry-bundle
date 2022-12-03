@@ -16,3 +16,5 @@ ALTER TABLE "client_detail" RENAME COLUMN "living_place" TO "urban_rural";
 ALTER TABLE "provider_detail" RENAME COLUMN "address" TO "street";
 ALTER TABLE "provider_detail" ADD "city" varchar;
 ALTER TABLE "provider_detail" ADD "postcode" varchar;
+
+ALTER TYPE "specializations_type" RENAME VALUE 'coach' TO 'DELETED';
