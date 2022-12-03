@@ -17,3 +17,6 @@ ALTER TABLE "consultation" ADD COLUMN "client_leave_time" timestamptz;
 ALTER TABLE "consultation" ADD COLUMN "provider_leave_time" timestamptz;
 ALTER TABLE "consultation" ADD COLUMN "client_reminder_sent" Boolean DEFAULT false;
 ALTER TABLE "consultation" ADD COLUMN "provider_reminder_sent" Boolean DEFAULT false;
+
+ALTER TABLE "chat" DROP COLUMN "messages";
+ALTER TABLE "chat" ADD COLUMN "messages" JSON[];
