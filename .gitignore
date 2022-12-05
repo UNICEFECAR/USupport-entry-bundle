@@ -37,3 +37,6 @@ yarn-error.log*
 api/logs/*
 
 .history
+
+# redis cache data
+**/cache/**
