@@ -40,3 +40,4 @@ api/logs/*
 
 # redis cache data
 **/cache/**
+.VSCodeCounter

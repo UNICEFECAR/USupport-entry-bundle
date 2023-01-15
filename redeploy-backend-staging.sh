@@ -1,6 +1,19 @@
 # Make sure all submodules are on staging branch branch
 git submodule foreach git checkout staging
 
+# Pull all backend submodules from development branch
+echo "Pulling each backend from development branch"
+cd admin && git pull origin development && cd ..
+cd client && git pull origin development && cd ..
+cd user && git pull origin development && cd ..
+cd messaging && git pull origin development && cd ..
+cd notifications && git pull origin development && cd ..
+cd payments && git pull origin development && cd ..
+cd provider && git pull origin development && cd ..
+cd video && git pull origin development && cd ..
+cd email && git pull origin development && cd ..
+cd gateway && git pull origin development && cd ..
+
 # Stop all backend services
 echo "Stopping all backend services"
 docker-compose stop admin
