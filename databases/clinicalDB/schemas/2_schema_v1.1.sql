@@ -22,3 +22,26 @@ ALTER TABLE "chat" DROP COLUMN "messages";
 ALTER TABLE "chat" ADD COLUMN "messages" JSON[];
 ALTER TABLE "chat" ADD COLUMN "client_socket_id" varchar;
 ALTER TABLE "chat" ADD COLUMN "provider_socket_id" varchar;
+
+ALTER TABLE "consultation" ADD COLUMN "price" int DEFAULT NULL;
+
+CREATE TABLE "consultation_security_check" (
+  "id" SERIAL UNIQUE,
+  "consultation_security_check_id" UUID PRIMARY KEY DEFAULT (gen_random_uuid()),
+  "consultation_id" UUID NOT NULL,
+  "contacts_disclosure" Boolean NOT NULL,
+  "suggest_outside_meeting" Boolean NOT NULL,
+  "identity_coercion" Boolean NOT NULL,
+  "unsafe_feeling" Boolean NOT NULL,
+  "more_details" varchar DEFAULT NULL,
+  "created_at" timestamp DEFAULT (now()),
+  "updated_at" timestamp DEFAULT NULL
+);
+
+ALTER TABLE "consultation_security_check" ADD FOREIGN KEY ("consultation_id") REFERENCES "consultation" ("consultation_id");
+
+-- Triggers --
+
+CREATE TRIGGER update_consultation_security_check_updated_at BEFORE
+UPDATE
+  ON consultation_security_check FOR EACH ROW EXECUTE PROCEDURE update_updated_at_column();

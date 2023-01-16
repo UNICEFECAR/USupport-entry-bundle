@@ -18,3 +18,5 @@ ALTER TABLE "provider_detail" ADD "city" varchar;
 ALTER TABLE "provider_detail" ADD "postcode" varchar;
 
 ALTER TYPE "specializations_type" RENAME VALUE 'coach' TO 'DELETED';
+
+ALTER TABLE "provider_detail" ADD "video_link" varchar;
