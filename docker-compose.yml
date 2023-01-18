@@ -178,5 +178,13 @@ services:
     networks:
       - USupportNet
 
+  redis:
+    image: redis:6.2-alpine
+    container_name: redis
+    ports:
+      - "6379:6379"
+    networks:
+      - USupportNet
+
 networks:
   USupportNet:
