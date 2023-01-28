@@ -232,27 +232,27 @@ services:
     networks:
       - USupportNet
 
-  cms:
-    container_name: cms
-    build:
-      context: ./cms
-      dockerfile: Dockerfile
-    restart: unless-stopped
-    env_file: ./cms/.env
-    volumes:
-      - ./cms/config:/opt/app/config
-      - ./cms/src:/opt/app/src
-      - ./cms/package.json:/opt/package.json
-      - ./cms/package-lock.json:/opt/package-lock.json
-      - ./cms/.env:/opt/app/.env
-    ports:
-      - "3009:1337"
-    expose:
-      - 3009
-    networks:
-      - USupportNet
-    depends_on:
-      - cmsdb
+  # cms:
+  #   container_name: cms
+  #   build:
+  #     context: ./cms
+  #     dockerfile: Dockerfile
+  #   restart: unless-stopped
+  #   env_file: ./cms/.env
+  #   volumes:
+  #     - ./cms/config:/opt/app/config
+  #     - ./cms/src:/opt/app/src
+  #     - ./cms/package.json:/opt/package.json
+  #     - ./cms/package-lock.json:/opt/package-lock.json
+  #     - ./cms/.env:/opt/app/.env
+  #   ports:
+  #     - "3009:1337"
+  #   expose:
+  #     - 3009
+  #   networks:
+  #     - USupportNet
+  #   depends_on:
+  #     - cmsdb
 
   user:
     container_name: user
@@ -320,19 +320,19 @@ services:
     networks:
       - USupportNet
 
-  cmsdb:
-    container_name: cmsDB
-    build:
-      context: ./databases/cmsDB
-      dockerfile: Dockerfile
-    restart: unless-stopped
-    env_file: ./databases/cmsDB/.env.local
-    volumes:
-      - ./databases/cmsDB/data/db/:/var/lib/postgresql/data/
-    ports:
-      - "5438:5432"
-    networks:
-      - USupportNet
+  # cmsdb:
+  #   container_name: cmsDB
+  #   build:
+  #     context: ./databases/cmsDB
+  #     dockerfile: Dockerfile
+  #   restart: unless-stopped
+  #   env_file: ./databases/cmsDB/.env.local
+  #   volumes:
+  #     - ./databases/cmsDB/data/db/:/var/lib/postgresql/data/
+  #   ports:
+  #     - "5438:5432"
+  #   networks:
+  #     - USupportNet
 
   zookeeper:
     image: confluentinc/cp-zookeeper:latest
@@ -367,7 +367,7 @@ services:
     container_name: redis
     restart: unless-stopped
     command: ["redis-server", "--appendonly", "yes"]
-    volumes: 
+    volumes:
       - ./cache/redis-data:/data
     ports:
       - "6379:6379"
