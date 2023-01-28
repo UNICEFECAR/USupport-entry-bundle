@@ -1,4 +1,3 @@
--- Create table variable
 CREATE TABLE "currency" (
   "id"     SERIAL UNIQUE,
   "currency_id" UUID PRIMARY KEY DEFAULT (gen_random_uuid()),
