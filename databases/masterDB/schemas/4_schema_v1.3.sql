@@ -4,7 +4,7 @@ CREATE TABLE "currency" (
   "name"   varchar NOT NULL,
   "code"   varchar NOT NULL,
   "symbol" varchar,
-  "created_at" timestamp DEFAULT (now()),
+  "created_at" timestamp DEFAULT (now())
 );
 
 
