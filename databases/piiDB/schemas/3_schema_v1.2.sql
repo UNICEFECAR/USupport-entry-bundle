@@ -38,7 +38,7 @@ CREATE TABLE "information_portal_suggestion" (
     "created_at" timestamp DEFAULT (now())
 );
 
-ALTER TABLE "information_portal_suggestion" ADD  FOREIGN KEY ("client_detail_id") REFERENCES "client_detail" ("client_detail_id");
+ALTER TABLE "information_portal_suggestion" ADD FOREIGN KEY ("client_detail_id") REFERENCES "client_detail" ("client_detail_id");
 
 
 CREATE TABLE "client_rating" (
@@ -50,5 +50,5 @@ CREATE TABLE "client_rating" (
     "created_at" timestamp DEFAULT (now())
 );
 
-ALTER TABLE "client_rating" ADD  FOREIGN KEY ("client_detail_id") REFERENCES "client_detail" ("client_detail_id");
+ALTER TABLE "client_rating" ADD FOREIGN KEY ("client_detail_id") REFERENCES "client_detail" ("client_detail_id");
 ALTER TABLE "client_rating" ADD CONSTRAINT check_client_rating_values CHECK (rating BETWEEN 1 AND 5);
