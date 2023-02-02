@@ -7,14 +7,12 @@ CREATE TABLE "currency" (
   "created_at" timestamp DEFAULT (now())
 );
 
-
 CREATE TABLE "country_currency_links" (
   "id" SERIAL UNIQUE,
   "country_id" UUID NOT NULL,
   "currency_id" UUID NOT NULL,
   "created_at" timestamp DEFAULT (now())
 );
-
 
 ALTER TABLE
   "country_currency_links"
@@ -25,7 +23,6 @@ ALTER TABLE
   "country_currency_links"
 ADD
   FOREIGN KEY ("currency_id") REFERENCES "currency" ("currency_id");
-
 
 -- Insert currency records
 INSERT INTO currency (name, code, symbol) VALUES ('Leke', 'ALL', 'Lek');
