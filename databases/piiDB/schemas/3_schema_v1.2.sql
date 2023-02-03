@@ -40,7 +40,6 @@ CREATE TABLE "information_portal_suggestion" (
 
 ALTER TABLE "information_portal_suggestion" ADD FOREIGN KEY ("client_detail_id") REFERENCES "client_detail" ("client_detail_id");
 
-
 CREATE TABLE "client_rating" (
     "id" SERIAL UNIQUE,
     "client_rating_id" UUID PRIMARY KEY DEFAULT (gen_random_uuid()),
