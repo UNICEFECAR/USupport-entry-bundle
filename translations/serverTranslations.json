@@ -1,0 +1,147 @@
+{
+  "admin": {
+    "platform_not_error": "Platform not found",
+    "password_validation_error": "Password should contain at least 8 characters, 1 uppercase letter, 1 lowercase letter and 1 number",
+    "admin_not_found_error": "Admin not found",
+    "email_already_used_error": "This email is already used",
+    "incorrect_email_error": "There is no admin with this email",
+    "incorrect_password_error": "The provided password is incorrect",
+    "not_authenticated_error": "Admin needs to authenticate to access this resource",
+    "invalid_refresh_token_error": "Refresh token invalid or already used",
+    "invalid_reset_password_token_error": "Invalid or expired reset password token",
+    "account_deactivated_error": "Your account has been deactivated"
+  },
+  "client": {
+    "email_required_error": "You need to provide a valid email",
+    "access_token_required_error": "You need to provide a valid access token",
+    "nickname_required_error": "You need to provide a nickname",
+    "client_not_found_error": "Client not found",
+    "provider_not_found_error": "Provider not found",
+    "incorrect_password_error": "The provided password is incorrect",
+    "email_already_used_error": "This email is already used"
+  },
+  "email": {
+    "system_forgot_password_subject": "Forgot password",
+    "system_forgot_password_title": "Forgot password",
+    "system_forgot_password_text": "Please visit the following link to reset your password: {1}",
+
+    "system_welcome_subject": "Welcome to USupport",
+    "system_welcome_title": "Welcome to USupport",
+    "system_welcome_text": "Please visit the following link to access your account: {1}",
+
+    "client_consultation_confirm_booking_subject": "Consultation booking",
+    "client_consultation_confirm_booking_title": "Confirmation of consultation booking",
+    "client_consultation_confirm_booking_text": "You have successfully booked a consultation. Please visit {1} to view your consultation details.",
+
+    "client_consultation_confirm_reschedule_subject": "Consultation reschedule",
+    "client_consultation_confirm_reschedule_title": "Confirmation of consultation reschedule",
+    "client_consultation_confirm_reschedule_text": "Your have successfully rescheduled your consultation. Please visit {1} to view the new consultation details.",
+
+    "client_consultation_confirm_cancellation_subject": "Consultation cancellation",
+    "client_consultation_confirm_cancellation_title": "Confirmation of consultation cancellation",
+    "client_consultation_confirm_cancellation_text": "You have successfully canceled your consultation. Please visit {1} to schedule a new one.",
+
+    "client_consultation_notify_cancellation_subject": "Consultation cancellation",
+    "client_consultation_notify_cancellation_title": "Consultation canceled by provider",
+    "client_consultation_notify_cancellation_text": "Your consultation has been canceled by the provider. Please visit {1} to schedule a new one.",
+
+    "client_consultation_remind_start_subject": "Consultation reminder",
+    "client_consultation_remind_start_title": "Consultation reminder",
+    "client_consultation_remind_start_text": "Your consultation starts in {2} minutes. Please visit {1} to join it.",
+
+    "client_consultation_notify_suggestion_subject": "Consultation suggestion",
+    "client_consultation_notify_suggestion_title": "New consultation suggestion",
+    "client_consultation_notify_suggestion_text": "You have a new consultation suggestion. Please visit {1} to view more details.",
+
+    "client_consultation_confirm_suggestion_booking_subject": "Consultation booking",
+    "client_consultation_confirm_suggestion_booking_title": "Confirmation of consultation booking",
+    "client_consultation_confirm_suggestion_booking_text": "You have successfully accepted a suggested consultation. Please visit {1} to view your consultation details.",
+
+    "client_consultation_confirm_suggestion_cancellation_subject": "Consultation rejected",
+    "client_consultation_confirm_suggestion_cancellation_title": "Confirmation of consultation rejection",
+    "client_consultation_confirm_suggestion_cancellation_text": "You have successfully rejected a suggested consultation. Please visit {1} to schedule a new one.",
+
+    "provider_consultation_notify_booking_subject": "Consultation booking",
+    "provider_consultation_notify_booking_title": "New consultation booking",
+    "provider_consultation_notify_booking_text": "You have a new consultation booking. Please visit {1} to view more details.",
+
+    "provider_consultation_notify_reschedule_subject": "Consultation reschedule",
+    "provider_consultation_notify_reschedule_title": "Consultation reschedule",
+    "provider_consultation_notify_reschedule_text": "A consultation has been rescheduled. Please visit {1} to view more details.",
+
+    "provider_consultation_notify_cancellation_subject": "Consultation cancellation",
+    "provider_consultation_notify_cancellation_title": "Consultation cancellation",
+    "provider_consultation_notify_cancellation_text": "A consultation has been canceled by a client. Please visit {1} to view more details.",
+
+    "provider_consultation_confirm_cancellation_subject": "Consultation cancellation",
+    "provider_consultation_confirm_cancellation_title": "Confirmation of consultation cancellation",
+    "provider_consultation_confirm_cancellation_text": "You have successfully canceled a consultation.",
+
+    "provider_consultation_remind_start_subject": "Consultation reminder",
+    "provider_consultation_remind_start_title": "Consultation reminder",
+    "provider_consultation_remind_start_text": "Your consultation starts in {2} minutes. Please visit {1} to join it.",
+
+    "provider_consultation_confirm_suggestion_subject": "Consultation suggestion",
+    "provider_consultation_confirm_suggestion_title": "Confirmation of suggested consultation",
+    "provider_consultation_confirm_suggestion_text": "You have successfully suggested a consultation. Please visit {1} to view more details.",
+
+    "provider_consultation_notify_suggestion_booking_subject": "Consultation booking",
+    "provider_consultation_notify_suggestion_booking_title": "Accepted consultation suggestion",
+    "provider_consultation_notify_suggestion_booking_text": "Your consultation suggestion has been accepted. Please visit {1} to view more details.",
+
+    "provider_consultation_notify_suggestion_cancellation_subject": "Consultation rejection",
+    "provider_consultation_notify_suggestion_cancellation_title": "Rejected consultation suggestion",
+    "provider_consultation_notify_suggestion_cancellation_text": "Your consultation suggestion has been rejected by a client.",
+
+    "provider_availability_remind_add_more_slots_subject": "Availability reminder",
+    "provider_availability_remind_add_more_slots_title": "Add more availability slots",
+    "provider_availability_remind_add_more_slots_text": "Your last availability slot is in less than a week. Please visit {1} to add more availability slots to your schedule.",
+
+    "provider_report_weekly_subject": "Weekly report",
+    "provider_report_weekly_title": "Weekly report of activities",
+    "provider_report_weekly_text": "Please visit {1} to view your weekly report.",
+
+    "provider_report_monthly_subject": "Monthly report",
+    "provider_report_monthly_title": "Monthly report of activities",
+    "provider_report_monthly_text": "Please visit {1} to view your monthly report.",
+
+    "provider_registration_notify_subject": "Account registraion",
+    "provider_registration_notify_title": "Registered as provider at USupport",
+    "provider_registration_notify_text": "You have been registered as a provider at USupport.<br/> Your automatically generated password is: {2} <br/>You can change it anytime from your profile settings.<br/> Please visit {1} to login to your profile."
+  },
+  "messaging": {
+    "chat_not_found_error": "Chat not found"
+  },
+  "notifications": {
+    "notification_not_found_error": "Notification not found"
+  },
+  "provider": {
+    "provider_not_found_error": "Provider not found",
+    "client_not_found_error": "Client not found",
+    "incorrect_password_error": "The provided password is incorrect",
+    "email_already_used_error": "This email is already used",
+    "slots_not_within_week_error": "Slots are not within the week",
+    "slot_not_available_error": "Slot is not available",
+    "consultation_not_found_error": "Consultation not found",
+    "provider_has_future_consultations_error": "Provider has future consultations",
+    "user_not_found_error": "User not found",
+    "consultation_not_scheduled_error": "Consultation is not scheduled",
+    "service_not_found_error": "Service not found"
+  },
+  "user": {
+    "email_or_access_token_required_error": "You need to provide either email or valid user access token to signup",
+    "nickname_required_error": "You need to provide a nickname",
+    "password_validation_error": "Password should contain at least 8 characters, 1 uppercase letter, 1 lowercase letter and 1 number",
+    "user_not_found_error": "User not found",
+    "notification_preferences_not_found_error": "Notification preferences not found",
+    "country_not_found_error": "Country not found",
+    "email_already_used_error": "This email is already used",
+    "user_access_token_already_used_error": "This user access token is not available",
+    "incorrect_email_error": "There is no user with this email",
+    "incorrect_password_error": "The provided password is incorrect",
+    "not_authenticated_error": "User needs to authenticate to access this resource",
+    "invalid_refresh_token_error": "Refresh token invalid or already used",
+    "cannot_generate_user_access_token_error": "Couldn't generate a new random user access token. Please try again",
+    "invalid_reset_password_token_error": "Invalid or expired reset password token"
+  }
+}
