@@ -2,10 +2,9 @@ version: "3.8"
 services:
   webproxy:
     container_name: webproxy
-    # domainname: usupport.com 
     restart: "unless-stopped"
     build:
-      context: ./webproxy
+      context: ./
       dockerfile: Dockerfile
     depends_on:
       - gateway
@@ -33,7 +32,6 @@ services:
       - messaging
       - admin
       - email
-      - cms
     volumes:
       - ./gateway:/home/node/app
     env_file:
@@ -44,7 +42,7 @@ services:
       - 3000
     command: >
       sh -c "npm ci &&
-              npm run dev"
+              npm run prod"
     networks:
       - USupportNet
 
@@ -63,7 +61,7 @@ services:
       - 3001
     command: >
       sh -c "npm ci &&
-              npm run dev"
+              npm run prod"
     networks:
       - USupportNet
 
@@ -82,7 +80,7 @@ services:
       - 3002
     command: >
       sh -c "npm ci &&
-              npm run dev"
+              npm run prod"
     networks:
       - USupportNet
   
@@ -101,7 +99,7 @@ services:
       - 3003
     command: >
       sh -c "npm ci &&
-              npm run dev"
+              npm run prod"
     networks:
       - USupportNet
   
@@ -120,7 +118,7 @@ services:
       - 3004
     command: >
       sh -c "npm ci &&
-              npm run dev"
+              npm run prod"
     networks:
       - USupportNet
 
@@ -139,7 +137,7 @@ services:
       - 3005
     command: >
       sh -c "npm ci &&
-              npm run dev"
+              npm run prod"
     networks:
       - USupportNet
 
@@ -158,7 +156,7 @@ services:
       - 3006
     command: >
       sh -c "npm ci &&
-              npm run dev"
+              npm run prod"
     networks:
       - USupportNet
 
@@ -177,7 +175,7 @@ services:
       - 3007
     command: >
       sh -c "npm ci &&
-              npm run dev"
+              npm run prod"
     networks:
       - USupportNet
 
@@ -196,26 +194,26 @@ services:
       - 3008
     command: >
       sh -c "npm ci &&
-              npm run dev"
+              npm run prod"
     networks:
       - USupportNet
 
   cms:
     container_name: cms
+    build:
+      context: ./cms
+      dockerfile: Dockerfile
     restart: "unless-stopped"
-    image: node:16.5.0-alpine3.13
-    working_dir: /home/node/app
     volumes:
-      - ./cms/service:/home/node/app
-    env_file:
-      - ./cms/service/.env.production
+      - ./cms/config:/opt/app/config
+      - ./cms/src:/opt/app/src
+      - ./cms/package.json:/opt/package.json
+      - ./cms/package-lock.json:/opt/package-lock.json
+      - ./cms/.env.production:/opt/app/.env
     ports:
-      - 3009:3009
+      - 3009:1337
     expose:
       - 3009
-    command: >
-      sh -c "npm ci &&
-              npm run dev"
     networks:
       - USupportNet
 
@@ -234,7 +232,45 @@ services:
       - 3010
     command: >
       sh -c "npm ci &&
-              npm run dev"
+              npm run prod"
+    networks:
+      - USupportNet
+
+  zookeeper:
+    image: confluentinc/cp-zookeeper:latest
+    container_name: zookeeper
+    ports:
+      - "2181:2181"
+    environment:
+      ZOOKEEPER_CLIENT_PORT: 2181
+      ZOOKEEPER_TICK_TIME: 2000
+    networks:
+      - USupportNet
+
+  kafka:
+    image: confluentinc/cp-kafka:latest
+    container_name: kafka
+    ports:
+      - "9092:9092"
+    environment:
+      KAFKA_ADVERTISED_HOST_NAME: kafka:9092
+      KAFKA_ZOOKEEPER_CONNECT: zookeeper:2181
+      KAFKA_ADVERTISED_LISTENERS: PLAINTEXT://kafka:9092
+      KAFKA_OFFSETS_TOPIC_REPLICATION_FACTOR: 1
+      KAFKA_TRANSACTION_STATE_LOG_MIN_ISR: 1
+      KAFKA_TRANSACTION_STATE_LOG_REPLICATION_FACTOR: 1
+    networks:
+      - USupportNet
+
+  redis:
+    image: redis:6.2-alpine
+    container_name: redis
+    restart: unless-stopped
+    command: ["redis-server", "--appendonly", "yes"]
+    volumes: 
+      - ./cache/redis-data:/data
+    ports:
+      - "6379:6379"
     networks:
       - USupportNet
 
