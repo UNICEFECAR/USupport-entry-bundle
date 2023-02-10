@@ -14,3 +14,5 @@ ALTER TABLE "transaction_log" ADD FOREIGN KEY ("consultation_id") REFERENCES "co
 
 ALTER TABLE "transaction_log" ADD COLUMN "payment_refund_id" varchar;
 ALTER TYPE "transaction_type" ADD VALUE 'payment_refund';
+
+ALTER TABLE "transaction_log" RENAME COLUMN "coupon_id" TO "campaign_id";
