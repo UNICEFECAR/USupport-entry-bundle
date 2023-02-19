@@ -69,6 +69,8 @@ services:
     container_name: provider
     restart: "unless-stopped"
     image: node:16.5.0-alpine3.13
+    depends_on:
+      - kafka
     working_dir: /home/node/app
     volumes:
       - ./provider/service:/home/node/app
@@ -126,6 +128,8 @@ services:
     container_name: notifications
     restart: "unless-stopped"
     image: node:16.5.0-alpine3.13
+    depends_on:
+      - kafka
     working_dir: /home/node/app
     volumes:
       - ./notifications/service:/home/node/app
@@ -164,6 +168,8 @@ services:
     container_name: admin
     restart: "unless-stopped"
     image: node:16.5.0-alpine3.13
+    depends_on:
+      - kafka
     working_dir: /home/node/app
     volumes:
       - ./admin/service:/home/node/app
@@ -183,6 +189,8 @@ services:
     container_name: email
     restart: "unless-stopped"
     image: node:16.5.0-alpine3.13
+    depends_on:
+      - kafka
     working_dir: /home/node/app
     volumes:
       - ./email/service:/home/node/app
@@ -204,6 +212,7 @@ services:
       context: ./cms
       dockerfile: Dockerfile
     restart: "unless-stopped"
+    env_file: ./cms/.env.production
     volumes:
       - ./cms/config:/opt/app/config
       - ./cms/src:/opt/app/src
@@ -221,6 +230,8 @@ services:
     container_name: user
     restart: "unless-stopped"
     image: node:16.5.0-alpine3.13
+    depends_on:
+      - kafka
     working_dir: /home/node/app
     volumes:
       - ./user/service:/home/node/app
@@ -252,6 +263,8 @@ services:
     container_name: kafka
     ports:
       - "9092:9092"
+    depends_on:
+      - zookeeper
     environment:
       KAFKA_ADVERTISED_HOST_NAME: kafka:9092
       KAFKA_ZOOKEEPER_CONNECT: zookeeper:2181
