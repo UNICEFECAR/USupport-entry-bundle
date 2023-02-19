@@ -1,5 +1,5 @@
 # Make sure all submodules are on production branch branch
-git submodule foreach git checkout production
+git submodule foreach git checkout main
 
 # Pull all backend submodules from staging branch
 echo "Pulling each backend from staging branch"
