@@ -56,3 +56,5 @@ UPDATE
   ON "sponsor" FOR EACH ROW EXECUTE PROCEDURE update_updated_at_column();
 
 ALTER TABLE "availability" ADD COLUMN "campaign_slots" JSON[];
+
+ALTER TABLE "client_detail" ADD COLUMN "push_notification_tokens" VARCHAR[];
