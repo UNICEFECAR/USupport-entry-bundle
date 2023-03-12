@@ -55,6 +55,8 @@ CREATE TRIGGER update_sponsor_updated_at BEFORE
 UPDATE
   ON "sponsor" FOR EACH ROW EXECUTE PROCEDURE update_updated_at_column();
 
-ALTER TABLE "availability" ADD COLUMN "campaign_slots" JSON[];
+ALTER TABLE "availability" ADD COLUMN "campaign_slots" JSONB DEFAULT '{}'::JSONB;
 
 ALTER TABLE "client_detail" ADD COLUMN "push_notification_tokens" VARCHAR[];
+
+ALTER TABLE "campaign" ALTER COLUMN "price_per_coupon" TYPE float;
