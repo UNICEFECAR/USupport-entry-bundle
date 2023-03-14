@@ -15,7 +15,7 @@ CREATE TABLE "campaign" (
   "campaign_id" UUID PRIMARY KEY DEFAULT (gen_random_uuid()),
   "sponsor_id" UUID NOT NULL,
   "name" varchar NOT NULL,
-  "coupon_code" varchar NOT NULL,
+  "coupon_code" varchar UNIQUE NOT NULL,
   "budget" int NOT NULL,
   "no_coupons" int NOT NULL,
   "price_per_coupon" int NOT NULL,
@@ -55,10 +55,8 @@ CREATE TRIGGER update_sponsor_updated_at BEFORE
 UPDATE
   ON "sponsor" FOR EACH ROW EXECUTE PROCEDURE update_updated_at_column();
 
+ALTER TABLE "availability" ADD COLUMN "campaign_slots" JSONB DEFAULT '{}'::JSONB;
 
-[
-  {
-    campaign_id: 'c1',
-    time: '2020-01-01T00:00:00.000Z',
-  }
-]
+ALTER TABLE "client_detail" ADD COLUMN "push_notification_tokens" VARCHAR[];
+
+ALTER TABLE "campaign" ALTER COLUMN "price_per_coupon" TYPE float;
