@@ -64,3 +64,5 @@ ALTER TABLE "campaign" ALTER COLUMN "price_per_coupon" TYPE float;
 ALTER TABLE "user" ADD COLUMN "language" VARCHAR;
 
 ALTER TABLE "contact_form" ADD COLUMN "sent_from" VARCHAR;
+
+ALTER TABLE "provider_detail" ADD COLUMN "status" VARCHAR DEFAULT 'active';
