@@ -68,6 +68,30 @@ Make sure you have the following tools installed:
 - Kubectl - used for communicating with the cluster. You need this to be able to control each pod. Click [here](https://docs.aws.amazon.com/eks/latest/userguide/install-kubectl.html) for instructions
 - Amazon ECR Docker Credential Helper - [GitHub Repo](https://github.com/awslabs/amazon-ecr-credential-helper)
 - Change `~/.docker/config.json` to be `"credsStore": "ecr-login"`
+- Add `secrets.yaml` files for each pod and environment
+
+# How to deploy or redeploy an API pod
+The first time you want to deploy a new pod to the cluster you can use the following command from the root folder of the project: 
+`./kube-deploy.sh {pod folder name} {staging | prod} deploy`
+E.g. `./kube-deploy.sh admin staging deploy` - This will deploy and configure the admin pod with the staging env variables (### NOTE: Make sure you are in the correct context ###)
+E.g. `./kube-deploy.sh all staging deploy` - This will deploy and configure all pods with the staging env variables (### NOTE: Make sure you are in the correct context ###)
+
+Each K8s pod is configured to have a Rolling Update which ensures minimal downtime as the old pod stays READY until the new pod is deployed, configured and working. Use this command every time you want to apply a new change in `config.yaml`, `secrets.yaml` or the container build:  
+`./kube-deploy.sh {pod folder name} {staging | prod} redeploy`
+
+If you want to stop a pod you have to go to the folder where the pod `deployment.yaml` file is: 
+```
+cd admin/kube-config/staging
+kubectl delete -f deployment.yaml
+```
+
+# Shared Cluster Pods 
+All shared cluster pods and services are in the `./kube-services` folder in the root folder of the project. There you can find deployment and service yaml files for kafka broker, zookeeper and redis. 
+
+In `./kube-services/db-services` you can find all External Names for the DBs used in the project. Add or change those to update the URL for outside resources the pods need to communicate with. 
+
+# Folder structure explained
+Each service has the same kubernetes configuration folder called `kube-config`. In that folder you can find deployment environment independent yaml files (`config.yaml` & `service.yaml`). You can also find folders called `staging` and `prod` which contain the `deployment.yaml` and `secrets.yaml` files for each deployment environment. 
 
 # Useful Commands
 - `kubectl get po` - Get all pods in a cluster
@@ -87,4 +111,5 @@ Make sure you have the following tools installed:
 [Handling env variables in K8s](https://humanitec.com/blog/handling-environment-variables-with-kubernetes)
 [Accessing Resources From Outside the Cluster VPC - RDS example](https://dev.to/bensooraj/accessing-amazon-rds-from-aws-eks-2pc3)
 [NLB - Using TLS for Your Cluster Ingress](https://aws.amazon.com/blogs/opensource/network-load-balancer-nginx-ingress-controller-eks/)
+[List of Max Pods Supported For Each K8s Node Instance](https://github.com/awslabs/amazon-eks-ami/blob/master/files/eni-max-pods.txt)
 [Base64 Encoder](https://www.base64encode.org)

@@ -4,7 +4,7 @@ REDEPLOY=$3 # Select if pods should be deployed (use to deploy first time only) 
 
 # Allowed values for $POD: 
 # If you want to add more pods add the root folder of that pod in the list below
-declare -a KUBE_PODS=("all" "admin" "client" "cms" "email" "gateway" "messaging" "notifications" "payments" "payments" "provider" "user" "video")
+declare -a KUBE_PODS=("all" "admin" "client" "cms" "email" "gateway" "messaging" "notifications" "payments" "payments" "provider" "user" "video" "webproxy")
 
 if [ "$ENV" != 'staging' ] && [ "$ENV" != 'prod' ]
 then    
