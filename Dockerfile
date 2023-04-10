@@ -21,6 +21,12 @@ RUN npm install
 # Copy source files
 COPY ./client-ui/ .
 
+# install components library dependencies
+WORKDIR /clientApp/USupport-components-library
+RUN npm install
+
+WORKDIR /clientApp
+
 # Building app
 RUN npm run build --prod
 
@@ -44,6 +50,12 @@ RUN npm install
 # Copy source files
 COPY ./provider-ui/ .
 
+# install components library dependencies
+WORKDIR /providerApp/USupport-components-library
+RUN npm install
+
+WORKDIR /providerApp
+
 # Building app
 RUN npm run build --prod
 
@@ -65,6 +77,12 @@ RUN npm install
 # Copy source files
 COPY ./admin-country-ui/ .
 
+# install components library dependencies
+WORKDIR /countryAdminApp/USupport-components-library
+RUN npm install
+
+WORKDIR /countryAdminApp
+
 # Building app
 RUN npm run build --prod
 
@@ -72,28 +90,7 @@ RUN npm run build --prod
 RUN npm prune --production
 
 ###
-# Stage 4 - build cms webapp
-###
-
-# set working directory
-WORKDIR /cmsAdminApp
-
-# install app dependencies
-COPY ./cms/package.json         ./
-COPY ./cms/package-lock.json    ./
-RUN npm install
-
-# Copy source files
-COPY ./cms/ .
-
-# Building app
-RUN npm run build --omit=dev
-
-# remove dev dependencies
-RUN npm prune --production
-
-###
-# Stage 5 - build global admin webapp
+# Stage 4 - build global admin webapp
 ###
 
 # set working directory
@@ -107,6 +104,12 @@ RUN npm install
 # Copy source files
 COPY ./admin-global-ui/ .
 
+# install components library dependencies
+WORKDIR /globalAdminApp/USupport-components-library
+RUN npm install
+
+WORKDIR /globalAdminApp
+
 # Building app
 RUN npm run build --prod
 
@@ -114,7 +117,7 @@ RUN npm run build --prod
 RUN npm prune --production
 
 ###
-# Stage 6 - build website
+# Stage 5 - build website
 ###
 
 # set working directory
@@ -128,6 +131,12 @@ RUN npm install
 # Copy source files
 COPY ./website/ .
 
+# install components library dependencies
+WORKDIR /websiteApp/USupport-components-library
+RUN npm install
+
+WORKDIR /websiteApp
+
 # Building app
 RUN npm run build --prod
 
@@ -135,9 +144,11 @@ RUN npm run build --prod
 RUN npm prune --production
 
 ###
-# Stage 7 - nginx server
+# Stage 6 - nginx server
 ###
 FROM ${NGINX_VERSION}
+COPY ./webproxy/nginx-production.conf /etc/nginx/nginx.conf
+
 
 # copy web app builds to nginx/html
 COPY --from=webAppBuilds        /clientApp/dist    /usr/share/nginx/html/client
@@ -145,4 +156,5 @@ COPY --from=webAppBuilds        /providerApp/dist  /usr/share/nginx/html/provide
 COPY --from=webAppBuilds        /countryAdminApp/dist     /usr/share/nginx/html/country-admin
 COPY --from=webAppBuilds        /globalAdminApp/dist     /usr/share/nginx/html/global-admin
 COPY --from=webAppBuilds        /websiteApp/dist     /usr/share/nginx/html/website
-COPY --from=webAppBuilds        /cmsAdminApp/build     /usr/share/nginx/html/cmsAdmin
+
+EXPOSE 80

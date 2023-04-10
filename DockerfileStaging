@@ -147,6 +147,7 @@ RUN npm prune --production
 # Stage 6 - nginx server
 ###
 FROM ${NGINX_VERSION}
+COPY ./webproxy/nginx-staging.conf /etc/nginx/nginx.conf
 
 # copy web app builds to nginx/html
 COPY --from=webAppBuilds        /clientApp/dist    /usr/share/nginx/html/client
@@ -154,3 +155,5 @@ COPY --from=webAppBuilds        /providerApp/dist  /usr/share/nginx/html/provide
 COPY --from=webAppBuilds        /countryAdminApp/dist     /usr/share/nginx/html/country-admin
 COPY --from=webAppBuilds        /globalAdminApp/dist     /usr/share/nginx/html/global-admin
 COPY --from=webAppBuilds        /websiteApp/dist     /usr/share/nginx/html/website
+
+EXPOSE 80

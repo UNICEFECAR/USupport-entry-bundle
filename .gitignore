@@ -44,3 +44,6 @@ api/logs/*
 
 # translation files
 translations/*.xlsx
+
+# nginx certificates
+**/certs/**
