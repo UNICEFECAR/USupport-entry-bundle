@@ -39,12 +39,14 @@ then
             then
                 cd $el
                 ./deploy.sh $ENV $REDEPLOY
+                cd ..
             fi
         done
     else 
         # Deploying individual pod
         cd $POD
         ./deploy.sh $ENV $REDEPLOY
+        cd ..
     fi
 
 else

@@ -106,10 +106,10 @@ Each service has the same kubernetes configuration folder called `kube-config`. 
 
 
 # Useful resources: 
-[How to Setup a New EKS Cluster](https://logz.io/blog/amazon-eks-cluster/)
-[How to Build and Push Docker Images to AWS ECR](https://www.freecodecamp.org/news/build-and-push-docker-images-to-aws-ecr/)
-[Handling env variables in K8s](https://humanitec.com/blog/handling-environment-variables-with-kubernetes)
-[Accessing Resources From Outside the Cluster VPC - RDS example](https://dev.to/bensooraj/accessing-amazon-rds-from-aws-eks-2pc3)
-[NLB - Using TLS for Your Cluster Ingress](https://aws.amazon.com/blogs/opensource/network-load-balancer-nginx-ingress-controller-eks/)
-[List of Max Pods Supported For Each K8s Node Instance](https://github.com/awslabs/amazon-eks-ami/blob/master/files/eni-max-pods.txt)
-[Base64 Encoder](https://www.base64encode.org)
+- [How to Setup a New EKS Cluster](https://logz.io/blog/amazon-eks-cluster/)
+- [How to Build and Push Docker Images to AWS ECR](https://www.freecodecamp.org/news/build-and-push-docker-images-to-aws-ecr/)
+- [Handling env variables in K8s](https://humanitec.com/blog/handling-environment-variables-with-kubernetes)
+- [Accessing Resources From Outside the Cluster VPC - RDS example](https://dev.to/bensooraj/accessing-amazon-rds-from-aws-eks-2pc3)
+- [NLB - Using TLS for Your Cluster Ingress](https://aws.amazon.com/blogs/opensource/network-load-balancer-nginx-ingress-controller-eks/)
+- [List of Max Pods Supported For Each K8s Node Instance](https://github.com/awslabs/amazon-eks-ami/blob/master/files/eni-max-pods.txt)
+- [Base64 Encoder](https://www.base64encode.org)
