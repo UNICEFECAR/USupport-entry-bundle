@@ -71,6 +71,17 @@ Make sure you have the following tools installed:
 - Change `~/.docker/config.json` to be `"credsStore": "ecr-login"`
 - Add `secrets.yaml` files for each pod and environment
 
+## Apple Silicon laptop
+- Add at the end of your ~/.zshrc file the following line `export DOCKER_DEFAULT_PLATFORM=linux/amd64`
+- Ensure that the installed K8S version is 1.23.6, otherwise apply the following commands:
+```
+curl -LO https://storage.googleapis.com/kubernetes-release/release/v1.23.6/bin/darwin/amd64/kubectl
+
+chmod +x ./kubectl
+
+sudo mv ./kubectl /usr/local/bin/kubectl
+```
+
 # How to deploy or redeploy an API pod
 The first time you want to deploy a new pod to the cluster you can use the following command from the root folder of the project: 
 `./kube-deploy.sh {pod folder name} {staging | prod} deploy`
