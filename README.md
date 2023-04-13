@@ -66,6 +66,7 @@ Here we explain how to set up your local machine so you are able to run, maintai
 Make sure you have the following tools installed: 
 - AWS CLI - click [here](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html) for instructions. 
 - Kubectl - used for communicating with the cluster. You need this to be able to control each pod. Click [here](https://docs.aws.amazon.com/eks/latest/userguide/install-kubectl.html) for instructions
+- Install AWS IAM Authenticator - `brew install aws-iam-authenticator`
 - Amazon ECR Docker Credential Helper - [GitHub Repo](https://github.com/awslabs/amazon-ecr-credential-helper)
 - Change `~/.docker/config.json` to be `"credsStore": "ecr-login"`
 - Add `secrets.yaml` files for each pod and environment

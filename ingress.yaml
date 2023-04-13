@@ -3,8 +3,8 @@ kind: Ingress
 metadata:
   name: nginx-ingress
   annotations:
-    nginx.ingress.kubernetes.io/ssl-redirect: "false"
-    nginx.ingress.kubernetes.io/force-ssl-redirect: "false"
+    nginx.ingress.kubernetes.io/ssl-redirect: "true"
+    nginx.ingress.kubernetes.io/force-ssl-redirect: "true"
     nginx.ingress.kubernetes.io/from-to-www-redirect: "true"
 spec:
   ingressClassName: nginx
@@ -18,4 +18,7 @@ spec:
             name: webproxy-service
             port:
               number: 80
-
+  tls:
+  - hosts:
+      - "*.usupport.online"
+    secretName: tls-secret
