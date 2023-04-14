@@ -6,6 +6,8 @@ metadata:
     nginx.ingress.kubernetes.io/ssl-redirect: "true"
     nginx.ingress.kubernetes.io/force-ssl-redirect: "true"
     nginx.ingress.kubernetes.io/from-to-www-redirect: "true"
+    nginx.ingress.kubernetes.io/configuration-snippet: |
+      include                     /etc/nginx/mime.types;
 spec:
   ingressClassName: nginx
   rules:
@@ -21,4 +23,5 @@ spec:
   tls:
   - hosts:
       - "*.usupport.online"
+      - "usupport.online"
     secretName: tls-secret
