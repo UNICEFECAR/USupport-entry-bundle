@@ -1,6 +1,6 @@
 ENV=$1 # Deployment environment
 
-declare -a KUBE_PODS=("admin" "client" "cms" "email" "gateway" "messaging" "notifications" "payments" "payments" "provider" "user" "video" "webproxy")
+declare -a KUBE_PODS=("admin" "client" "cms" "email" "gateway" "messaging" "notifications" "payments" "payments" "provider" "user" "video")
 
 if [ "$ENV" != 'staging' ] && [ "$ENV" != 'prod' ]
 then    
