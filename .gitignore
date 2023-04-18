@@ -41,3 +41,9 @@ api/logs/*
 # redis cache data
 **/cache/**
 .VSCodeCounter
+
+# translation files
+translations/*.xlsx
+
+# nginx certificates
+**/certs/**
