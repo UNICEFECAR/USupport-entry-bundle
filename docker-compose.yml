@@ -1,124 +1,239 @@
 version: "3.8"
 services:
-  webproxy:
-    container_name: webproxy
-    build:
-      context: ./
-      dockerfile: Dockerfile
-    ports:
-      - "80:80"
-    networks:
-      - USupportNet
-
   gateway:
     container_name: gateway
+    restart: "unless-stopped"
     image: node:16.5.0-alpine3.13
+    working_dir: /home/node/app
+    depends_on:
+      - client
+      - provider
+      - video
+      - payments
+      - notifications
+      - messaging
+      - admin
+      - email
+    volumes:
+      - ./gateway:/home/node/app
+    env_file:
+      - ./gateway/.env.local
     ports:
       - 3000:3000
     expose:
       - 3000
+    command: >
+      sh -c "npm ci &&
+              npm run dev"
     networks:
       - USupportNet
 
   client:
     container_name: client
+    restart: "unless-stopped"
     image: node:16.5.0-alpine3.13
+    working_dir: /home/node/app
+    depends_on:
+      - piidb
+      - clinicaldb
+      - masterdb
+    volumes:
+      - ./client/service:/home/node/app
+    env_file:
+      - ./client/service/.env.local
     ports:
       - 3001:3001
     expose:
       - 3001
+    command: >
+      sh -c "npm ci &&
+              npm run dev"
     networks:
       - USupportNet
 
   provider:
     container_name: provider
+    restart: "unless-stopped"
     image: node:16.5.0-alpine3.13
+    working_dir: /home/node/app
+    depends_on:
+      - piidb
+      - clinicaldb
+      - masterdb
+      - kafka
+    volumes:
+      - ./provider/service:/home/node/app
+    env_file:
+      - ./provider/service/.env.local
     ports:
       - 3002:3002
     expose:
       - 3002
+    command: >
+      sh -c "npm ci &&
+              npm run dev"
     networks:
       - USupportNet
 
   video:
     container_name: video
+    restart: "unless-stopped"
     image: node:16.5.0-alpine3.13
+    working_dir: /home/node/app
+    depends_on:
+      - piidb
+      - clinicaldb
+      - masterdb
+    volumes:
+      - ./video/service:/home/node/app
+    env_file:
+      - ./video/service/.env.local
     ports:
       - 3003:3003
     expose:
       - 3003
+    command: >
+      sh -c "npm ci &&
+              npm run dev"
     networks:
       - USupportNet
 
   payments:
     container_name: payments
+    restart: "unless-stopped"
     image: node:16.5.0-alpine3.13
+    working_dir: /home/node/app
+    depends_on:
+      - piidb
+      - clinicaldb
+      - masterdb
+    volumes:
+      - ./payments/service:/home/node/app
+    env_file:
+      - ./payments/service/.env.local
     ports:
       - 3004:3004
     expose:
       - 3004
+    command: >
+      sh -c "npm ci &&
+              npm run dev"
     networks:
       - USupportNet
 
   notifications:
     container_name: notifications
+    restart: "unless-stopped"
     image: node:16.5.0-alpine3.13
+    working_dir: /home/node/app
+    depends_on:
+      - piidb
+      - clinicaldb
+      - masterdb
+      - kafka
+    volumes:
+      - ./notifications/service:/home/node/app
+    env_file:
+      - ./notifications/service/.env.local
     ports:
       - 3005:3005
     expose:
       - 3005
+    command: >
+      sh -c "npm ci &&
+              npm run dev"
     networks:
       - USupportNet
 
   messaging:
     container_name: messaging
+    restart: "unless-stopped"
     image: node:16.5.0-alpine3.13
+    working_dir: /home/node/app
+    depends_on:
+      - piidb
+      - clinicaldb
+      - masterdb
+    volumes:
+      - ./messaging/service:/home/node/app
+    env_file:
+      - ./messaging/service/.env.local
     ports:
       - 3006:3006
     expose:
       - 3006
+    command: >
+      sh -c "npm ci &&
+              npm run dev"
     networks:
       - USupportNet
 
   admin:
     container_name: admin
+    restart: "unless-stopped"
     image: node:16.5.0-alpine3.13
+    working_dir: /home/node/app
+    depends_on:
+      - piidb
+      - clinicaldb
+      - masterdb
+      - kafka
+    volumes:
+      - ./admin/service:/home/node/app
+    env_file:
+      - ./admin/service/.env.local
     ports:
       - 3007:3007
     expose:
       - 3007
+    command: >
+      sh -c "npm ci &&
+              npm run dev"
     networks:
       - USupportNet
 
   email:
     container_name: email
+    restart: "unless-stopped"
     image: node:16.5.0-alpine3.13
+    working_dir: /home/node/app
+    depends_on:
+      - piidb
+      - clinicaldb
+      - masterdb
+      - kafka
+    volumes:
+      - ./email/service:/home/node/app
+    env_file:
+      - ./email/service/.env.local
     ports:
       - 3008:3008
     expose:
       - 3008
-    networks:
-      - USupportNet
-
-  cms:
-    container_name: cms
-    build:
-      context: ./cms
-      dockerfile: Dockerfile
-    ports:
-      - 3009:3009
-    expose:
-      - 3009
+    command: >
+      sh -c "npm ci &&
+              npm run dev"
     networks:
       - USupportNet
 
   user:
     container_name: user
+    restart: "unless-stopped"
     image: node:16.5.0-alpine3.13
+    depends_on:
+      - kafka
+    working_dir: /home/node/app
+    volumes:
+      - ./user/service:/home/node/app
+    env_file:
+      - ./user/service/.env.local
     ports:
       - 3010:3010
     expose:
       - 3010
+    command: >
+      sh -c "npm ci &&
+              npm run dev"
     networks:
       - USupportNet
 
@@ -127,6 +242,11 @@ services:
     build:
       context: ./databases/masterDB
       dockerfile: Dockerfile
+    hostname: masterdb
+    volumes:
+      - ./databases/masterDB/data/db/:/var/lib/postgresql/data/
+    env_file:
+      - ./databases/masterDB/.env.local
     ports:
       - "5435:5432"
     networks:
@@ -137,6 +257,11 @@ services:
     build:
       context: ./databases/piiDB
       dockerfile: Dockerfile
+    hostname: piidb
+    volumes:
+      - ./databases/piiDB/data/db/:/var/lib/postgresql/data/
+    env_file:
+      - ./databases/piiDB/.env.local
     ports:
       - "5436:5432"
     networks:
@@ -147,18 +272,13 @@ services:
     build:
       context: ./databases/clinicalDB
       dockerfile: Dockerfile
+    hostname: clinicaldb
+    volumes:
+      - ./databases/clinicalDB/data/db/:/var/lib/postgresql/data/
+    env_file:
+      - ./databases/clinicalDB/.env.local
     ports:
       - "5437:5432"
-    networks:
-      - USupportNet
-
-  cmsdb:
-    container_name: cmsDB
-    build:
-      context: ./databases/cmsDB
-      dockerfile: Dockerfile
-    ports:
-      - "5438:5432"
     networks:
       - USupportNet
 
@@ -167,6 +287,9 @@ services:
     container_name: zookeeper
     ports:
       - "2181:2181"
+    environment:
+      ZOOKEEPER_CLIENT_PORT: 2181
+      ZOOKEEPER_TICK_TIME: 2000
     networks:
       - USupportNet
 
@@ -175,12 +298,25 @@ services:
     container_name: kafka
     ports:
       - "9092:9092"
+    depends_on:
+      - zookeeper
+    environment:
+      KAFKA_ADVERTISED_HOST_NAME: kafka:9092
+      KAFKA_ZOOKEEPER_CONNECT: zookeeper:2181
+      KAFKA_ADVERTISED_LISTENERS: PLAINTEXT://kafka:9092
+      KAFKA_OFFSETS_TOPIC_REPLICATION_FACTOR: 1
+      KAFKA_TRANSACTION_STATE_LOG_MIN_ISR: 1
+      KAFKA_TRANSACTION_STATE_LOG_REPLICATION_FACTOR: 1
     networks:
       - USupportNet
 
   redis:
     image: redis:6.2-alpine
     container_name: redis
+    restart: unless-stopped
+    command: ["redis-server", "--appendonly", "yes"]
+    volumes:
+      - ./cache/redis-data:/data
     ports:
       - "6379:6379"
     networks:

@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: masterdb-service
+spec:
+  externalName: master-db-staging-global.cdzsrodlzhu9.eu-central-1.rds.amazonaws.com
+  type: ExternalName
