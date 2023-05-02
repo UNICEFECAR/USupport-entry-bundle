@@ -19,6 +19,4 @@ ALTER TABLE "transaction_log" RENAME COLUMN "coupon_id" TO "campaign_id";
 
 ALTER TABLE "consultation" ADD COLUMN "campaign_id" varchar;
 
-ALTER TABLE "consultation" ADD COLUMN "campaign_id" varchar;
-
 ALTER TYPE "notification_type" ADD VALUE 'consultation_started';
