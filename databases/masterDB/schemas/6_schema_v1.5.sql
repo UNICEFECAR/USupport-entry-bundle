@@ -21,3 +21,9 @@ UPDATE language SET local_name = 'Македонски' WHERE alpha2 = 'mk';
 UPDATE language SET local_name = 'Azərbaycan' WHERE alpha2 = 'az';
 UPDATE language SET local_name = 'Bosanski' WHERE alpha2 = 'bs';
 
+UPDATE admin
+SET phone = phone_prefix || phone
+WHERE phone <> 'DELETED';
+
+ALTER TABLE admin
+DROP COLUMN phone_prefix;
