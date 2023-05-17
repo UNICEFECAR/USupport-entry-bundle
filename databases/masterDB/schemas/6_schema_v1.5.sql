@@ -27,3 +27,28 @@ WHERE phone <> 'DELETED';
 
 ALTER TABLE admin
 DROP COLUMN phone_prefix;
+
+ALTER TABLE country ADD COLUMN local_name varchar;
+
+UPDATE country SET local_name = "Кыргызстан" WHERE alpha2 = "KG";
+UPDATE country SET local_name = "Азәрбајҹан" WHERE alpha2 = "AZ";
+UPDATE country SET local_name = "Shqipëria" WHERE alpha2 = "AL";
+UPDATE country SET local_name = "Crna Gora" WHERE alpha2 = "ME";
+UPDATE country SET local_name = "Беларусь" WHERE alpha2 = "BY";
+UPDATE country SET local_name = "Bosna i Hercegovina" WHERE alpha2 = "BA";
+UPDATE country SET local_name = "Қазақстан" WHERE alpha2 = "KZ";
+UPDATE country SET local_name = "Kosova" WHERE alpha2 = "XK";
+UPDATE country SET local_name = "Moldova" WHERE alpha2 = "MD";
+UPDATE country SET local_name = "România" WHERE alpha2 = "RO";
+UPDATE country SET local_name = "Oʻzbekiston”" WHERE alpha2 = "UZ";
+UPDATE country SET local_name = "България" WHERE alpha2 = "BG";
+UPDATE country SET local_name = "Україна" WHERE alpha2 = "UA";
+UPDATE country SET local_name = "Türkmenistan" WHERE alpha2 = "TM";
+UPDATE country SET local_name = "Հայաստան" WHERE alpha2 = "AM";
+UPDATE country SET local_name = "Тоҷикистон" WHERE alpha2 = "TJ";
+UPDATE country SET local_name = "საქართველო" WHERE alpha2 = "GE";
+UPDATE country SET local_name = "Северна Македонија" WHERE alpha2 = "MK";
+UPDATE country SET local_name = "Hrvatska" WHERE alpha2 = "HR";
+UPDATE country SET local_name = "Россия" WHERE alpha2 = "RU";
+UPDATE country SET local_name = "Slovenija" WHERE alpha2 = "SI";
+UPDATE country SET local_name = "Србија" WHERE alpha2 = "RS";
