@@ -16,21 +16,21 @@ Setup:
 
 1. Run `./setup.sh` script in the root directory of the project. If you get permissions error run `chmod 777 setup.sh`
 2. Create a JWT secret key and add it to the "JWT_KEY" field in the following files:
-   `./admin/.env.local`
-   `./user/.env.local`
+   `./admin/service/.env.local`
+   `./user/service/.env.local`
 3. To use the payments functionality you need to create a Stripe account. After creating the account, you need to fullfill the following keys:
    - "STRIPE_SECRET_KEY"
    - "STRIPE_WEBHOOK_ENDPOIN_SECRET"
-     in the `./payments/.env.local` file
+     in the `./payments/service/.env.local` file
 4. To use the uploading images functionality you need to create AWS S3 bucket. After creating the bucket you will need to fulfill the following keys:
    - "AWS_ACCESS_KEY_ID"
    - "AWS_SECRET_ACCESS_KEY"
    - "AWS_REGION"
    - "AWS_BUCKET_NAME"
      in the following files:
-     `./client/.env.local`
-     `./provider/.env.local`
-     `./user/.env.local`
+     `./client/service/.env.local`
+     `./provider/service/.env.local`
+     `./user/service/.env.local`
      and
    - VITE_AMAZON_S3_BUCKET
      in the following files:
@@ -45,11 +45,11 @@ Setup:
    - "TWILIO_API_SID"
    - "TWILIO_API_SECRET"
    - "TWILIO_AUTH_TOKEN"
-     in the `user/.env.local/` file
+     in the `user/service/.env.local/` file
      and
    - "TWILIO_ACCOUNT_SID"
    - "TWILIO_AUTH_TOKEN"
-     in the `./provider/.env.local`file
+     in the `./provider/service/.env.local`file
 6. To use the email functionality you need access to an email account that can be used to setup the email service. The following enviorment variables need to be fullfilled:
    -"EMAIL_SENDER"
    -"EMAIL_SENDER_PASSWORD"
@@ -70,13 +70,15 @@ Local Deployment:
 - run `./deploy.sh local`
 - run + database drop: `./deploy.sh local drop`
 
-In the root directory, run `docker-compose -f docker-compose.yml -up -d --build` to run all the docker containers configured for a local environment
+The above commands wil configure the local databse and run all the contaiers.
 
 Notes:
 
-1. Note that once built you can stop the services using `docker-compose -f docker-compose-local.yml down`. If running on staging or production use the relevant docker-compose file to stop the containers.
-2. To add a new dependency, still run `npm install {dependency}`. To upgrade, use either `npm update {dependency}` or `npm install ${dependendency}@{version}` and commit the changed `package-lock.json`. If an upgrade fails, revert to the last known working `package-lock.json`
-3. After running `npm audit fix` remember to commit any changes to `package-lock.json` to the repo
+1. To track the logs for all the containers run `docker-compose logs -f`.
+2. Note that once built you can stop the services using `docker-compose -f docker-compose.yml down`. If running on staging or production use the relevant docker-compose file to stop the containers.
+3. If you need to rebuild the containers, run `docker-compose -f docker-compose.yml up -d --build`
+4. To add a new dependency, still run `npm install {dependency}`. To upgrade, use either `npm update {dependency}` or `npm install ${dependendency}@{version}` and commit the changed `package-lock.json`. If an upgrade fails, revert to the last known working `package-lock.json`
+5. After running `npm audit fix` remember to commit any changes to `package-lock.json` to the repo
 
 ## Committing changes in submodules
 
