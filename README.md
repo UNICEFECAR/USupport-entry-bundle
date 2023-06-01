@@ -79,6 +79,7 @@ Notes:
 3. If you need to rebuild the containers, run `docker-compose -f docker-compose.yml up -d --build`
 4. To add a new dependency, still run `npm install {dependency}`. To upgrade, use either `npm update {dependency}` or `npm install ${dependendency}@{version}` and commit the changed `package-lock.json`. If an upgrade fails, revert to the last known working `package-lock.json`
 5. After running `npm audit fix` remember to commit any changes to `package-lock.json` to the repo
+6. Each UI runs on a port that is specified in it's package.json file. To change it, change the port number in the package.json "dev" script
 
 ## Committing changes in submodules
 
