@@ -75,15 +75,29 @@ The above commands wil configure the local databse and run all the contaiers.
 Notes:
 
 1. To track the logs for all the containers run `docker-compose logs -f`.
-2. Note that once built you can stop the services using `docker-compose -f docker-compose.yml down`. If running on staging or production use the relevant docker-compose file to stop the containers.
-3. If you need to rebuild the containers, run `docker-compose -f docker-compose.yml up -d --build`
-4. To add a new dependency, still run `npm install {dependency}`. To upgrade, use either `npm update {dependency}` or `npm install ${dependendency}@{version}` and commit the changed `package-lock.json`. If an upgrade fails, revert to the last known working `package-lock.json`
-5. After running `npm audit fix` remember to commit any changes to `package-lock.json` to the repo
-6. Each UI runs on a port that is specified in it's package.json file. To change it, change the port number in the package.json "dev" script
+2. To see logs for a single container run
+
+   ```sh
+   docker-compose logs -f {container_name}
+   ```
+
+3. Note that once built you can stop the services using `docker-compose -f docker-compose.yml down`. If running on staging or production use the relevant docker-compose file to stop the containers.
+4. If you need to rebuild the containers, run `docker-compose -f docker-compose.yml up -d --build`
+5. To restart a single container run:
+
+   ```sh
+   docker-compose stop {container_name}
+   docker-compose rm -f {container_name}
+   docker compose -f docker-compose.yml up -d --build {container_name}
+   ```
+
+6. To add a new dependency, still run `npm install {dependency}`. To upgrade, use either `npm update {dependency}` or `npm install ${dependendency}@{version}` and commit the changed `package-lock.json`. If an upgrade fails, revert to the last known working `package-lock.json`
+7. After running `npm audit fix` remember to commit any changes to `package-lock.json` to the repo
+8. Each UI runs on a port that is specified in it's package.json file. To change it, change the port number in the package.json "dev" script
 
 ## Committing changes in submodules
 
-```
+```sh
 cd your_submodule
 git commit -a -m "{commit message}"
 git push
