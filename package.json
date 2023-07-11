@@ -1,0 +1,22 @@
+{
+  "name": "entry-bundle",
+  "version": "1.0.0",
+  "description": "Main repository for the USupport API services",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UNICEFECAR/USupport-entry-bundle.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/UNICEFECAR/USupport-entry-bundle/issues"
+  },
+  "homepage": "https://github.com/UNICEFECAR/USupport-entry-bundle#readme",
+  "devDependencies": {
+    "eslint": "^8.44.0",
+    "eslint-plugin-react": "^7.32.2"
+  }
+}

@@ -1,0 +1,38 @@
+name: Lint
+
+on:
+  push:
+    branches:
+      - main
+      - development
+      - test-lint
+  pull-request:
+    branches:
+      - main
+      - development
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v2
+
+      - name: Iterate over submodules
+        id: submodule
+        run: |
+          git submodule init
+          git submodule update --remote --recursive
+          submodules=$(git submodule | awk '{ print $2 }')
+          for submodule in $submodules; do
+            cd $submodule
+            npm ci
+            npm run lint
+            cd ..
+          done
+
+      - name: Run ESLint on each submodule
+        uses: wearerequired/lint-action@v2
+        with:
+          eslint: true
