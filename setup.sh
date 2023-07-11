@@ -34,6 +34,19 @@ cd ../../gateway && cp .env.sample .env.local && npm ci
 
 echo "Entering Website UI"
 cd ../website && npm ci
+
+echo "Entering Country Admin UI"
+cd ../admin-country-ui && npm ci
+
+echo "Entering Global Admin UI"
+cd ../admin-global-ui && npm ci
+
+echo "Entering Provider UI"
+cd ../provider-ui && npm ci
+
+echo "Entering Client UI"
+cd ../client-ui && npm ci
+
 git submodule init
 git submodule update
 

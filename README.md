@@ -2,6 +2,11 @@
 
 Main repository for the USupport API services
 
+# Before you start
+
+1. Make sure that Node.js and NPM is installed on your system.
+   [Download Node.js](https://nodejs.org/en/download/)
+
 ## Installation
 
 This is the entry bundle repository for all USupport web services (webapps + API services).
