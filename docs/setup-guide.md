@@ -18,12 +18,19 @@ Setup:
 
 1. Run `./setup.sh` script in the root directory of the project. If you get permissions error run `chmod 777 setup.sh`
 2. Create a JWT secret key and add it to the "JWT_KEY" field in the following files: `./admin/service/.env.local` `./user/service/.env.local`
-3. To use the payments functionality you need to create a Stripe account. After creating the account, you need to fullfill the following keys:
+3. To use the payments functionality you need to create a Stripe account. After creating the account, you need to fullfill the following:
 
-   - "STRIPE_SECRET_KEY"
-   - "STRIPE_WEBHOOK_ENDPOINT_SECRET" in the `./payments/service/.env.local` file
+   3.1 Stripe keys
+      - "STRIPE_SECRET_KEY"
+      - "STRIPE_WEBHOOK_ENDPOINT_SECRET" in the `./payments/service/.env.local` file
 
-[Instructions for creating Stripe keys](https://stripe.com/docs/keys)
+      [Instructions for creating Stripe keys](https://stripe.com/docs/keys)
+
+   3.2 Stripe Webhooks
+      - "payment_intent.succeeded" is the type of event which the webhook should handle
+        
+      [Instructions for creating Stripe webhooks](https://stripe.com/docs/development/dashboard/register-webhook)
+
 
 4. To use the uploading images functionality you need to create AWS S3 bucket. After creating the bucket you will need to fulfill the following keys:
 
@@ -33,9 +40,9 @@ Setup:
    - "AWS_BUCKET_NAME" in the following files: `./client/service/.env.local` `./provider/service/.env.local` `./user/service/.env.local` and
    - VITE_AMAZON_S3_BUCKET in the following files: `./website/.env.development` `./client-ui/.env.development` `./provider-ui/.env.development` `./user-ui/.env.development` `./admin-country-ui/.env.development` `./admin-global-ui/.env.development`
 
-[Instruction for creating AWS Account and Access Keys](https://docs.aws.amazon.com/powershell/latest/userguide/pstools-appendix-sign-up.html)
+   [Instruction for creating AWS Account and Access Keys](https://docs.aws.amazon.com/powershell/latest/userguide/pstools-appendix-sign-up.html)
 
-[Instructions for creating Create AWS S3 Bucket](https://docs.aws.amazon.com/AmazonS3/latest/userguide/creating-bucket.html)
+   [Instructions for creating Create AWS S3 Bucket](https://docs.aws.amazon.com/AmazonS3/latest/userguide/creating-bucket.html)
 
 5. To use the video consultation functionality you need to create Twilio account. After creating the account you need to fullfill the following keys:
 
@@ -46,7 +53,7 @@ Setup:
 - "TWILIO_ACCOUNT_SID"
 - "TWILIO_AUTH_TOKEN" in the `./provider/service/.env.local`file
 
-[Instructions for finding Twilio Access Keys](https://missiveapp.com/faq/twilio-credentials)
+   [Instructions for finding Twilio Access Keys](https://missiveapp.com/faq/twilio-credentials)
 
 6. To use the email functionality you need access to an email account that can be used to setup the email service. The following enviorment variables need to be fullfilled: -"EMAIL_SENDER" -"EMAIL_SENDER_PASSWORD" -"EMAIL_HOST" -"EMAIL_PORT" -"RECIEVERS" in the `./email/.env.local` file
 
