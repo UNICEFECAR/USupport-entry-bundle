@@ -6,11 +6,12 @@
 
 * [Glossary / Terminology](introduction/glossary-terminology.md)
 * [Releases / Changelog\*](introduction/releases-changelog.md)
+* [Setup](introduction/setup.md)
 
 ## UI Usage Manuals
 
 * [🌎 Global Admin](ui-usage-manuals/global-admin.md)
-* [🏢 Country Admin ](ui-usage-manuals/country-admin.md)
+* [🏢 Country Admin](ui-usage-manuals/country-admin.md)
 * [👩⚕ Provider](ui-usage-manuals/provider.md)
 * [📚 CMS](ui-usage-manuals/cms.md)
 * [🤷♂ Client](ui-usage-manuals/client.md)
