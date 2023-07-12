@@ -1,6 +1,6 @@
 # Table of contents
 
-* [README](README.md)
+* [Installation Guide](README.md)
 
 ## UI Usage Manuals
 
