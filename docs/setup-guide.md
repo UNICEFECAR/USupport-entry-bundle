@@ -23,7 +23,7 @@ Setup:
    - "STRIPE_SECRET_KEY"
    - "STRIPE_WEBHOOK_ENDPOIN_SECRET" in the `./payments/service/.env.local` file
 
-[Instructions for creating Stripe keys][Stripe documentation](https://stripe.com/docs/keys)
+[Instructions for creating Stripe keys](Stripe documentation](https://stripe.com/docs/keys)
 
 4. To use the uploading images functionality you need to create AWS S3 bucket. After creating the bucket you will need to fulfill the following keys:
 
