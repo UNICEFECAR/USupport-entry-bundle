@@ -1,4 +1,4 @@
-# 🏢 Country Admin&#x20;
+# 🏢 Country Admin
 
 \
 
@@ -182,7 +182,7 @@ Step 4:       Insert OTP which was sent to the email address.
 
 
 
-<figure><img src="../.gitbook/assets/image005 (1).png" alt=""><figcaption><p>Figure 1: Welcome Screen</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image005.png" alt=""><figcaption><p>Figure 1: Welcome Screen</p></figcaption></figure>
 
 
 
@@ -202,7 +202,7 @@ Step 2:       Insert a valid email address (see Figure 3)
 
 Step 3:       Check provided email address for recovery email
 
-<figure><img src="../.gitbook/assets/image008.png" alt=""><figcaption><p>Figure 4: Forgot Password Screen</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image008 (1).png" alt=""><figcaption><p>Figure 4: Forgot Password Screen</p></figcaption></figure>
 
 
 
@@ -228,11 +228,11 @@ Step 5:       Click the “Create provider” button to save the new details.
 
 
 
-<figure><img src="../.gitbook/assets/image011.png" alt=""><figcaption><p>Figure 6: Add new Provider Form</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image011 (1).png" alt=""><figcaption><p>Figure 6: Add new Provider Form</p></figcaption></figure>
 
 Note: Some of the input fields are mandatory and have validation in place. In order to create a new provider all the required fields have to be fulfilled. When the validation for one of the fields fails, the error will be shown below the input field, in red text (see Figure 6).
 
-<figure><img src="../.gitbook/assets/image012 (2).png" alt=""><figcaption><p>Figure 7: Input field validation error</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image012.png" alt=""><figcaption><p>Figure 7: Input field validation error</p></figcaption></figure>
 
 ### 4.   Edit Provider Details
 
@@ -250,9 +250,9 @@ Step 6:       Click on the “Save Changes” button.
 
 
 
-<figure><img src="../.gitbook/assets/image013.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image013 (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (31).png" alt=""><figcaption><p>Figure 8: Edit Provider Details</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (91).png" alt=""><figcaption><p>Figure 8: Edit Provider Details</p></figcaption></figure>
 
 ### 5.   Delete Provider <a href="#_toc130509591" id="_toc130509591"></a>
 
@@ -268,9 +268,9 @@ Step 4:       From the dropdown menu select “Delete”.
 
 <figure><img src="../.gitbook/assets/image014 (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (28).png" alt=""><figcaption><p>Figure 9: Deactivate existing provide account in list / table view</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (63).png" alt=""><figcaption><p>Figure 9: Deactivate existing provide account in list / table view</p></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (38).png" alt=""><figcaption><p>Figure 10: Deactivate provider profile confirmation.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (94).png" alt=""><figcaption><p>Figure 10: Deactivate provider profile confirmation.</p></figcaption></figure>
 
 Note:  After the provider's account is deactivated, they will lose the ability to make changes to their availability, join campaigns, propose consultations to clients, or show up in client searches. However, it's important to note that the provider will still have access to their account, be able to view their previous consultations, and conduct consultations that have already been scheduled.
 
@@ -290,13 +290,13 @@ Step 4:       From the dropdown menu select “Activity”.
 
 <figure><img src="../.gitbook/assets/image (141).png" alt=""><figcaption><p>Figure 11: Visualise Provider Activity</p></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (8).png" alt=""><figcaption><p>Figure 12: Provider Activity History</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (58).png" alt=""><figcaption><p>Figure 12: Provider Activity History</p></figcaption></figure>
 
 By reviewing the activity history, the country administrator can access details regarding the consultations performed by the provider. This information includes the client's name, date and time of the consultation, consultation price, and the campaign through which the consultation was booked.
 
 Additionally, the country administrator can export the displayed data in CSV format by clicking the export button and apply filters to the table using the filtering options provided below.
 
-<figure><img src="../.gitbook/assets/image (45).png" alt=""><figcaption><p>Figure 13: Provider activity history firltering options</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (99).png" alt=""><figcaption><p>Figure 13: Provider activity history firltering options</p></figcaption></figure>
 
 Filter options:
 
@@ -311,7 +311,7 @@ Step 2:       On the “Navigation Menu” select “Articles”.
 
 Step 3:       From the list of Articles tick the checkbox for the ones that should be displayed in the Information Portal.
 
-<figure><img src="../.gitbook/assets/image (52).png" alt=""><figcaption><p>Figure 14: Articles Screen</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (49).png" alt=""><figcaption><p>Figure 14: Articles Screen</p></figcaption></figure>
 
 In Figure 14 we can see how a country administrator can preview the pool of available articles. Each article presents a summary that includes an image, the title and a description. To see the entire content, the “view” button should be clicked. This action will redirect to a new page that presents the entire information about the selected article.
 
@@ -331,7 +331,7 @@ Step 2:       On the “Navigation Menu” select ”SOS centre”.
 
 Step 3:       From the list of SOS centres tick the checkbox for the ones that should be displayed to the clients for the current country.
 
-<figure><img src="../.gitbook/assets/image (97).png" alt=""><figcaption><p>Figure 15: SOS centres Screen</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (44).png" alt=""><figcaption><p>Figure 15: SOS centres Screen</p></figcaption></figure>
 
 Note:
 
@@ -349,7 +349,7 @@ Step 3:       From the tab bar select a user interface.
 
 Step 4:       From the list of FAQs tick the checkbox for the ones that should be displayed for the currently selected interface.
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption><p>Figure 16: FAQs Screen</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (71).png" alt=""><figcaption><p>Figure 16: FAQs Screen</p></figcaption></figure>
 
 Frequently asked questions are created using the USupport CMS platform by moderators. The FAQs are presented in three different interfaces: Commercial Website, Client, and Provider, as for each interface, different questions might be more relevant than others. Therefore, the country administrators are able to choose different FAQs for each of the interfaces.
 
@@ -373,9 +373,9 @@ Step 4:       Fulfil the form with sponsors’ details.
 
 Step 5:       Click the “Create sponsor” button.
 
-<figure><img src="../.gitbook/assets/image (53).png" alt=""><figcaption><p>Figure 17: Campaign sponsor screen</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (50).png" alt=""><figcaption><p>Figure 17: Campaign sponsor screen</p></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (46).png" alt=""><figcaption><p>Figure 18: Add new Sponsor form</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (100).png" alt=""><figcaption><p>Figure 18: Add new Sponsor form</p></figcaption></figure>
 
 The following information is required for creating a new sponsor:
 
@@ -402,7 +402,7 @@ Step 5:       Update the sponsor data.
 
 Step 6:       Click on the “Save Changes” button.
 
-<figure><img src="../.gitbook/assets/image (98).png" alt=""><figcaption><p>Figure 19: Edit Sponsor details</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (45).png" alt=""><figcaption><p>Figure 19: Edit Sponsor details</p></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/image (108).png" alt=""><figcaption><p>Figure 20: Edit Sponsor Details</p></figcaption></figure>
 
@@ -422,11 +422,11 @@ Step 6:       Fulfil the form with campaign details.
 
 Step 7:       Click the “Create campaign” button.
 
-<figure><img src="../.gitbook/assets/image (34).png" alt=""><figcaption><p>Figure 21: Sponsors Screen</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (65).png" alt=""><figcaption><p>Figure 21: Sponsors Screen</p></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/image (107).png" alt=""><figcaption><p>Figure 22: Sponsor screen add new campaign</p></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (42).png" alt=""><figcaption><p>Figure 23: Creating new Campaign form</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (69).png" alt=""><figcaption><p>Figure 23: Creating new Campaign form</p></figcaption></figure>
 
 The following information is required for creating a new campaign:
 
@@ -462,9 +462,9 @@ Step 6:       Update the sponsor data.
 
 Step 7:       Click on the “Save Changes” button.
 
-<figure><img src="../.gitbook/assets/image (33).png" alt=""><figcaption><p>Figure 24: Edit campaign</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (92).png" alt=""><figcaption><p>Figure 24: Edit campaign</p></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption><p>Figure 25: Edit Campaign Details</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (72).png" alt=""><figcaption><p>Figure 25: Edit Campaign Details</p></figcaption></figure>
 
 ### 14.  View details about campaign
 
@@ -527,7 +527,7 @@ The report consists of:
 * The number of issues reported
 * The questions and the answers provided by the client
 
-<figure><img src="../.gitbook/assets/image (16).png" alt=""><figcaption><p>Figure 30: Consultation issues filtering options</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (81).png" alt=""><figcaption><p>Figure 30: Consultation issues filtering options</p></figcaption></figure>
 
 Filter options:
 
@@ -544,7 +544,7 @@ Note:
 
 The purpose of this report is to inform the country administrator about the topics that are of interest to clients, so that they can tailor the content development process accordingly.
 
-<figure><img src="../.gitbook/assets/image (103).png" alt=""><figcaption><p>Figure 31: Information Portal Suggestion report</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (52).png" alt=""><figcaption><p>Figure 31: Information Portal Suggestion report</p></figcaption></figure>
 
 The report consists of:
 
@@ -552,7 +552,7 @@ The report consists of:
 * Time and date when the suggestion was made
 * Suggestion text as written by the client
 
-<figure><img src="../.gitbook/assets/image (19).png" alt=""><figcaption><p>Figure 32: Information Portal Suggestions filtering options</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (83).png" alt=""><figcaption><p>Figure 32: Information Portal Suggestions filtering options</p></figcaption></figure>
 
 
 
@@ -565,7 +565,7 @@ Filter options:
 
 The reports presented in this section represent clients' evaluations of the platform itself and are not assessments of the providers or mobile applications.
 
-<figure><img src="../.gitbook/assets/image (47).png" alt=""><figcaption><p>Figure 33: Client Ratings report</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (101).png" alt=""><figcaption><p>Figure 33: Client Ratings report</p></figcaption></figure>
 
 The report consists of:
 
@@ -574,7 +574,7 @@ The report consists of:
 * Time and date
 * Feedback text as written by the client
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption><p>Figure 34: Client Ratings filtering options</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (70).png" alt=""><figcaption><p>Figure 34: Client Ratings filtering options</p></figcaption></figure>
 
 Filter options:
 
@@ -609,7 +609,7 @@ Filter options:
 
 This report aims to give country administrators an overview of the inquiries raised by clients and subsequently archived by providers for various reasons.
 
-<figure><img src="../.gitbook/assets/image (13).png" alt=""><figcaption><p>Figure 37: My Q&#x26;A Archive</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (78).png" alt=""><figcaption><p>Figure 37: My Q&#x26;A Archive</p></figcaption></figure>
 
 The report consists of:
 
@@ -625,13 +625,13 @@ Step 1:       Login to the Country Admin Interface.
 
 Step 2:       On the “Navigation Menu” select “My Q\&A”.
 
-<figure><img src="../.gitbook/assets/image (26).png" alt=""><figcaption><p>Figure 38: My Q&#x26;A screen</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (61).png" alt=""><figcaption><p>Figure 38: My Q&#x26;A screen</p></figcaption></figure>
 
 This screen showcases all the Q\&A sessions that have taken place within the platform. It provides country administrators with the flexibility to view unanswered questions or those that have been answered by providers, as depicted in Figure 38.
 
 Furthermore, the country administrators have the ability to filter the presented results using the options below or utilize the search function, which will match the results based on the Q\&A entry's title and tags.
 
-<figure><img src="../.gitbook/assets/image (27).png" alt=""><figcaption><p>Figure 39: My Q&#x26;A filtering options.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (62).png" alt=""><figcaption><p>Figure 39: My Q&#x26;A filtering options.</p></figcaption></figure>
 
 Filter options:
 

@@ -189,7 +189,7 @@ Step 1:     Navigate to the CMS Interface ([https://staging.usupport.online/cms/
 
 Step 2:     Insert valid login credentials email and password (see Figure 4).
 
-<figure><img src="../.gitbook/assets/image (77).png" alt=""><figcaption><p>Figure 4: Login Screen</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (11).png" alt=""><figcaption><p>Figure 4: Login Screen</p></figcaption></figure>
 
 The user can choose to tick the box labelled “Remember me” if he/she wishes that the log-in session lasts as long as the browser is open.
 
@@ -221,7 +221,7 @@ Step 5:  In the Locales dropdown, choose the new locale to be added and enter a 
 
 Step 6:  Click "Save".
 
-<figure><img src="../.gitbook/assets/image (83).png" alt=""><figcaption><p>Figure 6: Internalization managing languages</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (19).png" alt=""><figcaption><p>Figure 6: Internalization managing languages</p></figcaption></figure>
 
 Note:
 
@@ -249,7 +249,7 @@ Notes:
 * Media Library entries can be grouped in separate folders
 * Media Library data can be deleted. It is strongly advised to do so with high caution, having in mind that the file might be currently in use and linked to one or more existing Collection Type entries.
 
-<figure><img src="../.gitbook/assets/image (96).png" alt=""><figcaption><p>Figure 7: Media Library CMS Interface</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (43).png" alt=""><figcaption><p>Figure 7: Media Library CMS Interface</p></figcaption></figure>
 
 ### 8.     Create Collection Types
 
@@ -267,9 +267,9 @@ Step 5:     Fulfil the required fields (see Figure 9).
 
 Step 6:     On the top right corner click the “Save” button (see Figure 9).
 
-<figure><img src="../.gitbook/assets/image (92).png" alt=""><figcaption><p>Figure 8: Accessing Age Groups Content Type</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (33).png" alt=""><figcaption><p>Figure 8: Accessing Age Groups Content Type</p></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (75).png" alt=""><figcaption><p>Figure 9: Creating a new Collection Type</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (7).png" alt=""><figcaption><p>Figure 9: Creating a new Collection Type</p></figcaption></figure>
 
 There are multiple available content types within the USupport CMS platform, e.g. Articles, SOS Centers, and FAQs. The user role defines the access rights to the different Collection Types – see Table 1 bellow.
 
@@ -288,7 +288,7 @@ Table 1: Available Collection Types based on user roles
 
 Note: Entries within collections have specific validation put in place. After the Save button has been pressed the popup presented in the image below should be displayed. This means that your changes were successfully saved in the Database. In case you don't see it after trying to save the changes, most probably it happens because some of the fields that need to be fulfilled do not match the required validation. The fields that do not comply with the validation rules will show a red-coloured text, containing an error message. Check for these errors for all the available fields.
 
-<figure><img src="../.gitbook/assets/image (55).png" alt=""><figcaption><p>Figure 10: Popup showing that data was successfully saved</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (9).png" alt=""><figcaption><p>Figure 10: Popup showing that data was successfully saved</p></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/image (135).png" alt=""><figcaption><p>Figure 11: Field validation error</p></figcaption></figure>
 
@@ -366,9 +366,9 @@ Usage by other interfaces:
 
 * When creating Articles, we will see an option to link a category to the new Article entry. This will be used for filtering Articles in the UI interfaces.
 
-<figure><img src="../.gitbook/assets/image (74).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (78).png" alt=""><figcaption><p>Figure 13: Visual representation of assigning Categories, Age Groups and Tags to an Article before and after</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (13).png" alt=""><figcaption><p>Figure 13: Visual representation of assigning Categories, Age Groups and Tags to an Article before and after</p></figcaption></figure>
 
 #### 8.4.        Articles Collection Type
 
@@ -514,7 +514,7 @@ A content entry can be in two states, either “published” or “draft”.
 
 When we create a new piece of content (e.g., Article, Tag, Category etc.) and it is successfully saved the status of that entry is automatically set to “draft”. Once the content is reviewed by either an Editor or a Moderator the content can be transitioned to “published” by clicking one button (see Figure 12).
 
-<figure><img src="../.gitbook/assets/image (80).png" alt=""><figcaption><p>Figure 14: Article in "draft" state ready to be published</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (15).png" alt=""><figcaption><p>Figure 14: Article in "draft" state ready to be published</p></figcaption></figure>
 
 At any time, the article can be transitioned back from the “published” state to “draft” by clicking the “Unpublish” button that will be shown instead of the highlighted button in Figure 14.
 

@@ -80,7 +80,7 @@ Step 4:       Insert OTP which was sent to the email address.
 
 <figure><img src="../.gitbook/assets/image007 (1).png" alt=""><figcaption><p>Figure 2: Login Screen</p></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image008 (1).png" alt=""><figcaption><p>Figure 3: One time password verification screen</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image008.png" alt=""><figcaption><p>Figure 3: One time password verification screen</p></figcaption></figure>
 
 ### 2.   Forgot Password
 
@@ -90,7 +90,7 @@ Step 2:       Insert a valid email address (see Figure 3).
 
 Step 3:       Check provided email address for access recovery email.
 
-<figure><img src="../.gitbook/assets/image009.png" alt=""><figcaption><p>Figure 4: Forgot Password Screen</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image009 (1).png" alt=""><figcaption><p>Figure 4: Forgot Password Screen</p></figcaption></figure>
 
 If a valid and registered email address within the platform was provided, an automated email will be sent to it. The email will contain a temporary valid link that can be used to set a new password. Following this procedure, the user can access the account using the email address and the newly created password.
 

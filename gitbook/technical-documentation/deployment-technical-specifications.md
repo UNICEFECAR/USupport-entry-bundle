@@ -34,7 +34,7 @@ A single instance of the platform is designed to support multiple countries, lan
 
 ### Platform Components
 
-<figure><img src="../.gitbook/assets/image (71).png" alt=""><figcaption><p>Figure 1: Technical specifications</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption><p>Figure 1: Technical specifications</p></figcaption></figure>
 
 ### Globally managed Server
 

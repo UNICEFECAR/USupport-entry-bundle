@@ -1,4 +1,4 @@
-# 🤷♂ Client
+# 🤷♂ 🤷♂ Client
 
 
 
@@ -157,9 +157,9 @@ Step 3:       From the next screen select one of the registration options “Reg
 
 Step 4:       Insert valid login credentials - either an email or an access token.
 
-<figure><img src="../.gitbook/assets/image (18).png" alt=""><figcaption><p>Figure 1: Welcome Screen</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (59).png" alt=""><figcaption><p>Figure 1: Welcome Screen</p></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (15).png" alt=""><figcaption><p>Figure 2: Client Interface entry screen</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (80).png" alt=""><figcaption><p>Figure 2: Client Interface entry screen</p></figcaption></figure>
 
 #### 1.1.        Registration Options
 
@@ -167,15 +167,15 @@ All the registration options are highlighted in Figure 2.
 
 Option 1: This option requires the client to register using an existing email address. This registration method provides full access to the features available within the client interface.
 
-<figure><img src="../.gitbook/assets/image (35).png" alt=""><figcaption><p>Figure 3: Registration with email Step 1</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (66).png" alt=""><figcaption><p>Figure 3: Registration with email Step 1</p></figcaption></figure>
 
 The first step for registering into the platform using Option 1 is to provide a valid email address which was not used for previous registrations, a nickname a and password. Additionally, the client is required to agree with the “Privacy Policy” and “Terms of Conditions” and complete reCAPTCHA verification.
 
-<figure><img src="../.gitbook/assets/image (109).png" alt=""><figcaption><p>Figure 4:  Registration with email Step 2</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (110).png" alt=""><figcaption><p>Figure 4:  Registration with email Step 2</p></figcaption></figure>
 
 The second step in the option 1 registration flow requires further information such as name, surname, sex, year of birth and place of living. This information will be securely stored by the platform and can be modified by the client later on from the account settings.
 
-<figure><img src="../.gitbook/assets/image (37).png" alt=""><figcaption><p>Figure 5: Registration Step 3</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (93).png" alt=""><figcaption><p>Figure 5: Registration Step 3</p></figcaption></figure>
 
 The third step for this registration option asks the client if he/she needs urgent support. In case the client’s answer is “yes”, the platform will automatically redirect the user to schedule an appointment for psychological support. This procedure will be described later on.
 
@@ -199,7 +199,7 @@ Step 3:       From the next screen select “Login to the app” button (see Fig
 
 Step 4:       Insert valid login credentials - either an email or an access token
 
-<figure><img src="../.gitbook/assets/image (110).png" alt=""><figcaption><p>Figure 7: Login screen</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (109).png" alt=""><figcaption><p>Figure 7: Login screen</p></figcaption></figure>
 
 ### 3.   Forgot Password <a href="#_toc123778359" id="_toc123778359"></a>
 
@@ -215,7 +215,7 @@ Step 5:       Insert a valid email address see Figure 8.
 
 Step 6:       Check your email address for recovery email.
 
-<figure><img src="../.gitbook/assets/image (7).png" alt=""><figcaption><p>Figure 8: Forgot Password Screen</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (57).png" alt=""><figcaption><p>Figure 8: Forgot Password Screen</p></figcaption></figure>
 
 If a valid and registered email address within the platform was provided, an automated email will be sent to it. The email will contain a temporary valid link that can be used to set a new password. Following this procedure, the user can access the account using the email address and the new set password.
 
@@ -235,17 +235,17 @@ Step 6:       From the time availability pop-up select date and time and click t
 
 Step 7:       Once the appointment is scheduled a confirmation pop-up will be shown see Figure 17
 
-<figure><img src="../.gitbook/assets/image (59).png" alt=""><figcaption><p>Figure 9: Consultations Screen</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (23).png" alt=""><figcaption><p>Figure 9: Consultations Screen</p></figcaption></figure>
 
 Figure 9 presents the consultations screen. Two different tabs can be seen in the middle of the screen, namely “Upcoming” and “Past. These are available in order to provide the client with the capability to track their previous appointments with providers and their upcoming ones. We can notice that at this stage there are no upcoming appointments therefore this is clearly indicated, using an appropriate message “You have no upcoming consultations”.
 
-<figure><img src="../.gitbook/assets/image (21).png" alt=""><figcaption><p>Figure 10: Select a Provider Screen</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (85).png" alt=""><figcaption><p>Figure 10: Select a Provider Screen</p></figcaption></figure>
 
 Each shadowed box, as highlighted in red in Figure 10, represents a provider profile.
 
 Initially, upon accessing this screen, the client will see a default list of available providers. However, if the user has a coupon code, they can enter it into the system, and the platform will generate an updated list of providers that participate in the campaign associated with that coupon.
 
-<figure><img src="../.gitbook/assets/image (39).png" alt=""><figcaption><p>Figure 11: Using coupon code for finding providers</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (95).png" alt=""><figcaption><p>Figure 11: Using coupon code for finding providers</p></figcaption></figure>
 
 To utilize a coupon code, users must input a valid code into the designated field displayed in Figure 11. Once they click the "Submit coupon" button and the code is successfully validated, he list of providers will be updated to display only those who are participating in the campaign associated with the coupon. This updated list will be shown in Figure 12
 
@@ -253,7 +253,7 @@ To utilize a coupon code, users must input a valid code into the designated fiel
 
 By clicking on the "Remove coupon" button located in the top right corner, the user can eliminate the coupon filter.
 
-<figure><img src="../.gitbook/assets/image (17).png" alt=""><figcaption><p>Figure 13: Filtering options for the list of providers</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (82).png" alt=""><figcaption><p>Figure 13: Filtering options for the list of providers</p></figcaption></figure>
 
 Furthermore, the client has the ability to filter providers using the options displayed in Figure 13, which are also listed below.
 
@@ -267,7 +267,7 @@ Providers filtering options:
 * Maximum price
 * Language
 
-<figure><img src="../.gitbook/assets/image (29).png" alt=""><figcaption><p>Figure 14: Provider Overview Screen</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (89).png" alt=""><figcaption><p>Figure 14: Provider Overview Screen</p></figcaption></figure>
 
 Clicking on any of the listed providers allows the client to access additional information about their background and support capabilities, as depicted in Figure 14. This feature provides the client with a more in-depth understanding of each provider, allowing them to make a more informed decision when selecting a provider to work with.
 
@@ -277,7 +277,7 @@ Once a client decides to progress with scheduling an appointment with a specific
 
 Note: The slots that are presented here are based on the availability put in place by the specific provider. There might be days that don’t have available slots due to either the provider being fully booked or the provider not being available for consultations on that specific date.
 
-<figure><img src="../.gitbook/assets/image (20).png" alt=""><figcaption><p>Figure 16:  Payment screen within consultation booking process</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (84).png" alt=""><figcaption><p>Figure 16:  Payment screen within consultation booking process</p></figcaption></figure>
 
 After choosing a consultation slot, the user will be directed to proceed with payment. Figure 16 illustrates what payment details are required to complete the final step of booking a consultation. Two crucial aspects of the payment screen are worth noting. The first is the time counter, located at the top of the form, which shows the remaining time to complete the payment. The countdown begins at 5 minutes and indicates the duration the selected consultation slot is reserved and cannot be booked by other clients. If the time runs out, the client can no longer make the payment, and the slot becomes available again to all clients. If the client still wishes to book the same slot after the time has expired, they must select it again, provided it is still available and has not been booked by another user. The second important element on the screen is the total cost of the consultation, which will be charged to the user.
 
@@ -332,13 +332,13 @@ Step 3:       Select either of the “View all” buttons on the right hand side
 
 The initial entry screen for the information portal, as presented in Figure 22 is divided into two article groups - newest and most popular. For each section clients can choose the “View all” button which will redirect them to the Search screen in which more functionalities can be used to find the right content (see Figure 23).
 
-<figure><img src="../.gitbook/assets/image (43).png" alt=""><figcaption><p>Figure 23: Information Portal Search Screen</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (97).png" alt=""><figcaption><p>Figure 23: Information Portal Search Screen</p></figcaption></figure>
 
 Clients can use the search input to find different articles. Following the client's input, the view will dynamically update by displaying the articles that match the search criteria. Furthermore, clients can filter articles by choosing from a list of predefined categories.
 
 Once the client finds an article about which he/she wants to read more, he/she can do so by selecting the “Read more” button within the article overview box, as highlighted in Figure 23.
 
-<figure><img src="../.gitbook/assets/image (44).png" alt=""><figcaption><p>Figure 24: Full view of an article</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (98).png" alt=""><figcaption><p>Figure 24: Full view of an article</p></figcaption></figure>
 
 Figure 24 shows the full view of an article. The first part is a cover image. Next, we are presented with a list of tags that represent different psychological topics that are covered by the article. Following this, the title of the article together with the body and bibliography are displayed.
 
@@ -352,7 +352,7 @@ Step 1:       Login to the Client Interface.
 
 Step 2:       Select the “SOS Center” button on the bottom right corner from any screen within the USupport platform.
 
-<figure><img src="../.gitbook/assets/image (49).png" alt=""><figcaption><p>Figure 25: SOS Centers Screen</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (103).png" alt=""><figcaption><p>Figure 25: SOS Centers Screen</p></figcaption></figure>
 
 The SOS centre screen is the place which provides quick access to emergency lines available in different countries.
 
@@ -386,7 +386,7 @@ From this screen the client can proceed with the following actions:
 
 
 
-<figure><img src="../.gitbook/assets/image (129).png" alt=""><figcaption><p>Figure 26: Client account settings screen</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (130).png" alt=""><figcaption><p>Figure 26: Client account settings screen</p></figcaption></figure>
 
 By accessing the profile details screen, the client can visualise the personal information associated with the USupport client interface account, see Figure 27- the information inside the red rectangle. The client is able to change this data by selecting the “Save changes” button.
 
@@ -416,7 +416,7 @@ To obtain more detailed information about a specific payment, the client can sel
 
 The ‘contact us’ screen allows clients to raise any questions or issues they might encounter. These will be received and addressed by the country administrators. To raise an enquiry, the client needs to select an issue from a predefined list and add any message if necessary, see Figure 33.
 
-<figure><img src="../.gitbook/assets/image (105).png" alt=""><figcaption><p>Figure 33: Contact us screen</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption><p>Figure 33: Contact us screen</p></figcaption></figure>
 
 The privacy policy can be previewed from the profile settings screen, as well.
 
@@ -446,7 +446,7 @@ This screen provides quick access to different functionalities provided within t
 
 At the top of the screen we are presented with the upcoming consultation and option to manage it. Then we have a quick access to the mood tracker. Furthermore, the information portal is presented here as well, with some limited functionalities and an option to navigate to the Information portal search screen.
 
-<figure><img src="../.gitbook/assets/image (54).png" alt=""><figcaption><p>Figure 36: Dashboard screen</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (8).png" alt=""><figcaption><p>Figure 36: Dashboard screen</p></figcaption></figure>
 
 ### 10.     Make a payment <a href="#_ref130341549" id="_ref130341549"></a>
 
@@ -477,7 +477,7 @@ Figure 39 shows an example where a client enters an email address that is not re
 
 <figure><img src="../.gitbook/assets/image (165).png" alt=""><figcaption><p>Figure 39: Payment form Link account verification.</p></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (115).png" alt=""><figcaption><p>Figure 40: Payment form use saved payment information.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (116).png" alt=""><figcaption><p>Figure 40: Payment form use saved payment information.</p></figcaption></figure>
 
 After accessing the payment form shown in Figure 41, the client can manage their payment methods by adding or removing them. Additionally, they have the option to use existing payment methods to complete the payment process.
 
@@ -491,7 +491,7 @@ Step 2:       On the “Navigation Menu” select “My Q\&A”.
 
 
 
-<figure><img src="../.gitbook/assets/image (102).png" alt=""><figcaption><p>Figure 42: My Q&#x26;A screen.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (51).png" alt=""><figcaption><p>Figure 42: My Q&#x26;A screen.</p></figcaption></figure>
 
 This screen allows clients to access a question and answer directory that is designed to help them clarify any questions they may have. Clients can ask questions anonymously and experienced providers will provide answers to them. The answers to questions will also be available to other clients.
 
@@ -501,7 +501,7 @@ To ask a new question, clients need to click on the “Ask anonymously” button
 
 <figure><img src="../.gitbook/assets/image (160).png" alt=""><figcaption><p>Figure 43: My Q&#x26;A ad new question.</p></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (130).png" alt=""><figcaption><p>Figure 44: My Q&#x26;A entry example.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (129).png" alt=""><figcaption><p>Figure 44: My Q&#x26;A entry example.</p></figcaption></figure>
 
 The My Q\&A screen contains several elements for each entry, as shown in Figure 44:
 

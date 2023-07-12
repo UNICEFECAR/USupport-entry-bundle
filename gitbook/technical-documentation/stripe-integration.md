@@ -86,7 +86,7 @@ The payment flow within the USupport platform encompasses a series of actions an
 
 This concludes the payment flow within the USupport platform. By following this sequence of actions and leveraging the functionalities provided by Stripe, clients can seamlessly complete their payments while ensuring data security and maintaining accurate records within the system.
 
-<figure><img src="../.gitbook/assets/image (104).png" alt=""><figcaption><p>Figure 1: Payment flow diagram</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (53).png" alt=""><figcaption><p>Figure 1: Payment flow diagram</p></figcaption></figure>
 
 ### 2.  Cancellation and Refund Process:
 
@@ -148,7 +148,7 @@ The clients of the USupport platform can preview all their payment history. The 
 
 By leveraging the capabilities of the Stripe services, the "getPaymentHistory" controller enables clients to access and review their payment history, including detailed information about each transaction, receipts, and associated invoices within the USupport platform.
 
-<figure><img src="../.gitbook/assets/image (122).png" alt=""><figcaption><p>Figure 3: Payment history diagram</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (121).png" alt=""><figcaption><p>Figure 3: Payment history diagram</p></figcaption></figure>
 
 ### 4.  Transfer funds to providers’ flow
 
