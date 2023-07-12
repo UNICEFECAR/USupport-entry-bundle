@@ -1,15 +1,15 @@
 # Table of contents
 
 * [README](README.md)
-* [Installation Guide](<README (1).md>)
+* [Setup guide](setup-guide.md)
 
 ## UI Usage Manuals
 
 * [🌎 Global Admin](ui-usage-manuals/global-admin.md)
 * [🏢 Country Admin](ui-usage-manuals/country-admin.md)
-* [👩⚕ Provider](ui-usage-manuals/provider.md)
+* [👩⚕ 👩⚕ Provider](ui-usage-manuals/provider.md)
 * [📚 CMS](ui-usage-manuals/cms.md)
-* [🤷♂ Client](ui-usage-manuals/client.md)
+* [🤷♂ 🤷♂ Client](ui-usage-manuals/client.md)
 * [📱 Mobile](ui-usage-manuals/mobile.md)
 
 ## TECHNICAL DOCUMENTATION
