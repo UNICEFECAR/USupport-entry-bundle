@@ -11,3 +11,5 @@
 * **Static Content** - Represents all the content that will have informational purposes, such as blog posts.
 * **Strapi** - An open-source headless CMS used for building and managing APIs.
 * **User** - All types of users of the platform - both clients and providers.
+
+test
