@@ -1,7 +1,6 @@
 # Table of contents
 
-* [USupportMe Documentation](README.md)
-  * [README](readme/setup.md)
+* [README](README.md)
 
 ## UI Usage Manuals
 
