@@ -23,7 +23,7 @@ Setup:
    - "STRIPE_SECRET_KEY"
    - "STRIPE_WEBHOOK_ENDPOIN_SECRET" in the `./payments/service/.env.local` file
 
-[Instructions for creating Stripe keys](Stripe documentation](https://stripe.com/docs/keys)
+[Instructions for creating Stripe keys](https://stripe.com/docs/keys)
 
 4. To use the uploading images functionality you need to create AWS S3 bucket. After creating the bucket you will need to fulfill the following keys:
 
@@ -34,6 +34,7 @@ Setup:
    - VITE_AMAZON_S3_BUCKET in the following files: `./website/.env.development` `./client-ui/.env.development` `./provider-ui/.env.development` `./user-ui/.env.development` `./admin-country-ui/.env.development` `./admin-global-ui/.env.development`
 
 [Instruction for creating AWS Account and Access Keys](https://docs.aws.amazon.com/powershell/latest/userguide/pstools-appendix-sign-up.html)
+
 [Instructions for creating Create AWS S3 Bucket](https://docs.aws.amazon.com/AmazonS3/latest/userguide/creating-bucket.html)
 
 5. To use the video consultation functionality you need to create Twilio account. After creating the account you need to fullfill the following keys:
