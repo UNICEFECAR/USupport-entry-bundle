@@ -113,9 +113,9 @@ git commit -m "Updated submodule"
 
 ## Please follow these naming conventions for your branches
 
-- Features `feature/{JIRA_ID}-{branch_name}`
-- Bugs `bug/{JIRA_ID}-{branch_name}`
-- Hotfixes `hotfix/{JIRA_ID}-{branch_name}`
+- Features `feature/{branch_name}`
+- Bugs `bug/{branch_name}`
+- Hotfixes `hotfix/{branch_name}`
 
 ## Guidelines for writing a commit message when committing changes to any of the git submodules
 
