@@ -1,9 +1,6 @@
 # 📹 Twilio Integration
 
-\
-
-
-Table of Contents
+### Table of Contents
 
 [Introduction](twilio-integration.md#introduction)
 
