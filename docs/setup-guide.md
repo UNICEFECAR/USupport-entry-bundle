@@ -21,7 +21,7 @@ Setup:
 3. To use the payments functionality you need to create a Stripe account. After creating the account, you need to fullfill the following keys:
 
    - "STRIPE_SECRET_KEY"
-   - "STRIPE_WEBHOOK_ENDPOIN_SECRET" in the `./payments/service/.env.local` file
+   - "STRIPE_WEBHOOK_ENDPOINT_SECRET" in the `./payments/service/.env.local` file
 
 [Instructions for creating Stripe keys](https://stripe.com/docs/keys)
 
