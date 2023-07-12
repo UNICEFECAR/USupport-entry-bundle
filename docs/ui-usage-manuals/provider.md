@@ -1,4 +1,4 @@
-# 👩 Provider
+# Provider
 
 ### Table of Contents
 
