@@ -1,60 +1,60 @@
-# 📚 CMS
+# CMS
 
 ### Table of Contents
 
-[Table of Figures](broken-reference/)
+[Table of Figures](cms.md#table-of-contents)
 
-[List of Tables](broken-reference/)
+[List of Tables](cms.md#list-of-tables)
 
-[Introduction](broken-reference/)
+[Introduction](cms.md#introduction)
 
-[What is the CMS?](broken-reference/)
+[What is the CMS?](cms.md#what-is-the-cms)
 
-[User Roles Description](broken-reference/)
+[User Roles Description](cms.md#user-roles-description)
 
-[1. Moderator](broken-reference/)
+[1. Moderator](cms.md#1.-moderator)
 
-[2. Editor](broken-reference/)
+[2. Editor](cms.md#2.-editor)
 
-[3. Author](broken-reference/)
+[3. Author](cms.md#3.-author)
 
-[Processes](broken-reference/)
+[Processes](cms.md#processes)
 
-[1. Creating a new user](broken-reference/)
+[1. Creating a new user](cms.md#1.-creating-a-new-user)
 
-[2. Editing Users](broken-reference/)
+[2. Editing Users](cms.md#2.-editing-users)
 
-[3. Deleting Users](broken-reference/)
+[3. Deleting Users](cms.md#3.-deleting-users)
 
-[4. Login to the CMS Interface](broken-reference/)
+[4. Login to the CMS Interface](cms.md#\_toc123778358)
 
-[5. Forgot Password](broken-reference/)
+[5. Forgot Password](cms.md#5.-forgot-password)
 
-[6. Adding new languages](broken-reference/)
+[6. Adding new languages](cms.md#6.-adding-new-languages)
 
-[7. Populate Media Library](broken-reference/)
+[7. Populate Media Library](cms.md#7.-populate-media-library)
 
-[8. Create Collection Types](broken-reference/)
+[8. Create Collection Types](cms.md#8.-create-collection-types)
 
-[8.1. Age Groups Collection Type](broken-reference/)
+[8.1. Age Groups Collection Type](cms.md#8.1.-age-groups-collection-type)
 
-[8.2. Tags Collection Type](broken-reference/)
+[8.2. Tags Collection Type](cms.md#8.2.-tags-collection-type)
 
-[8.3. Categories Collection Type](broken-reference/)
+[8.3. Categories Collection Type](cms.md#8.3.-categories-collection-type)
 
-[8.4. Articles Collection Type](broken-reference/)
+[8.4. Articles Collection Type](cms.md#8.4.-articles-collection-type)
 
-[8.5. Terms of use Collection Type](broken-reference/)
+[8.5. Terms of use Collection Type](cms.md#8.5.-terms-of-use-collection-type)
 
-[8.6. Cookie Policies Content Type](broken-reference/)
+[8.6. Cookie Policies Content Type](cms.md#8.6.-cookie-policies-content-type)
 
-[8.7. FAQs Content Type](broken-reference/)
+[8.7. FAQs Content Type](cms.md#8.7.-faqs-content-type)
 
-[8.8. SOS Center Content Type](broken-reference/)
+[8.8. SOS Center Content Type](cms.md#8.8.-sos-center-content-type)
 
-[8. Approving content](broken-reference/)
+[8. Approving content](cms.md#9.-approving-content)
 
-[9. Creating translations for existing content](broken-reference/)
+[9. Creating translations for existing content](cms.md#\_ref121062657)
 
 ### Table of Figures
 

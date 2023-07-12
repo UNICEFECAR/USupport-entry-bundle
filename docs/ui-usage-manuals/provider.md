@@ -4,35 +4,35 @@
 
 [Table of Figures](provider.md#\_ref130504120)
 
-[Introduction](broken-reference/)
+[Introduction](provider.md#introduction)
 
-[What is the Provider Interface?](broken-reference/)
+[What is the Provider Interface?](provider.md#what-is-the-provider-interface)
 
-[Processes](broken-reference/)
+[Processes](provider.md#processes)
 
-[1. Login to the Provider Interface](broken-reference/)
+[1. Login to the Provider Interface](provider.md#1.-login-to-the-provider-interface)
 
-[2. Forgot Password](broken-reference/)
+[2. Forgot Password](provider.md#2.-forgot-password)
 
-[3. Dashboard Screen](broken-reference/)
+[3. Dashboard Screen](provider.md#3.-dashboard-screen)
 
-[4. Personal Calendar – add availability](broken-reference/)
+[4. Personal Calendar – add availability](provider.md#\_ref130504090)
 
-[6. Preview the Activity History](broken-reference/)
+[6. Preview the Activity History](provider.md#6.-preview-the-activity-history)
 
-[7. Preview Upcoming Consultations](broken-reference/)
+[7. Preview Upcoming Consultations](provider.md#7.-preview-upcoming-consultations)
 
-[8. Preview all Clients](broken-reference/)
+[8. Preview all Clients](provider.md#8.-preview-all-clients)
 
-[9. Profile settings](broken-reference/)
+[9. Profile settings](provider.md#9.-profile-settings)
 
-[10. Campaigns](broken-reference/)
+[10. Campaigns](provider.md#10.-campaigns)
 
-[11. Campaigns availability](broken-reference/)
+[11. Campaigns availability](provider.md#ole\_link90)
 
-[12. View campaigns details](broken-reference/)
+[12. View campaigns details](provider.md#ole\_link12)
 
-[13. My Q\&A](broken-reference/)
+[13. My Q\&A](provider.md#13.-my-q-and-a)
 
 ### Table of Figures <a href="#_ref130504120" id="_ref130504120"></a>
 
