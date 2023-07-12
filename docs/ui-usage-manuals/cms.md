@@ -1,63 +1,60 @@
 # 📚 CMS
 
-\
-
-
 ### Table of Contents
 
-[Table of Figures](broken-reference)
+[Table of Figures](broken-reference/)
 
-[List of Tables](broken-reference)
+[List of Tables](broken-reference/)
 
-[Introduction](broken-reference)
+[Introduction](broken-reference/)
 
-[What is the CMS?](broken-reference)
+[What is the CMS?](broken-reference/)
 
-[User Roles Description](broken-reference)
+[User Roles Description](broken-reference/)
 
-[1. Moderator](broken-reference)
+[1. Moderator](broken-reference/)
 
-[2. Editor](broken-reference)
+[2. Editor](broken-reference/)
 
-[3. Author](broken-reference)
+[3. Author](broken-reference/)
 
-[Processes](broken-reference)
+[Processes](broken-reference/)
 
-[1.     Creating a new user](broken-reference)
+[1. Creating a new user](broken-reference/)
 
-[2.     Editing Users](broken-reference)
+[2. Editing Users](broken-reference/)
 
-[3.     Deleting Users](broken-reference)
+[3. Deleting Users](broken-reference/)
 
-[4.     Login to the CMS Interface](broken-reference)
+[4. Login to the CMS Interface](broken-reference/)
 
-[5.     Forgot Password](broken-reference)
+[5. Forgot Password](broken-reference/)
 
-[6.     Adding new languages](broken-reference)
+[6. Adding new languages](broken-reference/)
 
-[7.     Populate Media Library](broken-reference)
+[7. Populate Media Library](broken-reference/)
 
-[8.     Create Collection Types](broken-reference)
+[8. Create Collection Types](broken-reference/)
 
-[8.1. Age Groups Collection Type](broken-reference)
+[8.1. Age Groups Collection Type](broken-reference/)
 
-[8.2. Tags Collection Type](broken-reference)
+[8.2. Tags Collection Type](broken-reference/)
 
-[8.3. Categories Collection Type](broken-reference)
+[8.3. Categories Collection Type](broken-reference/)
 
-[8.4. Articles Collection Type](broken-reference)
+[8.4. Articles Collection Type](broken-reference/)
 
-[8.5. Terms of use Collection Type](broken-reference)
+[8.5. Terms of use Collection Type](broken-reference/)
 
-[8.6. Cookie Policies Content Type](broken-reference)
+[8.6. Cookie Policies Content Type](broken-reference/)
 
-[8.7. FAQs Content Type](broken-reference)
+[8.7. FAQs Content Type](broken-reference/)
 
-[8.8. SOS Center Content Type](broken-reference)
+[8.8. SOS Center Content Type](broken-reference/)
 
-[8.     Approving content](broken-reference)
+[8. Approving content](broken-reference/)
 
-[9.     Creating translations for existing content](broken-reference)
+[9. Creating translations for existing content](broken-reference/)
 
 ### Table of Figures
 
@@ -115,7 +112,7 @@ This platform is aiming to provide an easy-to-use interface for content creators
 
 The CMS provides 3 different user roles: Moderator, Editor and Author. Each of them provides different access rights to the CMS.
 
-### &#x20;
+###
 
 ### 1. Moderator
 
@@ -131,95 +128,93 @@ This role comes with the second level of restrictions. Authors create content, w
 
 ### Processes
 
-### 1.     Creating a new user
+### 1. Creating a new user
 
-Step 1:     Login with a Moderator account.
+Step 1: Login with a Moderator account.
 
-Step 2:     On the “Navigation Menu” select "Settings".
+Step 2: On the “Navigation Menu” select "Settings".
 
-Step 3:     In the submenu, under "Administration Panel" select "Users".
+Step 3: In the submenu, under "Administration Panel" select "Users".
 
-Step 4:     On the top-right corner, click on "Invite new user".
+Step 4: On the top-right corner, click on "Invite new user".
 
-Step 5:     Enter the user data and choose a role (Moderator, Editor or Author).
+Step 5: Enter the user data and choose a role (Moderator, Editor or Author).
 
-Step 6:     When you are done, press the "Invite User" button.
+Step 6: When you are done, press the "Invite User" button.
 
-Step 7:     Copy the registration link and share it with the user.
+Step 7: Copy the registration link and share it with the user.
 
-Step 8:     The user opens the registration link and gains access to the CMS.
-
-
+Step 8: The user opens the registration link and gains access to the CMS.
 
 <figure><img src="../.gitbook/assets/image005.png" alt=""><figcaption><p>Figure 1: How to create a new CMS user</p></figcaption></figure>
 
-### 2.     Editing Users
+### 2. Editing Users
 
-Step 1:     Login with a Moderator account.
+Step 1: Login with a Moderator account.
 
-Step 2:     On the “Navigation Menu” select "Settings".
+Step 2: On the “Navigation Menu” select "Settings".
 
-Step 3:     In the submenu, under "Administration Panel" select "Users".
+Step 3: In the submenu, under "Administration Panel" select "Users".
 
-Step 4:     Press the “Edit” button on the right side of the screen.
+Step 4: Press the “Edit” button on the right side of the screen.
 
-Step 5:     Apply changes by clicking the “Save” button in the right corner.
+Step 5: Apply changes by clicking the “Save” button in the right corner.
 
 <figure><img src="../.gitbook/assets/image (20).png" alt=""><figcaption><p>Figure 2: How to edit user data in the CMS</p></figcaption></figure>
 
 Note: Moderators are also able to set a new password for CMS users.
 
-### 3.     Deleting Users
+### 3. Deleting Users
 
-Step 1:     Login with a Moderator account.
+Step 1: Login with a Moderator account.
 
-Step 2:     On the “Navigation Menu” select "Settings".
+Step 2: On the “Navigation Menu” select "Settings".
 
-Step 3:     In the submenu, under "Administration Panel" select "Users".
+Step 3: In the submenu, under "Administration Panel" select "Users".
 
-Step 4:     Press the "Trash" button on the right side of the screen.
+Step 4: Press the "Trash" button on the right side of the screen.
 
-Step 5:     Press “Confirm” to complete the action.
+Step 5: Press “Confirm” to complete the action.
 
 <figure><img src="../.gitbook/assets/image (40).png" alt=""><figcaption><p>Figure 3: How to delete an existing CMS account</p></figcaption></figure>
 
-### 4.     Login to the CMS Interface <a href="#_toc123778358" id="_toc123778358"></a>
+### 4. Login to the CMS Interface <a href="#_toc123778358" id="_toc123778358"></a>
 
-Step 1:     Navigate to the CMS Interface ([https://staging.usupport.online/cms/admin/auth/login](https://staging.usupport.online/cms/admin/auth/login) ).
+Step 1: Navigate to the CMS Interface ([https://staging.usupport.online/cms/admin/auth/login](https://staging.usupport.online/cms/admin/auth/login) ).
 
-Step 2:     Insert valid login credentials email and password (see Figure 4).
+Step 2: Insert valid login credentials email and password (see Figure 4).
 
 <figure><img src="../.gitbook/assets/image (146).png" alt=""><figcaption><p>Figure 4: Login Screen</p></figcaption></figure>
 
 The user can choose to tick the box labelled “Remember me” if he/she wishes that the log-in session lasts as long as the browser is open.
 
-### 5.     Forgot Password
+### 5. Forgot Password
 
-Step 1:     Navigate to the CMS Interface ([https://staging.usupport.online/cms/admin/auth/login](https://staging.usupport.online/cms/admin/auth/login) ).
+Step 1: Navigate to the CMS Interface ([https://staging.usupport.online/cms/admin/auth/login](https://staging.usupport.online/cms/admin/auth/login) ).
 
-Step 2:      Select “Forgot your password” (see Figure 4).
+Step 2: Select “Forgot your password” (see Figure 4).
 
-Step 3:     Insert a valid email address ( see Figure 5).
+Step 3: Insert a valid email address ( see Figure 5).
 
-Step 4:     Check your email address for recovery email.
+Step 4: Check your email address for recovery email.
 
 <figure><img src="../.gitbook/assets/image (17).png" alt=""><figcaption><p>Figure 5: Forgot Password Screen</p></figcaption></figure>
 
 If a valid and registered email address within the platform was provided, an automated email will be sent to it. The email will contain a temporary valid link that can be used to set a new password. Following this procedure, the user can access the account using the email address and the newly created password.
 
-### 6.     Adding new languages
+### 6. Adding new languages
 
-Step 1:  Login with a Moderator account.
+Step 1: Login with a Moderator account.
 
-Step 2:  On the “Navigation Menu” select "Settings".
+Step 2: On the “Navigation Menu” select "Settings".
 
-Step 3:  In the submenu, under "Global Settings" select "Internationalization".
+Step 3: In the submenu, under "Global Settings" select "Internationalization".
 
-Step 4:  Click “Add new locale" button from the top right .
+Step 4: Click “Add new locale" button from the top right .
 
-Step 5:  In the Locales dropdown, choose the new locale to be added and enter a "Display name".
+Step 5: In the Locales dropdown, choose the new locale to be added and enter a "Display name".
 
-Step 6:  Click "Save".
+Step 6: Click "Save".
 
 <figure><img src="../.gitbook/assets/image (152).png" alt=""><figcaption><p>Figure 6: Internalization managing languages</p></figcaption></figure>
 
@@ -228,15 +223,15 @@ Note:
 * Internationalization requires a default language to be set. At the current stage, the default language of the CMS platform is set to English. It is not recommended to change this setting as soon as the first piece of content has been published. The reason for this is thoroughly described in the section Creating translations for existing content.
 * Creating multiple entries of the same language is not permitted.
 
-### 7.     Populate Media Library
+### 7. Populate Media Library
 
-Step 1:       On the “Navigation Menu” select "Media Library".
+Step 1: On the “Navigation Menu” select "Media Library".
 
-Step 2:       Click the “Add new assets” button on the top right corner.
+Step 2: Click the “Add new assets” button on the top right corner.
 
-Step 3:       Choose between “Browse files” or “From URL”.
+Step 3: Choose between “Browse files” or “From URL”.
 
-Step 4:       Save the new asset by clicking on “Upload x asset/s to the library”.
+Step 4: Save the new asset by clicking on “Upload x asset/s to the library”.
 
 The Media Library is a part of the CMS platform which allows to securely store different assets, such as images. Once an asset is uploaded to the media library it is stored within the USupport system and can be used for populating different content types. For example, each article content type requires to have an image attached to it. When creating a new article and having the Media Library populated with all the assets that we might need, we can easily search for an image directly within the Media Library, instead of browsing the computer.
 
@@ -251,21 +246,21 @@ Notes:
 
 <figure><img src="../.gitbook/assets/image (165).png" alt=""><figcaption><p>Figure 7: Media Library CMS Interface</p></figcaption></figure>
 
-### 8.     Create Collection Types
+### 8. Create Collection Types
 
 The Collection Types are tables of structured data each of which serves a different purpose. For example, the Articles are stored within the “Articles” collection type and each article consists of specific data entries that together are used to present content.
 
-Step 1:     Navigate to the CMS Interface and log in with a moderator account.
+Step 1: Navigate to the CMS Interface and log in with a moderator account.
 
-Step 2:     From the Navigation Menu select "Content Manager" (see Figure 8).
+Step 2: From the Navigation Menu select "Content Manager" (see Figure 8).
 
-Step 3:     From the new menu that is presented, under "Collection Types" select the collection for which a new entry should be added (see Figure 8).
+Step 3: From the new menu that is presented, under "Collection Types" select the collection for which a new entry should be added (see Figure 8).
 
-Step 4:     On the top right corner click “Create new entry” button (see Figure 8).
+Step 4: On the top right corner click “Create new entry” button (see Figure 8).
 
-Step 5:     Fulfil the required fields (see Figure 9).
+Step 5: Fulfil the required fields (see Figure 9).
 
-Step 6:     On the top right corner click the “Save” button (see Figure 9).
+Step 6: On the top right corner click the “Save” button (see Figure 9).
 
 <figure><img src="../.gitbook/assets/image (161).png" alt=""><figcaption><p>Figure 8: Accessing Age Groups Content Type</p></figcaption></figure>
 
@@ -315,9 +310,7 @@ Usage by other interfaces:
 
 * This is not a collection that is expected to change very often. Adding further content might result in requiring small design adjustments of the following parts of the Usupport platform – Commercial Website Interface and Client Interface.
 
-&#x20;
-
-#### 8.2.        Tags Collection Type
+#### 8.2. Tags Collection Type
 
 The tags represent keywords that are attached to Articles with the purpose of summarising the information, covered within the content. They are defined by specialists following different psychological topics.
 
@@ -327,9 +320,9 @@ Entry Fields:
 
 Relation Entries:
 
-* Articles  – Not Required field
+* Articles – Not Required field
 
-Note:  the capability to assign articles to a tag was disabled, instead the tags should be assigned to articles from the article’s creation view.
+Note: the capability to assign articles to a tag was disabled, instead the tags should be assigned to articles from the article’s creation view.
 
 Creation process:
 
@@ -342,7 +335,7 @@ Usage by other interfaces:
 
 <figure><img src="../.gitbook/assets/image (22).png" alt=""><figcaption><p>Figure 12: Article with tags visualisation</p></figcaption></figure>
 
-#### 8.3.        Categories Collection Type
+#### 8.3. Categories Collection Type
 
 Categories are meant to group articles together based on the information they present related to different psychological topics.
 
@@ -355,7 +348,7 @@ Relation Entries:
 
 * Articles – Not Required field
 
-Note:  the capability to assign articles to a category was disabled, instead the categories should be assigned to articles from the article’s creation view.
+Note: the capability to assign articles to a category was disabled, instead the categories should be assigned to articles from the article’s creation view.
 
 Creation process:
 
@@ -370,7 +363,7 @@ Usage by other interfaces:
 
 <figure><img src="../.gitbook/assets/image (147).png" alt=""><figcaption><p>Figure 13: Visual representation of assigning Categories, Age Groups and Tags to an Article before and after</p></figcaption></figure>
 
-#### 8.4.        Articles Collection Type
+#### 8.4. Articles Collection Type
 
 They represent informational content with the purpose of raising awareness and providing insights about different psychological topics.
 
@@ -402,7 +395,7 @@ Usage by other interfaces:
 * This collection is directly connected with the USupport UI interfaces that present the informational portal.
 * Every entry which is in a "published" state will be displayed to the general public after country admin approval.
 
-#### 8.5.        Terms of use Collection Type
+#### 8.5. Terms of use Collection Type
 
 These are the legally binding terms, that the users have to agree with.
 
@@ -428,7 +421,7 @@ Usage by other interfaces:
 * Each entry will be assigned to no more than one country, there should not be 1 country, having two or more entries.
 * Every entry which is in a "published" state will be displayed to the general public without country admin approval.
 
-#### 8.6.        Cookie Policies Content Type
+#### 8.6. Cookie Policies Content Type
 
 They provide users with detailed information about the types of cookies the different USupport interfaces are using.
 
@@ -454,7 +447,7 @@ Usage by other interfaces:
 * Each entry will be assigned to no more than one country, there should not be 1 country, having two or more entries.
 * Every entry which is in a "published" state will be displayed to the general public without country admin approval.
 
-#### 8.7.        FAQs Content Type
+#### 8.7. FAQs Content Type
 
 The section Frequently Asked Questions aims to provide relevant information that might be of use to platform users. For instance, those can guide them to perform specific actions, access numerous resources etc.
 
@@ -478,7 +471,7 @@ Usage by other interfaces:
 * This collection is directly connected with the USupport UI interfaces.
 * Every entry which is in a "published" state will be displayed to the general public after country admin approval.
 
-#### 8.8.        SOS Center Content Type
+#### 8.8. SOS Center Content Type
 
 The SOS centre gives quick access to different helplines for users in need of urgent help.
 
@@ -491,7 +484,7 @@ Entry Fields:
 * URL – Not Required Field
 * Global (Determines if the entry will automatically be displayed in new countries that join the USupport project) – Required Field
 
-Note:  Even though the Phone and URL entries are not required fields we strongly recommend including at least one of them.
+Note: Even though the Phone and URL entries are not required fields we strongly recommend including at least one of them.
 
 Relation Entries:
 
@@ -506,7 +499,7 @@ Usage by other interfaces:
 
 * Every entry which is in a "published" state will be displayed to the general public after the country admin approval.
 
-### 9.     Approving content
+### 9. Approving content
 
 We have presented what is the content that the CMS tool can operate with, and we have seen how to create this content. Now is the time to present a very important concept that will define the way we can publish this content to go live for the public.
 
@@ -520,15 +513,13 @@ At any time, the article can be transitioned back from the “published” state
 
 Note: The Authors can just create content but they don’t have the capability to publish it. Only the moderator and editor roles are allowed to create and publish content without the approval of another users.
 
-### 10.  Creating translations for existing content <a href="#_ref121062657" id="_ref121062657"></a>
+### 10. Creating translations for existing content <a href="#_ref121062657" id="_ref121062657"></a>
 
 We previously presented the internalization capabilities which enable us to store localized versions of the existing content. Moreover, it was mentioned that choosing a default language at the beginning is very important.
 
 Let’s consider the following example. Assume we want to create a new article and the default language is English. The first step will be to create a new entry within the Articles collection type, fulfil the data correctly, and save the changes.
 
 Now we need to create a localized version of the article we just created, for the Kazakh language. The steps for doing this are simple and consist of opening the entry that needs to be translated, in our case the Article we just created. Then from the “Locales” dropdown, we need to select the new language (see Figure 15). It is very important that for every new content we first create the version in the default language, in our case English, and then we create translations of that initial version. This is needed because each translated version is linked to the Initially created one (in the default language).
-
-
 
 Figure 15: Choosing a new locale for an existing article in English version
 

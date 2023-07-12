@@ -1,41 +1,38 @@
-# 👩⚕ Provider
+# Provider
 
-\
-
-
-Table of Contents
+### Table of Contents
 
 [Table of Figures](provider.md#\_ref130504120)
 
-[Introduction](broken-reference)
+[Introduction](broken-reference/)
 
-[What is the Provider Interface?](broken-reference)
+[What is the Provider Interface?](broken-reference/)
 
-[Processes](broken-reference)
+[Processes](broken-reference/)
 
-[1.     Login to the Provider Interface](broken-reference)
+[1. Login to the Provider Interface](broken-reference/)
 
-[2.     Forgot Password](broken-reference)
+[2. Forgot Password](broken-reference/)
 
-[3.     Dashboard Screen](broken-reference)
+[3. Dashboard Screen](broken-reference/)
 
-[4.     Personal Calendar – add availability](broken-reference)
+[4. Personal Calendar – add availability](broken-reference/)
 
-[6.     Preview the Activity History](broken-reference)
+[6. Preview the Activity History](broken-reference/)
 
-[7.     Preview Upcoming Consultations](broken-reference)
+[7. Preview Upcoming Consultations](broken-reference/)
 
-[8.     Preview all Clients](broken-reference)
+[8. Preview all Clients](broken-reference/)
 
-[9.     Profile settings](broken-reference)
+[9. Profile settings](broken-reference/)
 
-[10.      Campaigns](broken-reference)
+[10. Campaigns](broken-reference/)
 
-[11.      Campaigns availability](broken-reference)
+[11. Campaigns availability](broken-reference/)
 
-[12.      View campaigns details](broken-reference)
+[12. View campaigns details](broken-reference/)
 
-[13.      My Q\&A](broken-reference)
+[13. My Q\&A](broken-reference/)
 
 ### Table of Figures <a href="#_ref130504120" id="_ref130504120"></a>
 
@@ -117,35 +114,35 @@ This platform aims to provide an easy-to-use interface that supplies the necessa
 
 ### Processes
 
-### 1.   Login to the Provider Interface
+### 1. Login to the Provider Interface
 
-Step 1:       Navigate to the Provider Interface (https://usupport.online/provider/).
+Step 1: Navigate to the Provider Interface (https://usupport.online/provider/).
 
-Step 2:       From the Welcome Screen select a country and a language.
+Step 2: From the Welcome Screen select a country and a language.
 
-Step 3:       Insert valid login credentials.
+Step 3: Insert valid login credentials.
 
 <figure><img src="../.gitbook/assets/image005 (1).png" alt=""><figcaption><p>Figure 1: Welcome Screen</p></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/image (159).png" alt=""><figcaption><p>Figure 2: Login Screen</p></figcaption></figure>
 
-### 2.   Forgot Password
+### 2. Forgot Password
 
-Step 1:       Select “I forgot my password” see Figure 2.
+Step 1: Select “I forgot my password” see Figure 2.
 
-Step 2:       Insert a valid email address see Figure 3.
+Step 2: Insert a valid email address see Figure 3.
 
-Step 3:       Check provided email address for a recovery email.
+Step 3: Check provided email address for a recovery email.
 
 <figure><img src="../.gitbook/assets/image (30).png" alt=""><figcaption><p>Figure 3: Forgot Password Screen</p></figcaption></figure>
 
 If a valid and registered email address within the platform was provided, an automated email will be sent to it. The email will contain a temporary valid link that can be used to set a new password. Following this procedure, the user can access the account using the email address and the newly created password.
 
-### 3.   Dashboard Screen
+### 3. Dashboard Screen
 
-Step 1:       Login to the Provider Interface.
+Step 1: Login to the Provider Interface.
 
-Step 2:       On the “Navigation Menu” select “Dashboard”.
+Step 2: On the “Navigation Menu” select “Dashboard”.
 
 <figure><img src="../.gitbook/assets/image (95).png" alt=""><figcaption><p>Figure 4: Dashboard Screen</p></figcaption></figure>
 
@@ -155,11 +152,11 @@ This screen is split into two parts. The left part presents a calendar containin
 * The grey box represents a day in the calendar that contains set availability by the provider but there are no scheduled consultations.
 * The blurred box represents a day in the calendar when the provider is not available for consultations.
 
-### 4.   Personal Calendar – add availability <a href="#_ref130504090" id="_ref130504090"></a>
+### 4. Personal Calendar – add availability <a href="#_ref130504090" id="_ref130504090"></a>
 
-Step 1:       Login to the Provider Interface.
+Step 1: Login to the Provider Interface.
 
-Step 2:       On the “Navigation Menu” select “Calendar”.
+Step 2: On the “Navigation Menu” select “Calendar”.
 
 <figure><img src="../.gitbook/assets/image (34).png" alt=""><figcaption><p>Figure 5: Calendar Screen - Personal Scheduler</p></figcaption></figure>
 
@@ -188,17 +185,17 @@ Providers can opt to participate in various sponsored programs, which allows the
 
 Based on the provider's selection of campaigns, they can allocate particular time slots to those campaigns, as demonstrated in the accompanying image. Subsequently, the provider's calendar will display the assigned campaign along with the sponsor's logo and the campaign name, as showcased in _Figure 6_.
 
-5\.   Using the Template availability
+5\. Using the Template availability
 
-Step 1:       Login to the Provider Interface.
+Step 1: Login to the Provider Interface.
 
-Step 2:       On the “Navigation Menu” select “Calendar”.
+Step 2: On the “Navigation Menu” select “Calendar”.
 
-Step 3:       At the top-left corner select “Add template availability” (see Figure 5).
+Step 3: At the top-left corner select “Add template availability” (see Figure 5).
 
-Step 4:       Fulfil the availability form.
+Step 4: Fulfil the availability form.
 
-Step 5:       Save the changes by selecting “Add template availability” button at the bottom of the page.
+Step 5: Save the changes by selecting “Add template availability” button at the bottom of the page.
 
 The template availability form helps the providers to set their availability for a longer period for each week day.
 
@@ -210,11 +207,11 @@ Secondly, for each week day, the provider has to choose between being available 
 
 <figure><img src="../.gitbook/assets/image (35).png" alt=""><figcaption><p>Figure 8: Template availability form</p></figcaption></figure>
 
-### 6.    Preview the Activity History
+### 6. Preview the Activity History
 
-Step 1:       Login to the Provider Interface.
+Step 1: Login to the Provider Interface.
 
-Step 2:       On the “Navigation Menu” select “Activity History”.
+Step 2: On the “Navigation Menu” select “Activity History”.
 
 The activity history screen presents the full activity which a provider undertook in the past using the platform. This consists of detailed information about the clients, their personal data, the time when consultations took place and the text messages that were exchanged in the chat during consultations.
 
@@ -231,11 +228,11 @@ Furthermore, at the bottom of the right side, there is a button “Propose consu
 
 <figure><img src="../.gitbook/assets/image (154).png" alt=""><figcaption><p>Figure 10: Propose consultation pop up</p></figcaption></figure>
 
-### 7.   Preview Upcoming Consultations
+### 7. Preview Upcoming Consultations
 
-Step 1:       Login to the Provider Interface.
+Step 1: Login to the Provider Interface.
 
-Step 2:       On the “Navigation Menu” select “Consultations”.
+Step 2: On the “Navigation Menu” select “Consultations”.
 
 This screen presents to the provider all upcoming consultations. They can either be suggested by the provider or booked by the clients.
 
@@ -252,19 +249,19 @@ Each consultation is presented via a rectangle and contains the following inform
 
 <figure><img src="../.gitbook/assets/image (81).png" alt=""><figcaption><p>Figure 11: Consultations screen</p></figcaption></figure>
 
-### 8.   Preview all Clients
+### 8. Preview all Clients
 
-Step 1:       Login to the Provider Interface
+Step 1: Login to the Provider Interface
 
-Step 2:       On the “Navigation Menu” select “Clients”
+Step 2: On the “Navigation Menu” select “Clients”
 
 <figure><img src="../.gitbook/assets/image (145).png" alt=""><figcaption><p>Figure 12: Clients Screen</p></figcaption></figure>
 
-### 9.   Profile settings
+### 9. Profile settings
 
-Step 1:       Login to the Provider Interface
+Step 1: Login to the Provider Interface
 
-Step 2:       On the “Navigation Menu” select “Your Profile”
+Step 2: On the “Navigation Menu” select “Your Profile”
 
 From this screen the provider can:
 
@@ -291,13 +288,9 @@ The providers can access their activity history through the provided reports, wh
 
 <figure><img src="../.gitbook/assets/image (100).png" alt=""><figcaption><p>Figure 16: Reports screen</p></figcaption></figure>
 
-
-
 <figure><img src="../.gitbook/assets/image (27).png" alt=""><figcaption><p>Figure 17: Reports fitering options</p></figcaption></figure>
 
-
-
-The contact us screen allows providers to raise questions or issues they might encounter. These will be received and addressed by the country administrators. To raise an enquiry, the provider needs to select an issue from a predefined list and add a message if required, see  Figure 16~~Figure 16~~.
+The contact us screen allows providers to raise questions or issues they might encounter. These will be received and addressed by the country administrators. To raise an enquiry, the provider needs to select an issue from a predefined list and add a message if required, see Figure 16~~Figure 16~~.
 
 <figure><img src="../.gitbook/assets/image (73).png" alt=""><figcaption><p>Figure 18: Contact us screen</p></figcaption></figure>
 
@@ -315,11 +308,11 @@ The information which is presented inside this screen is managed by the country 
 
 <figure><img src="../.gitbook/assets/image (121).png" alt=""><figcaption><p>Figure 20: Frequently asked questions screen</p></figcaption></figure>
 
-### 10.     Campaigns
+### 10. Campaigns
 
-Step 1:       Login to the Provider Interface
+Step 1: Login to the Provider Interface
 
-Step 2:       On the “Navigation Menu” select “Campaigns”
+Step 2: On the “Navigation Menu” select “Campaigns”
 
 <figure><img src="../.gitbook/assets/image (29).png" alt=""><figcaption><p>Figure 21: Campaigns Screen</p></figcaption></figure>
 
@@ -346,25 +339,23 @@ The providers can participate in a campaign by selecting the three dots next to 
 
 In order for a provider to take part in a campaign he/she will need to agree with the terms and conditions for that specific campaign.
 
-### 11.     Campaigns availability <a href="#ole_link90" id="ole_link90"></a>
+### 11. Campaigns availability <a href="#ole_link90" id="ole_link90"></a>
 
-Step 1:       Login to the Provider Interface
+Step 1: Login to the Provider Interface
 
-Step 2:       On the “Navigation Menu” select “Campaigns”
+Step 2: On the “Navigation Menu” select “Campaigns”
 
-Step 3:       Select one of the campaigns in which the provider is enrolled.
+Step 3: Select one of the campaigns in which the provider is enrolled.
 
-Step 4:       Click the three dots at the end of the row and select “Availability” option.
+Step 4: Click the three dots at the end of the row and select “Availability” option.
 
-Step 5:       Fulfil the Availability template.
+Step 5: Fulfil the Availability template.
 
-Step 6:       Submit the form by clicking “Add template availability”
+Step 6: Submit the form by clicking “Add template availability”
 
 Once a provider decided to participate in a campaign, he/she will be able to dedicate time slots for it. This can be achieved either by using the availability template or by using the approach described in Section 4. Personal Calendar – add availability.
 
 <figure><img src="../.gitbook/assets/image (80).png" alt=""><figcaption><p>Figure 24: Add availability for campaign</p></figcaption></figure>
-
-
 
 <figure><img src="../.gitbook/assets/image (120).png" alt=""><figcaption><p>Figure 25: Availability campaign for campaigns</p></figcaption></figure>
 
@@ -374,29 +365,27 @@ To access this template, providers must first enroll in a campaign and click the
 
 Using this template not only streamlines the scheduling process but also ensures that providers are able to dedicate the appropriate amount of time to campaign-related appointments.
 
-### 12.  View campaigns details <a href="#ole_link12" id="ole_link12"></a>
+### 12. View campaigns details <a href="#ole_link12" id="ole_link12"></a>
 
-Step 1:       Login to the Provider Interface
+Step 1: Login to the Provider Interface
 
-Step 2:       On the “Navigation Menu” select “Campaigns”
+Step 2: On the “Navigation Menu” select “Campaigns”
 
-Step 3:       Select one of the campaigns in which the provider is enrolled.
+Step 3: Select one of the campaigns in which the provider is enrolled.
 
-Step 4:       Click the three dots at the end of the row and select “View details” option.
+Step 4: Click the three dots at the end of the row and select “View details” option.
 
 <figure><img src="../.gitbook/assets/image (49).png" alt=""><figcaption><p>Figure 26: Visualise campaign activity</p></figcaption></figure>
-
-
 
 <figure><img src="../.gitbook/assets/image (50).png" alt=""><figcaption><p>Figure 27: Campaign activity screen</p></figcaption></figure>
 
 After successfully enrolling and adding their availability, providers can view the activities generated by a specific campaign by accessing campaign details from their account, as depicted in Figure 27. This screen is divided into two parts, with the top section displaying all upcoming consultations and the second section showing completed consultations under the same campaign. This enables providers to have a clear overview of the campaigns they choose to participate in, allowing for better organization and management of their time.
 
-### 13.  My Q\&A
+### 13. My Q\&A
 
-Step 1:       Login to the Provider Interface
+Step 1: Login to the Provider Interface
 
-Step 2:       On the “Navigation Menu” select “My Q\&A”
+Step 2: On the “Navigation Menu” select “My Q\&A”
 
 <figure><img src="../.gitbook/assets/image (76).png" alt=""><figcaption><p>Figure 28: My Q&#x26;A screen</p></figcaption></figure>
 
@@ -409,8 +398,6 @@ This feature enables providers to manage client inquiries more efficiently and p
 Providers have the ability to archive questions that are deemed inappropriate for publication on the platform. To do so, providers can click on the "Archive" button located in the bottom right corner of a question. Figure 30 illustrates how providers can provide reasoning for archiving a question. This feature generates a report for country administrators to ensure the platform operates effectively and maintains its integrity by preventing potential harm.
 
 <figure><img src="../.gitbook/assets/image (14).png" alt=""><figcaption><p>Figure 29: My Q&#x26;A answering to a questions.</p></figcaption></figure>
-
-
 
 <figure><img src="../.gitbook/assets/image (79).png" alt=""><figcaption><p>Figure 30: My Q&#x26;A archive question.</p></figcaption></figure>
 

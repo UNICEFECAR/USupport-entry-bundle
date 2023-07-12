@@ -1,43 +1,38 @@
 # 🤷♂ Client
 
-
-
-\
-
-
 ### Table of Contents
 
 [Table of Figures](client.md#table-of-figures)
 
-[Introduction](broken-reference)
+[Introduction](client.md#introduction)
 
 [What is the Client Interface?](client.md#what-is-the-client-interface)
 
 [Processes](client.md#\_ref122386267)
 
-[1.     Register into the Client Interface](client.md#1.-register-into-the-client-interface)
+[1. Register into the Client Interface](client.md#1.-register-into-the-client-interface)
 
-[1.1.     Registration Options](client.md#1.1.-registration-options)
+[1.1. Registration Options](client.md#1.1.-registration-options)
 
-[2.     Login to the Client Interface](client.md#\_toc123778358)
+[2. Login to the Client Interface](client.md#\_toc123778358)
 
-[3.     Forgot Password](client.md#\_toc123778359)
+[3. Forgot Password](client.md#\_toc123778359)
 
-[4.     Schedule a consultation](client.md#\_ref130341728)
+[4. Schedule a consultation](client.md#\_ref130341728)
 
-[5.     Edit consultation](client.md#5.-edit-consultation)
+[5. Edit consultation](client.md#5.-edit-consultation)
 
-[6.     Access the Information portal](client.md#6.-access-the-information-portal)
+[6. Access the Information portal](client.md#6.-access-the-information-portal)
 
-[7.     Access the SOS Center](client.md#6.-access-the-information-portal)
+[7. Access the SOS Center](client.md#6.-access-the-information-portal)
 
-[8.     Edit profile settings](client.md#8.-edit-profile-settings)
+[8. Edit profile settings](client.md#8.-edit-profile-settings)
 
-[9.     Access the dashboard](client.md#9.-access-the-dashboard)
+[9. Access the dashboard](client.md#9.-access-the-dashboard)
 
-[10.      Make a payment](client.md#\_ref130341549)
+[10. Make a payment](client.md#\_ref130341549)
 
-[11.      Access My Q\&A](client.md#11.-access-my-q-and-a)
+[11. Access My Q\&A](client.md#11.-access-my-q-and-a)
 
 ### Table of Figures
 
@@ -47,11 +42,11 @@ Figure 2: Client Interface entry screen
 
 Figure 3: Registration with email Step 1
 
-Figure 4:  Registration with email Step 2
+Figure 4: Registration with email Step 2
 
 Figure 5: Registration Step 3
 
-Figure 6:  Anonymously registration Step 1
+Figure 6: Anonymously registration Step 1
 
 Figure 7: Login screen
 
@@ -71,7 +66,7 @@ Figure 14: Provider Overview Screen
 
 Figure 15: Select the appointment date and time
 
-Figure 16:  Payment screen within consultation booking process
+Figure 16: Payment screen within consultation booking process
 
 Figure 17: Payment and Appointment confirmation
 
@@ -101,7 +96,7 @@ Figure 29: Notifications settings screen
 
 Figure 30: Application Feedback screen
 
-Figure 31:  Payment History screen
+Figure 31: Payment History screen
 
 Figure 32: Payment History more information about a payment.
 
@@ -147,21 +142,21 @@ This platform aims to deliver an easy-to-use interface that provides the capabil
 
 ### Processes <a href="#_ref122386267" id="_ref122386267"></a>
 
-### 1.   Register into the Client Interface
+### 1. Register into the Client Interface
 
-Step 1:       Navigate to the Client Interface (https://usupport.online/client)
+Step 1: Navigate to the Client Interface (https://usupport.online/client)
 
-Step 2:       Select a country and a language from the Welcome Screen.
+Step 2: Select a country and a language from the Welcome Screen.
 
-Step 3:       From the next screen select one of the registration options “Register with email” or “Register anonymously” (see Figure 2).
+Step 3: From the next screen select one of the registration options “Register with email” or “Register anonymously” (see Figure 2).
 
-Step 4:       Insert valid login credentials - either an email or an access token.
+Step 4: Insert valid login credentials - either an email or an access token.
 
 <figure><img src="../.gitbook/assets/image (88).png" alt=""><figcaption><p>Figure 1: Welcome Screen</p></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/image (84).png" alt=""><figcaption><p>Figure 2: Client Interface entry screen</p></figcaption></figure>
 
-#### 1.1.        Registration Options
+#### 1.1. Registration Options
 
 All the registration options are highlighted in Figure 2.
 
@@ -171,7 +166,7 @@ Option 1: This option requires the client to register using an existing email ad
 
 The first step for registering into the platform using Option 1 is to provide a valid email address which was not used for previous registrations, a nickname a and password. Additionally, the client is required to agree with the “Privacy Policy” and “Terms of Conditions” and complete reCAPTCHA verification.
 
-<figure><img src="../.gitbook/assets/image (12).png" alt=""><figcaption><p>Figure 4:  Registration with email Step 2</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (12).png" alt=""><figcaption><p>Figure 4: Registration with email Step 2</p></figcaption></figure>
 
 The second step in the option 1 registration flow requires further information such as name, surname, sex, year of birth and place of living. This information will be securely stored by the platform and can be modified by the client later on from the account settings.
 
@@ -181,7 +176,7 @@ The third step for this registration option asks the client if he/she needs urge
 
 Option 2: This option allows the client to get access to the client interface anonymously. This means that no personal identifiable information is required from the client, apart from a nickname and password. By choosing this option, the client will be provided with a unique access token that needs to be securely saved for future use. In comparison with the email registration presented above, using this type of registration means that there is no link between the client and the account on the platform. Following this, it is very important to understand that the access token generated in the registration process is the only key to access the account in the future and the client should make sure to remember it every time they want to log in.
 
-<figure><img src="../.gitbook/assets/image (25).png" alt=""><figcaption><p>Figure 6:  Anonymously registration Step 1</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (25).png" alt=""><figcaption><p>Figure 6: Anonymously registration Step 1</p></figcaption></figure>
 
 The first step for registration option 2 differs slightly from the previous option. Specifically, the email field (see Figure 3) is replaced by a unique access token (see in Figure 6).
 
@@ -189,51 +184,51 @@ The second step of this registration flow is similar to the third step of the pr
 
 Option 3: This option allows the client to get access to the client interface without going through the registration process. By using this option, the client can explore the limited features available for non-registered users and decide if they would like to fully register by creating an account.
 
-### 2.   Login to the Client Interface <a href="#_toc123778358" id="_toc123778358"></a>
+### 2. Login to the Client Interface <a href="#_toc123778358" id="_toc123778358"></a>
 
-Step 1:       Navigate to the Client Interface (https://usupport.online/client).
+Step 1: Navigate to the Client Interface (https://usupport.online/client).
 
-Step 2:       Select a country and a language from the Welcome Screen.
+Step 2: Select a country and a language from the Welcome Screen.
 
-Step 3:       From the next screen select “Login to the app” button (see Figure 2)
+Step 3: From the next screen select “Login to the app” button (see Figure 2)
 
-Step 4:       Insert valid login credentials - either an email or an access token
+Step 4: Insert valid login credentials - either an email or an access token
 
 <figure><img src="../.gitbook/assets/image (11).png" alt=""><figcaption><p>Figure 7: Login screen</p></figcaption></figure>
 
-### 3.   Forgot Password <a href="#_toc123778359" id="_toc123778359"></a>
+### 3. Forgot Password <a href="#_toc123778359" id="_toc123778359"></a>
 
-Step 1:       Navigate to the Client Interface (https://usupport.online/client)
+Step 1: Navigate to the Client Interface (https://usupport.online/client)
 
-Step 2:       Select a country and a language from the Welcome Screen.
+Step 2: Select a country and a language from the Welcome Screen.
 
-Step 3:       From the next screen select “Login to the app” button (see Figure 2).
+Step 3: From the next screen select “Login to the app” button (see Figure 2).
 
-Step 4:       Select “I forgot my password” see Figure 3.
+Step 4: Select “I forgot my password” see Figure 3.
 
-Step 5:       Insert a valid email address see Figure 8.
+Step 5: Insert a valid email address see Figure 8.
 
-Step 6:       Check your email address for recovery email.
+Step 6: Check your email address for recovery email.
 
 <figure><img src="../.gitbook/assets/image (77).png" alt=""><figcaption><p>Figure 8: Forgot Password Screen</p></figcaption></figure>
 
 If a valid and registered email address within the platform was provided, an automated email will be sent to it. The email will contain a temporary valid link that can be used to set a new password. Following this procedure, the user can access the account using the email address and the new set password.
 
-### 4.   Schedule a consultation <a href="#_ref130341728" id="_ref130341728"></a>
+### 4. Schedule a consultation <a href="#_ref130341728" id="_ref130341728"></a>
 
-Step 1:       Login to the Client Interface.
+Step 1: Login to the Client Interface.
 
-Step 2:       On the “Navigation Menu” select “Consultations”.
+Step 2: On the “Navigation Menu” select “Consultations”.
 
-Step 3:       Click the “Schedule a consultation” button see Figure 9.
+Step 3: Click the “Schedule a consultation” button see Figure 9.
 
-Step 4:       From the list of providers select one to preview his/her details see Figure 14.
+Step 4: From the list of providers select one to preview his/her details see Figure 14.
 
-Step 5:       From the provider overview screen select the “Schedule consultation” button .
+Step 5: From the provider overview screen select the “Schedule consultation” button .
 
-Step 6:       From the time availability pop-up select date and time and click the “Save” button see Figure 15
+Step 6: From the time availability pop-up select date and time and click the “Save” button see Figure 15
 
-Step 7:       Once the appointment is scheduled a confirmation pop-up will be shown see Figure 17
+Step 7: Once the appointment is scheduled a confirmation pop-up will be shown see Figure 17
 
 <figure><img src="../.gitbook/assets/image (128).png" alt=""><figcaption><p>Figure 9: Consultations Screen</p></figcaption></figure>
 
@@ -277,7 +272,7 @@ Once a client decides to progress with scheduling an appointment with a specific
 
 Note: The slots that are presented here are based on the availability put in place by the specific provider. There might be days that don’t have available slots due to either the provider being fully booked or the provider not being available for consultations on that specific date.
 
-<figure><img src="../.gitbook/assets/image (90).png" alt=""><figcaption><p>Figure 16:  Payment screen within consultation booking process</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (90).png" alt=""><figcaption><p>Figure 16: Payment screen within consultation booking process</p></figcaption></figure>
 
 After choosing a consultation slot, the user will be directed to proceed with payment. Figure 16 illustrates what payment details are required to complete the final step of booking a consultation. Two crucial aspects of the payment screen are worth noting. The first is the time counter, located at the top of the form, which shows the remaining time to complete the payment. The countdown begins at 5 minutes and indicates the duration the selected consultation slot is reserved and cannot be booked by other clients. If the time runs out, the client can no longer make the payment, and the slot becomes available again to all clients. If the client still wishes to book the same slot after the time has expired, they must select it again, provided it is still available and has not been booked by another user. The second important element on the screen is the total cost of the consultation, which will be charged to the user.
 
@@ -285,7 +280,7 @@ Note: The payment form is presented in more details in section 10 Make a payment
 
 <figure><img src="../.gitbook/assets/image (55).png" alt=""><figcaption><p>Figure 17: Payment and Appointment confirmation</p></figcaption></figure>
 
-&#x20;After a successful payment and registration of the booking by the system, the user will be shown the confirmation screen, as depicted in Figure 17.
+After a successful payment and registration of the booking by the system, the user will be shown the confirmation screen, as depicted in Figure 17.
 
 <figure><img src="../.gitbook/assets/image (54).png" alt=""><figcaption><p>Figure 18: Unsuccessful payment screen</p></figcaption></figure>
 
@@ -295,17 +290,17 @@ In the event that the payment is unsuccessful, the user will be directed to the 
 
 As previously mentioned, all the upcoming consultations can be seen within the Consultations Screen, as shown above.
 
-### 5.   Edit consultation
+### 5. Edit consultation
 
-Step 1:       Login to the Client Interface.
+Step 1: Login to the Client Interface.
 
-Step 2:       On the “Navigation Menu” select “Consultations”.
+Step 2: On the “Navigation Menu” select “Consultations”.
 
-Step 3:       Find the consultation that needs to be edited.
+Step 3: Find the consultation that needs to be edited.
 
-Step 4:       Select the “edit” button.
+Step 4: Select the “edit” button.
 
-Step 5:       From the displayed pop-up select one of the two options “Change the date and time” or “Cancel the consultation”.
+Step 5: From the displayed pop-up select one of the two options “Change the date and time” or “Cancel the consultation”.
 
 <figure><img src="../.gitbook/assets/image (58).png" alt=""><figcaption><p>Figure 20: Consultation screen edit appointment</p></figcaption></figure>
 
@@ -320,13 +315,13 @@ Note:
 * All changes made to an appointment will be confirmed using the notification service in app and by email for both of the consultation participants.
 * Refunds for paid consultations will only be issued if the appointment is cancelled at least 24 hours prior to its scheduled start time.
 
-### 6.   Access the Information portal
+### 6. Access the Information portal
 
-Step 1:       Login to the Client Interface.
+Step 1: Login to the Client Interface.
 
-Step 2:       On the “Navigation Menu” select “Information Portal”.
+Step 2: On the “Navigation Menu” select “Information Portal”.
 
-Step 3:       Select either of the “View all” buttons on the right hand side, see Figure 22.
+Step 3: Select either of the “View all” buttons on the right hand side, see Figure 22.
 
 <figure><img src="../.gitbook/assets/image (60).png" alt=""><figcaption><p>Figure 22: Information Portal initial screen</p></figcaption></figure>
 
@@ -346,11 +341,11 @@ Note:
 
 * Translations are supported as well. When changing the language, the clients will be presented with the translated version of the articles. In case some of the articles do not have a translated version for a specific language, then it will not be shown under the selected language.
 
-### 7.   Access the SOS Center
+### 7. Access the SOS Center
 
-Step 1:       Login to the Client Interface.
+Step 1: Login to the Client Interface.
 
-Step 2:       Select the “SOS Center” button on the bottom right corner from any screen within the USupport platform.
+Step 2: Select the “SOS Center” button on the bottom right corner from any screen within the USupport platform.
 
 <figure><img src="../.gitbook/assets/image (119).png" alt=""><figcaption><p>Figure 25: SOS Centers Screen</p></figcaption></figure>
 
@@ -367,11 +362,11 @@ Note:
 
 * Translations are supported as well. When changing the language, the clients will be presented with the translated version of the SOS centres. In case an SOS centre does not have a translated version for a specific language, then it will be excluded from the results under that specific language.
 
-### 8.   Edit profile settings
+### 8. Edit profile settings
 
-Step 1:       Login to the Client Interface.
+Step 1: Login to the Client Interface.
 
-Step 2:       On the “Navigation Menu” select “Your Profile”.
+Step 2: On the “Navigation Menu” select “Your Profile”.
 
 From this screen the client can proceed with the following actions:
 
@@ -383,8 +378,6 @@ From this screen the client can proceed with the following actions:
 * Raise an issue to the country administrator.
 * Access the privacy policy.
 * Access the frequently asked questions.
-
-
 
 <figure><img src="../.gitbook/assets/image (31).png" alt=""><figcaption><p>Figure 26: Client account settings screen</p></figcaption></figure>
 
@@ -408,7 +401,7 @@ The application feedback form can be accessed as well from the profile settings.
 
 Clients are able to view a complete record of their purchases on the platform through the 'payment history' screen. This screen displays details such as the service purchased, the total price paid, and the date and time of the payment.
 
-<figure><img src="../.gitbook/assets/image (21).png" alt=""><figcaption><p>Figure 31:  Payment History screen</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (21).png" alt=""><figcaption><p>Figure 31: Payment History screen</p></figcaption></figure>
 
 To obtain more detailed information about a specific payment, the client can select the "More details" option located on the right-hand side of the screen, which will display comprehensive payment details. Furthermore, this feature also enables the client to download the payment receipt associated with the transaction (see Figure 32). In addition, clients have the option to export the data in CSV format by simply clicking the "Export" button.
 
@@ -436,11 +429,11 @@ Note:
 
 * Translations are supported as well. When changing the language, the clients will be presented with the translated version of the FAQs. In case some of them do not have a translated version for a specific language, then they will be excluded from the results under that specific language.
 
-### 9.   Access the dashboard
+### 9. Access the dashboard
 
-Step 1:       Login to the Client Interface.
+Step 1: Login to the Client Interface.
 
-Step 2:       On the “Navigation Menu” select “Home”.
+Step 2: On the “Navigation Menu” select “Home”.
 
 This screen provides quick access to different functionalities provided within the client interface, which have all been covered within this document, see Figure 36
 
@@ -448,11 +441,11 @@ At the top of the screen we are presented with the upcoming consultation and opt
 
 <figure><img src="../.gitbook/assets/image (123).png" alt=""><figcaption><p>Figure 36: Dashboard screen</p></figcaption></figure>
 
-### 10.     Make a payment <a href="#_ref130341549" id="_ref130341549"></a>
+### 10. Make a payment <a href="#_ref130341549" id="_ref130341549"></a>
 
-Step 1:       Login to the Client Interface.
+Step 1: Login to the Client Interface.
 
-Step 2:       Follow the ‘Schedule consultation’ flow described in section 4 Schedule a consultation
+Step 2: Follow the ‘Schedule consultation’ flow described in section 4 Schedule a consultation
 
 Clients who wish to make a payment will be directed to the payment screen, which presents two different payment options. These options are outlined below, along with explanations for each of the fields required to complete the payment process.
 
@@ -483,13 +476,11 @@ After accessing the payment form shown in Figure 41, the client can manage their
 
 <figure><img src="../.gitbook/assets/image (63).png" alt=""><figcaption><p>Figure 41: Payment form Link authentication completed.</p></figcaption></figure>
 
-### 11.  Access My Q\&A
+### 11. Access My Q\&A
 
-Step 1:       Login to the Client Interface.
+Step 1: Login to the Client Interface.
 
-Step 2:       On the “Navigation Menu” select “My Q\&A”.
-
-
+Step 2: On the “Navigation Menu” select “My Q\&A”.
 
 <figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption><p>Figure 42: My Q&#x26;A screen.</p></figcaption></figure>
 
@@ -528,4 +519,3 @@ The read more functionality allows clients to view the entire answer to a questi
 Furthermore, the clients have the ability to filter the answered questions by tags or utilize the search function, which will match the results based on the Q\&A entry's title and tags as presented in Figure 46.
 
 <figure><img src="../.gitbook/assets/image (41).png" alt=""><figcaption><p>Figure 46: My Q&#x26;A filtering options.</p></figcaption></figure>
-
