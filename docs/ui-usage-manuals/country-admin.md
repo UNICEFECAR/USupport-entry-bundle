@@ -1,4 +1,4 @@
-# 🏢 Country Admin
+# Country Admin
 
 ### Table of Contents
 
