@@ -1,9 +1,6 @@
 # 🏢 Country Admin
 
-\
-
-
-Table of Contents
+### Table of Contents
 
 [Table of Figures](country-admin.md#table-of-figures)
 
@@ -13,39 +10,39 @@ Table of Contents
 
 [User Roles](country-admin.md#user-roles)
 
-[1.         Country Admin Role](country-admin.md#1.-country-admin-role)
+[1. Country Admin Role](country-admin.md#1.-country-admin-role)
 
 [Processes](country-admin.md#processes)
 
-[1.         Login to the Country Admin Interface](country-admin.md#1.-login-to-the-country-admin-interface)
+[1. Login to the Country Admin Interface](country-admin.md#1.-login-to-the-country-admin-interface)
 
-[2.         Forgot Password](country-admin.md#2.-forgot-password)
+[2. Forgot Password](country-admin.md#2.-forgot-password)
 
-[3.         Creating a new provider](country-admin.md#3.-creating-a-new-provider)
+[3. Creating a new provider](country-admin.md#3.-creating-a-new-provider)
 
-[4.         Edit Provider Details](country-admin.md#4.-edit-provider-details)
+[4. Edit Provider Details](country-admin.md#4.-edit-provider-details)
 
-[5.         Delete Provider](country-admin.md#\_toc130509591)
+[5. Delete Provider](country-admin.md#\_toc130509591)
 
-[6.         Visualise Provider Activity](country-admin.md#6.-visualise-provider-activity)
+[6. Visualise Provider Activity](country-admin.md#6.-visualise-provider-activity)
 
-[7.         Manage Articles](country-admin.md#7.-manage-articles)
+[7. Manage Articles](country-admin.md#7.-manage-articles)
 
-[8.         Manage SOS Centers](country-admin.md#8.-manage-sos-centers)
+[8. Manage SOS Centers](country-admin.md#8.-manage-sos-centers)
 
-[9.         Manage FAQs](country-admin.md#9.-manage-faqs)
+[9. Manage FAQs](country-admin.md#9.-manage-faqs)
 
-[10.      Creating a sponsor](country-admin.md#\_toc138202339)
+[10. Creating a sponsor](country-admin.md#\_toc138202339)
 
-[11.      Edit existing Sponsor details](country-admin.md#11.-edit-existing-sponsor-details)
+[11. Edit existing Sponsor details](country-admin.md#11.-edit-existing-sponsor-details)
 
-[12.      Creating a campaign](country-admin.md#12.-creating-a-campaign)
+[12. Creating a campaign](country-admin.md#12.-creating-a-campaign)
 
-[13.      Edit Campaign](country-admin.md#13.-edit-campaign)
+[13. Edit Campaign](country-admin.md#13.-edit-campaign)
 
-[14.      View details about campaign](country-admin.md#14.-view-details-about-campaign)
+[14. View details about campaign](country-admin.md#14.-view-details-about-campaign)
 
-[15.      View reports](country-admin.md#ole\_link97)
+[15. View reports](country-admin.md#ole\_link97)
 
 [15.1 Consultation Issues](country-admin.md#15.1-consultation-issues)
 
@@ -57,7 +54,7 @@ Table of Contents
 
 [15.5 My Q\&A Archive](country-admin.md#15.4-my-q-and-a-archive)
 
-[16.      Access My Q\&A](country-admin.md#16.-access-my-q-and-a)
+[16. Access My Q\&A](country-admin.md#16.-access-my-q-and-a)
 
 ### Table of Figures
 
@@ -65,7 +62,7 @@ Figure 1: Welcome Screen
 
 Figure 2: Login Screen
 
-Figure 3:  One time password verification screen
+Figure 3: One time password verification screen
 
 Figure 4: Forgot Password Screen
 
@@ -155,7 +152,7 @@ This platform aims to provide an easy-to-use interface that delivers the necessa
 
 The Country Admin interface provides a single-user role.
 
-### 1.   Country Admin Role
+### 1. Country Admin Role
 
 This role provides the capabilities of managing the USupport platform on a country level from an administrative perspective. The Country Admins have the capability to perform the following actions:
 
@@ -168,65 +165,49 @@ This role provides the capabilities of managing the USupport platform on a count
 
 ### Processes
 
-### 1.   Login to the Country Admin Interface
+### 1. Login to the Country Admin Interface
 
-Step 1:       Navigate to the Global Admin Interface (https://usupport.online/country-admin).
+Step 1: Navigate to the Global Admin Interface (https://usupport.online/country-admin).
 
-Step 2:       From the Welcome Screen select a country and a language.
+Step 2: From the Welcome Screen select a country and a language.
 
-Step 3:       Insert valid login credentials.
+Step 3: Insert valid login credentials.
 
-Step 4:       Insert OTP which was sent to the email address.
-
-
-
-
+Step 4: Insert OTP which was sent to the email address.
 
 <figure><img src="../.gitbook/assets/image005 (2).png" alt=""><figcaption><p>Figure 1: Welcome Screen</p></figcaption></figure>
 
-
-
 <figure><img src="../.gitbook/assets/image006 (3).png" alt=""><figcaption><p>Figure 2: Login Screen</p></figcaption></figure>
-
-
 
 <figure><img src="../.gitbook/assets/image007.png" alt=""><figcaption><p>Figure 3: : One time password verification screen</p></figcaption></figure>
 
+### 2. Forgot Password
 
+Step 1: Select “I forgot my password” (see Figure 2).
 
-### 2.   Forgot Password
+Step 2: Insert a valid email address (see Figure 3)
 
-Step 1:       Select “I forgot my password” (see Figure 2).
-
-Step 2:       Insert a valid email address (see Figure 3)
-
-Step 3:       Check provided email address for recovery email
+Step 3: Check provided email address for recovery email
 
 <figure><img src="../.gitbook/assets/image008.png" alt=""><figcaption><p>Figure 4: Forgot Password Screen</p></figcaption></figure>
 
-
-
 If a valid and registered email address within the platform was provided, an automated email will be sent to it. The email will contain a temporary valid link that can be used to set a new password. Following this procedure, the user can access the account using the email address and the newly created password.
 
-### 3.   Creating a new provider
+### 3. Creating a new provider
 
-Step 1:       Login to the Country Admin Interface.
+Step 1: Login to the Country Admin Interface.
 
-Step 2:       On the “Navigation Menu” select “Providers”.
+Step 2: On the “Navigation Menu” select “Providers”.
 
-Step 3:       Click “Add provider” button.
+Step 3: Click “Add provider” button.
 
-Step 4:       Fulfil the form with providers’ details.
+Step 4: Fulfil the form with providers’ details.
 
-Step 5:       Click the “Create provider” button to save the new details.
-
-
+Step 5: Click the “Create provider” button to save the new details.
 
 <figure><img src="../.gitbook/assets/image009.png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/image010.png" alt=""><figcaption><p>Figure 5: Providers Screen table view and list view</p></figcaption></figure>
-
-
 
 <figure><img src="../.gitbook/assets/image011.png" alt=""><figcaption><p>Figure 6: Add new Provider Form</p></figcaption></figure>
 
@@ -234,37 +215,33 @@ Note: Some of the input fields are mandatory and have validation in place. In or
 
 <figure><img src="../.gitbook/assets/image012 (3).png" alt=""><figcaption><p>Figure 7: Input field validation error</p></figcaption></figure>
 
-### 4.   Edit Provider Details
+### 4. Edit Provider Details
 
-Step 1:       Login to the Country Admin Interface.
+Step 1: Login to the Country Admin Interface.
 
-Step 2:       On the “Navigation Menu” select “Providers”.
+Step 2: On the “Navigation Menu” select “Providers”.
 
-Step 3:       Choose a provider and click on the three dots at the top-right corner of the box.
+Step 3: Choose a provider and click on the three dots at the top-right corner of the box.
 
-Step 4:       From the dropdown menu select “Edit”.
+Step 4: From the dropdown menu select “Edit”.
 
-Step 5:       Update the provider data.
+Step 5: Update the provider data.
 
-Step 6:       Click on the “Save Changes” button.
-
-
+Step 6: Click on the “Save Changes” button.
 
 <figure><img src="../.gitbook/assets/image013.png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/image (101).png" alt=""><figcaption><p>Figure 8: Edit Provider Details</p></figcaption></figure>
 
-### 5.   Delete Provider <a href="#_toc130509591" id="_toc130509591"></a>
+### 5. Delete Provider <a href="#_toc130509591" id="_toc130509591"></a>
 
-Step 1:       Login to the Country Admin Interface.
+Step 1: Login to the Country Admin Interface.
 
-Step 2:       On the “Navigation Menu” select “Providers”.
+Step 2: On the “Navigation Menu” select “Providers”.
 
-Step 3:       Choose a provider and click on the three dots at the top-right corner of the box or click on the “Deactivate” button (based on which view is presented table/list).
+Step 3: Choose a provider and click on the three dots at the top-right corner of the box or click on the “Deactivate” button (based on which view is presented table/list).
 
-Step 4:       From the dropdown menu select “Delete”.
-
-
+Step 4: From the dropdown menu select “Delete”.
 
 <figure><img src="../.gitbook/assets/image014 (1).png" alt=""><figcaption></figcaption></figure>
 
@@ -272,19 +249,17 @@ Step 4:       From the dropdown menu select “Delete”.
 
 <figure><img src="../.gitbook/assets/image (108).png" alt=""><figcaption><p>Figure 10: Deactivate provider profile confirmation.</p></figcaption></figure>
 
-Note:  After the provider's account is deactivated, they will lose the ability to make changes to their availability, join campaigns, propose consultations to clients, or show up in client searches. However, it's important to note that the provider will still have access to their account, be able to view their previous consultations, and conduct consultations that have already been scheduled.
+Note: After the provider's account is deactivated, they will lose the ability to make changes to their availability, join campaigns, propose consultations to clients, or show up in client searches. However, it's important to note that the provider will still have access to their account, be able to view their previous consultations, and conduct consultations that have already been scheduled.
 
-### 6.   Visualise Provider Activity
+### 6. Visualise Provider Activity
 
-Step 1:       Login to the Country Admin Interface.
+Step 1: Login to the Country Admin Interface.
 
-Step 2:       On the “Navigation Menu” select “Providers”.
+Step 2: On the “Navigation Menu” select “Providers”.
 
-Step 3:       Choose a provider and click on the three dots at the top-right corner of the box.
+Step 3: Choose a provider and click on the three dots at the top-right corner of the box.
 
-Step 4:       From the dropdown menu select “Activity”.
-
-
+Step 4: From the dropdown menu select “Activity”.
 
 <figure><img src="../.gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
 
@@ -300,16 +275,16 @@ Additionally, the country administrator can export the displayed data in CSV for
 
 Filter options:
 
-* &#x20; Start date
-* &#x20; End date
+* Start date
+* End date
 
-### 7.    Manage Articles
+### 7. Manage Articles
 
-Step 1:       Login to the Country Admin Interface.
+Step 1: Login to the Country Admin Interface.
 
-Step 2:       On the “Navigation Menu” select “Articles”.
+Step 2: On the “Navigation Menu” select “Articles”.
 
-Step 3:       From the list of Articles tick the checkbox for the ones that should be displayed in the Information Portal.
+Step 3: From the list of Articles tick the checkbox for the ones that should be displayed in the Information Portal.
 
 <figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption><p>Figure 14: Articles Screen</p></figcaption></figure>
 
@@ -319,35 +294,35 @@ In addition, the country administrator has the capability to utilize the search 
 
 Note:
 
-\-       The articles that are available in the country administrator panel are reviewed and approved by the moderators of the USupport CMS platform.
+\- The articles that are available in the country administrator panel are reviewed and approved by the moderators of the USupport CMS platform.
 
-\-       Translations are supported as well. When changing the language, the administrators will be presented with the translated version of the articles. In case some of the articles do not have a translated version for a specific language, then they will not be shown under the selected language.
+\- Translations are supported as well. When changing the language, the administrators will be presented with the translated version of the articles. In case some of the articles do not have a translated version for a specific language, then they will not be shown under the selected language.
 
-### 8.   Manage SOS Centers
+### 8. Manage SOS Centers
 
-Step 1:       Login to the Country Admin Interface.
+Step 1: Login to the Country Admin Interface.
 
-Step 2:       On the “Navigation Menu” select ”SOS centre”.
+Step 2: On the “Navigation Menu” select ”SOS centre”.
 
-Step 3:       From the list of SOS centres tick the checkbox for the ones that should be displayed to the clients for the current country.
+Step 3: From the list of SOS centres tick the checkbox for the ones that should be displayed to the clients for the current country.
 
 <figure><img src="../.gitbook/assets/image (166).png" alt=""><figcaption><p>Figure 15: SOS centres Screen</p></figcaption></figure>
 
 Note:
 
-\-       The SOS centers that are available in the country administrator panel are reviewed and approved by the moderators of the USupport CMS platform.
+\- The SOS centers that are available in the country administrator panel are reviewed and approved by the moderators of the USupport CMS platform.
 
-\-       Translations are supported as well. When changing the language, the administrators will be presented with the translated version of the SOS centers. In case some of them do not have a translated version for a specific language, then they will be excluded from the results under that specific language.
+\- Translations are supported as well. When changing the language, the administrators will be presented with the translated version of the SOS centers. In case some of them do not have a translated version for a specific language, then they will be excluded from the results under that specific language.
 
-### 9.   Manage FAQs
+### 9. Manage FAQs
 
-Step 1:       Login to the Country Admin Interface.
+Step 1: Login to the Country Admin Interface.
 
-Step 2:       On the “Navigation Menu” select ”FAQ”.
+Step 2: On the “Navigation Menu” select ”FAQ”.
 
-Step 3:       From the tab bar select a user interface.
+Step 3: From the tab bar select a user interface.
 
-Step 4:       From the list of FAQs tick the checkbox for the ones that should be displayed for the currently selected interface.
+Step 4: From the list of FAQs tick the checkbox for the ones that should be displayed for the currently selected interface.
 
 <figure><img src="../.gitbook/assets/image (71).png" alt=""><figcaption><p>Figure 16: FAQs Screen</p></figcaption></figure>
 
@@ -355,23 +330,23 @@ Frequently asked questions are created using the USupport CMS platform by modera
 
 Note:
 
-\-       The FAQs that are available in the country administrator panel are reviewed and approved by the moderators of the USupport CMS platform.
+\- The FAQs that are available in the country administrator panel are reviewed and approved by the moderators of the USupport CMS platform.
 
-\-       Translations are supported as well. When changing the language, the administrators will be presented with the translated version of the FAQs. In case some of them do not have a translated version for a specific language, then they will be excluded from the results under that specific language.
+\- Translations are supported as well. When changing the language, the administrators will be presented with the translated version of the FAQs. In case some of them do not have a translated version for a specific language, then they will be excluded from the results under that specific language.
 
-\-       The search bar provides country administrators with a convenient tool for swiftly locating and managing specific content within this section. This feature enhances user efficiency and ensures a smoother and more effective user experience.
+\- The search bar provides country administrators with a convenient tool for swiftly locating and managing specific content within this section. This feature enhances user efficiency and ensures a smoother and more effective user experience.
 
-### 10.     Creating a sponsor <a href="#_toc138202339" id="_toc138202339"></a>
+### 10. Creating a sponsor <a href="#_toc138202339" id="_toc138202339"></a>
 
-Step 1:       Login to the Country Admin Interface.
+Step 1: Login to the Country Admin Interface.
 
-Step 2:       On the “Navigation Menu” select “Coupons”.
+Step 2: On the “Navigation Menu” select “Coupons”.
 
-Step 3:       Click “Add sponsor” button.
+Step 3: Click “Add sponsor” button.
 
-Step 4:       Fulfil the form with sponsors’ details.
+Step 4: Fulfil the form with sponsors’ details.
 
-Step 5:       Click the “Create sponsor” button.
+Step 5: Click the “Create sponsor” button.
 
 <figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption><p>Figure 17: Campaign sponsor screen</p></figcaption></figure>
 
@@ -379,48 +354,48 @@ Step 5:       Click the “Create sponsor” button.
 
 The following information is required for creating a new sponsor:
 
-* &#x20;Image
-* &#x20; Name
-* &#x20; Email
-* &#x20; Phone number
+* Image
+* Name
+* Email
+* Phone number
 
 Note:
 
-\-       Some of the input fields are mandatory and have validation in place. In order to create a new campaign all the required fields have to be fulfilled.
+\- Some of the input fields are mandatory and have validation in place. In order to create a new campaign all the required fields have to be fulfilled.
 
-### 11.     Edit existing Sponsor details
+### 11. Edit existing Sponsor details
 
-Step 1:       Login to the Country Admin Interface.
+Step 1: Login to the Country Admin Interface.
 
-Step 2:       On the “Navigation Menu” select “Coupons”.
+Step 2: On the “Navigation Menu” select “Coupons”.
 
-Step 3:       Choose a sponsor and click on the three dots at the end of the row.
+Step 3: Choose a sponsor and click on the three dots at the end of the row.
 
-Step 4:       From the dropdown menu select “Edit”.
+Step 4: From the dropdown menu select “Edit”.
 
-Step 5:       Update the sponsor data.
+Step 5: Update the sponsor data.
 
-Step 6:       Click on the “Save Changes” button.
+Step 6: Click on the “Save Changes” button.
 
 <figure><img src="../.gitbook/assets/image (167).png" alt=""><figcaption><p>Figure 19: Edit Sponsor details</p></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/image (10).png" alt=""><figcaption><p>Figure 20: Edit Sponsor Details</p></figcaption></figure>
 
-### 12.     Creating a campaign
+### 12. Creating a campaign
 
-Step 1:       Login to the Country Admin Interface.
+Step 1: Login to the Country Admin Interface.
 
-Step 2:       On the “Navigation Menu” select “Coupons”.
+Step 2: On the “Navigation Menu” select “Coupons”.
 
-Step 3:       Choose a sponsor and click on the three dots at the top-right corner of the box.
+Step 3: Choose a sponsor and click on the three dots at the top-right corner of the box.
 
-Step 4:       From the dropdown menu select “View”.
+Step 4: From the dropdown menu select “View”.
 
-Step 5:       Click the “Create campaign” button.
+Step 5: Click the “Create campaign” button.
 
-Step 6:       Fulfil the form with campaign details.
+Step 6: Fulfil the form with campaign details.
 
-Step 7:       Click the “Create campaign” button.
+Step 7: Click the “Create campaign” button.
 
 <figure><img src="../.gitbook/assets/image (104).png" alt=""><figcaption><p>Figure 21: Sponsors Screen</p></figcaption></figure>
 
@@ -446,39 +421,39 @@ Note:
 * The total budget and the total number of coupons are information that is required to be fulfilled by the admin user. Based on those the single coupon price is calculated and displayed. This price represents the benefit that the clients will be entitled for when using the coupon code.
 * The campaign can be deactivated at any time during the campaign period by switching on or off the status toggle.
 
-### 13.     Edit Campaign
+### 13. Edit Campaign
 
-Step 1:       Login to the Country Admin Interface.
+Step 1: Login to the Country Admin Interface.
 
-Step 2:       On the “Navigation Menu” select “Coupons”.
+Step 2: On the “Navigation Menu” select “Coupons”.
 
-Step 3:       Choose a sponsor and click on the three dots at the top-right corner of the box.
+Step 3: Choose a sponsor and click on the three dots at the top-right corner of the box.
 
-Step 4:       From the dropdown menu select “View”.
+Step 4: From the dropdown menu select “View”.
 
-Step 5:       Choose a campaign and click on the three dots at the top-right corner of the box.
+Step 5: Choose a campaign and click on the three dots at the top-right corner of the box.
 
-Step 6:       Update the sponsor data.
+Step 6: Update the sponsor data.
 
-Step 7:       Click on the “Save Changes” button.
+Step 7: Click on the “Save Changes” button.
 
 <figure><img src="../.gitbook/assets/image (103).png" alt=""><figcaption><p>Figure 24: Edit campaign</p></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/image (72).png" alt=""><figcaption><p>Figure 25: Edit Campaign Details</p></figcaption></figure>
 
-### 14.  View details about campaign
+### 14. View details about campaign
 
-Step 1:       Login to the Country Admin Interface.
+Step 1: Login to the Country Admin Interface.
 
-Step 2:       On the “Navigation Menu” select “Coupons”.
+Step 2: On the “Navigation Menu” select “Coupons”.
 
-Step 3:       Choose a sponsor and click on the three dots at the top-right corner of the box.
+Step 3: Choose a sponsor and click on the three dots at the top-right corner of the box.
 
-Step 4:       From the dropdown menu select “View”.
+Step 4: From the dropdown menu select “View”.
 
-Step 5:       Choose a campaign and click on the three dots at the top-right corner of the box.
+Step 5: Choose a campaign and click on the three dots at the top-right corner of the box.
 
-Step 6:       Select the “Details” option.
+Step 6: Select the “Details” option.
 
 <figure><img src="../.gitbook/assets/image (47).png" alt=""><figcaption><p>Figure 26: Navigate to campaign details</p></figcaption></figure>
 
@@ -497,13 +472,13 @@ Filter options:
 * Client’s place of living
 * Date when the coupon was used
 
-### 15.     View reports <a href="#ole_link97" id="ole_link97"></a>
+### 15. View reports <a href="#ole_link97" id="ole_link97"></a>
 
-Step 1:       Login to the Country Admin Interface.
+Step 1: Login to the Country Admin Interface.
 
-Step 2:       On the “Navigation Menu” select “Reports”.
+Step 2: On the “Navigation Menu” select “Reports”.
 
-Step 3:       From the “Reports Tabs” select one of the report tabs.
+Step 3: From the “Reports Tabs” select one of the report tabs.
 
 <figure><img src="../.gitbook/assets/image (51).png" alt=""><figcaption><p>Figure 28: Reports visualisation screen</p></figcaption></figure>
 
@@ -511,7 +486,7 @@ Available reports:
 
 #### 15.1 Consultation Issues
 
-&#x20;    The reports in this section desire to highlight to the Country Administrator any issues that might exist from client’s perspective following consultations with providers. Therefore, in case the client does not report any issue after his/her consultation, there will be no report generated for this section.
+The reports in this section desire to highlight to the Country Administrator any issues that might exist from client’s perspective following consultations with providers. Therefore, in case the client does not report any issue after his/her consultation, there will be no report generated for this section.
 
 A report is generated and added by the clients after each consultation following a series of questions for which they need to answer. Once they submit the questionnaire the system will check the answers and will either generate a report or not.
 
@@ -553,8 +528,6 @@ The report consists of:
 * Suggestion text as written by the client
 
 <figure><img src="../.gitbook/assets/image (89).png" alt=""><figcaption><p>Figure 32: Information Portal Suggestions filtering options</p></figcaption></figure>
-
-
 
 Filter options:
 
@@ -619,11 +592,11 @@ The report consists of:
 * Time when it was archived
 * Client Question
 
-### 16.  Access My Q\&A
+### 16. Access My Q\&A
 
-Step 1:       Login to the Country Admin Interface.
+Step 1: Login to the Country Admin Interface.
 
-Step 2:       On the “Navigation Menu” select “My Q\&A”.
+Step 2: On the “Navigation Menu” select “My Q\&A”.
 
 <figure><img src="../.gitbook/assets/image (97).png" alt=""><figcaption><p>Figure 38: My Q&#x26;A screen</p></figcaption></figure>
 

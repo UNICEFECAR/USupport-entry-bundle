@@ -1,8 +1,5 @@
 # 📱 Mobile
 
-\
-
-
 ### Table of Contents
 
 [Table of Figures](mobile.md#table-of-figures)
@@ -13,29 +10,29 @@
 
 [Processes](mobile.md#processes)
 
-[1.     Register into the Client Interface](broken-reference)
+[1. Register into the Client Interface](broken-reference/)
 
-[1.1.     Registration Options](mobile.md#1.1.-registration-options)
+[1.1. Registration Options](mobile.md#1.1.-registration-options)
 
-[2.     Login to the mobile application](mobile.md#2.-login-to-the-mobile-application)
+[2. Login to the mobile application](mobile.md#2.-login-to-the-mobile-application)
 
-[3.     Forgot Password](mobile.md#3.-forgot-password)
+[3. Forgot Password](mobile.md#3.-forgot-password)
 
-[4.     Schedule a consultation](mobile.md#4.-schedule-a-consultation)
+[4. Schedule a consultation](mobile.md#4.-schedule-a-consultation)
 
-[5.     Edit consultation](mobile.md#5.-edit-consultation)
+[5. Edit consultation](mobile.md#5.-edit-consultation)
 
-[6.     Access the Information portal](mobile.md#6.-access-the-information-portal)
+[6. Access the Information portal](mobile.md#6.-access-the-information-portal)
 
-[7.     Access the SOS Center](mobile.md#7.-access-the-sos-center)
+[7. Access the SOS Center](mobile.md#7.-access-the-sos-center)
 
-[8.     Edit profile settings](mobile.md#8.-edit-profile-settings)
+[8. Edit profile settings](mobile.md#8.-edit-profile-settings)
 
-[9.     Access the dashboard](mobile.md#9.-access-the-dashboard)
+[9. Access the dashboard](mobile.md#9.-access-the-dashboard)
 
-[10.  Make a payment](mobile.md#10.-make-a-payment)
+[10. Make a payment](mobile.md#10.-make-a-payment)
 
-[11.  Access My Q\&A](mobile.md#11.-access-my-q-and-a)
+[11. Access My Q\&A](mobile.md#11.-access-my-q-and-a)
 
 ### Table of Figures
 
@@ -45,11 +42,11 @@ Figure 2: Client Interface entry screen
 
 Figure 3: Registration with email Step 1
 
-Figure 4:  Registration with email Step 2
+Figure 4: Registration with email Step 2
 
 Figure 5: Registration Step 3
 
-Figure 6:  Anonymously registration Step 1
+Figure 6: Anonymously registration Step 1
 
 Figure 7: Login screen
 
@@ -69,7 +66,7 @@ Figure 14: Provider Overview Screen
 
 Figure 15: Select the appointment date and time
 
-Figure 16:  Payment screen within consultation booking process
+Figure 16: Payment screen within consultation booking process
 
 Figure 17: Payment and Appointment confirmation
 
@@ -143,25 +140,23 @@ The mobile app offers an easy-to-use interface that allows users to access a wid
 
 ### Processes
 
-### 1.   Register into the Client Interface
+### 1. Register into the Client Interface
 
-Step 1:       Open the mobile application.
+Step 1: Open the mobile application.
 
-Step 2:       Select a country and a language from the Welcome Screen.
+Step 2: Select a country and a language from the Welcome Screen.
 
-Step 3:       From the next screen select one of the registration options “Register with email” or “Register anonymously” (see Figure 2).
+Step 3: From the next screen select one of the registration options “Register with email” or “Register anonymously” (see Figure 2).
 
-Step 4:       Insert valid login credentials - either an email or an access token.
+Step 4: Insert valid login credentials - either an email or an access token.
 
 <figure><img src="../.gitbook/assets/image (148).png" alt=""><figcaption><p>Figure 1: Welcome Screen</p></figcaption></figure>
 
-
-
 <figure><img src="../.gitbook/assets/image (157).png" alt=""><figcaption><p>Figure 2: Client Interface entry screen</p></figcaption></figure>
 
-#### 1.1.        Registration Options
+#### 1.1. Registration Options
 
-#### &#x20;
+####
 
 All the registration options are highlighted in Figure 2.
 
@@ -171,7 +166,7 @@ Option 1: This option requires the client to register using an existing email ad
 
 The first step for registering into the platform using Option 1 is to provide a valid email address which was not used for previous registrations, a nickname and a password. Additionally, the client is required to agree with the “Privacy Policy” and “Terms of Conditions”.
 
-<figure><img src="../.gitbook/assets/image (156).png" alt=""><figcaption><p>Figure 4:  Registration with email Step 2</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (156).png" alt=""><figcaption><p>Figure 4: Registration with email Step 2</p></figcaption></figure>
 
 The second step in the option 1 registration flow requires further information such as name, surname, sex, year of birth and place of living. This information will be securely stored by the platform and can be modified by the client later on from the account settings.
 
@@ -181,7 +176,7 @@ The third step for this registration option asks the client if he/she needs urge
 
 Option 2: This option allows the client to get access to the mobile app anonymously. This means that no personal identifiable information is required from the client, apart from a nickname and password. By choosing this option, the client will be provided with a unique access token that needs to be securely saved for future use. In comparison with the email registration presented above, using this type of registration means that there is no link between the client and the account on the platform. Following this, it is very important to understand that the access token generated in the registration process is the only key to access the account in the future and the client should make sure to remember it every time they want to log in.
 
-<figure><img src="../.gitbook/assets/image (139).png" alt=""><figcaption><p>Figure 6:  Anonymously registration Step 1</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (139).png" alt=""><figcaption><p>Figure 6: Anonymously registration Step 1</p></figcaption></figure>
 
 The first step for registration option 2 differs slightly from the previous option. Specifically, the email field (see Figure 3) is replaced by a unique access token (see in Figure 6).
 
@@ -189,51 +184,51 @@ The second step of this registration flow is similar to the third step of the pr
 
 Option 3: This option allows the client to get access to the mobile application without going through the registration process. By using this option, the client can explore the limited features available for non-registered users and decide if they would like to fully register by creating an account.
 
-### 2.   Login to the mobile application
+### 2. Login to the mobile application
 
-Step 1:       Open the USupport mobile application
+Step 1: Open the USupport mobile application
 
-Step 2:       Select a country and a language from the Welcome Screen.
+Step 2: Select a country and a language from the Welcome Screen.
 
-Step 3:       From the next screen select “Login to the app” button (see Figure 2)
+Step 3: From the next screen select “Login to the app” button (see Figure 2)
 
-Step 4:       Insert valid login credentials - either an email or an access token
+Step 4: Insert valid login credentials - either an email or an access token
 
 <figure><img src="../.gitbook/assets/image (160).png" alt=""><figcaption><p>Figure 7: Login screen</p></figcaption></figure>
 
-### 3.   Forgot Password
+### 3. Forgot Password
 
-Step 1:       Open the USupport mobile application.
+Step 1: Open the USupport mobile application.
 
-Step 2:       Select a country and a language from the Welcome Screen.
+Step 2: Select a country and a language from the Welcome Screen.
 
-Step 3:       From the next screen select “Login to the app” button (see Figure 2).
+Step 3: From the next screen select “Login to the app” button (see Figure 2).
 
-Step 4:       Select “I forgot my password” see Figure 7.
+Step 4: Select “I forgot my password” see Figure 7.
 
-Step 5:       Insert a valid email address see Figure 8.
+Step 5: Insert a valid email address see Figure 8.
 
-Step 6:       Check your email address for recovery email.
+Step 6: Check your email address for recovery email.
 
 <figure><img src="../.gitbook/assets/image (130).png" alt=""><figcaption><p>Figure 8: Forgot Password Screen</p></figcaption></figure>
 
 If a valid and registered email address within the platform was provided, an automated email will be sent to it. The email will contain a temporary valid link that can be used to set a new password. Following this procedure, the user can access the account using the email address and the new set password.
 
-### 4.   Schedule a consultation
+### 4. Schedule a consultation
 
-Step 1:       Login to the  mobile application.
+Step 1: Login to the mobile application.
 
-Step 2:       On the “Navigation Menu” select “Consultations” icon which is the third button in the menu.
+Step 2: On the “Navigation Menu” select “Consultations” icon which is the third button in the menu.
 
-Step 3:       Click the “Schedule a consultation” button see Figure 9.
+Step 3: Click the “Schedule a consultation” button see Figure 9.
 
-Step 4:       From the list of providers select one to preview his/her details see Figure 10.
+Step 4: From the list of providers select one to preview his/her details see Figure 10.
 
-Step 5:       From the provider overview screen select the “Schedule consultation” button see Figure 11.
+Step 5: From the provider overview screen select the “Schedule consultation” button see Figure 11.
 
-Step 6:       From the time availability pop-up select date and time and click the “Save” button see Figure 12.
+Step 6: From the time availability pop-up select date and time and click the “Save” button see Figure 12.
 
-Step 7:       Once the appointment is scheduled a confirmation pop-up will be shown see Figure 17.
+Step 7: Once the appointment is scheduled a confirmation pop-up will be shown see Figure 17.
 
 <figure><img src="../.gitbook/assets/image (153).png" alt=""><figcaption><p>Figure 9: Consultations Screen</p></figcaption></figure>
 
@@ -269,8 +264,6 @@ Providers filtering options:
 
 <figure><img src="../.gitbook/assets/Screenshot 2023-07-11 at 10.34.11.png" alt=""><figcaption><p>Figure 14: Provider Overview Screen</p></figcaption></figure>
 
-
-
 Clicking on any of the listed providers allows the client to access additional information about their background and support capabilities, as depicted in Figure 14. This feature provides the client with a more in-depth understanding of each provider, allowing them to make a more informed decision when selecting a provider to work with.
 
 <figure><img src="../.gitbook/assets/image (135).png" alt=""><figcaption><p>Figure 15: Select the appointment date and time</p></figcaption></figure>
@@ -279,7 +272,7 @@ Once a client decides to progress with scheduling an appointment with a specific
 
 Note: The slots that are presented here are based on the availability put in place by the specific provider. There might be days that don’t have available slots due to either the provider being fully booked or the provider not being available for consultations on that specific date.
 
-<figure><img src="../.gitbook/assets/Screenshot 2023-07-11 at 10.35.02.png" alt=""><figcaption><p>Figure 16:  Payment screen within consultation booking process</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2023-07-11 at 10.35.02.png" alt=""><figcaption><p>Figure 16: Payment screen within consultation booking process</p></figcaption></figure>
 
 After choosing a consultation slot, the user will be directed to proceed with the payment. Figure 16 illustrates what details are required to complete the final step of booking a consultation. Two crucial aspects of the payment screen are worth noting. The first is that the time counter, although not presented on the screen, begins counting down from 5 minutes as soon as the payment screen is loaded. This counter indicates the duration for which the selected consultation slot is reserved and cannot be booked by other clients. If the time runs out, the client can no longer make the payment, and the slot becomes available again to all clients. If the client still wishes to book the same slot after the time has expired, they must select it again, provided it is still available and has not been booked by another user. The second important element on the screen is the total cost of the consultation, which will be charged to the user.
 
@@ -287,7 +280,7 @@ Note: The payment form is presented in more details in section 10 Make a payment
 
 <figure><img src="../.gitbook/assets/image (136).png" alt=""><figcaption><p>Figure 17: Payment and Appointment confirmation</p></figcaption></figure>
 
-&#x20;After a successful payment and registration of the booking by the system, the user will be shown the confirmation screen, as depicted in Figure 17.
+After a successful payment and registration of the booking by the system, the user will be shown the confirmation screen, as depicted in Figure 17.
 
 <figure><img src="../.gitbook/assets/image.png" alt=""><figcaption><p>Figure 18: Unsuccessful payment screen</p></figcaption></figure>
 
@@ -297,17 +290,17 @@ In the event that the payment is unsuccessful, the user will be directed to the 
 
 As previously mentioned, all the upcoming consultations can be seen within the Consultations Screen, as shown above.
 
-### 5.   Edit consultation
+### 5. Edit consultation
 
-Step 1:       Login to the Mobile application.
+Step 1: Login to the Mobile application.
 
-Step 8:       On the “Navigation Menu” select “Consultations” icon which is the third button in the menu.
+Step 8: On the “Navigation Menu” select “Consultations” icon which is the third button in the menu.
 
-Step 2:       Find the consultation that needs to be edited.
+Step 2: Find the consultation that needs to be edited.
 
-Step 3:       Select the “edit” button.
+Step 3: Select the “edit” button.
 
-Step 4:       From the displayed pop-up select one of the two options “Change the date and time” or “Cancel the consultation”.
+Step 4: From the displayed pop-up select one of the two options “Change the date and time” or “Cancel the consultation”.
 
 <figure><img src="../.gitbook/assets/image (13).png" alt=""><figcaption><p>Figure 20: Consultation screen edit appointment</p></figcaption></figure>
 
@@ -322,13 +315,13 @@ Note:
 * All changes made to an appointment will be confirmed using the notification service in app and by email for both of the consultation participants.
 * Refunds for paid consultations will only be issued if the appointment is cancelled at least 24 hours prior to its scheduled start time.
 
-### 6.   Access the Information portal
+### 6. Access the Information portal
 
-Step 1:       Login to the Mobile application.
+Step 1: Login to the Mobile application.
 
-Step 2:       On the “Navigation Menu” select “Information Portal” icon which is the second button in the navigation menu.
+Step 2: On the “Navigation Menu” select “Information Portal” icon which is the second button in the navigation menu.
 
-Step 3:       Select the “View all” buttons on the right hand side, see Figure 22.
+Step 3: Select the “View all” buttons on the right hand side, see Figure 22.
 
 <figure><img src="../.gitbook/assets/Screenshot 2023-07-11 at 10.37.14.png" alt=""><figcaption><p>Figure 22: Information Portal initial screen</p></figcaption></figure>
 
@@ -348,11 +341,11 @@ Note:
 
 * Translations are supported as well. When changing the language, the clients will be presented with the translated version of the articles. In case some of the articles do not have a translated version for a specific language, then it will not be shown under the selected language.
 
-### 7.   Access the SOS Center
+### 7. Access the SOS Center
 
-Step 1:       Login to the Mobile application.
+Step 1: Login to the Mobile application.
 
-Step 2:       Select the “SOS Center” button on the bottom right corner from any screen within the USupport mobile applicaiton.
+Step 2: Select the “SOS Center” button on the bottom right corner from any screen within the USupport mobile applicaiton.
 
 <figure><img src="../.gitbook/assets/image (158).png" alt=""><figcaption><p>Figure 25: SOS Centers Screen</p></figcaption></figure>
 
@@ -369,11 +362,11 @@ Note:
 
 * Translations are supported as well. When changing the language, the clients will be presented with the translated version of the SOS centres. In case an SOS centre does not have a translated version for a specific language, then it will be excluded from the results under that specific language.
 
-### 8.   Edit profile settings
+### 8. Edit profile settings
 
-Step 1:       Login to the Mobile Application.
+Step 1: Login to the Mobile Application.
 
-Step 2:       On the top left click the “Profile Icon” select “Your Profile” (see Figure 26 & Figure 27).
+Step 2: On the top left click the “Profile Icon” select “Your Profile” (see Figure 26 & Figure 27).
 
 <figure><img src="../.gitbook/assets/image (129).png" alt=""><figcaption><p>Figure 26: Access mobile application settings</p></figcaption></figure>
 
@@ -449,11 +442,11 @@ Note:
 
 * Translations are supported as well. When changing the language, the clients will be presented with the translated version of the FAQs. In case some of them do not have a translated version for a specific language, then they will be excluded from the results under that specific language.
 
-### 9.   Access the dashboard
+### 9. Access the dashboard
 
-Step 1:       Login to the Mobile Application.
+Step 1: Login to the Mobile Application.
 
-Step 2:       On the “Navigation Menu” select “Home” icon which is the first button in the menu..
+Step 2: On the “Navigation Menu” select “Home” icon which is the first button in the menu..
 
 This screen provides quick access to different functionalities provided within the mobile application interface, which have all been covered within this document, see Figure 39.
 
@@ -461,11 +454,11 @@ The top of the screen displays the client's upcoming consultation and provides a
 
 <figure><img src="../.gitbook/assets/Screenshot 2023-07-11 at 10.44.09.png" alt=""><figcaption><p>Figure 39: Dashboard screen</p></figcaption></figure>
 
-### 10.     Make a payment
+### 10. Make a payment
 
-Step 1:       Login to the Mobile application.
+Step 1: Login to the Mobile application.
 
-Step 2:       Follow the ‘Schedule consultation’ flow described in section 4 Schedule a consultation.
+Step 2: Follow the ‘Schedule consultation’ flow described in section 4 Schedule a consultation.
 
 <figure><img src="../.gitbook/assets/image (126).png" alt=""><figcaption><p>Figure 40: Payment form</p></figcaption></figure>
 
@@ -481,11 +474,11 @@ Payment required fields include:
 
 When using the auto fill feature to scan the card using the phone camera, the card number and expiry date will be automatically filled in for the client. However, the CVC code will need to be entered separately by the user, along with the country or region and any additional details required based on the country. This convenient feature still saves time and reduces the risk of errors when entering payment information.
 
-### 11.  Access My Q\&A
+### 11. Access My Q\&A
 
-Step 1:       Login to the Mobile Application.
+Step 1: Login to the Mobile Application.
 
-Step 2:       On the bottom navigation click “Message Icon”
+Step 2: On the bottom navigation click “Message Icon”
 
 <figure><img src="../.gitbook/assets/Screenshot 2023-07-11 at 10.45.22.png" alt=""><figcaption><p>Figure 41: My Q&#x26;A screen.</p></figcaption></figure>
 
@@ -498,8 +491,6 @@ To ask a new question, clients need to click on the “Ask anonymously” button
 <figure><img src="../.gitbook/assets/Screenshot 2023-07-11 at 10.46.06.png" alt=""><figcaption><p>Figure 42: My Q&#x26;A ad new question.</p></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/image (131).png" alt=""><figcaption><p>Figure 43: My Q&#x26;A entry example.</p></figcaption></figure>
-
-
 
 The My Q\&A screen contains several elements for each entry, as shown in Figure 3:
 
@@ -526,4 +517,3 @@ The read more functionality allows clients to view the entire answer to a questi
 Furthermore, the clients have the ability to filter the answered questions by tags or utilize the search function, which will match the results based on the Q\&A entry's title and tags as presented in Figure 5.
 
 <figure><img src="../.gitbook/assets/Screenshot 2023-07-11 at 10.47.17.png" alt=""><figcaption><p>Figure 45: My Q&#x26;A filtering options.</p></figcaption></figure>
-
