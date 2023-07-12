@@ -1,7 +1,5 @@
 # 🏦 Stripe Integration
 
-\
-
 
 ### Table of Contents
 
