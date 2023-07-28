@@ -21,16 +21,17 @@ Setup:
 3. To use the payments functionality you need to create a Stripe account. After creating the account, you need to fullfill the following:
 
    3.1 Stripe keys
-      - "STRIPE_SECRET_KEY"
-      - "STRIPE_WEBHOOK_ENDPOINT_SECRET" in the `./payments/service/.env.local` file
 
-      [Instructions for creating Stripe keys](https://stripe.com/docs/keys)
+   - "STRIPE_SECRET_KEY"
+   - "STRIPE_WEBHOOK_ENDPOINT_SECRET" in the `./payments/service/.env.local` file
+
+   [Instructions for creating Stripe keys](https://stripe.com/docs/keys)
 
    3.2 Stripe Webhooks
-      - "payment_intent.succeeded" is the type of event which the webhook should handle
-        
-      [Instructions for creating Stripe webhooks](https://stripe.com/docs/development/dashboard/register-webhook)
 
+   - "payment_intent.succeeded" is the type of event which the webhook should handle
+
+   [Instructions for creating Stripe webhooks](https://stripe.com/docs/development/dashboard/register-webhook)
 
 4. To use the uploading images functionality you need to create AWS S3 bucket. After creating the bucket you will need to fulfill the following keys:
 
@@ -53,7 +54,7 @@ Setup:
 - "TWILIO_ACCOUNT_SID"
 - "TWILIO_AUTH_TOKEN" in the `./provider/service/.env.local`file
 
-   [Instructions for finding Twilio Access Keys](https://missiveapp.com/faq/twilio-credentials)
+  [Instructions for finding Twilio Access Keys](https://missiveapp.com/faq/twilio-credentials)
 
 6. To use the email functionality you need access to an email account that can be used to setup the email service. The following enviorment variables need to be fullfilled: -"EMAIL_SENDER" -"EMAIL_SENDER_PASSWORD" -"EMAIL_HOST" -"EMAIL_PORT" -"RECIEVERS" in the `./email/.env.local` file
 
@@ -104,9 +105,9 @@ git commit -m "Updated submodule"
 
 ### Please follow these naming conventions for your branches
 
-- Features `feature/{JIRA_ID}-{branch_name}`
-- Bugs `bug/{JIRA_ID}-{branch_name}`
-- Hotfixes `hotfix/{JIRA_ID}-{branch_name}`
+- Features `feature/{branch_name}`
+- Bugs `bug/{branch_name}`
+- Hotfixes `hotfix/{branch_name}`
 
 ### Guidelines for writing a commit message when committing changes to any of the git submodules
 
