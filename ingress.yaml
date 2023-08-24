@@ -23,7 +23,7 @@ spec:
                 port:
                   number: 80
   tls:
-    - hosts:
+    - hosts: # Add each external domain name within the list below to get a valid certificate
         - "*.usupport.online"
         - "usupport.online"
       secretName: tls-secret
