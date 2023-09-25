@@ -22,7 +22,7 @@
 
 [4. Edit Provider Details](country-admin.md#4.-edit-provider-details)
 
-[5. Delete Provider](country-admin.md#\_toc130509591)
+[5. Delete Provider](country-admin.md#_toc130509591)
 
 [6. Visualise Provider Activity](country-admin.md#6.-visualise-provider-activity)
 
@@ -32,7 +32,7 @@
 
 [9. Manage FAQs](country-admin.md#9.-manage-faqs)
 
-[10. Creating a sponsor](country-admin.md#\_toc138202339)
+[10. Creating a sponsor](country-admin.md#_toc138202339)
 
 [11. Edit existing Sponsor details](country-admin.md#11.-edit-existing-sponsor-details)
 
@@ -42,7 +42,7 @@
 
 [14. View details about campaign](country-admin.md#14.-view-details-about-campaign)
 
-[15. View reports](country-admin.md#ole\_link97)
+[15. View reports](country-admin.md#ole_link97)
 
 [15.1 Consultation Issues](country-admin.md#15.1-consultation-issues)
 
@@ -50,7 +50,7 @@
 
 [15.3 Clients Ratings](country-admin.md#15.3-clients-ratings)
 
-[15.4 Contact Forms](country-admin.md#ole\_link1)
+[15.4 Contact Forms](country-admin.md#ole_link1)
 
 [15.5 My Q\&A Archive](country-admin.md#15.4-my-q-and-a-archive)
 
@@ -156,12 +156,12 @@ The Country Admin interface provides a single-user role.
 
 This role provides the capabilities of managing the USupport platform on a country level from an administrative perspective. The Country Admins have the capability to perform the following actions:
 
-* preview statistics,
-* create and update providers' accounts,
-* manage which content to be displayed within the information portal,
-* manage which frequently asked questions to be displayed within the Client interface,
-* manage which SOS centres to be displayed within the Client interface.
-* analyse reports submitted by clients.
+- preview statistics,
+- create and update providers' accounts,
+- manage which content to be displayed within the information portal,
+- manage which frequently asked questions to be displayed within the Client interface,
+- manage which SOS centres to be displayed within the Client interface.
+- analyse reports submitted by clients.
 
 ### Processes
 
@@ -275,8 +275,8 @@ Additionally, the country administrator can export the displayed data in CSV for
 
 Filter options:
 
-* Start date
-* End date
+- Start date
+- End date
 
 ### 7. Manage Articles
 
@@ -354,10 +354,10 @@ Step 5: Click the “Create sponsor” button.
 
 The following information is required for creating a new sponsor:
 
-* Image
-* Name
-* Email
-* Phone number
+- Image
+- Name
+- Email
+- Phone number
 
 Note:
 
@@ -405,21 +405,21 @@ Step 7: Click the “Create campaign” button.
 
 The following information is required for creating a new campaign:
 
-* Campaign Name – identifiable name of the campaign
-* Coupon code – a code which the users will use to get the benefits
-* Total budget – total value of the campaign
-* Total coupons – number of coupons available
-* Max coupons per user – how many times a single user can use the coupon
-* Start date – start date of the campaign
-* End date – end date of the campaign
-* Terms and conditions – terms of the campaign, which the providers will need to agree with
-* Status – status of the campaign
+- Campaign Name – identifiable name of the campaign
+- Coupon code – a code which the users will use to get the benefits
+- Total budget – total value of the campaign
+- Total coupons – number of coupons available
+- Max coupons per user – how many times a single user can use the coupon
+- Start date – start date of the campaign
+- End date – end date of the campaign
+- Terms of Use – terms of the campaign, which the providers will need to agree with
+- Status – status of the campaign
 
 Note:
 
-* Some of the input fields are mandatory and have validation in place. In order to create a new campaign all the required fields have to be fulfilled.
-* The total budget and the total number of coupons are information that is required to be fulfilled by the admin user. Based on those the single coupon price is calculated and displayed. This price represents the benefit that the clients will be entitled for when using the coupon code.
-* The campaign can be deactivated at any time during the campaign period by switching on or off the status toggle.
+- Some of the input fields are mandatory and have validation in place. In order to create a new campaign all the required fields have to be fulfilled.
+- The total budget and the total number of coupons are information that is required to be fulfilled by the admin user. Based on those the single coupon price is calculated and displayed. This price represents the benefit that the clients will be entitled for when using the coupon code.
+- The campaign can be deactivated at any time during the campaign period by switching on or off the status toggle.
 
 ### 13. Edit Campaign
 
@@ -465,12 +465,12 @@ Additionally, the country administrator can apply filters to the table using the
 
 Filter options:
 
-* Enrolled provider
-* Registered Client
-* Client Sex
-* Client’s year of birth
-* Client’s place of living
-* Date when the coupon was used
+- Enrolled provider
+- Registered Client
+- Client Sex
+- Client’s year of birth
+- Client’s place of living
+- Date when the coupon was used
 
 ### 15. View reports <a href="#ole_link97" id="ole_link97"></a>
 
@@ -496,24 +496,24 @@ The report consist of a predefined set of questions and the answers which were p
 
 The report consists of:
 
-* Client name
-* Provider name
-* Consultation date
-* The number of issues reported
-* The questions and the answers provided by the client
+- Client name
+- Provider name
+- Consultation date
+- The number of issues reported
+- The questions and the answers provided by the client
 
 <figure><img src="../.gitbook/assets/image (86).png" alt=""><figcaption><p>Figure 30: Consultation issues filtering options</p></figcaption></figure>
 
 Filter options:
 
-* Existent provider
-* Minimum number of issues
-* Starting date
-* End date
+- Existent provider
+- Minimum number of issues
+- Starting date
+- End date
 
 Note:
 
-* If the answer to a question represents an issue, the text will be displayed with a red color.
+- If the answer to a question represents an issue, the text will be displayed with a red color.
 
 #### 15.2 Information Portal Suggestions
 
@@ -523,16 +523,16 @@ The purpose of this report is to inform the country administrator about the topi
 
 The report consists of:
 
-* Email address of the client
-* Time and date when the suggestion was made
-* Suggestion text as written by the client
+- Email address of the client
+- Time and date when the suggestion was made
+- Suggestion text as written by the client
 
 <figure><img src="../.gitbook/assets/image (89).png" alt=""><figcaption><p>Figure 32: Information Portal Suggestions filtering options</p></figcaption></figure>
 
 Filter options:
 
-* Starting date
-* End date
+- Starting date
+- End date
 
 #### 15.3 Clients Ratings
 
@@ -542,18 +542,18 @@ The reports presented in this section represent clients' evaluations of the plat
 
 The report consists of:
 
-* Email address of the client
-* Start rating (from 1 to 5)
-* Time and date
-* Feedback text as written by the client
+- Email address of the client
+- Start rating (from 1 to 5)
+- Time and date
+- Feedback text as written by the client
 
 <figure><img src="../.gitbook/assets/image (70).png" alt=""><figcaption><p>Figure 34: Client Ratings filtering options</p></figcaption></figure>
 
 Filter options:
 
-* Minimum number of stars
-* Starting date
-* End date
+- Minimum number of stars
+- Starting date
+- End date
 
 #### 15.4 Contact Forms <a href="#ole_link1" id="ole_link1"></a>
 
@@ -563,20 +563,20 @@ The purpose of this report is to outline various inquiries or questions raised b
 
 The report consists of:
 
-* From where it was sent
-* Email address of the client
-* Subject
-* Time and date
+- From where it was sent
+- Email address of the client
+- Subject
+- Time and date
 
 <figure><img src="../.gitbook/assets/image (48).png" alt=""><figcaption><p>Figure 36: Contact Form filtering options</p></figcaption></figure>
 
 Filter options:
 
-* Subject from a predefined list
-* Sender
-* Sent from
-* Start date
-* End date
+- Subject from a predefined list
+- Sender
+- Sent from
+- Start date
+- End date
 
 #### 15.4 My Q\&A Archive
 
@@ -586,11 +586,11 @@ This report aims to give country administrators an overview of the inquiries rai
 
 The report consists of:
 
-* Provider name
-* Provider email
-* Achieving reason
-* Time when it was archived
-* Client Question
+- Provider name
+- Provider email
+- Achieving reason
+- Time when it was archived
+- Client Question
 
 ### 16. Access My Q\&A
 
@@ -608,7 +608,7 @@ Furthermore, the country administrators have the ability to filter the presented
 
 Filter options:
 
-* Tag
-* Provider
-* Start date
-* End date
+- Tag
+- Provider
+- Start date
+- End date

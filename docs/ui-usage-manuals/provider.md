@@ -80,7 +80,7 @@ Figure 21: Campaigns Screen
 
 Figure 22: Enrol to a new campaign
 
-Figure 23: Campaign terms and conditions
+Figure 23: Campaign Terms of Use
 
 Figure 24: Add availability for campaign
 
@@ -335,9 +335,9 @@ The providers can participate in a campaign by selecting the three dots next to 
 
 <figure><img src="../.gitbook/assets/image (92).png" alt=""><figcaption><p>Figure 22: Enrol to a new campaign</p></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (75).png" alt=""><figcaption><p>Figure 23: Campaign terms and conditions</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (75).png" alt=""><figcaption><p>Figure 23: Campaign Terms of Use</p></figcaption></figure>
 
-In order for a provider to take part in a campaign he/she will need to agree with the terms and conditions for that specific campaign.
+In order for a provider to take part in a campaign he/she will need to agree with the Terms of Use for that specific campaign.
 
 ### 11. Campaigns availability <a href="#ole_link90" id="ole_link90"></a>
 
