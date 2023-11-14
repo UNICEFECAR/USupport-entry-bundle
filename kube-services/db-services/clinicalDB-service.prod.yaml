@@ -3,5 +3,5 @@ kind: Service
 metadata:
   name: clinicaldb-service
 spec:
-  externalName: clinical-db-production-test.cmrfte1lylpl.eu-west-1.rds.amazonaws.com
+  externalName: kz-clinical-db-production.cmrfte1lylpl.eu-west-1.rds.amazonaws.com
   type: ExternalName
