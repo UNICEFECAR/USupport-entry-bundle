@@ -16,8 +16,9 @@ then
         # Delete all local DB data if drop param is added when executing command
         if [ "$DROP" = 'drop' ] 
         then
-            -rf ./client/pii-db/data/db/*
-            rm -rf ./client/clinical-db/data/db/*
+            rm -rf ./databases/clinicalDB/data
+            rm -rf ./databases/masterDB/data
+            rm -rf ./databases/piiDB/data
         fi
 
         docker-compose up -d --build

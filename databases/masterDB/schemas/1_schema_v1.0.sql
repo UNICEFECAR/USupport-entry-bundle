@@ -66,8 +66,8 @@ CREATE TABLE "service" (
 
 CREATE TABLE "service_client_provider_links" (
   "id" SERIAL UNIQUE,
-  "client_detail_id" UUID NOT NULL,
-  "provider_detail_id" UUID NOT NULL,
+  "client_details_id" UUID NOT NULL,
+  "provider_details_id" UUID NOT NULL,
   "service_id" UUID NOT NULL,
   "duration" int,
   "created_at" timestamp DEFAULT (now())
