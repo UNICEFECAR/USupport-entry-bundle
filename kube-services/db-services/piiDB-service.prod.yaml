@@ -3,5 +3,5 @@ kind: Service
 metadata:
   name: piidb-service
 spec:
-  externalName: pii-db-prod-test.cmrfte1lylpl.eu-west-1.rds.amazonaws.com
+  externalName: kz-pii-db-production.cmrfte1lylpl.eu-west-1.rds.amazonaws.com
   type: ExternalName
