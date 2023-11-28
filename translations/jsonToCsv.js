@@ -1711,7 +1711,7 @@ const jsonObj = {
           "There are no similar articles for the current selected language. ",
       },
       Dashboard: { accept_success: "Consultation accepted successfully" },
-      RegisterEmail: { heading: "Register with email in USupport" },
+      RegisterEmail: { heading: "Register with email in uSupport" },
       ContactUs: {
         heading: "Contact us",
         subheading: "Here you can report any technical issues.",
@@ -1867,9 +1867,9 @@ const jsonObj = {
           "There are no results for the selected country and language.",
       },
       About: {
-        heading: "About USupport",
+        heading: "About uSupport",
         paragraph:
-          "USupport is a unique and safe platform dedicated to helping young people feel stable, successful, self-confident, and happy.",
+          "uSupport is a unique and safe platform dedicated to helping young people feel stable, successful, self-confident, and happy.",
         card_text_1: "Content for self-development",
         card_text_2: "Proven providers",
         card_text_3: "Online support",
@@ -1888,9 +1888,9 @@ const jsonObj = {
         email_subject: "New message from Contact us",
         email_title: "New message",
         email_text:
-          "Hello,<br></br>You have a new message from user:<br></br>Email: {{email}}<br></br>Reason: {{reason}}<br></br>message: {{message}}<br></br>Best Regards,<br></br>USupport Team",
+          "Hello,<br></br>You have a new message from user:<br></br>Email: {{email}}<br></br>Reason: {{reason}}<br></br>message: {{message}}<br></br>Best Regards,<br></br>uSupport Team",
         contact_reason_placeholder: "Select a reason",
-        contact_reason_1: "Information about USupport",
+        contact_reason_1: "Information about uSupport",
         contact_reason_2: "Technical problem",
         contact_reason_3: "Join the network of providers",
         contact_reason_4: "Partnerships",
@@ -1920,7 +1920,7 @@ const jsonObj = {
         heading_1: "Make your mental health",
         heading_1_1: "a priority",
         paragraph_1:
-          "The first platform created to make your mental health a priority. USupport provides personalized, discreet and fast psychological care for your overall well-being.",
+          "The first platform created to make your mental health a priority. uSupport provides personalized, discreet and fast psychological care for your overall well-being.",
         paragraph_1_1: "Your story matters! Dare to share it.",
         download_text: "Download from",
       },
@@ -1990,8 +1990,8 @@ const jsonObj = {
     system_forgot_password_text:
       "Please visit the following link to reset your password: {1}",
 
-    system_welcome_subject: "Welcome to USupport",
-    system_welcome_title: "Welcome to USupport",
+    system_welcome_subject: "Welcome to uSupport",
+    system_welcome_title: "Welcome to uSupport",
     system_welcome_text:
       "Please visit the following link to access your account: {1}",
 
@@ -2111,9 +2111,9 @@ const jsonObj = {
       "Please visit {1} to view your monthly report.",
 
     provider_registration_notify_subject: "Account registraion",
-    provider_registration_notify_title: "Registered as provider at USupport",
+    provider_registration_notify_title: "Registered as provider at uSupport",
     provider_registration_notify_text:
-      "You have been registered as a provider at USupport.<br/> Your automatically generated password is: {2} <br/>You can change it anytime from your profile settings.<br/> Please visit {1} to login to your profile.",
+      "You have been registered as a provider at uSupport.<br/> Your automatically generated password is: {2} <br/>You can change it anytime from your profile settings.<br/> Please visit {1} to login to your profile.",
   },
   messaging: {
     chat_not_found_error: "Chat not found",
