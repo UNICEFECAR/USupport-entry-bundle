@@ -20,9 +20,9 @@
 
 The purpose of this document is to get an overview of the usupport platform and understand the technical requirements for hosting part of the solution within your country for data sovereignty purposes.
 
-### About Usupport
+### About uSupport
 
-Usupport is an on-demand digital mental health (MH) solution for young people and their carers, commissioned by UNICEF Europe and Central Asia Office to address the growing mental health concerns for youth in the region.
+uSupport is an on-demand digital mental health (MH) solution for young people and their carers, commissioned by UNICEF Europe and Central Asia Office to address the growing mental health concerns for youth in the region.
 
 ### The Technology
 
