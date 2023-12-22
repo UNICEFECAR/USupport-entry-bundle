@@ -37,19 +37,19 @@ Twilio is a powerful cloud communications platform that enables developers to in
 
 #### Step 1: Generating an Access Token
 
-- The user (client or provider) sends a request to the uSupport API, which is responsible for the communication to the Twilio API.
+- The user (client or provider) sends a request to the USupport API, which is responsible for the communication to the Twilio API.
 - &#x20;Include the consultation ID and detail ID of the user joining the room in the request body. This information helps identify the specific consultation and user details associated with the Room.
-- &#x20;The uSupport API receives the request and verifies the necessary parameters.
-- The uSupport API creates a JWT (JSON Web Token) Access Token using the Twilio API Key SID and Secret.
+- &#x20;The USupport API receives the request and verifies the necessary parameters.
+- The USupport API creates a JWT (JSON Web Token) Access Token using the Twilio API Key SID and Secret.
 - The Access Token is signed with the Twilio API Key Secret and includes grants that govern the actions the client can perform.
 - These grants determine what the user can do within the Twilio Video Room, such as publishing and subscribing to tracks.
-- &#x20;Once the Access Token is generated, the uSupport API sends it back to the user interface (UI) as a response.
+- &#x20;Once the Access Token is generated, the USupport API sends it back to the user interface (UI) as a response.
 
 Note: Access Tokens are short-lived credentials that provide secure access to Twilio services and define the permissions of the client holding the token
 
 #### Step 2: Connecting to the Twilio Room
 
-- The user interface (UI) receives the Access Token from the uSupport API.
+- The user interface (UI) receives the Access Token from the USupport API.
 - &#x20;Using the Twilio SDK (Software Development Kit), establish a connection to the Twilio Video service.
 - &#x20;Pass the Access Token and the name of the Room(the ID of the consultation) when initiating the connection to authenticate and authorize the client or provider.The Twilio SDK handles the connection to the Twilio infrastructure.
 
