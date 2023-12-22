@@ -2,7 +2,7 @@
 
 ### Table of Contents
 
-[Table of Figures](provider.md#\_ref130504120)
+[Table of Figures](provider.md#_ref130504120)
 
 [Introduction](provider.md#introduction)
 
@@ -16,7 +16,7 @@
 
 [3. Dashboard Screen](provider.md#3.-dashboard-screen)
 
-[4. Personal Calendar – add availability](provider.md#\_ref130504090)
+[4. Personal Calendar – add availability](provider.md#_ref130504090)
 
 [6. Preview the Activity History](provider.md#6.-preview-the-activity-history)
 
@@ -28,9 +28,9 @@
 
 [10. Campaigns](provider.md#10.-campaigns)
 
-[11. Campaigns availability](provider.md#ole\_link90)
+[11. Campaigns availability](provider.md#ole_link90)
 
-[12. View campaigns details](provider.md#ole\_link12)
+[12. View campaigns details](provider.md#ole_link12)
 
 [13. My Q\&A](provider.md#13.-my-q-and-a)
 
@@ -104,11 +104,11 @@ Figure 32: My Q\&A add new answer.
 
 Dear colleagues,
 
-This guide will present the Provider Interface which is part of the USupport platform. It is a core element that allows the service providers to operate and perform their activity in a productive manner.
+This guide will present the Provider Interface which is part of the uSupport platform. It is a core element that allows the service providers to operate and perform their activity in a productive manner.
 
 ### What is the Provider Interface?
 
-The Provider Interface is a custom-built web-based application for users that will provide psychological consultations using the USupport platform.
+The Provider Interface is a custom-built web-based application for users that will provide psychological consultations using the uSupport platform.
 
 This platform aims to provide an easy-to-use interface that supplies the necessary capabilities to manage personal schedules and perform one-to-one video-audio-chat online consultations with multiple clients.
 
@@ -148,9 +148,9 @@ Step 2: On the “Navigation Menu” select “Dashboard”.
 
 This screen is split into two parts. The left part presents a calendar containing information about each day for a period of 5 weeks in the future. Each day can be represented by either a blue, grey or blurred box.
 
-* The blue box represents a day in the calendar that contains set availability by the provider and there are scheduled consultations.
-* The grey box represents a day in the calendar that contains set availability by the provider but there are no scheduled consultations.
-* The blurred box represents a day in the calendar when the provider is not available for consultations.
+- The blue box represents a day in the calendar that contains set availability by the provider and there are scheduled consultations.
+- The grey box represents a day in the calendar that contains set availability by the provider but there are no scheduled consultations.
+- The blurred box represents a day in the calendar when the provider is not available for consultations.
 
 ### 4. Personal Calendar – add availability <a href="#_ref130504090" id="_ref130504090"></a>
 
@@ -164,10 +164,10 @@ This screen provides the necessary functionality for a provider to set their ava
 
 Figure 5 presents the following elements:
 
-* Each box inside the presented table represents an hour in a day.
-* In the top-right corner, we can see the time interval for which the availability is presented.
-* Each column is preceded by the day name and date.
-* The leftmost column presents the hours of the day from 00:00 until 23:00, which the provider can choose based on their schedule.
+- Each box inside the presented table represents an hour in a day.
+- In the top-right corner, we can see the time interval for which the availability is presented.
+- Each column is preceded by the day name and date.
+- The leftmost column presents the hours of the day from 00:00 until 23:00, which the provider can choose based on their schedule.
 
 A box inside the table can have three different states, unavailable, available and scheduled. The unavailable state is presented in Figure 6 ~~Figure 6~~ on the left, the available state is in the center and the scheduled state is represented on the right. For the first two options the box will present a text describing its state when the user hovers over it. The boxes that are in the scheduled state will display the avatar and name of the client, all the time.
 
@@ -217,10 +217,10 @@ The activity history screen presents the full activity which a provider undertoo
 
 As we can see in Figure 9 ~~Figure 9~~ the activity history screen presents a split view. The left-hand side contains a list of all the consultations that took place. Once one consultation is selected by the provider the right-hand side will present more information about the specific consultation. The following information can be visualised:
 
-* Date and time when either a client or provider joined the consultation.
-* Date and time when either a client or provider switched on/off their camera.
-* Date and time when either a client or provider switched on/off their microphone.
-* Exchanged messages during the consultation.
+- Date and time when either a client or provider joined the consultation.
+- Date and time when either a client or provider switched on/off their camera.
+- Date and time when either a client or provider switched on/off their microphone.
+- Exchanged messages during the consultation.
 
 <figure><img src="../.gitbook/assets/image (106).png" alt=""><figcaption><p>Figure 9: Activity history screen</p></figcaption></figure>
 
@@ -240,12 +240,12 @@ The screen provides search functionality so if providers have numerous consultat
 
 Each consultation is presented via a rectangle and contains the following information:
 
-* icon of the client,
-* name of the client,
-* date and time of the appointment,
-* type of the appointment - suggested or paid,
-* price of the consultation and logo of the sponsor in case the client booked using a sponsored coupon or a free badge showing that the consultation will be conducted without the client to be charged.
-* a drop-down menu for quick access to the client’s profile.
+- icon of the client,
+- name of the client,
+- date and time of the appointment,
+- type of the appointment - suggested or paid,
+- price of the consultation and logo of the sponsor in case the client booked using a sponsored coupon or a free badge showing that the consultation will be conducted without the client to be charged.
+- a drop-down menu for quick access to the client’s profile.
 
 <figure><img src="../.gitbook/assets/image (81).png" alt=""><figcaption><p>Figure 11: Consultations screen</p></figcaption></figure>
 
@@ -265,12 +265,12 @@ Step 2: On the “Navigation Menu” select “Your Profile”
 
 From this screen the provider can:
 
-* change their account’s personal details,
-* change their notification settings,
-* visualise their activity report
-* raise an issue to the country administrator,
-* access the privacy policy,
-* access the frequently asked questions.
+- change their account’s personal details,
+- change their notification settings,
+- visualise their activity report
+- raise an issue to the country administrator,
+- access the privacy policy,
+- access the frequently asked questions.
 
 <figure><img src="../.gitbook/assets/image (111).png" alt=""><figcaption><p>Figure 13: Provider account settings screen</p></figcaption></figure>
 
@@ -298,7 +298,7 @@ The privacy policy, terms of use and cookie policy screens are available from th
 
 Note:
 
-* Privacy policies, terms of use and cookie policies are country-specific. Providers should read and make sure the existing content is understood and their activity within the platform follows the established rules.
+- Privacy policies, terms of use and cookie policies are country-specific. Providers should read and make sure the existing content is understood and their activity within the platform follows the established rules.
 
 <figure><img src="../.gitbook/assets/image (56).png" alt=""><figcaption><p>Figure 19: Privacy policies screen</p></figcaption></figure>
 
@@ -318,18 +318,18 @@ Step 2: On the “Navigation Menu” select “Campaigns”
 
 The provider is presented with three distinct tabs on this screen, which are as follows:
 
-* Available campaigns: represents active campaigns that the provider can enrol in.
-* Active campaigns: includes campaigns that the provider is currently enrolled in.
-* Past campaigns: consists of campaigns that the provider was previously enrolled in, but have now expired.
+- Available campaigns: represents active campaigns that the provider can enrol in.
+- Active campaigns: includes campaigns that the provider is currently enrolled in.
+- Past campaigns: consists of campaigns that the provider was previously enrolled in, but have now expired.
 
 The available information for each campaign consists of the following:
 
-* Logo and name of the sponsor offering the campaign.
-* Campaign name.
-* Price for a single coupon.
-* Validity period of the campaign.
-* Number of conducted consultations for a campaign
-* Providers renumeration
+- Logo and name of the sponsor offering the campaign.
+- Campaign name.
+- Price for a single coupon.
+- Validity period of the campaign.
+- Number of conducted consultations for a campaign
+- Providers renumeration
 
 The providers can participate in a campaign by selecting the three dots next to each available one and use the actions presented in Figure 22
 

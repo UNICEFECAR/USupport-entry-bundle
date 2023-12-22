@@ -140,11 +140,11 @@ Figure 39: My Q\&A filtering options.
 
 Dear colleagues,
 
-This guide will present the Country Admin interface which is part of the USupport platform. Its role is highly important as it allows country representatives to manage content and the team of people working to provide psychological support.
+This guide will present the Country Admin interface which is part of the uSupport platform. Its role is highly important as it allows country representatives to manage content and the team of people working to provide psychological support.
 
 ### What is the Country Admin Interface?
 
-The Country Admin Interface is a custom-built web-based application for the users that will manage the individual countries within the USupport project.
+The Country Admin Interface is a custom-built web-based application for the users that will manage the individual countries within the uSupport project.
 
 This platform aims to provide an easy-to-use interface that delivers the necessary capabilities to manage content and providers for a specific country.
 
@@ -154,7 +154,7 @@ The Country Admin interface provides a single-user role.
 
 ### 1. Country Admin Role
 
-This role provides the capabilities of managing the USupport platform on a country level from an administrative perspective. The Country Admins have the capability to perform the following actions:
+This role provides the capabilities of managing the uSupport platform on a country level from an administrative perspective. The Country Admins have the capability to perform the following actions:
 
 - preview statistics,
 - create and update providers' accounts,
@@ -294,7 +294,7 @@ In addition, the country administrator has the capability to utilize the search 
 
 Note:
 
-\- The articles that are available in the country administrator panel are reviewed and approved by the moderators of the USupport CMS platform.
+\- The articles that are available in the country administrator panel are reviewed and approved by the moderators of the uSupport CMS platform.
 
 \- Translations are supported as well. When changing the language, the administrators will be presented with the translated version of the articles. In case some of the articles do not have a translated version for a specific language, then they will not be shown under the selected language.
 
@@ -310,7 +310,7 @@ Step 3: From the list of SOS centres tick the checkbox for the ones that should 
 
 Note:
 
-\- The SOS centers that are available in the country administrator panel are reviewed and approved by the moderators of the USupport CMS platform.
+\- The SOS centers that are available in the country administrator panel are reviewed and approved by the moderators of the uSupport CMS platform.
 
 \- Translations are supported as well. When changing the language, the administrators will be presented with the translated version of the SOS centers. In case some of them do not have a translated version for a specific language, then they will be excluded from the results under that specific language.
 
@@ -326,11 +326,11 @@ Step 4: From the list of FAQs tick the checkbox for the ones that should be disp
 
 <figure><img src="../.gitbook/assets/image (71).png" alt=""><figcaption><p>Figure 16: FAQs Screen</p></figcaption></figure>
 
-Frequently asked questions are created using the USupport CMS platform by moderators. The FAQs are presented in three different interfaces: Commercial Website, Client, and Provider, as for each interface, different questions might be more relevant than others. Therefore, the country administrators are able to choose different FAQs for each of the interfaces.
+Frequently asked questions are created using the uSupport CMS platform by moderators. The FAQs are presented in three different interfaces: Commercial Website, Client, and Provider, as for each interface, different questions might be more relevant than others. Therefore, the country administrators are able to choose different FAQs for each of the interfaces.
 
 Note:
 
-\- The FAQs that are available in the country administrator panel are reviewed and approved by the moderators of the USupport CMS platform.
+\- The FAQs that are available in the country administrator panel are reviewed and approved by the moderators of the uSupport CMS platform.
 
 \- Translations are supported as well. When changing the language, the administrators will be presented with the translated version of the FAQs. In case some of them do not have a translated version for a specific language, then they will be excluded from the results under that specific language.
 
