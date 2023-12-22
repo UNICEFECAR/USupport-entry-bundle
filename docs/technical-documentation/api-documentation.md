@@ -4,9 +4,7 @@ description: In this page it is presented the documentation for each microservic
 
 # API documentation
 
-### REST API 1.0.0 - The Microservices API of the USupport Platform
-
-
+### REST API 1.0.0 - The Microservices API of the uSupport Platform
 
 The complete documentation can be found by accessing the following link:
 

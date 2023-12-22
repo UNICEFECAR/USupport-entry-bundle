@@ -4,9 +4,9 @@
 
 [Table of Figures](mobile.md#table-of-figures)
 
-[Introduction](mobile.md#\_toc109836811)
+[Introduction](mobile.md#_toc109836811)
 
-[What is the Mobile app?](mobile.md#ole\_link2)
+[What is the Mobile app?](mobile.md#ole_link2)
 
 [Processes](mobile.md#processes)
 
@@ -130,11 +130,11 @@ Figure 45: My Q\&A filtering options.
 
 Dear colleagues,
 
-This guide will introduce the Client Interface available on the USupport mobile app. It is a central feature that provides users with access to valuable psychological resources, meticulously crafted by experts, and enables them to connect with mental health service providers for one-on-one sessions to enhance their overall mental well-being.
+This guide will introduce the Client Interface available on the uSupport mobile app. It is a central feature that provides users with access to valuable psychological resources, meticulously crafted by experts, and enables them to connect with mental health service providers for one-on-one sessions to enhance their overall mental well-being.
 
 ### What is the Mobile app? <a href="#ole_link2" id="ole_link2"></a>
 
-The USupport project provides a custom-built mobile application for iOS and Android devices, called the mobile application, which is designed for users seeking reliable psychological support.
+The uSupport project provides a custom-built mobile application for iOS and Android devices, called the mobile application, which is designed for users seeking reliable psychological support.
 
 The mobile app offers an easy-to-use interface that allows users to access a wide range of psychological resources and engage in one-to-one online consultations with professional service providers to improve their mental health.
 
@@ -186,7 +186,7 @@ Option 3: This option allows the client to get access to the mobile application 
 
 ### 2. Login to the mobile application
 
-Step 1: Open the USupport mobile application
+Step 1: Open the uSupport mobile application
 
 Step 2: Select a country and a language from the Welcome Screen.
 
@@ -198,7 +198,7 @@ Step 4: Insert valid login credentials - either an email or an access token
 
 ### 3. Forgot Password
 
-Step 1: Open the USupport mobile application.
+Step 1: Open the uSupport mobile application.
 
 Step 2: Select a country and a language from the Welcome Screen.
 
@@ -254,13 +254,13 @@ Furthermore, the client has the ability to filter providers using the options di
 
 Providers filtering options:
 
-* Type of provider
-* Gender
-* Maximum price
-* Language
-* Free consultations
-* Available after
-* Available before
+- Type of provider
+- Gender
+- Maximum price
+- Language
+- Free consultations
+- Available after
+- Available before
 
 <figure><img src="../.gitbook/assets/Screenshot 2023-07-11 at 10.34.11.png" alt=""><figcaption><p>Figure 14: Provider Overview Screen</p></figcaption></figure>
 
@@ -312,8 +312,8 @@ The second option “Cancel the consultation” will cancel the appointment for 
 
 Note:
 
-* All changes made to an appointment will be confirmed using the notification service in app and by email for both of the consultation participants.
-* Refunds for paid consultations will only be issued if the appointment is cancelled at least 24 hours prior to its scheduled start time.
+- All changes made to an appointment will be confirmed using the notification service in app and by email for both of the consultation participants.
+- Refunds for paid consultations will only be issued if the appointment is cancelled at least 24 hours prior to its scheduled start time.
 
 ### 6. Access the Information portal
 
@@ -339,13 +339,13 @@ Figure 24 shows the full view of an article. The first part is a cover image. Ne
 
 Note:
 
-* Translations are supported as well. When changing the language, the clients will be presented with the translated version of the articles. In case some of the articles do not have a translated version for a specific language, then it will not be shown under the selected language.
+- Translations are supported as well. When changing the language, the clients will be presented with the translated version of the articles. In case some of the articles do not have a translated version for a specific language, then it will not be shown under the selected language.
 
 ### 7. Access the SOS Center
 
 Step 1: Login to the Mobile application.
 
-Step 2: Select the “SOS Center” button on the bottom right corner from any screen within the USupport mobile applicaiton.
+Step 2: Select the “SOS Center” button on the bottom right corner from any screen within the uSupport mobile applicaiton.
 
 <figure><img src="../.gitbook/assets/image (158).png" alt=""><figcaption><p>Figure 25: SOS Centers Screen</p></figcaption></figure>
 
@@ -353,14 +353,14 @@ The SOS centre screen is the place which provides quick access to emergency line
 
 Figure 25 presents the available helplines, each within a different rectangle. The information which can be displayed is the following:
 
-* Name of the emergency centre
-* A description which should include relevant details about the centre so that the clients can know if the specific centre can solve their issue.
-* A “Contact now” button is displayed if the helpline accepts direct calls.
-* A “Visit website” button is displayed if the helpline has a website.
+- Name of the emergency centre
+- A description which should include relevant details about the centre so that the clients can know if the specific centre can solve their issue.
+- A “Contact now” button is displayed if the helpline accepts direct calls.
+- A “Visit website” button is displayed if the helpline has a website.
 
 Note:
 
-* Translations are supported as well. When changing the language, the clients will be presented with the translated version of the SOS centres. In case an SOS centre does not have a translated version for a specific language, then it will be excluded from the results under that specific language.
+- Translations are supported as well. When changing the language, the clients will be presented with the translated version of the SOS centres. In case an SOS centre does not have a translated version for a specific language, then it will be excluded from the results under that specific language.
 
 ### 8. Edit profile settings
 
@@ -372,19 +372,19 @@ Step 2: On the top left click the “Profile Icon” select “Your Profile” (
 
 From this screen the client can proceed with the following actions:
 
-* Change their account personal details.
-* Preview mood tracker past activity.
-* Change settings for Passcode and Biometrics
-* Change the notification settings.
-* Provide feedback for the application.
-* Visualise payment History
-* Raise an issue to the country administrator.
-* Access the privacy policy.
-* Access the frequently asked questions.
+- Change their account personal details.
+- Preview mood tracker past activity.
+- Change settings for Passcode and Biometrics
+- Change the notification settings.
+- Provide feedback for the application.
+- Visualise payment History
+- Raise an issue to the country administrator.
+- Access the privacy policy.
+- Access the frequently asked questions.
 
 <figure><img src="../.gitbook/assets/Screenshot 2023-07-11 at 10.39.24.png" alt=""><figcaption><p>Figure 27: Client account settings screen</p></figcaption></figure>
 
-By accessing the profile details screen, the client can visualise the personal information associated with the USupport mobile applicaiton account, see Figure 27-. The client is able to change this data by selecting the “Save changes” button.
+By accessing the profile details screen, the client can visualise the personal information associated with the uSupport mobile applicaiton account, see Figure 27-. The client is able to change this data by selecting the “Save changes” button.
 
 Moreover, from here the client can change the password for the account, enable or disable consent for personal data processing, log out and delete the account.
 
@@ -428,7 +428,7 @@ The privacy policy can be previewed from the profile settings screen, as well.
 
 Note:
 
-* Privacy policies, terms of use and cookie policies are country specific. Clients should read and make sure the existing content is understood and their activity within the platform follows the established rules.
+- Privacy policies, terms of use and cookie policies are country specific. Clients should read and make sure the existing content is understood and their activity within the platform follows the established rules.
 
 <figure><img src="../.gitbook/assets/image (151).png" alt=""><figcaption><p>Figure 37: Privacy policies screen</p></figcaption></figure>
 
@@ -440,7 +440,7 @@ The information which is presented on this screen is managed by the country admi
 
 Note:
 
-* Translations are supported as well. When changing the language, the clients will be presented with the translated version of the FAQs. In case some of them do not have a translated version for a specific language, then they will be excluded from the results under that specific language.
+- Translations are supported as well. When changing the language, the clients will be presented with the translated version of the FAQs. In case some of them do not have a translated version for a specific language, then they will be excluded from the results under that specific language.
 
 ### 9. Access the dashboard
 
@@ -466,11 +466,11 @@ Clients who wish to make a payment will be directed to the payment screen, where
 
 Payment required fields include:
 
-* Card number
-* Expiry date of the card
-* CVC code
-* Country or region
-* Additional details required based on country (e.g. postcode for United Kingdom)
+- Card number
+- Expiry date of the card
+- CVC code
+- Country or region
+- Additional details required based on country (e.g. postcode for United Kingdom)
 
 When using the auto fill feature to scan the card using the phone camera, the card number and expiry date will be automatically filled in for the client. However, the CVC code will need to be entered separately by the user, along with the country or region and any additional details required based on the country. This convenient feature still saves time and reduces the risk of errors when entering payment information.
 
@@ -494,17 +494,17 @@ To ask a new question, clients need to click on the “Ask anonymously” button
 
 The My Q\&A screen contains several elements for each entry, as shown in Figure 3:
 
-* Title
-* Tags
-* Question
-* Answer
-* The provider who answered the question
+- Title
+- Tags
+- Question
+- Answer
+- The provider who answered the question
 
 Additional features include:
 
-* A shortcut to schedule a consultation
-* Like/dislike buttons
-* A "Read more" option
+- A shortcut to schedule a consultation
+- Like/dislike buttons
+- A "Read more" option
 
 The schedule consultation shortcut is located in the bottom right corner of the entry and is displayed when a provider has answered the question. This allows clients to easily book a consultation with the provider who provided an answer on the topic they raised.
 
