@@ -47,3 +47,5 @@ translations/*.xlsx
 
 # nginx certificates
 **/certs/**
+formatProviderCsv.py
+providers.csv
