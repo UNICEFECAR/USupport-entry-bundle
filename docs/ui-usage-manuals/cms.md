@@ -26,7 +26,7 @@
 
 [3. Deleting Users](cms.md#3.-deleting-users)
 
-[4. Login to the CMS Interface](cms.md#\_toc123778358)
+[4. Login to the CMS Interface](cms.md#_toc123778358)
 
 [5. Forgot Password](cms.md#5.-forgot-password)
 
@@ -54,7 +54,7 @@
 
 [8. Approving content](cms.md#9.-approving-content)
 
-[9. Creating translations for existing content](cms.md#\_ref121062657)
+[9. Creating translations for existing content](cms.md#_ref121062657)
 
 ### Table of Figures
 
@@ -98,13 +98,13 @@ Table 1: Available Collection Types based on user roles
 
 Dear colleagues,
 
-In the past few months, the team of 7DIGIT has been working on the Content Management System (CMS) as part of the USupport platform. It serves as a core element, storing all content related to the Information Portal, SOS Centers, Frequently asked questions, Terms of use and Cookie Policies.
+In the past few months, the team of 7DIGIT has been working on the Content Management System (CMS) as part of the uSupport platform. It serves as a core element, storing all content related to the Information Portal, SOS Centers, Frequently asked questions, Terms of use and Cookie Policies.
 
 We hereby share with you the detailed user manual for the CMS.
 
 ### What is the CMS?
 
-The CMS tool is a manually designed software, build on top of the functionality provided by Strapi after custom adaptation based on the needs of the USupport project.
+The CMS tool is a manually designed software, build on top of the functionality provided by Strapi after custom adaptation based on the needs of the uSupport project.
 
 This platform is aiming to provide an easy-to-use interface for content creators internationally, operating with straightforward and intuitive flows.
 
@@ -220,8 +220,8 @@ Step 6: Click "Save".
 
 Note:
 
-* Internationalization requires a default language to be set. At the current stage, the default language of the CMS platform is set to English. It is not recommended to change this setting as soon as the first piece of content has been published. The reason for this is thoroughly described in the section Creating translations for existing content.
-* Creating multiple entries of the same language is not permitted.
+- Internationalization requires a default language to be set. At the current stage, the default language of the CMS platform is set to English. It is not recommended to change this setting as soon as the first piece of content has been published. The reason for this is thoroughly described in the section Creating translations for existing content.
+- Creating multiple entries of the same language is not permitted.
 
 ### 7. Populate Media Library
 
@@ -233,16 +233,16 @@ Step 3: Choose between “Browse files” or “From URL”.
 
 Step 4: Save the new asset by clicking on “Upload x asset/s to the library”.
 
-The Media Library is a part of the CMS platform which allows to securely store different assets, such as images. Once an asset is uploaded to the media library it is stored within the USupport system and can be used for populating different content types. For example, each article content type requires to have an image attached to it. When creating a new article and having the Media Library populated with all the assets that we might need, we can easily search for an image directly within the Media Library, instead of browsing the computer.
+The Media Library is a part of the CMS platform which allows to securely store different assets, such as images. Once an asset is uploaded to the media library it is stored within the uSupport system and can be used for populating different content types. For example, each article content type requires to have an image attached to it. When creating a new article and having the Media Library populated with all the assets that we might need, we can easily search for an image directly within the Media Library, instead of browsing the computer.
 
 In case the Media library does not contain the asset, we are looking for we can then browse the computer, find what we need and upload it. The benefit in this case is that once an asset is used, it will automatically be stored inside the Media Library for future use cases.
 
 Notes:
 
-* Moderators and Editors have access to the complete CMS Media Library.
-* Authors only have access to the Media Library content in their own accounts.
-* Media Library entries can be grouped in separate folders
-* Media Library data can be deleted. It is strongly advised to do so with high caution, having in mind that the file might be currently in use and linked to one or more existing Collection Type entries.
+- Moderators and Editors have access to the complete CMS Media Library.
+- Authors only have access to the Media Library content in their own accounts.
+- Media Library entries can be grouped in separate folders
+- Media Library data can be deleted. It is strongly advised to do so with high caution, having in mind that the file might be currently in use and linked to one or more existing Collection Type entries.
 
 <figure><img src="../.gitbook/assets/image (165).png" alt=""><figcaption><p>Figure 7: Media Library CMS Interface</p></figcaption></figure>
 
@@ -266,18 +266,18 @@ Step 6: On the top right corner click the “Save” button (see Figure 9).
 
 <figure><img src="../.gitbook/assets/image (144).png" alt=""><figcaption><p>Figure 9: Creating a new Collection Type</p></figcaption></figure>
 
-There are multiple available content types within the USupport CMS platform, e.g. Articles, SOS Centers, and FAQs. The user role defines the access rights to the different Collection Types – see Table 1 bellow.
+There are multiple available content types within the uSupport CMS platform, e.g. Articles, SOS Centers, and FAQs. The user role defines the access rights to the different Collection Types – see Table 1 bellow.
 
 |                 | Moderator | Editor | Author |
 | --------------- | --------- | ------ | ------ |
-| Age Groups      | ✅         | ✅      | 🛑     |
-| Tags            | ✅         | ✅      | ✅      |
-| Categories      | ✅         | ✅      | ✅      |
-| Articles        | ✅         | ✅      | ✅      |
-| FAQs            | ✅         | ✅      | ✅      |
-| SOS Center      | ✅         | ✅      | ✅      |
-| Terms of Use    | ✅         | ✅      | 🛑     |
-| Cookie Policies | ✅         | ✅      | 🛑     |
+| Age Groups      | ✅        | ✅     | 🛑     |
+| Tags            | ✅        | ✅     | ✅     |
+| Categories      | ✅        | ✅     | ✅     |
+| Articles        | ✅        | ✅     | ✅     |
+| FAQs            | ✅        | ✅     | ✅     |
+| SOS Center      | ✅        | ✅     | ✅     |
+| Terms of Use    | ✅        | ✅     | 🛑     |
+| Cookie Policies | ✅        | ✅     | 🛑     |
 
 Table 1: Available Collection Types based on user roles
 
@@ -293,22 +293,22 @@ The age groups are meant to separate the Articles into two different sections ba
 
 Entry Fields:
 
-* Name – Required Field
+- Name – Required Field
 
 Relation Entries:
 
-* Articles – Not Required field
+- Articles – Not Required field
 
 Note: the capability to assign articles to an age group was disabled, instead the age groups should be assigned to articles from the article’s creation view.
 
 Creation process:
 
-* The general case described above applies.
-* Does not require approval from country administrators.
+- The general case described above applies.
+- Does not require approval from country administrators.
 
 Usage by other interfaces:
 
-* This is not a collection that is expected to change very often. Adding further content might result in requiring small design adjustments of the following parts of the Usupport platform – Commercial Website Interface and Client Interface.
+- This is not a collection that is expected to change very often. Adding further content might result in requiring small design adjustments of the following parts of the Usupport platform – Commercial Website Interface and Client Interface.
 
 #### 8.2. Tags Collection Type
 
@@ -316,22 +316,22 @@ The tags represent keywords that are attached to Articles with the purpose of su
 
 Entry Fields:
 
-* Name – Required Field
+- Name – Required Field
 
 Relation Entries:
 
-* Articles – Not Required field
+- Articles – Not Required field
 
 Note: the capability to assign articles to a tag was disabled, instead the tags should be assigned to articles from the article’s creation view.
 
 Creation process:
 
-* The general case described above applies.
-* Does not require approval from country administrators.
+- The general case described above applies.
+- Does not require approval from country administrators.
 
 Usage by other interfaces:
 
-* When creating Articles, we will have the option to link multiple tags to one article. Those tags will be displayed within the UI interfaces when presenting the articles, see Figure 12.
+- When creating Articles, we will have the option to link multiple tags to one article. Those tags will be displayed within the UI interfaces when presenting the articles, see Figure 12.
 
 <figure><img src="../.gitbook/assets/image (22).png" alt=""><figcaption><p>Figure 12: Article with tags visualisation</p></figcaption></figure>
 
@@ -341,23 +341,23 @@ Categories are meant to group articles together based on the information they pr
 
 Entry Fields:
 
-* Name – Required Field
-* Image – Not Required Field
+- Name – Required Field
+- Image – Not Required Field
 
 Relation Entries:
 
-* Articles – Not Required field
+- Articles – Not Required field
 
 Note: the capability to assign articles to a category was disabled, instead the categories should be assigned to articles from the article’s creation view.
 
 Creation process:
 
-* The general case described above applies.
-* Does not require approval from country administrators.
+- The general case described above applies.
+- Does not require approval from country administrators.
 
 Usage by other interfaces:
 
-* When creating Articles, we will see an option to link a category to the new Article entry. This will be used for filtering Articles in the UI interfaces.
+- When creating Articles, we will see an option to link a category to the new Article entry. This will be used for filtering Articles in the UI interfaces.
 
 <figure><img src="../.gitbook/assets/image (143).png" alt=""><figcaption></figcaption></figure>
 
@@ -369,31 +369,31 @@ They represent informational content with the purpose of raising awareness and p
 
 Entry Fields:
 
-* Title – Required Field
-* Image – Required Field
-* Preview Text (Summary of the article) - Required Field
-* Text (The body of the article) – Required Field
-* Reading time – Required Field
-* Reading Count (The number of views the article received being displayed in USupport interfaces) – Automatically set to 0 on creation
-* Global (Determines if the entry will automatically be displayed in new countries that join the USupport project) – Required Field
+- Title – Required Field
+- Image – Required Field
+- Preview Text (Summary of the article) - Required Field
+- Text (The body of the article) – Required Field
+- Reading time – Required Field
+- Reading Count (The number of views the article received being displayed in uSupport interfaces) – Automatically set to 0 on creation
+- Global (Determines if the entry will automatically be displayed in new countries that join the uSupport project) – Required Field
 
 Relation Entries:
 
-* Category (Only one allowed) – Required field
-* Age Group (Many allowed) – Required Field
-* Tags (Many Allowed) – Required Field
+- Category (Only one allowed) – Required field
+- Age Group (Many allowed) – Required Field
+- Tags (Many Allowed) – Required Field
 
 Note: When assigning categories/age groups/tags it is required to make sure that the entries to be assigned are in a “published” state.
 
 Creation process:
 
-* The general case described above applies.
-* Requires approval from country administrators.
+- The general case described above applies.
+- Requires approval from country administrators.
 
 Usage by other interfaces:
 
-* This collection is directly connected with the USupport UI interfaces that present the informational portal.
-* Every entry which is in a "published" state will be displayed to the general public after country admin approval.
+- This collection is directly connected with the uSupport UI interfaces that present the informational portal.
+- Every entry which is in a "published" state will be displayed to the general public after country admin approval.
 
 #### 8.5. Terms of use Collection Type
 
@@ -401,51 +401,51 @@ These are the legally binding terms, that the users have to agree with.
 
 Entry Fields:
 
-* Terms of use for the Website (Displayed on the commercial website interface) – Required Field
-* Terms of use for the Clients (Displayed on the client’s interface) – Required Field
-* Terms of use for the Provider (Displayed on the provider’s interface) – Required Field
-* Country (The country to which the terms apply for) – Required Field
+- Terms of use for the Website (Displayed on the commercial website interface) – Required Field
+- Terms of use for the Clients (Displayed on the client’s interface) – Required Field
+- Terms of use for the Provider (Displayed on the provider’s interface) – Required Field
+- Country (The country to which the terms apply for) – Required Field
 
 Relation Entries:
 
-* There are no relation entries for this collection type
+- There are no relation entries for this collection type
 
 Creation process:
 
-* The general case described above applies.
-* Does not require approval from country administrators.
+- The general case described above applies.
+- Does not require approval from country administrators.
 
 Usage by other interfaces:
 
-* Each entry into the collection will contain content for the three USupport UI interfaces: Commercial Website Interface, Client Interface and Provider Interface.
-* Each entry will be assigned to no more than one country, there should not be 1 country, having two or more entries.
-* Every entry which is in a "published" state will be displayed to the general public without country admin approval.
+- Each entry into the collection will contain content for the three uSupport UI interfaces: Commercial Website Interface, Client Interface and Provider Interface.
+- Each entry will be assigned to no more than one country, there should not be 1 country, having two or more entries.
+- Every entry which is in a "published" state will be displayed to the general public without country admin approval.
 
 #### 8.6. Cookie Policies Content Type
 
-They provide users with detailed information about the types of cookies the different USupport interfaces are using.
+They provide users with detailed information about the types of cookies the different uSupport interfaces are using.
 
 Entry Fields:
 
-* Cookie Policy for the Website (Displayed on the commercial website interface) – Required Field
-* Cookie Policy for the Clients (Displayed on the client’s interface) – Required Field
-* Cookie Policy for the Provider (Displayed on the provider’s interface) – Required Field
-* Country (The country to which the terms apply for) – Required Field
+- Cookie Policy for the Website (Displayed on the commercial website interface) – Required Field
+- Cookie Policy for the Clients (Displayed on the client’s interface) – Required Field
+- Cookie Policy for the Provider (Displayed on the provider’s interface) – Required Field
+- Country (The country to which the terms apply for) – Required Field
 
 Relation Entries:
 
-* There are no relation entries for this collection type
+- There are no relation entries for this collection type
 
 Creation process:
 
-* The general case described above applies.
-* Does not require approval from country administrators.
+- The general case described above applies.
+- Does not require approval from country administrators.
 
 Usage by other interfaces:
 
-* Each entry into the collection will contain content for the three Usupport UI interfaces: Commercial Website Interface, Client Interface and Provider Interface.
-* Each entry will be assigned to no more than one country, there should not be 1 country, having two or more entries.
-* Every entry which is in a "published" state will be displayed to the general public without country admin approval.
+- Each entry into the collection will contain content for the three Usupport UI interfaces: Commercial Website Interface, Client Interface and Provider Interface.
+- Each entry will be assigned to no more than one country, there should not be 1 country, having two or more entries.
+- Every entry which is in a "published" state will be displayed to the general public without country admin approval.
 
 #### 8.7. FAQs Content Type
 
@@ -453,23 +453,23 @@ The section Frequently Asked Questions aims to provide relevant information that
 
 Entry Fields:
 
-* Question – Required Field
-* Answer – Required Field
-* Global (Determines if the entry will automatically be displayed in new countries that join the USupport project) – Required Field
+- Question – Required Field
+- Answer – Required Field
+- Global (Determines if the entry will automatically be displayed in new countries that join the uSupport project) – Required Field
 
 Relation Entries:
 
-* There are no relation entries for this collection type
+- There are no relation entries for this collection type
 
 Creation process:
 
-* The general case described above applies.
-* Requires approval from country administrators.
+- The general case described above applies.
+- Requires approval from country administrators.
 
 Usage by other interfaces:
 
-* This collection is directly connected with the USupport UI interfaces.
-* Every entry which is in a "published" state will be displayed to the general public after country admin approval.
+- This collection is directly connected with the uSupport UI interfaces.
+- Every entry which is in a "published" state will be displayed to the general public after country admin approval.
 
 #### 8.8. SOS Center Content Type
 
@@ -477,27 +477,27 @@ The SOS centre gives quick access to different helplines for users in need of ur
 
 Entry Fields:
 
-* Image – Not Required Field
-* Title – Required Field
-* Text – Required Field
-* Phone – Not Required Field
-* URL – Not Required Field
-* Global (Determines if the entry will automatically be displayed in new countries that join the USupport project) – Required Field
+- Image – Not Required Field
+- Title – Required Field
+- Text – Required Field
+- Phone – Not Required Field
+- URL – Not Required Field
+- Global (Determines if the entry will automatically be displayed in new countries that join the uSupport project) – Required Field
 
 Note: Even though the Phone and URL entries are not required fields we strongly recommend including at least one of them.
 
 Relation Entries:
 
-* There are no relation entries for this collection type
+- There are no relation entries for this collection type
 
 Creation process:
 
-* The general case described above applies.
-* Requires approval from country administrators.
+- The general case described above applies.
+- Requires approval from country administrators.
 
 Usage by other interfaces:
 
-* Every entry which is in a "published" state will be displayed to the general public after the country admin approval.
+- Every entry which is in a "published" state will be displayed to the general public after the country admin approval.
 
 ### 9. Approving content
 
@@ -529,9 +529,9 @@ Once we select the new locale we will be prompted to fulfil the translated infor
 
 Once the data entries for the translated version are completed, we need to click the “Save” button at the top right corner.
 
-The process which we just described will allow content to be displayed in different languages within the USupport platform.
+The process which we just described will allow content to be displayed in different languages within the uSupport platform.
 
 Notes:
 
-* When creating a new localised version for the Articles Collection Type, we need to assign “Categories”, “Tags” and “Age Groups”. If those do not have translated versions in the language, we are creating a new article entry for, there will not be available categories, tags or age groups to be assigned. The solution to this problem is to create translations for the categories, tags, and age groups before creating the translation for the article.
-* Not following the process described above, in regards to the creation of translated versions will result in errors and content not being available within the USupport platforms.
+- When creating a new localised version for the Articles Collection Type, we need to assign “Categories”, “Tags” and “Age Groups”. If those do not have translated versions in the language, we are creating a new article entry for, there will not be available categories, tags or age groups to be assigned. The solution to this problem is to create translations for the categories, tags, and age groups before creating the translation for the article.
+- Not following the process described above, in regards to the creation of translated versions will result in errors and content not being available within the uSupport platforms.
