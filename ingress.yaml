@@ -9,6 +9,12 @@ metadata:
     nginx.ingress.kubernetes.io/from-to-www-redirect: "true"
     nginx.ingress.kubernetes.io/configuration-snippet: |
       include                     /etc/nginx/mime.types;
+      more_set_headers "Access-Control-Max-Age: 600";
+      more_set_headers "X-XSS-Protection: 1; mode=block";
+      more_set_headers "X-Content-Type-Options: nosniff";
+      more_set_headers "Vary: Origin";
+      more_set_headers "Cache-Control: no-store, no-cache, private";
+      more_set_headers "Strict-Transport-Security: max-age=31536000";
     nginx.ingress.kubernetes.io/proxy-body-size: "100m"
     nginx.org/client-max-body-size: "100m"
 spec:
