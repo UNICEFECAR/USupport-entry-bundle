@@ -6,7 +6,7 @@
 
 ### Installation
 
-This is the entry bundle repository for all USupport web services (webapps + API services).
+This is the entry bundle repository for all uSupport web services (webapps + API services).
 
 To clone and populate all submodules use:
 

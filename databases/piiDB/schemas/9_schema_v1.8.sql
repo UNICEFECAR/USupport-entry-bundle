@@ -1,0 +1,7 @@
+ALTER TABLE "login_attempt" ADD COLUMN "start_cooldown" BOOLEAN NOT NULL DEFAULT FALSE;
+
+CREATE TABLE "jwt_blacklist" (
+    "id" SERIAL PRIMARY KEY,
+    "token" TEXT NOT NULL,
+    "created_at" TIMESTAMP WITH TIME ZONE NOT NULL DEFAULT CURRENT_TIMESTAMP
+);

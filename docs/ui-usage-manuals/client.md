@@ -8,17 +8,17 @@
 
 [What is the Client Interface?](client.md#what-is-the-client-interface)
 
-[Processes](client.md#\_ref122386267)
+[Processes](client.md#_ref122386267)
 
 [1. Register into the Client Interface](client.md#1.-register-into-the-client-interface)
 
 [1.1. Registration Options](client.md#1.1.-registration-options)
 
-[2. Login to the Client Interface](client.md#\_toc123778358)
+[2. Login to the Client Interface](client.md#_toc123778358)
 
-[3. Forgot Password](client.md#\_toc123778359)
+[3. Forgot Password](client.md#_toc123778359)
 
-[4. Schedule a consultation](client.md#\_ref130341728)
+[4. Schedule a consultation](client.md#_ref130341728)
 
 [5. Edit consultation](client.md#5.-edit-consultation)
 
@@ -30,7 +30,7 @@
 
 [9. Access the dashboard](client.md#9.-access-the-dashboard)
 
-[10. Make a payment](client.md#\_ref130341549)
+[10. Make a payment](client.md#_ref130341549)
 
 [11. Access My Q\&A](client.md#11.-access-my-q-and-a)
 
@@ -132,11 +132,11 @@ Figure 46: My Q\&A filtering options.
 
 Dear colleagues,
 
-This guide will present the Client Interface which is part of the USupport platform. It is a core element that allows users to get access to useful psychological resources, which are carefully created by professionals, and engage with psychological service providers in one-to-one sessions that aim to improve their general mental health.
+This guide will present the Client Interface which is part of the uSupport platform. It is a core element that allows users to get access to useful psychological resources, which are carefully created by professionals, and engage with psychological service providers in one-to-one sessions that aim to improve their general mental health.
 
 ### What is the Client Interface?
 
-The Client Interface is a custom-built web-based application for users that are looking for reliable psychological support within the USupport project.
+The Client Interface is a custom-built web-based application for users that are looking for reliable psychological support within the uSupport project.
 
 This platform aims to deliver an easy-to-use interface that provides the capability to access psychological reading resources, and perform one-to-one online consultations with psychological service providers.
 
@@ -254,13 +254,13 @@ Furthermore, the client has the ability to filter providers using the options di
 
 Providers filtering options:
 
-* Type of provider
-* Gender
-* Free consultations
-* Available after
-* Available before
-* Maximum price
-* Language
+- Type of provider
+- Gender
+- Free consultations
+- Available after
+- Available before
+- Maximum price
+- Language
 
 <figure><img src="../.gitbook/assets/image (99).png" alt=""><figcaption><p>Figure 14: Provider Overview Screen</p></figcaption></figure>
 
@@ -312,8 +312,8 @@ The second option “Cancel the consultation” will cancel the appointment for 
 
 Note:
 
-* All changes made to an appointment will be confirmed using the notification service in app and by email for both of the consultation participants.
-* Refunds for paid consultations will only be issued if the appointment is cancelled at least 24 hours prior to its scheduled start time.
+- All changes made to an appointment will be confirmed using the notification service in app and by email for both of the consultation participants.
+- Refunds for paid consultations will only be issued if the appointment is cancelled at least 24 hours prior to its scheduled start time.
 
 ### 6. Access the Information portal
 
@@ -339,13 +339,13 @@ Figure 24 shows the full view of an article. The first part is a cover image. Ne
 
 Note:
 
-* Translations are supported as well. When changing the language, the clients will be presented with the translated version of the articles. In case some of the articles do not have a translated version for a specific language, then it will not be shown under the selected language.
+- Translations are supported as well. When changing the language, the clients will be presented with the translated version of the articles. In case some of the articles do not have a translated version for a specific language, then it will not be shown under the selected language.
 
 ### 7. Access the SOS Center
 
 Step 1: Login to the Client Interface.
 
-Step 2: Select the “SOS Center” button on the bottom right corner from any screen within the USupport platform.
+Step 2: Select the “SOS Center” button on the bottom right corner from any screen within the uSupport platform.
 
 <figure><img src="../.gitbook/assets/image (119).png" alt=""><figcaption><p>Figure 25: SOS Centers Screen</p></figcaption></figure>
 
@@ -353,14 +353,14 @@ The SOS centre screen is the place which provides quick access to emergency line
 
 Figure 25 presents the available helplines, each within a different rectangle. The information which can be displayed is the following:
 
-* Name of the emergency centre
-* A description which should include relevant details about the centre so that the clients can know if the specific centre can solve their issue.
-* A “Contact now” button is displayed if the helpline accepts direct calls.
-* A “Visit website” button is displayed if the helpline has a website.
+- Name of the emergency centre
+- A description which should include relevant details about the centre so that the clients can know if the specific centre can solve their issue.
+- A “Contact now” button is displayed if the helpline accepts direct calls.
+- A “Visit website” button is displayed if the helpline has a website.
 
 Note:
 
-* Translations are supported as well. When changing the language, the clients will be presented with the translated version of the SOS centres. In case an SOS centre does not have a translated version for a specific language, then it will be excluded from the results under that specific language.
+- Translations are supported as well. When changing the language, the clients will be presented with the translated version of the SOS centres. In case an SOS centre does not have a translated version for a specific language, then it will be excluded from the results under that specific language.
 
 ### 8. Edit profile settings
 
@@ -370,18 +370,18 @@ Step 2: On the “Navigation Menu” select “Your Profile”.
 
 From this screen the client can proceed with the following actions:
 
-* Change their account personal details.
-* Preview mood tracker past activity.
-* Change the notification settings.
-* Provide feedback for the application.
-* Visualise payment History
-* Raise an issue to the country administrator.
-* Access the privacy policy.
-* Access the frequently asked questions.
+- Change their account personal details.
+- Preview mood tracker past activity.
+- Change the notification settings.
+- Provide feedback for the application.
+- Visualise payment History
+- Raise an issue to the country administrator.
+- Access the privacy policy.
+- Access the frequently asked questions.
 
 <figure><img src="../.gitbook/assets/image (31).png" alt=""><figcaption><p>Figure 26: Client account settings screen</p></figcaption></figure>
 
-By accessing the profile details screen, the client can visualise the personal information associated with the USupport client interface account, see Figure 27- the information inside the red rectangle. The client is able to change this data by selecting the “Save changes” button.
+By accessing the profile details screen, the client can visualise the personal information associated with the uSupport client interface account, see Figure 27- the information inside the red rectangle. The client is able to change this data by selecting the “Save changes” button.
 
 Moreover, from here the client can change the password for the account, enable or disable consent for personal data processing, log out and delete the account.
 
@@ -415,7 +415,7 @@ The privacy policy can be previewed from the profile settings screen, as well.
 
 Note:
 
-* Privacy policies, terms of use and cookie policies are country specific. Clients should read and make sure the existing content is understood and their activity within the platform follows the established rules.
+- Privacy policies, terms of use and cookie policies are country specific. Clients should read and make sure the existing content is understood and their activity within the platform follows the established rules.
 
 <figure><img src="../.gitbook/assets/image (46).png" alt=""><figcaption><p>Figure 34: Privacy policies screen</p></figcaption></figure>
 
@@ -427,7 +427,7 @@ The information which is presented on this screen is managed by the country admi
 
 Note:
 
-* Translations are supported as well. When changing the language, the clients will be presented with the translated version of the FAQs. In case some of them do not have a translated version for a specific language, then they will be excluded from the results under that specific language.
+- Translations are supported as well. When changing the language, the clients will be presented with the translated version of the FAQs. In case some of them do not have a translated version for a specific language, then they will be excluded from the results under that specific language.
 
 ### 9. Access the dashboard
 
@@ -453,12 +453,12 @@ Clients who wish to make a payment will be directed to the payment screen, which
 
 The first payment option available to users is to proceed with the standard payment process by completing all of the fields within the form presented above. These fields include:
 
-* Email
-* Card number
-* Expiry date of the card
-* CVC code
-* Country or region
-* Additional details required based on country (e.g. postcode for United Kingdom)
+- Email
+- Card number
+- Expiry date of the card
+- CVC code
+- Country or region
+- Additional details required based on country (e.g. postcode for United Kingdom)
 
 <figure><img src="../.gitbook/assets/image (38).png" alt=""><figcaption><p>Figure 38: Saving payment details for future usage.</p></figcaption></figure>
 
@@ -496,17 +496,17 @@ To ask a new question, clients need to click on the “Ask anonymously” button
 
 The My Q\&A screen contains several elements for each entry, as shown in Figure 44:
 
-* Title
-* Tags
-* Question
-* Answer
-* The provider who answered the question
+- Title
+- Tags
+- Question
+- Answer
+- The provider who answered the question
 
 Additional features include:
 
-* A shortcut to schedule a consultation
-* Like/dislike buttons
-* A "Read more" option
+- A shortcut to schedule a consultation
+- Like/dislike buttons
+- A "Read more" option
 
 The schedule consultation shortcut is located in the bottom right corner of the entry and is displayed when a provider has answered the question. This allows clients to easily book a consultation with the provider who provided an answer on the topic they raised.
 

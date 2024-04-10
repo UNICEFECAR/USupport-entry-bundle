@@ -25,8 +25,8 @@
     "system_forgot_password_title": "Forgot password",
     "system_forgot_password_text": "Please visit the following link to reset your password: {1}",
 
-    "system_welcome_subject": "Welcome to USupport",
-    "system_welcome_title": "Welcome to USupport",
+    "system_welcome_subject": "Welcome to uSupport",
+    "system_welcome_title": "Welcome to uSupport",
     "system_welcome_text": "Please visit the following link to access your account: {1}",
 
     "client_consultation_confirm_booking_subject": "Consultation booking",
@@ -106,8 +106,8 @@
     "provider_report_monthly_text": "Please visit {1} to view your monthly report.",
 
     "provider_registration_notify_subject": "Account registraion",
-    "provider_registration_notify_title": "Registered as provider at USupport",
-    "provider_registration_notify_text": "You have been registered as a provider at USupport.<br/> Your automatically generated password is: {2} <br/>You can change it anytime from your profile settings.<br/> Please visit {1} to login to your profile."
+    "provider_registration_notify_title": "Registered as provider at uSupport",
+    "provider_registration_notify_text": "You have been registered as a provider at uSupport.<br/> Your automatically generated password is: {2} <br/>You can change it anytime from your profile settings.<br/> Please visit {1} to login to your profile."
   },
   "messaging": {
     "chat_not_found_error": "Chat not found"
