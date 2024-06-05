@@ -1,0 +1,23 @@
+-- work_with table additions --
+INSERT INTO "work_with" ("topic") VALUES ('ptsd');
+INSERT INTO "work_with" ("topic") VALUES ('phobia');
+INSERT INTO "work_with" ("topic") VALUES ('sexuality');
+INSERT INTO "work_with" ("topic") VALUES ('lgbtq');
+INSERT INTO "work_with" ("topic") VALUES ('goal');
+INSERT INTO "work_with" ("topic") VALUES ('emotional_intelligence');
+INSERT INTO "work_with" ("topic") VALUES ('productivity');
+INSERT INTO "work_with" ("topic") VALUES ('self_care');
+INSERT INTO "work_with" ("topic") VALUES ('insomnia');
+INSERT INTO "work_with" ("topic") VALUES ('motivation');
+INSERT INTO "work_with" ("topic") VALUES ('anger');
+INSERT INTO "work_with" ("topic") VALUES ('bullying');
+INSERT INTO "work_with" ("topic") VALUES ('grief');
+INSERT INTO "work_with" ("topic") VALUES ('gender_identity');
+INSERT INTO "work_with" ("topic") VALUES ('family');
+INSERT INTO "work_with" ("topic") VALUES ('low_mood');
+INSERT INTO "work_with" ("topic") VALUES ('hiv');
+INSERT INTO "work_with" ("topic") VALUES ('loneliness');
+INSERT INTO "work_with" ("topic") VALUES ('toxic_relationships');
+INSERT INTO "work_with" ("topic") VALUES ('love');
+INSERT INTO "work_with" ("topic") VALUES ('social_skills');
+INSERT INTO "work_with" ("topic") VALUES ('body_image');
