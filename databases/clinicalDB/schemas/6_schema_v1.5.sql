@@ -20,4 +20,6 @@ ADD "improve_wellbeing" int DEFAULT 10,
 ADD "feelings_now" int DEFAULT 10,
 ADD "additional_comment" varchar DEFAULT NULL;
 
+ALTER TYPE "consultation_status" ADD VALUE 'active';
+ALTER TYPE "consultation_status" ADD VALUE 'late-canceled';
 
