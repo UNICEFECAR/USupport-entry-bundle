@@ -1,4 +1,4 @@
-FROM postgres:13.3-alpine3.14
+FROM --platform=linux/x86_64  postgres:13.3-alpine3.14
 
 COPY ./schemas/1_schema_v1.0.sql /docker-entrypoint-initdb.d
 COPY ./schemas/2_schema_v1.1.sql /docker-entrypoint-initdb.d
