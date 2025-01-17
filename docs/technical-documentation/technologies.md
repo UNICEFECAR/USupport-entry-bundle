@@ -17,7 +17,6 @@ description: >-
 |      Messaging Queue      |              Kafka              |
 |      Containerisation     |              Docker             |
 |  Containers Orchestration |            Kubernetes           |
-|     Data Access Layer     |             Mongoose            |
 |          Database         |             PosgreSQL           |
 |     3rd Party Services    | Twilio Video WebRTC Go & Stripe |
 |                           |                                 |
