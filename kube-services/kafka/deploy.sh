@@ -16,7 +16,7 @@ then
     then 
         kubectl apply -f service-zookeeper.yaml -f service-kafka.yaml
         kubectl rollout restart deployment zookeeper
-        kubectl rollout restart deployment kafka-broker
+        kubectl rollout restart deployment k-broker
     fi
 
 else
