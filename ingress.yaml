@@ -59,7 +59,27 @@ spec:
                 name: webproxy-service
                 port:
                   number: 80
+    - host: "poland.staging.usupport.online"
+      http:
+        paths:
+          - path: /
+            pathType: Prefix
+            backend:
+              service:
+                name: webproxy-service
+                port:
+                  number: 80
     - host: "kazakhstan.usupport.online"
+      http:
+        paths:
+          - path: /
+            pathType: Prefix
+            backend:
+              service:
+                name: webproxy-service
+                port:
+                  number: 80
+    - host: "kazakhstan.staging.usupport.online"
       http:
         paths:
           - path: /
@@ -71,8 +91,10 @@ spec:
                   number: 80
   tls:
     - hosts: # Add each external domain name within the list below to get a valid certificate
-        - "staging.usupport.online"
         - "usupport.online"
+        - "staging.usupport.online"
         - "poland.usupport.online"
+        - "poland.staging.usupport.online"
         - "kazakhstan.usupport.online"
+        - "kazakhstan.staging.usupport.online"
       secretName: tls-secret
