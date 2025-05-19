@@ -2,79 +2,79 @@
 	path = client
 	url = git@github.com:UNICEFECAR/USupport-client.git
 	update = merge
-	branch = development
+	branch = staging
 [submodule "provider"]
 	path = provider
 	url = git@github.com:UNICEFECAR/USupport-provider.git
 	update = merge
-	branch = development
+	branch = staging
 [submodule "admin"]
 	path = admin
 	url = git@github.com:UNICEFECAR/USupport-admin.git
 	update = merge
-	branch = development
+	branch = staging
 [submodule "notifications"]
 	path = notifications
 	url = git@github.com:UNICEFECAR/USupport-notifications.git
 	update = merge
-	branch = development
+	branch = staging
 [submodule "video"]
 	path = video
 	url = git@github.com:UNICEFECAR/USupport-video.git
 	update = merge
-	branch = development
+	branch = staging
 [submodule "messaging"]
 	path = messaging
 	url = git@github.com:UNICEFECAR/USupport-messaging.git
 	update = merge
-	branch = development
+	branch = staging
 [submodule "payments"]
 	path = payments
 	url = git@github.com:UNICEFECAR/USupport-payments.git
 	update = merge
-	branch = development
+	branch = staging
 [submodule "cms"]
 	path = cms
 	url = git@github.com:UNICEFECAR/USupport-cms.git
 	update = merge
-	branch = development
+	branch = staging
 [submodule "email"]
 	path = email
 	url = git@github.com:UNICEFECAR/USupport-email.git
 	update = merge
-	branch = development
+	branch = staging
 [submodule "gateway"]
 	path = gateway
 	url = git@github.com:UNICEFECAR/USupport-api-gateway.git
 	update = merge
-	branch = development
+	branch = staging
 [submodule "client-ui"]
 	path = client-ui
 	url = git@github.com:UNICEFECAR/USupport-client-ui.git
 	update = merge
-	branch = development
+	branch = staging
 [submodule "provider-ui"]
 	path = provider-ui
 	url = git@github.com:UNICEFECAR/USupport-provider-ui.git
 	update = merge
-	branch = development
+	branch = staging
 [submodule "admin-global-ui"]
 	path = admin-global-ui
 	url = git@github.com:UNICEFECAR/USupport-global-admin-ui.git
 	update = merge
-	branch = development
+	branch = staging
 [submodule "admin-country-ui"]
 	path = admin-country-ui
 	url = git@github.com:UNICEFECAR/USupport-country-admin-ui.git
 	update = merge
-	branch = development
+	branch = staging
 [submodule "website"]
 	path = website
 	url = git@github.com:UNICEFECAR/USupport-website-ui.git
 	update = merge
-	branch = development
+	branch = staging
 [submodule "user"]
 	path = user
 	url = git@github.com:UNICEFECAR/USupport-user.git
 	update = merge
-	branch = development
+	branch = staging
