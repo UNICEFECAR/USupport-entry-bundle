@@ -27,7 +27,7 @@ CREATE TABLE IF NOT EXISTS "organization_work_with_links" (
     id SERIAL UNIQUE,
     organization_id UUID NOT NULL,
     organization_work_with_id UUID NOT NULL,
-    created_at TIMESTAMP DEFAULT (NOW()),
+    created_at TIMESTAMP DEFAULT (NOW())
 );
 
 ALTER TABLE "organization_work_with_links"
@@ -38,7 +38,7 @@ ALTER TABLE "organization_work_with_links"
 CREATE TABLE IF NOT EXISTS "district" (
     id SERIAL UNIQUE,
     district_id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
-    name TEXT NOT NULL,
+    name TEXT NOT NULL
 );
 
 INSERT INTO "district" (name)
@@ -122,7 +122,7 @@ CREATE TABLE IF NOT EXISTS "organization_specialisation_links" (
     id SERIAL UNIQUE,
     organization_id UUID NOT NULL,
     organization_specialisation_id UUID NOT NULL,
-    created_at TIMESTAMP DEFAULT (NOW()),
+    created_at TIMESTAMP DEFAULT (NOW())
 );
 
 ALTER TABLE "organization_specialisation_links"
