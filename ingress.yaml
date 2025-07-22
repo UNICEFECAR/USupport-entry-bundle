@@ -17,6 +17,15 @@ metadata:
       more_set_headers "Strict-Transport-Security: max-age=31536000";
     nginx.ingress.kubernetes.io/proxy-body-size: "100m"
     nginx.org/client-max-body-size: "100m"
+    # Rate limiting annotations for basic DDoS protection
+    ## Limit to 5 requests per second per client IP
+    nginx.ingress.kubernetes.io/limit-rps: "100"
+    ## Limit to 100 requests per minute per client IP
+    nginx.ingress.kubernetes.io/limit-rpm: "1000"
+    ## Limit to 20 simultaneous connections per client IP
+    nginx.ingress.kubernetes.io/limit-connections: "100"
+    ## Optionally, restrict access to known IP ranges
+    # nginx.ingress.kubernetes.io/whitelist-source-range: "203.0.113.0/24,198.51.100.0/24"
 spec:
   ingressClassName: nginx
   rules:
@@ -40,8 +49,74 @@ spec:
                 name: webproxy-service
                 port:
                   number: 80
+    - host: "poland.usupport.online"
+      http:
+        paths:
+          - path: /
+            pathType: Prefix
+            backend:
+              service:
+                name: webproxy-service
+                port:
+                  number: 80
+    - host: "poland.staging.usupport.online"
+      http:
+        paths:
+          - path: /
+            pathType: Prefix
+            backend:
+              service:
+                name: webproxy-service
+                port:
+                  number: 80
+    - host: "kazakhstan.usupport.online"
+      http:
+        paths:
+          - path: /
+            pathType: Prefix
+            backend:
+              service:
+                name: webproxy-service
+                port:
+                  number: 80
+    - host: "kazakhstan.staging.usupport.online"
+      http:
+        paths:
+          - path: /
+            pathType: Prefix
+            backend:
+              service:
+                name: webproxy-service
+                port:
+                  number: 80
+    - host: "romania.usupport.online"
+      http:
+        paths:
+          - path: /
+            pathType: Prefix
+            backend:
+              service:
+                name: webproxy-service
+                port:
+                  number: 80
+    - host: "romania.staging.usupport.online"
+      http:
+        paths:
+          - path: /
+            pathType: Prefix
+            backend:
+              service:
+                name: webproxy-service
+                port:
+                  number: 80
   tls:
     - hosts: # Add each external domain name within the list below to get a valid certificate
-        - "staging.usupport.online"
         - "usupport.online"
+        - "staging.usupport.online"
+        - "poland.usupport.online"
+        - "poland.staging.usupport.online"
+        - "kazakhstan.usupport.online"
+        - "kazakhstan.staging.usupport.online"
+        - "romania.usupport.online"
+        - "romania.staging.usupport.online"
       secretName: tls-secret
