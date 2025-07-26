@@ -249,3 +249,9 @@ VALUES
 ALTER TABLE "organization"
     ADD COLUMN IF NOT EXISTS "deleted_at" timestamp DEFAULT NULL,
     ADD COLUMN IF NOT EXISTS "is_deleted" BOOLEAN DEFAULT FALSE;
+
+DROP TABLE IF EXISTS "organization_work_with_links";
+DROP TABLE IF EXISTS "organization_work_with";
+
+ALTER TABLE "organization"
+    ADD COLUMN IF NOT EXISTS "work_with" TEXT;
