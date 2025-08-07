@@ -255,3 +255,6 @@ DROP TABLE IF EXISTS "organization_work_with";
 
 ALTER TABLE "organization"
     ADD COLUMN IF NOT EXISTS "work_with" TEXT;
+
+ALTER TABLE "organization"
+    DROP COLUMN IF EXISTS "work_with";
