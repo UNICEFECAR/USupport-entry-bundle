@@ -1,0 +1,1 @@
+  ALTER TABLE "mood_tracker" ADD COLUMN "is_critical" BOOLEAN DEFAULT false;
