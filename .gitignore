@@ -49,3 +49,5 @@ translations/*.xlsx
 **/certs/**
 formatProviderCsv.py
 providers.csv
+
+.gitmodules
