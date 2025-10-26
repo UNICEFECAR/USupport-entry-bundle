@@ -129,6 +129,26 @@ spec:
                 name: webproxy-service
                 port:
                   number: 80
+    - host: "playandheal.usupport.online"
+      http:
+        paths:
+          - path: /
+            pathType: Prefix
+            backend:
+              service:
+                name: webproxy-service
+                port:
+                  number: 80
+    - host: "playandheal.staging.usupport.online"
+      http:
+        paths:
+          - path: /
+            pathType: Prefix
+            backend:
+              service:
+                name: webproxy-service
+                port:
+                  number: 80
   tls:
     - hosts: # Add each external domain name within the list below to get a valid certificate
         - "usupport.online"
@@ -141,4 +161,6 @@ spec:
         - "romania.staging.usupport.online"
         - "armenia.usupport.online"
         - "armenia.staging.usupport.online"
+        - "playandheal.usupport.online"
+        - "playandheal.staging.usupport.online"
       secretName: tls-secret
