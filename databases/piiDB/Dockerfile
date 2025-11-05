@@ -1,4 +1,4 @@
-FROM postgres:13.3-alpine3.14
+FROM --platform=linux/amd64 postgres:13.3-alpine3.14
 
 COPY ./schemas/1_schema_v1.0.sql /docker-entrypoint-initdb.d
 COPY ./schemas/2_schema_v1.1.sql /docker-entrypoint-initdb.d
@@ -11,5 +11,8 @@ COPY ./schemas/8_schema_v1.7.sql /docker-entrypoint-initdb.d
 COPY ./schemas/9_schema_v1.8.sql /docker-entrypoint-initdb.d
 COPY ./schemas/10_schema_v1.9.sql /docker-entrypoint-initdb.d
 COPY ./schemas/11_schema_v1.10.sql /docker-entrypoint-initdb.d
+COPY ./schemas/12_schema_v1.11.sql /docker-entrypoint-initdb.d
+COPY ./schemas/13_schema_v1.12.sql /docker-entrypoint-initdb.d
+COPY ./schemas/14_schema_v1.13.sql /docker-entrypoint-initdb.d
 
 RUN chmod a+r /docker-entrypoint-initdb.d/*
