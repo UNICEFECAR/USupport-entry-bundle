@@ -1,0 +1,1 @@
+ALTER TABLE "country" ADD COLUMN has_normal_slots boolean DEFAULT false;
