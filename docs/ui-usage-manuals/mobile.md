@@ -1,42 +1,42 @@
-# 📱 Mobile
+# Mobile
 
 ### Table of Contents
 
 [Table of Figures](mobile.md#table-of-figures)
 
-[Introduction](mobile.md#_toc109836811)
+[Introduction](mobile.md#toc109836811)
 
 [What is the Mobile app?](mobile.md#ole_link2)
 
 [Processes](mobile.md#processes)
 
-[1. Register into the Client Interface](broken-reference/)
+[1. Register into the Client Interface](mobile.md#id-1.-register-into-the-client-interface)
 
-[1.1. Registration Options](mobile.md#1.1.-registration-options)
+[1.1. Registration Options](mobile.md#id-1.1.-registration-options)
 
-[2. Login to the mobile application](mobile.md#2.-login-to-the-mobile-application)
+[2. Login to the mobile application](mobile.md#id-2.-login-to-the-mobile-application)
 
-[3. Forgot Password](mobile.md#3.-forgot-password)
+[3. Forgot Password](mobile.md#id-3.-forgot-password)
 
-[4. Schedule a consultation](mobile.md#4.-schedule-a-consultation)
+[4. Schedule a consultation](mobile.md#id-4.-schedule-a-consultation)
 
-[5. Edit consultation](mobile.md#5.-edit-consultation)
+[5. Edit consultation](mobile.md#id-5.-edit-consultation)
 
-[6. Access the Information portal](mobile.md#6.-access-the-information-portal)
+[6. Access the Information portal](mobile.md#id-6.-access-the-information-portal)
 
-[7. Access the SOS Center](mobile.md#7.-access-the-sos-center)
+[7. Access the SOS Center](mobile.md#id-7.-access-the-sos-center)
 
-[8. Edit profile settings](mobile.md#8.-edit-profile-settings)
+[8. Edit profile settings](mobile.md#id-8.-edit-profile-settings)
 
-[9. Access the dashboard](mobile.md#9.-access-the-dashboard)
+[9. Access the dashboard](mobile.md#id-9.-access-the-dashboard)
 
-[10. Make a payment](mobile.md#10.-make-a-payment)
+[10. Make a payment](mobile.md#id-10.-make-a-payment)
 
-[11. Access My Q\&A](mobile.md#11.-access-my-q-and-a)
+[11. Access My Q\&A](mobile.md#id-11.-access-my-q-and-a)
 
 ### Table of Figures
 
-Figure 1: Welcome Screen
+Figure 1: Welcome screen
 
 Figure 2: Client Interface entry screen
 
@@ -50,11 +50,11 @@ Figure 6: Anonymously registration Step 1
 
 Figure 7: Login screen
 
-Figure 8: Forgot Password Screen
+Figure 8: Forgot Password screen
 
-Figure 9: Consultations Screen
+Figure 9: Consultations screen
 
-Figure 10: Select a Provider Screen
+Figure 10: Select a Provider screen
 
 Figure 11: Using coupon code for finding providers
 
@@ -62,7 +62,7 @@ Figure 12: List of providers for valid coupon
 
 Figure 13: Filtering options for the list of providers
 
-Figure 14: Provider Overview Screen
+Figure 14: Provider Overview screen
 
 Figure 15: Select the appointment date and time
 
@@ -72,7 +72,7 @@ Figure 17: Payment and Appointment confirmation
 
 Figure 18: Unsuccessful payment screen
 
-Figure 19: Consultations screen visualises upcoming appointments
+Figure 19: Consultations screen visualizes upcoming appointments
 
 Figure 20: Consultation screen edit appointment
 
@@ -80,13 +80,13 @@ Figure 21: Consultation screen edit appointment options
 
 Figure 22: Information Portal initial screen
 
-Figure 23: Information Portal Search Screen
+Figure 23: Information Portal Search screen
 
 Figure 24: Full view of an article
 
-Figure 25: SOS Centers Screen
+Figure 25: SOS Centers screen
 
-Figure 26: Access mobile appplication settings
+Figure 26: Access mobile application settings
 
 Figure 27: Client account settings screen
 
@@ -126,7 +126,7 @@ Figure 44: My Q\&A full text of a question.
 
 Figure 45: My Q\&A filtering options.
 
-### Introduction <a href="#_toc109836811" id="_toc109836811"></a>
+### Introduction <a href="#toc109836811" id="toc109836811"></a>
 
 Dear colleagues,
 
@@ -188,7 +188,7 @@ Option 3: This option allows the client to get access to the mobile application 
 
 Step 1: Open the uSupport mobile application
 
-Step 2: Select a country and a language from the Welcome Screen.
+Step 2: Select a country and a language from the Welcome screen.
 
 Step 3: From the next screen select “Login to the app” button (see Figure 2)
 
@@ -210,7 +210,7 @@ Step 5: Insert a valid email address see Figure 8.
 
 Step 6: Check your email address for recovery email.
 
-<figure><img src="../.gitbook/assets/image (130).png" alt=""><figcaption><p>Figure 8: Forgot Password Screen</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (130).png" alt=""><figcaption><p>Figure 8: Forgot Password screen</p></figcaption></figure>
 
 If a valid and registered email address within the platform was provided, an automated email will be sent to it. The email will contain a temporary valid link that can be used to set a new password. Following this procedure, the user can access the account using the email address and the new set password.
 
@@ -230,11 +230,11 @@ Step 6: From the time availability pop-up select date and time and click the “
 
 Step 7: Once the appointment is scheduled a confirmation pop-up will be shown see Figure 17.
 
-<figure><img src="../.gitbook/assets/image (153).png" alt=""><figcaption><p>Figure 9: Consultations Screen</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (153).png" alt=""><figcaption><p>Figure 9: Consultations screen</p></figcaption></figure>
 
 Figure 9 presents the consultations screen. Two different tabs can be seen in the middle of the screen, namely “Upcoming” and “Past. These are available in order to provide the client with the capability to track their previous appointments with providers and their upcoming ones. We can notice that at this stage there are no upcoming appointments therefore this is clearly indicated, using an appropriate message “You have no upcoming consultations”.
 
-<figure><img src="../.gitbook/assets/image (150).png" alt=""><figcaption><p>Figure 10: Select a Provider Screen</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (150).png" alt=""><figcaption><p>Figure 10: Select a Provider screen</p></figcaption></figure>
 
 Each shadowed box, as highlighted in red in Figure 10, represents a provider profile.
 
@@ -254,15 +254,15 @@ Furthermore, the client has the ability to filter providers using the options di
 
 Providers filtering options:
 
-- Type of provider
-- Gender
-- Maximum price
-- Language
-- Free consultations
-- Available after
-- Available before
+* Type of provider
+* Gender
+* Maximum price
+* Language
+* Free consultations
+* Available after
+* Available before
 
-<figure><img src="../.gitbook/assets/Screenshot 2023-07-11 at 10.34.11.png" alt=""><figcaption><p>Figure 14: Provider Overview Screen</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2023-07-11 at 10.34.11.png" alt=""><figcaption><p>Figure 14: Provider Overview screen</p></figcaption></figure>
 
 Clicking on any of the listed providers allows the client to access additional information about their background and support capabilities, as depicted in Figure 14. This feature provides the client with a more in-depth understanding of each provider, allowing them to make a more informed decision when selecting a provider to work with.
 
@@ -288,7 +288,7 @@ In the event that the payment is unsuccessful, the user will be directed to the 
 
 <figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption><p>Figure 19: Consultations screen visualises upcoming appointments</p></figcaption></figure>
 
-As previously mentioned, all the upcoming consultations can be seen within the Consultations Screen, as shown above.
+As previously mentioned, all the upcoming consultations can be seen within the Consultations screen, as shown above.
 
 ### 5. Edit consultation
 
@@ -312,8 +312,8 @@ The second option “Cancel the consultation” will cancel the appointment for 
 
 Note:
 
-- All changes made to an appointment will be confirmed using the notification service in app and by email for both of the consultation participants.
-- Refunds for paid consultations will only be issued if the appointment is cancelled at least 24 hours prior to its scheduled start time.
+* All changes made to an appointment will be confirmed using the notification service in app and by email for both of the consultation participants.
+* Refunds for paid consultations will only be issued if the appointment is cancelled at least 24 hours prior to its scheduled start time.
 
 ### 6. Access the Information portal
 
@@ -327,7 +327,7 @@ Step 3: Select the “View all” buttons on the right hand side, see Figure 22.
 
 The initial entry screen for the information portal, as presented in Figure 22 is divided into two article groups - newest and most popular. For each section clients can choose the “View all” button which will redirect them to the Search screen in which more functionalities can be used to find the right content (see Figure 23).
 
-<figure><img src="../.gitbook/assets/image (164).png" alt=""><figcaption><p>Figure 23: Information Portal Search Screen</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (164).png" alt=""><figcaption><p>Figure 23: Information Portal Search screen</p></figcaption></figure>
 
 Clients can use the search input to find different articles. Following the client's input, the view will dynamically update by displaying the articles that match the search criteria. Furthermore, clients can filter articles by choosing from a list of predefined categories.
 
@@ -339,7 +339,7 @@ Figure 24 shows the full view of an article. The first part is a cover image. Ne
 
 Note:
 
-- Translations are supported as well. When changing the language, the clients will be presented with the translated version of the articles. In case some of the articles do not have a translated version for a specific language, then it will not be shown under the selected language.
+* Translations are supported as well. When changing the language, the clients will be presented with the translated version of the articles. In case some of the articles do not have a translated version for a specific language, then it will not be shown under the selected language.
 
 ### 7. Access the SOS Center
 
@@ -347,20 +347,20 @@ Step 1: Login to the Mobile application.
 
 Step 2: Select the “SOS Center” button on the bottom right corner from any screen within the uSupport mobile applicaiton.
 
-<figure><img src="../.gitbook/assets/image (158).png" alt=""><figcaption><p>Figure 25: SOS Centers Screen</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (158).png" alt=""><figcaption><p>Figure 25: SOS Centers screen</p></figcaption></figure>
 
-The SOS centre screen is the place which provides quick access to emergency lines available in different countries.
+The SOS center screen is the place which provides quick access to emergency lines available in different countries.
 
 Figure 25 presents the available helplines, each within a different rectangle. The information which can be displayed is the following:
 
-- Name of the emergency centre
-- A description which should include relevant details about the centre so that the clients can know if the specific centre can solve their issue.
-- A “Contact now” button is displayed if the helpline accepts direct calls.
-- A “Visit website” button is displayed if the helpline has a website.
+* Name of the emergency center
+* A description which should include relevant details about the center so that the clients can know if the specific center can solve their issue.
+* A “Contact now” button is displayed if the helpline accepts direct calls.
+* A “Visit website” button is displayed if the helpline has a website.
 
 Note:
 
-- Translations are supported as well. When changing the language, the clients will be presented with the translated version of the SOS centres. In case an SOS centre does not have a translated version for a specific language, then it will be excluded from the results under that specific language.
+* Translations are supported as well. When changing the language, the clients will be presented with the translated version of the SOS centers. In case an SOS center does not have a translated version for a specific language, then it will be excluded from the results under that specific language.
 
 ### 8. Edit profile settings
 
@@ -372,19 +372,19 @@ Step 2: On the top left click the “Profile Icon” select “Your Profile” (
 
 From this screen the client can proceed with the following actions:
 
-- Change their account personal details.
-- Preview mood tracker past activity.
-- Change settings for Passcode and Biometrics
-- Change the notification settings.
-- Provide feedback for the application.
-- Visualise payment History
-- Raise an issue to the country administrator.
-- Access the privacy policy.
-- Access the frequently asked questions.
+* Change their account personal details.
+* Preview mood tracker past activity.
+* Change settings for Passcode and Biometrics
+* Change the notification settings.
+* Provide feedback for the application.
+* Visualize payment History
+* Raise an issue to the country administrator.
+* Access the privacy policy.
+* Access the frequently asked questions.
 
 <figure><img src="../.gitbook/assets/Screenshot 2023-07-11 at 10.39.24.png" alt=""><figcaption><p>Figure 27: Client account settings screen</p></figcaption></figure>
 
-By accessing the profile details screen, the client can visualise the personal information associated with the uSupport mobile applicaiton account, see Figure 27-. The client is able to change this data by selecting the “Save changes” button.
+By accessing the profile details screen, the client can visualise the personal information associated with the uSupport mobile application account, see Figure 27-. The client is able to change this data by selecting the “Save changes” button.
 
 Moreover, from here the client can change the password for the account, enable or disable consent for personal data processing, log out and delete the account.
 
@@ -428,7 +428,7 @@ The privacy policy can be previewed from the profile settings screen, as well.
 
 Note:
 
-- Privacy policies, terms of use and cookie policies are country specific. Clients should read and make sure the existing content is understood and their activity within the platform follows the established rules.
+* Privacy policies, terms of use and cookie policies are country specific. Clients should read and make sure the existing content is understood and their activity within the platform follows the established rules.
 
 <figure><img src="../.gitbook/assets/image (151).png" alt=""><figcaption><p>Figure 37: Privacy policies screen</p></figcaption></figure>
 
@@ -440,7 +440,7 @@ The information which is presented on this screen is managed by the country admi
 
 Note:
 
-- Translations are supported as well. When changing the language, the clients will be presented with the translated version of the FAQs. In case some of them do not have a translated version for a specific language, then they will be excluded from the results under that specific language.
+* Translations are supported as well. When changing the language, the clients will be presented with the translated version of the FAQs. In case some of them do not have a translated version for a specific language, then they will be excluded from the results under that specific language.
 
 ### 9. Access the dashboard
 
@@ -466,11 +466,11 @@ Clients who wish to make a payment will be directed to the payment screen, where
 
 Payment required fields include:
 
-- Card number
-- Expiry date of the card
-- CVC code
-- Country or region
-- Additional details required based on country (e.g. postcode for United Kingdom)
+* Card number
+* Expiry date of the card
+* CVC code
+* Country or region
+* Additional details required based on country (e.g. postcode for United Kingdom)
 
 When using the auto fill feature to scan the card using the phone camera, the card number and expiry date will be automatically filled in for the client. However, the CVC code will need to be entered separately by the user, along with the country or region and any additional details required based on the country. This convenient feature still saves time and reduces the risk of errors when entering payment information.
 
@@ -494,17 +494,17 @@ To ask a new question, clients need to click on the “Ask anonymously” button
 
 The My Q\&A screen contains several elements for each entry, as shown in Figure 3:
 
-- Title
-- Tags
-- Question
-- Answer
-- The provider who answered the question
+* Title
+* Tags
+* Question
+* Answer
+* The provider who answered the question
 
 Additional features include:
 
-- A shortcut to schedule a consultation
-- Like/dislike buttons
-- A "Read more" option
+* A shortcut to schedule a consultation
+* Like/dislike buttons
+* A "Read more" option
 
 The schedule consultation shortcut is located in the bottom right corner of the entry and is displayed when a provider has answered the question. This allows clients to easily book a consultation with the provider who provided an answer on the topic they raised.
 

@@ -1,4 +1,4 @@
-# 🌎 Global Admin
+# Global Admin
 
 ### Table of Contents
 
@@ -10,37 +10,37 @@
 
 [User Roles](global-admin.md#user-roles)
 
-[1. Global Admin Role](global-admin.md#1.-global-admin-role)
+[1. Global Admin Role](global-admin.md#id-1.-global-admin-role)
 
 [Processes](global-admin.md#processes)
 
-[1. Login to the Global Admin Interface](global-admin.md#1.-login-to-the-global-admin-interface)
+[1. Login to the Global Admin Interface](global-admin.md#id-1.-login-to-the-global-admin-interface)
 
-[2. Forgot Password](global-admin.md#2.-forgot-password)
+[2. Forgot Password](global-admin.md#id-2.-forgot-password)
 
-[3. Creating a new global admin](global-admin.md#3.-creating-a-new-global-admin)
+[3. Creating a new global admin](global-admin.md#id-3.-creating-a-new-global-admin)
 
-[4. Visualise country-specific statistics](global-admin.md#4.-visualise-country-specific-statistics)
+[4. Visualize country-specific statistics](global-admin.md#id-4.-visualize-country-specific-statistics)
 
-[5. Edit country administrator account](global-admin.md#5.-edit-country-administrator-account)
+[5. Edit country administrator account](global-admin.md#id-5.-edit-country-administrator-account)
 
 ### Table of Figures
 
-Figure 1: Welcome Screen
+Figure 1: Welcome screen
 
-Figure 2: Login Screen
+Figure 2: Login screen
 
 Figure 3: One time password verification screen
 
-Figure 4: Forgot Password Screen
+Figure 4: Forgot Password screen
 
 Figure 5: Dashboard Global Admins screen
 
-Figure 6: New Global Admin Form
+Figure 6: New Global Admin form
 
 Figure 7: uSupport Active Countries
 
-Figure 8: Selected Country Information View
+Figure 8: Selected Country Information view
 
 Figure 9: Edit Country Admin account
 
@@ -74,9 +74,9 @@ Step 3: Insert valid login credentials.
 
 Step 4: Insert OTP which was sent to the email address.
 
-<figure><img src="../.gitbook/assets/image006 (1).png" alt=""><figcaption><p>Figure 1: Welcome Screen</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image006 (1).png" alt=""><figcaption><p>Figure 1: Welcome screen</p></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image007 (1).png" alt=""><figcaption><p>Figure 2: Login Screen</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image007 (1).png" alt=""><figcaption><p>Figure 2: Login screen</p></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/image008 (1).png" alt=""><figcaption><p>Figure 3: One time password verification screen</p></figcaption></figure>
 
@@ -88,7 +88,7 @@ Step 2: Insert a valid email address (see Figure 3).
 
 Step 3: Check provided email address for access recovery email.
 
-<figure><img src="../.gitbook/assets/image009 (1).png" alt=""><figcaption><p>Figure 4: Forgot Password Screen</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image009 (1).png" alt=""><figcaption><p>Figure 4: Forgot Password screen</p></figcaption></figure>
 
 If a valid and registered email address within the platform was provided, an automated email will be sent to it. The email will contain a temporary valid link that can be used to set a new password. Following this procedure, the user can access the account using the email address and the newly created password.
 
@@ -106,9 +106,9 @@ Step 5: Create a new global admin by pressing the “Add” button.
 
 <figure><img src="../.gitbook/assets/image010 (1).png" alt=""><figcaption><p>Figure 5: Dashboard Global Admins screen</p></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image012 (2).png" alt=""><figcaption><p>Figure 6: New Global Admin Form</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image012 (2).png" alt=""><figcaption><p>Figure 6: New Global Admin form</p></figcaption></figure>
 
-### 4. Visualise country-specific statistics
+### 4. Visualize country-specific statistics
 
 Step 1: Login to the Global Admin Interface
 
@@ -118,14 +118,14 @@ Step 3: From the list of countries, select one (see Figure 6)
 
 <figure><img src="../.gitbook/assets/image014.png" alt=""><figcaption><p>Figure 7: uSupport Active Countries</p></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image015 (1).png" alt=""><figcaption><p>Figure 8: Selected Country Information View</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2025-07-21 161503.png" alt=""><figcaption><p>Figure 8: Selected Country Information view</p></figcaption></figure>
 
 For each country available in the uSupport platform the following statistics will be available, as presented in Figure 7.
 
-- &#x20;number of active users,
-- &#x20;number of providers,
-- &#x20;number of approved articles,
-- &#x20;number of conducted consultations.
+* number of active users,
+* number of providers,
+* number of approved articles,
+* number of conducted consultations.
 
 Furthermore, each country will have one or more country administrators that can be managed from the Global Admin Interface. From the above-presented interface, Global Admins can create new Country Admins accounts by selecting the “Add admin” button. The process of adding a new Country Admin is similar to the one presented in Creating a new global admin section. As we can see in Figure 4, the list of Country Administrators provides meaningful information about individuals. The name, the status of their account, and contact details (email or phone) are displayed.
 
@@ -151,7 +151,7 @@ Step 6: Once the changes are in place select the “Save changes” button.
 
 The Global admin is able to alter the following information for a country administrator account:
 
-- &#x20;state of the account - enabled or disabled,
-- &#x20;name and surname,
-- &#x20;email address,
-- &#x20;phone number.
+* state of the account - enabled or disabled,
+* name and surname,
+* email address,
+* phone number.

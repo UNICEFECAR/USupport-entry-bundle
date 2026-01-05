@@ -19,5 +19,5 @@
 * [API documentation](technical-documentation/api-documentation.md)
 * [Deployment Technical Specifications](technical-documentation/deployment-technical-specifications.md)
 * [Databases](technical-documentation/databases.md)
-* [Twilio Integration](technical-documentation/twilio-integration.md)
+* [Jitsi Integration](technical-documentation/twilio-integration.md)
 * [Stripe Integration](technical-documentation/stripe-integration.md)

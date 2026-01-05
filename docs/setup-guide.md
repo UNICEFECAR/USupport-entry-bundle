@@ -31,7 +31,7 @@ Setup:
 
     * "payment\_intent.succeeded" is the type of event which the webhook should handle
 
-    [Instructions for creating Stripe webhooks](https://stripe.com/docs/development/dashboard/register-webhook)
+    [Instructions for creating Stripe webhooks](https://docs.stripe.com/development/dashboard/webhooks#create-webhook-endpoint)
 4.  To use the uploading images functionality you need to create AWS S3 bucket. After creating the bucket you will need to fulfill the following keys:
 
     * "AWS\_ACCESS\_KEY\_ID"
@@ -43,20 +43,19 @@ Setup:
     [Instruction for creating AWS Account and Access Keys](https://docs.aws.amazon.com/powershell/latest/userguide/pstools-appendix-sign-up.html)
 
     [Instructions for creating Create AWS S3 Bucket](https://docs.aws.amazon.com/AmazonS3/latest/userguide/creating-bucket.html)
-5. To use the video consultation functionality you need to create Twilio account. After creating the account you need to fullfill the following keys:
+5. To use the video consultation functionality you need to configure Jitsi.
 
-* "TWILIO\_ACCOUNT\_SID"
-* "TWILIO\_API\_SID"
-* "TWILIO\_API\_SECRET"
-* "TWILIO\_AUTH\_TOKEN" in the `user/service/.env.local/` file and
-* "TWILIO\_ACCOUNT\_SID"
-*   "TWILIO\_AUTH\_TOKEN" in the `./provider/service/.env.local`file
+* Add the following environment variable in both **`provider-ui/.env.development`** **`client-ui/.env.development`** &#x20;
 
-    [Instructions for finding Twilio Access Keys](https://missiveapp.com/faq/twilio-credentials)
+&#x20;      VITE\_JITSI\_API\_URL=\<your-jitsi-server-url>
+
+* You can set `<your-jitsi-server-url>` to `https://meet.jit.si` if you want to use the public Jitsi server
+* If you don’t want to use the public Jitsi server (meet.jit.si) and prefer hosting your own instance (as 7digit does), follow the official Jitsi self-hosting quickstart guide:\
+  [Jitsi DevOps Quickstart Guide](https://jitsi.github.io/handbook/docs/devops-guide/devops-guide-quickstart/)
 
 6. To use the email functionality you need access to an email account that can be used to setup the email service. The following enviorment variables need to be fullfilled: -"EMAIL\_SENDER" -"EMAIL\_SENDER\_PASSWORD" -"EMAIL\_HOST" -"EMAIL\_PORT" -"RECIEVERS" in the `./email/.env.local` file
 
-[Instructions for creating email server](https://kinsta.com/blog/gmail-smtp-server/?fbclid=IwAR2K0lQLxKEUno7BQ1b4ju45qpyI7NB\_otAnwwMRGuFfT6sE75hKEVmHaCY)
+[Instructions for creating email server](https://kinsta.com/blog/gmail-smtp-server/?fbclid=IwAR2K0lQLxKEUno7BQ1b4ju45qpyI7NB_otAnwwMRGuFfT6sE75hKEVmHaCY)
 
 7. After successfully running all the microservices set the "VITE\_API\_ENDPOINT" key to "http://localhost:3000/api" in the following files: `./website/.env.development` `./client-ui/.env.development` `./provider-ui/.env.development` `./user-ui/.env.development` `./admin-country-ui/.env.development` `./admin-global-ui/.env.development`
 
@@ -207,5 +206,5 @@ Each service has the same kubernetes configuration folder called `kube-config`. 
 * [Handling env variables in K8s](https://humanitec.com/blog/handling-environment-variables-with-kubernetes)
 * [Accessing Resources From Outside the Cluster VPC - RDS example](https://dev.to/bensooraj/accessing-amazon-rds-from-aws-eks-2pc3)
 * [NLB - Using TLS for Your Cluster Ingress](https://aws.amazon.com/blogs/opensource/network-load-balancer-nginx-ingress-controller-eks/)
-* [List of Max Pods Supported For Each K8s Node Instance](https://github.com/awslabs/amazon-eks-ami/blob/master/files/eni-max-pods.txt)
+* [List of Max Pods Supported For Each K8s Node Instance](https://awslabs.github.io/amazon-eks-ami/development/#max-pods-configuration)
 * [Base64 Encoder](https://www.base64encode.org)

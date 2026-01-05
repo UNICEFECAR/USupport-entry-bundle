@@ -1,18 +1,18 @@
-# 🏦 Stripe Integration
+# Stripe Integration
 
 ### Table of Contents
 
 [Introduction](stripe-integration.md#introduction)
 
-[1. Payment Flow:](stripe-integration.md#1.-payment-flow)
+[1. Payment Flow:](stripe-integration.md#id-1.-payment-flow)
 
-[2. Cancellation and Refund Process:](stripe-integration.md#2.-cancellation-and-refund-process)
+[2. Cancellation and Refund Process](stripe-integration.md#id-2.-cancellation-and-refund-process)
 
-[3. Payment history](stripe-integration.md#3.-payment-history)
+[3. Payment history](stripe-integration.md#id-3.-payment-history)
 
-[4. Transfer funds to providers’ flow](stripe-integration.md#4.-transfer-funds-to-providers-flow)
+[4. Transfer funds to providers’ flow](stripe-integration.md#id-4.-transfer-funds-to-providers-flow)
 
-[5. Adhering funds from donations](stripe-integration.md#5.-adhering-funds-from-donations)
+[5. Adhering funds from donations](stripe-integration.md#id-5.-adhering-funds-from-donations)
 
 ### **Table of Figures**
 
@@ -32,60 +32,54 @@ The payment flow within the uSupport platform encompasses a series of actions an
 
 1.1. The client lands on the checkout page:
 
-- &#x20;The Client UI initiates a service call to the uSupport payment microservice to create a payment intent.
-- &#x20;The request includes information such as the country ISO code, selected language ISO code, user ID, client ID, and Stripe customer ID (generated if it doesn't exist or is not provided by the UI).
-- Additional details like email address and consultation ID are also included.
-- The consultation ID represents the selected slot for a consultation, and a corresponding entry is created in the Clinical Database with a "pending" status. This status allows the client 5 minutes to complete the payment. After a successful payment, the status transitions to "scheduled." If the payment isn't completed within the given time, the status becomes "timedout," and the slot becomes available for other clients.
+* The Client UI initiates a service call to the uSupport payment microservice to create a payment intent.
+* The request includes information such as the country ISO code, selected language ISO code, user ID, client ID, and Stripe customer ID (generated if it doesn't exist or is not provided by the UI).
+* Additional details like email address and consultation ID are also included.
+*   The consultation ID represents the selected slot for a consultation, and a corresponding entry is created in the Clinical Database with a "pending" status. This status allows the client 5 minutes to complete the payment. After a successful payment, the status transitions to "scheduled." If the payment isn't completed within the given time, the status becomes "timedout," and the slot becomes available for other clients.
 
-  1.2. The "/create-payment-intent" route:
+    1.2. The "/create-payment-intent" route:
+* Retrieves and validates the information from the request (the fields presented above).
+* If there's a data validation error, an error response is returned.
+*   If the validation succeeds, the "createPaymentIntent" controller is called.
 
-- Retrieves and validates the information from the request (the fields presented above).
-- &#x20;If there's a data validation error, an error response is returned.
-- &#x20;If the validation succeeds, the "createPaymentIntent" controller is called.
+    1.3. The "createPaymentIntent" controller:
+* Validates that the consultation was successfully created for the specific country clinical database.
+* f the consultation is not found, the process ends with a "consultationNotFound" error.
+* If a Stripe customer ID wasn't provided, the controller creates a new Stripe customer and stores its ID in the uSupport PII database.
+* Retrieves the currency for the specific country.
+* Utilizes the "stripe" library with a secure initialized connection using the secret key to create a new payment intent.
+*   The successful response includes information such as client secret, price, currency, and payment intent ID.
 
-  1.3. The "createPaymentIntent" controller:
+    1.4. Rendering the Stripe Payment Element:
+* The UI uses the obtained client secret to render the "Stripe Payment Element," which is provided by the "@stripe/react-stripe-js" library.
+* The Stripe Payment Element includes various functionalities:
+  * Available payment methods (configurable via the Stripe dashboard and dependent on the country of operation).
+  * Card number field (accepts multiple card types and is securely validated by Stripe).
+  * Card expiry date, CVC, issuing country, and additional fields specific to certain countries.
+*   It is important to emphasize that Stripe, as the payment service provider, is responsible for validating and processing the data entered by clients into the payment form.
 
-- Validates that the consultation was successfully created for the specific country clinical database.
-- f the consultation is not found, the process ends with a "consultationNotFound" error.
-- &#x20;If a Stripe customer ID wasn't provided, the controller creates a new Stripe customer and stores its ID in the uSupport PII database.
-- &#x20;Retrieves the currency for the specific country.
-- &#x20;Utilizes the "stripe" library with a secure initialized connection using the secret key to create a new payment intent.
-- &#x20;The successful response includes information such as client secret, price, currency, and payment intent ID.
+    1.5. Payment submission and validation:
+* Once the client selects a payment method and provides the required information, they click the "Pay" button.
+* The payment submission process begins, utilizing the "confirmPayment" functionality from the "@stripe/react-stripe-js" library.
+* This function validates the fields and displays any errors to the client.
+* Upon successful validation, Stripe processes the payment, and the client is redirected to a new page displaying the payment status.
+*   Additional checks, such as 3D security checks required by the client's bank provider, may be displayed.
 
-  1.4. Rendering the Stripe Payment Element:
+    1.6. Webhook handling:
+* After the payment, Stripe initiates a service call to the uSupport payments microservice, specifically the "/webhook" endpoint.
+*   The webhook provides information about the payment status, allowing records to be kept and updating the consultation entry's status based on the payment outcome.
 
-- &#x20;The UI uses the obtained client secret to render the "Stripe Payment Element," which is provided by the "@stripe/react-stripe-js" library.
-- &#x20;The Stripe Payment Element includes various functionalities:
-  - Available payment methods (configurable via the Stripe dashboard and dependent on the country of operation).
-  - Card number field (accepts multiple card types and is securely validated by Stripe).
-  - Card expiry date, CVC, issuing country, and additional fields specific to certain countries.
-- It is important to emphasize that Stripe, as the payment service provider, is responsible for validating and processing the data entered by clients into the payment form.
-
-  1.5. Payment submission and validation:
-
-- Once the client selects a payment method and provides the required information, they click the "Pay" button.
-- &#x20;The payment submission process begins, utilizing the "confirmPayment" functionality from the "@stripe/react-stripe-js" library.
-- &#x20;This function validates the fields and displays any errors to the client.
-- Upon successful validation, Stripe processes the payment, and the client is redirected to a new page displaying the payment status.
-- &#x20;Additional checks, such as 3D security checks required by the client's bank provider, may be displayed.
-
-  1.6. Webhook handling:
-
-- After the payment, Stripe initiates a service call to the uSupport payments microservice, specifically the "/webhook" endpoint.
-- &#x20;The webhook provides information about the payment status, allowing records to be kept and updating the consultation entry's status based on the payment outcome.
-
-  1.7. The "/webhook" endpoint :
-
-- Calls the "processWebhookEvent" controller to handle successful payments.
-- &#x20;The "processWebhookEvent" controller performs the following actions:
-  - Creates a new entry in the "transaction_log" table within the Clinical Database, containing all relevant payment information, such as the consultation ID, paymentIntent ID, and campaign ID.
-  - Updates the consultation entry status to "scheduled," indicating a successful payment and confirming the booking.
+    1.7. The "/webhook" endpoint :
+* Calls the "processWebhookEvent" controller to handle successful payments.
+* The "processWebhookEvent" controller performs the following actions:
+  * Creates a new entry in the "transaction\_log" table within the Clinical Database, containing all relevant payment information, such as the consultation ID, paymentIntent ID, and campaign ID.
+  * Updates the consultation entry status to "scheduled," indicating a successful payment and confirming the booking.
 
 This concludes the payment flow within the uSupport platform. By following this sequence of actions and leveraging the functionalities provided by Stripe, clients can seamlessly complete their payments while ensuring data security and maintaining accurate records within the system.
 
 <figure><img src="../.gitbook/assets/image (7).png" alt=""><figcaption><p>Figure 1: Payment flow diagram</p></figcaption></figure>
 
-### 2. Cancellation and Refund Process:
+### 2. Cancellation and Refund Process
 
 Within the uSupport platform, clients have the option to cancel booked consultations. To be eligible for a refund, the cancellation must occur more than 24 hours before the scheduled start time. Cancellations made within the last 24 hours will not result in a refund for the client, and the service providers will still be entitled to their compensation. Let's explore the sequence of actions involved in the cancellation and refund process:
 
@@ -93,26 +87,23 @@ Within the uSupport platform, clients have the option to cancel booked consultat
 
 · When a client decides to cancel a consultation with more than 24 hours before the starting time, the following actions take place within the system:
 
-- The Client UI interface makes a call to the uSupport payment microservice to initiate the refund.
-- The request includes the consultation ID, country ISO code, language ISO code, and user ID.
+* The Client UI interface makes a call to the uSupport payment microservice to initiate the refund.
+*   The request includes the consultation ID, country ISO code, language ISO code, and user ID.
 
-  2.2. The "/refund" route:
+    2.2. The "/refund" route:
+* Retrieves the transmitted data from the request.
+* Validates the data, checking for any errors.
+  * If there is a data validation error, the server returns an error response.
+  *   If the data validation succeeds, the "processRefund" controller is called.
 
-- &#x20;Retrieves the transmitted data from the request.
-- &#x20;Validates the data, checking for any errors.
-
-  - If there is a data validation error, the server returns an error response.
-  - If the data validation succeeds, the "processRefund" controller is called.
-
-    2.3. The "processRefund" controller:
-
-- &#x20;Checks the "transaction_log" table for transactions associated with the provided consultation ID.
-- &#x20;Validates that the transaction was processed successfully.
-- &#x20;Upon successful validation, the controller calls the Stripe refund service, passing the payment intent ID for the transaction.
-  - Additional metadata information, such as the consultation ID, user ID, country ISO code, and language ISO code, is also included.
-  - This refund process will transfer the funds back to the client's account that was originally used for payment.
-- The controller creates a new entry in the "transaction_log" table to store details about the refund transaction.
-- &#x20;Finally, the consultation's status is updated, transitioning to "canceled" to reflect the cancellation of the consultation.
+      2.3. The "processRefund" controller:
+* Checks the "transaction\_log" table for transactions associated with the provided consultation ID.
+* Validates that the transaction was processed successfully.
+* Upon successful validation, the controller calls the Stripe refund service, passing the payment intent ID for the transaction.
+  * Additional metadata information, such as the consultation ID, user ID, country ISO code, and language ISO code, is also included.
+  * This refund process will transfer the funds back to the client's account that was originally used for payment.
+* The controller creates a new entry in the "transaction\_log" table to store details about the refund transaction.
+* Finally, the consultation's status is updated, transitioning to "canceled" to reflect the cancellation of the consultation.
 
 By following this process, clients can request cancellations and, if eligible, receive refunds for consultations made on the uSupport platform. The system ensures that refunds are processed accurately and that the consultation status is updated accordingly.
 
@@ -124,26 +115,23 @@ The clients of the uSupport platform can preview all their payment history. The 
 
 3.1. The client requests their payment history data.
 
-- &#x20;The Client UI makes a call to the uSupport payment microservice to retrieve all the payment history data.
-- &#x20;The request includes the country ISO code, language ISO code, and user ID.
+* The Client UI makes a call to the uSupport payment microservice to retrieve all the payment history data.
+*   The request includes the country ISO code, language ISO code, and user ID.
 
-  3.2. The “/history” route:
+    3.2. The “/history” route:
+* Retrieves the transmitted data from the request.
+* Validates the data, checking for any errors.
+  * If there is a data validation error, the server returns an error response.
+  *   If the data validation succeeds, the "getPaymentHistory" controller is called.
 
-- Retrieves the transmitted data from the request.
-- &#x20;Validates the data, checking for any errors.
-
-  - If there is a data validation error, the server returns an error response.
-  - If the data validation succeeds, the "getPaymentHistory" controller is called.
-
-    3.3. The "getPaymentHistory" controller performs the following actions:
-
-- It initiates a call to the Stripe "paymentIntents" service, providing the stripe_customer_id.
-- The service responds with all available payment intents associated with the provided stripe_customer_id.
-- For each payment intent, the controller extracts the necessary information to be displayed on the Client UI, such as the product name, price, transaction date, payment ID, and service description.
-- Additionally, for each payment, the controller calls the Stripe "charges" service to retrieve the receipt URL provided by Stripe.
-- The controller also contacts the Stripe "invoices" service to obtain the invoice for each payment.
-- Once all the required data has been successfully gathered, the controller returns the computed information to the Client UI.
-- The client can then view the payment history within the uSupport platform, where the provided information is displayed.
+      3.3. The "getPaymentHistory" controller performs the following actions:
+* It initiates a call to the Stripe "paymentIntents" service, providing the stripe\_customer\_id.
+* The service responds with all available payment intents associated with the provided stripe\_customer\_id.
+* For each payment intent, the controller extracts the necessary information to be displayed on the Client UI, such as the product name, price, transaction date, payment ID, and service description.
+* Additionally, for each payment, the controller calls the Stripe "charges" service to retrieve the receipt URL provided by Stripe.
+* The controller also contacts the Stripe "invoices" service to obtain the invoice for each payment.
+* Once all the required data has been successfully gathered, the controller returns the computed information to the Client UI.
+* The client can then view the payment history within the uSupport platform, where the provided information is displayed.
 
 By leveraging the capabilities of the Stripe services, the "getPaymentHistory" controller enables clients to access and review their payment history, including detailed information about each transaction, receipts, and associated invoices within the uSupport platform.
 
@@ -153,10 +141,10 @@ By leveraging the capabilities of the Stripe services, the "getPaymentHistory" c
 
 The transfer of funds from the uSupport platform to the providers is facilitated by the country administrator, who has access to both the Country Admin interface and the Stripe Dashboard. The following steps outline the process of transferring funds to providers:
 
-- The country administrator logs in to the Country Admin interface, navigates to the Providers page, in which a comprehensive view of the activity records for each provider can be found.
-- &#x20; The administrator then can overview detailed information about the remuneration that providers are entitled to, based on their activities.
-- Using the functionality available in the Stripe Dashboard, the administrator can initiate the transfer of funds directly to the providers' bank accounts.
-- &#x20;The funds transfers are facilitated through "connected accounts," which represent individual entities associated with the Stripe account. These connected accounts undergo verification by Stripe to ensure they meet security criteria and are eligible for transfers.
+* The country administrator logs in to the Country Admin interface, navigates to the Providers page, in which a comprehensive view of the activity records for each provider can be found.
+* The administrator then can overview detailed information about the remuneration that providers are entitled to, based on their activities.
+* Using the functionality available in the Stripe Dashboard, the administrator can initiate the transfer of funds directly to the providers' bank accounts.
+* The funds transfers are facilitated through "connected accounts," which represent individual entities associated with the Stripe account. These connected accounts undergo verification by Stripe to ensure they meet security criteria and are eligible for transfers.
 
 By utilizing the capabilities of the Stripe Dashboard and working with verified connected accounts, the country administrator can efficiently and securely transfer funds to providers' bank accounts, based on the remuneration they have earned through their activities on the uSupport platform.
 
@@ -164,9 +152,9 @@ By utilizing the capabilities of the Stripe Dashboard and working with verified 
 
 The uSupport platform offers an additional payment option through donations, which are linked to campaigns and provide clients with coupon codes for their consultations. To accept a donation payment, the following steps should be followed:
 
-- Access the Stripe dashboard and navigate to the "Payment Links" section.
-- Configure a new payment link by providing the necessary information, such as the price and the purpose for which the link will be used.
-- &#x20;Generate the new link and share it with potential donors.
-- &#x20;When donors access the link, they will be presented with a payment checkout form where they can easily make their donation.
+* Access the Stripe dashboard and navigate to the "Payment Links" section.
+* Configure a new payment link by providing the necessary information, such as the price and the purpose for which the link will be used.
+* Generate the new link and share it with potential donors.
+* When donors access the link, they will be presented with a payment checkout form where they can easily make their donation.
 
 By leveraging the functionality of the Stripe dashboard and utilizing payment links, the uSupport platform can seamlessly accept donations. This allows donnors to contribute to campaigns and clients to receive coupon codes that can be applied towards their consultations.
