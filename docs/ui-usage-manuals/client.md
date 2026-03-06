@@ -76,57 +76,61 @@ Figure 19: Consultations screen visualizes upcoming appointments
 
 Figure 20: Consultation screen edit appointment
 
-Figure 21: Consultation screen edit appointment options
+Figure 21: Consultation screen edit appointment options (up to 24 hours before consultation)
 
-Figure 22: Information Portal initial screen
+Figure 22: Consultation screen edit appointment options (less than 24 hours before consultation)
 
-Figure 23: Information Portal Search screen
+Figure 23: Edit scheduled consultation flow
 
-Figure 24: Full view of an article
+Figure 24: Information Portal initial screen
 
-Figure 25: SOS Centers screen
+Figure 25: Information Portal Search screen
 
-Figure 26: Client account settings screen
+Figure 26: Full view of an article
 
-Figure 27: Edit profile details screen
+Figure 27: SOS Centers screen
 
-Figure 28: Mood Tracker screen
+Figure 28: Client account settings screen
 
-Figure 29: Notifications settings screen
+Figure 29: Edit profile details screen
 
-Figure 30: Application Feedback screen
+Figure 30: Mood Tracker screen
 
-Figure 31: Payment History screen
+Figure 31: Notifications settings screen
 
-Figure 32: Payment History more information about a payment
+Figure 32: Application Feedback screen
 
-Figure 33: Contact us screen
+Figure 33: Payment History screen
 
-Figure 34: Privacy policies screen
+Figure 34: Payment History more information about a payment
 
-Figure 35: Frequently asked questions screen
+Figure 35: Contact us screen
 
-Figure 36: Dashboard screen
+Figure 36: Privacy policies screen
 
-Figure 37: Default payment form
+Figure 37: Frequently asked questions screen
 
-Figure 38: Saving payment details for future usage
+Figure 38: Dashboard screen
 
-Figure 39: Payment form Link account verification
+Figure 39: Default payment form
 
-Figure 40: Payment form use saved payment information
+Figure 40: Saving payment details for future usage
 
-Figure 41: Payment form Link authentication completed
+Figure 41: Payment form Link account verification
 
-Figure 42: My Q\&A screen
+Figure 42: Payment form use saved payment information
 
-Figure 43: My Q\&A ad new question
+Figure 43: Payment form Link authentication completed
 
-Figure 44: My Q\&A entry example
+Figure 44: My Q\&A screen
 
-Figure 45: My Q\&A full text of a question
+Figure 45: My Q\&A ad new question
 
-Figure 46: My Q\&A filtering options
+Figure 46: My Q\&A entry example
+
+Figure 47: My Q\&A full text of a question
+
+Figure 48: My Q\&A filtering options
 
 ### Introduction
 
@@ -302,11 +306,13 @@ Step 4: Select the “edit” button.
 
 Step 5: From the displayed pop-up select one of the two options “Change the date and time” or “Cancel the consultation”.
 
-<figure><img src="../.gitbook/assets/image (58).png" alt=""><figcaption><p>Figure 20: Consultation screen edit appointment</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (244).png" alt=""><figcaption><p>Figure 20: Consultation screen edit appointment</p></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (45).png" alt=""><figcaption><p>Figure 21: Consultation screen edit appointment options</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (243).png" alt=""><figcaption><p>Figure 21: Consultation screen edit appointment options (up to 24 hours before consultation)</p></figcaption></figure>
 
-The first option “Change the date and time” will prompt the client to select another time slot from the availability of the same provider. The process is similar to the booking an appointment one.
+<figure><img src="../.gitbook/assets/image (245).png" alt=""><figcaption><p>Figure 22: Consultation screen edit appointment options (less than 24 hours before consultation)</p></figcaption></figure>
+
+The first option “Change the date and time” will prompt the client to select another time slot from the availability of the same provider. The process is similar to the booking an appointment one. Changing time is available up to 24 hours before scheduled consultation. After than cancellation becomes only option.&#x20;
 
 The second option “Cancel the consultation” will cancel the appointment for both the client and the provider.
 
@@ -315,27 +321,31 @@ Note:
 * All changes made to an appointment will be confirmed using the notification service in app and by email for both of the consultation participants.
 * Refunds for paid consultations will only be issued if the appointment is cancelled at least 24 hours prior to its scheduled start time.
 
+
+
+<figure><img src="../.gitbook/assets/Scheduled Sessions Flow Client.jpg" alt=""><figcaption><p>Figure 23: Edit scheduled consultation flow</p></figcaption></figure>
+
 ### 6. Access the Information portal
 
 Step 1: Login to the Client Interface.
 
 Step 2: On the “Navigation Menu” select “Information Portal”.
 
-Step 3: Select either of the “View all” buttons on the right hand side, see Figure 22.
+Step 3: Select either of the “View all” buttons on the right hand side, see Figure 24.
 
-<figure><img src="../.gitbook/assets/image (60).png" alt=""><figcaption><p>Figure 22: Information Portal initial screen</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (60).png" alt=""><figcaption><p>Figure 24: Information Portal initial screen</p></figcaption></figure>
 
-The initial entry screen for the information portal, as presented in Figure 22 is divided into two article groups - newest and most popular. For each section clients can choose the “View all” button which will redirect them to the Search screen in which more functionalities can be used to find the right content (see Figure 23).
+The initial entry screen for the information portal, as presented in Figure 24 is divided into two article groups - newest and most popular. For each section clients can choose the “View all” button which will redirect them to the Search screen in which more functionalities can be used to find the right content (see Figure 25).
 
-<figure><img src="../.gitbook/assets/image (113).png" alt=""><figcaption><p>Figure 23: Information Portal Search Screen</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (113).png" alt=""><figcaption><p>Figure 25: Information Portal Search Screen</p></figcaption></figure>
 
 Clients can use the search input to find different articles. Following the client's input, the view will dynamically update by displaying the articles that match the search criteria. Furthermore, clients can filter articles by choosing from a list of predefined categories.
 
-Once the client finds an article about which he/she wants to read more, he/she can do so by selecting the “Read more” button within the article overview box, as highlighted in Figure 23.
+Once the client finds an article about which he/she wants to read more, he/she can do so by selecting the “Read more” button within the article overview box, as highlighted in Figure 25.
 
-<figure><img src="../.gitbook/assets/image (114).png" alt=""><figcaption><p>Figure 24: Full view of an article</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (114).png" alt=""><figcaption><p>Figure 26: Full view of an article</p></figcaption></figure>
 
-Figure 24 shows the full view of an article. The first part is a cover image. Next, we are presented with a list of tags that represent different psychological topics that are covered by the article. Following this, the title of the article together with the body and bibliography are displayed.
+Figure 26 shows the full view of an article. The first part is a cover image. Next, we are presented with a list of tags that represent different psychological topics that are covered by the article. Following this, the title of the article together with the body and bibliography are displayed.
 
 Note:
 
@@ -347,11 +357,11 @@ Step 1: Login to the Client Interface.
 
 Step 2: Select the “SOS Center” button on the bottom right corner from any screen within the uSupport platform.
 
-<figure><img src="../.gitbook/assets/image (119).png" alt=""><figcaption><p>Figure 25: SOS Centers Screen</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (119).png" alt=""><figcaption><p>Figure 27: SOS Centers Screen</p></figcaption></figure>
 
 The SOS centre screen is the place which provides quick access to emergency lines available in different countries.
 
-Figure 25 presents the available helplines, each within a different rectangle. The information which can be displayed is the following:
+Figure 27 presents the available helplines, each within a different rectangle. The information which can be displayed is the following:
 
 * Name of the emergency centre
 * A description which should include relevant details about the centre so that the clients can know if the specific centre can solve their issue.
@@ -379,37 +389,37 @@ From this screen the client can proceed with the following actions:
 * Access the privacy policy.
 * Access the frequently asked questions.
 
-<figure><img src="../.gitbook/assets/image (31).png" alt=""><figcaption><p>Figure 26: Client account settings screen</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (31).png" alt=""><figcaption><p>Figure 28: Client account settings screen</p></figcaption></figure>
 
-By accessing the profile details screen, the client can visualise the personal information associated with the uSupport client interface account, see Figure 27- the information inside the red rectangle. The client is able to change this data by selecting the “Save changes” button.
+By accessing the profile details screen, the client can visualise the personal information associated with the uSupport client interface account, see Figure 29- the information inside the red rectangle. The client is able to change this data by selecting the “Save changes” button.
 
 Moreover, from here the client can change the password for the account, enable or disable consent for personal data processing, log out and delete the account.
 
-<figure><img src="../.gitbook/assets/image (42).png" alt=""><figcaption><p>Figure 27: Edit profile details screen</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (42).png" alt=""><figcaption><p>Figure 29: Edit profile details screen</p></figcaption></figure>
 
 From the profile settings, the client also has access to the mood tracker past activity page from where they can keep track of their progress while using the platform and see how their state of mind evolves.
 
-<figure><img src="../.gitbook/assets/image (69).png" alt=""><figcaption><p>Figure 28: Mood Tracker screen</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (69).png" alt=""><figcaption><p>Figure 30: Mood Tracker screen</p></figcaption></figure>
 
-From the notification settings screen the client can enable or disable the email notifications or the scheduled appointments notifications. Furthermore, clients can choose how long before an appointment they want to be notified - 15, 30, 45 or 60 minutes (see Figure 29).
+From the notification settings screen the client can enable or disable the email notifications or the scheduled appointments notifications. Furthermore, clients can choose how long before an appointment they want to be notified - 15, 30, 45 or 60 minutes (see Figure 31).
 
-<figure><img src="../.gitbook/assets/image (68).png" alt=""><figcaption><p>Figure 29: Notifications settings screen</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (68).png" alt=""><figcaption><p>Figure 31: Notifications settings screen</p></figcaption></figure>
 
-The application feedback form can be accessed as well from the profile settings. This form was created so that clients can provide their opinion about the platform. The screen, as we can see in the Figure 30, contains two parts, a star rating and a text message field. Once the client submits their feedback and sends the rating this will be received by the country administrators and managed accordingly.
+The application feedback form can be accessed as well from the profile settings. This form was created so that clients can provide their opinion about the platform. The screen, as we can see in the Figure 32, contains two parts, a star rating and a text message field. Once the client submits their feedback and sends the rating this will be received by the country administrators and managed accordingly.
 
-<figure><img src="../.gitbook/assets/image (66).png" alt=""><figcaption><p>Figure 30: Application Feedback screen</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (66).png" alt=""><figcaption><p>Figure 32: Application Feedback screen</p></figcaption></figure>
 
 Clients are able to view a complete record of their purchases on the platform through the 'payment history' screen. This screen displays details such as the service purchased, the total price paid, and the date and time of the payment.
 
-<figure><img src="../.gitbook/assets/image (21).png" alt=""><figcaption><p>Figure 31: Payment History screen</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (21).png" alt=""><figcaption><p>Figure 33: Payment History screen</p></figcaption></figure>
 
-To obtain more detailed information about a specific payment, the client can select the "More details" option located on the right-hand side of the screen, which will display comprehensive payment details. Furthermore, this feature also enables the client to download the payment receipt associated with the transaction (see Figure 32). In addition, clients have the option to export the data in CSV format by simply clicking the "Export" button.
+To obtain more detailed information about a specific payment, the client can select the "More details" option located on the right-hand side of the screen, which will display comprehensive payment details. Furthermore, this feature also enables the client to download the payment receipt associated with the transaction (see Figure 34). In addition, clients have the option to export the data in CSV format by simply clicking the "Export" button.
 
-<figure><img src="../.gitbook/assets/image (36).png" alt=""><figcaption><p>Figure 32: Payment History more information about a payment.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (36).png" alt=""><figcaption><p>Figure 34: Payment History more information about a payment.</p></figcaption></figure>
 
-The ‘contact us’ screen allows clients to raise any questions or issues they might encounter. These will be received and addressed by the country administrators. To raise an enquiry, the client needs to select an issue from a predefined list and add any message if necessary, see Figure 33.
+The ‘contact us’ screen allows clients to raise any questions or issues they might encounter. These will be received and addressed by the country administrators. To raise an enquiry, the client needs to select an issue from a predefined list and add any message if necessary, see Figure 35.
 
-<figure><img src="../.gitbook/assets/image (122).png" alt=""><figcaption><p>Figure 33: Contact us screen</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (122).png" alt=""><figcaption><p>Figure 35: Contact us screen</p></figcaption></figure>
 
 The privacy policy can be previewed from the profile settings screen, as well.
 
@@ -417,13 +427,13 @@ Note:
 
 * Privacy policies, terms of use and cookie policies are country specific. Clients should read and make sure the existing content is understood and their activity within the platform follows the established rules.
 
-<figure><img src="../.gitbook/assets/image (46).png" alt=""><figcaption><p>Figure 34: Privacy policies screen</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (46).png" alt=""><figcaption><p>Figure 36: Privacy policies screen</p></figcaption></figure>
 
 Within frequently asked questions clients can find answers to the most commonly asked questions. It is recommended to visit this page every time there is any ambiguity regarding the use of the platform as the answer already might be there.
 
 The information which is presented on this screen is managed by the country administrators and is country specific.
 
-<figure><img src="../.gitbook/assets/image (65).png" alt=""><figcaption><p>Figure 35: Frequently asked questions screen</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (65).png" alt=""><figcaption><p>Figure 37: Frequently asked questions screen</p></figcaption></figure>
 
 Note:
 
@@ -435,11 +445,11 @@ Step 1: Login to the Client Interface.
 
 Step 2: On the “Navigation Menu” select “Home”.
 
-This screen provides quick access to different functionalities provided within the client interface, which have all been covered within this document, see Figure 36
+This screen provides quick access to different functionalities provided within the client interface, which have all been covered within this document, see Figure 38
 
 At the top of the screen we are presented with the upcoming consultation and option to manage it. Then we have a quick access to the mood tracker. Furthermore, the information portal is presented here as well, with some limited functionalities and an option to navigate to the Information portal search screen.
 
-<figure><img src="../.gitbook/assets/image (123).png" alt=""><figcaption><p>Figure 36: Dashboard screen</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (123).png" alt=""><figcaption><p>Figure 38: Dashboard screen</p></figcaption></figure>
 
 ### 10. Make a payment <a href="#ref130341549" id="ref130341549"></a>
 
@@ -449,7 +459,7 @@ Step 2: Follow the ‘Schedule consultation’ flow described in section 4 Sched
 
 Clients who wish to make a payment will be directed to the payment screen, which presents two different payment options. These options are outlined below, along with explanations for each of the fields required to complete the payment process.
 
-<figure><img src="../.gitbook/assets/image (33).png" alt=""><figcaption><p>Figure 37: Default payment form</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (33).png" alt=""><figcaption><p>Figure 39: Default payment form</p></figcaption></figure>
 
 The first payment option available to users is to proceed with the standard payment process by completing all of the fields within the form presented above. These fields include:
 
@@ -460,21 +470,21 @@ The first payment option available to users is to proceed with the standard paym
 * Country or region
 * Additional details required based on country (e.g. postcode for United Kingdom)
 
-<figure><img src="../.gitbook/assets/image (38).png" alt=""><figcaption><p>Figure 38: Saving payment details for future usage</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (38).png" alt=""><figcaption><p>Figure 40: Saving payment details for future usage</p></figcaption></figure>
 
 The users can also utilize the auto-fill features offered by “Link” as an alternative payment option. When entering an email address that has not been previously used for payments and is not associated with an existing Link account, an automatic check will be initiated. The user will then be given the option to save the payment details for future use (as shown in
 
-Figure 39). The auto-fill functionality of “Link” is a product provided by Stripe that enables secure storage and auto-completion of payment information, thus streamlining the checkout process.
+Figure 41). The auto-fill functionality of “Link” is a product provided by Stripe that enables secure storage and auto-completion of payment information, thus streamlining the checkout process.
 
-Figure 39 shows an example where a client enters an email address that is not recognized by Stripe. In response, the form displayed below prompts the user to provide additional information for securely storing and creating an account, namely a valid phone number, legal first and last names. Once the user enters this information along with valid card details to complete the payment, the information is securely linked to a new “Link” account. The result is that when the user accesses the payment form next time and enters the same email address followed by the two-factor authentication code, the form will be automatically filled with the previously saved payment details, as illustrated in Figure 40.
+Figure 41 shows an example where a client enters an email address that is not recognized by Stripe. In response, the form displayed below prompts the user to provide additional information for securely storing and creating an account, namely a valid phone number, legal first and last names. Once the user enters this information along with valid card details to complete the payment, the information is securely linked to a new “Link” account. The result is that when the user accesses the payment form next time and enters the same email address followed by the two-factor authentication code, the form will be automatically filled with the previously saved payment details, as illustrated in Figure 40.
 
-<figure><img src="../.gitbook/assets/image (67).png" alt=""><figcaption><p>Figure 39: Payment form Link account verification</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (67).png" alt=""><figcaption><p>Figure 41: Payment form Link account verification</p></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (16).png" alt=""><figcaption><p>Figure 40: Payment form use saved payment information</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (16).png" alt=""><figcaption><p>Figure 42: Payment form use saved payment information</p></figcaption></figure>
 
-After accessing the payment form shown in Figure 41, the client can manage their payment methods by adding or removing them. Additionally, they have the option to use existing payment methods to complete the payment process.
+After accessing the payment form shown in Figure 43, the client can manage their payment methods by adding or removing them. Additionally, they have the option to use existing payment methods to complete the payment process.
 
-<figure><img src="../.gitbook/assets/image (63).png" alt=""><figcaption><p>Figure 41: Payment form Link authentication completed</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (63).png" alt=""><figcaption><p>Figure 43: Payment form Link authentication completed</p></figcaption></figure>
 
 ### 11. Access My Q\&A
 
@@ -482,17 +492,17 @@ Step 1: Login to the Client Interface.
 
 Step 2: On the “Navigation Menu” select “My Q\&A”.
 
-<figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption><p>Figure 42: My Q&#x26;A screen</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption><p>Figure 44: My Q&#x26;A screen</p></figcaption></figure>
 
 This screen allows clients to access a question and answer directory that is designed to help them clarify any questions they may have. Clients can ask questions anonymously and experienced providers will provide answers to them. The answers to questions will also be available to other clients.
 
-As shown in Figure 42, the questions are organized into different tabs: All, Most Popular, Newest, and Your Questions. The first tab presents all the questions raised on the platform and answered by providers. The tab category displays the questions that are most popular, based on the number of likes they have received from clients. The third tab shows the newest questions that have been raised. The fourth tab displays the questions raised by the current client.
+As shown in Figure 44, the questions are organized into different tabs: All, Most Popular, Newest, and Your Questions. The first tab presents all the questions raised on the platform and answered by providers. The tab category displays the questions that are most popular, based on the number of likes they have received from clients. The third tab shows the newest questions that have been raised. The fourth tab displays the questions raised by the current client.
 
-To ask a new question, clients need to click on the “Ask anonymously” button on the right side of the screen, then add their question as shown in Figure 43. After the client has finished adding their question, they can submit it by clicking the “Send your question” button. Following this procedure, the question will be displayed in the “Your Questions” tab and will be available to providers.
+To ask a new question, clients need to click on the “Ask anonymously” button on the right side of the screen, then add their question as shown in Figure 45. After the client has finished adding their question, they can submit it by clicking the “Send your question” button. Following this procedure, the question will be displayed in the “Your Questions” tab and will be available to providers.
 
-<figure><img src="../.gitbook/assets/image (62).png" alt=""><figcaption><p>Figure 43: My Q&#x26;A ad new question</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (62).png" alt=""><figcaption><p>Figure 45: My Q&#x26;A ad new question</p></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (32).png" alt=""><figcaption><p>Figure 44: My Q&#x26;A entry example</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (32).png" alt=""><figcaption><p>Figure 46: My Q&#x26;A entry example</p></figcaption></figure>
 
 The My Q\&A screen contains several elements for each entry, as shown in Figure 44:
 
@@ -512,10 +522,10 @@ The schedule consultation shortcut is located in the bottom right corner of the 
 
 The like and dislike functionality can be accessed using the thumbs up and thumbs down buttons in the top right corner. The counters displayed indicate the number of clients who have expressed their opinion.
 
-The read more functionality allows clients to view the entire answer to a question, as shown in Figure 45.
+The read more functionality allows clients to view the entire answer to a question, as shown in Figure 47.
 
-<figure><img src="../.gitbook/assets/image (61).png" alt=""><figcaption><p>Figure 45: My Q&#x26;A full text of a question</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (61).png" alt=""><figcaption><p>Figure 47: My Q&#x26;A full text of a question</p></figcaption></figure>
 
-Furthermore, the clients have the ability to filter the answered questions by tags or utilize the search function, which will match the results based on the Q\&A entry's title and tags as presented in Figure 46.
+Furthermore, the clients have the ability to filter the answered questions by tags or utilize the search function, which will match the results based on the Q\&A entry's title and tags as presented in Figure 48.
 
-<figure><img src="../.gitbook/assets/image (41).png" alt=""><figcaption><p>Figure 46: My Q&#x26;A filtering options</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (41).png" alt=""><figcaption><p>Figure 48: My Q&#x26;A filtering options</p></figcaption></figure>

@@ -225,9 +225,9 @@ Step 4: Fulfil the form with providers’ details.
 
 Step 5: Click the “Create provider” button to save the new details.
 
-<figure><img src="../.gitbook/assets/image (199).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (213).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (197).png" alt=""><figcaption><p>Figure 5: Providers Screen table view and list view</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (214).png" alt="Figure 5: Providers Screen table view and list view"><figcaption><p>Figure 5: Providers Screen table view and list view</p></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/image (198).png" alt=""><figcaption><p>Figure 6: Add new Provider form</p></figcaption></figure>
 
@@ -249,9 +249,9 @@ Step 5: Update the provider data.
 
 Step 6: Click on the “Save Changes” button.
 
-<figure><img src="../.gitbook/assets/image (200).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (216).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (201).png" alt=""><figcaption><p>Figure 8: Edit Provider details</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (215).png" alt=""><figcaption><p>Figure 8: Edit Provider details</p></figcaption></figure>
 
 ### 5. Deactivate Provider <a href="#toc130509591" id="toc130509591"></a>
 
@@ -263,11 +263,11 @@ Step 3: Choose a provider and click on the three dots at the top-right corner of
 
 Step 4: From the dropdown menu select “Deactivate”.
 
-<figure><img src="../.gitbook/assets/image (202).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (218).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (203).png" alt=""><figcaption><p>Figure 9: Deactivate existing provide account in list / table view</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (217).png" alt=""><figcaption><p>Figure 9: Deactivate existing provide account in list / table view</p></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (204).png" alt=""><figcaption><p>Figure 10: Deactivate provider profile confirmation.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (219).png" alt=""><figcaption><p>Figure 10: Deactivate provider profile confirmation.</p></figcaption></figure>
 
 Note: After the provider's account is deactivated, they will lose the ability to make changes to their availability, join campaigns, propose consultations to clients, or show up in client searches. However, it's important to note that the provider will still have access to their account, be able to view their previous consultations, and conduct consultations that have already been scheduled.
 
@@ -281,9 +281,9 @@ Step 3: Choose a provider and click on the three dots at the top-right corner of
 
 Step 4: From the dropdown menu select “Activities”.
 
-<figure><img src="../.gitbook/assets/image (205).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (221).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (206).png" alt=""><figcaption><p>Figure 11: Visualize Provider activities</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (220).png" alt=""><figcaption><p>Figure 11: Visualize Provider activities</p></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/image (207).png" alt=""><figcaption><p>Figure 12: Provider Activities history</p></figcaption></figure>
 
@@ -541,7 +541,7 @@ Note:
 
 The purpose of this report is to inform the country administrator about the topics that are of interest to clients, so that they can tailor the content development process accordingly.
 
-<figure><img src="../.gitbook/assets/image (170).png" alt=""><figcaption><p>Figure 31: Statistics Portal Suggestion report</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (231).png" alt=""><figcaption><p>Figure 31: Statistics Portal Suggestion report</p></figcaption></figure>
 
 The report consists of:
 
