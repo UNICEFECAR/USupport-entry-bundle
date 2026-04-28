@@ -112,8 +112,6 @@ This platform is aiming to provide an easy-to-use interface for content creators
 
 The CMS provides 3 different user roles: Moderator, Editor and Author. Each of them provides different access rights to the CMS.
 
-###
-
 ### 1. Moderator
 
 This is the role, which provides access to all of the functionalities available in the CMS, without any restrictions. Moderators can create, update and delete any existing data with no regard to who created it. Furthermore, they are able to modify the general configuration of the platform, as well as to create, edit or delete all other moderator, editor and author accounts.

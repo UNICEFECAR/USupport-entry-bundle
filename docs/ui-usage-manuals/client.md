@@ -492,7 +492,7 @@ Step 1: Login to the Client Interface.
 
 Step 2: On the “Navigation Menu” select “My Q\&A”.
 
-<figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption><p>Figure 44: My Q&#x26;A screen</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5) (1).png" alt=""><figcaption><p>Figure 44: My Q&#x26;A screen</p></figcaption></figure>
 
 This screen allows clients to access a question and answer directory that is designed to help them clarify any questions they may have. Clients can ask questions anonymously and experienced providers will provide answers to them. The answers to questions will also be available to other clients.
 

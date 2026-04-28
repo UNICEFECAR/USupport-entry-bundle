@@ -18,25 +18,25 @@
 
 [4. Personal Calendar – add availability](provider.md#ref130504090)
 
-[6. Preview the Activity History](provider.md#id-6.-preview-the-activity-history)
+[5. Preview the Activity History](provider.md#id-5.-preview-the-activity-history)
 
-[7. Upcoming Consultations](provider.md#id-7.-upcoming-consultations)
+[6 Upcoming Consultations](provider.md#id-6.-upcoming-consultations)
 
-[7.1. Preview Scheduled Consultations](provider.md#id-7.1.-preview-scheduled-consultations)
+[6.1. Preview Scheduled Consultations](provider.md#id-6.1.-preview-scheduled-consultations)
 
-[7.2. Edit Scheduled Consultations](provider.md#id-7.2.-edit-scheduled-consultations)
+[6.2. Edit Scheduled Consultations](provider.md#id-6.2.-edit-scheduled-consultations)
 
-[8. Preview all Clients](provider.md#id-8.-preview-all-clients)
+[7. Preview all Clients](provider.md#id-7.-preview-all-clients)
 
-[9. Profile settings](provider.md#id-9.-profile-settings)
+[8. Profile settings](provider.md#id-8.-profile-settings)
 
-[10. Campaigns](provider.md#id-10.-campaigns)
+[9. Campaigns](provider.md#id-9.-campaigns)
 
-[11. Campaigns availability](provider.md#ole_link90)
+[10. Campaigns availability](provider.md#ole_link90)
 
-[12. View campaigns details](provider.md#ole_link12)
+[11. View campaigns details](provider.md#ole_link12)
 
-[13. My Q\&A](provider.md#id-13.-my-q-and-a)
+[12. My Q\&A](provider.md#id-12.-my-q-and-a)
 
 ### Table of Figures <a href="#ref130504120" id="ref130504120"></a>
 
@@ -191,7 +191,7 @@ Once this action is performed the state of the box will change and the informati
 
 For a box to transition into one of the states from the second row presented in Figure 8, a consultation needs to be booked by a client. The client can book consultations either by direct purchase, select free slots that are marked by the provider or by using existent campaigns.
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption><p>Figure 8: Changing the state of a box</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption><p>Figure 8: Changing the state of a box</p></figcaption></figure>
 
 Providers can opt to participate in various sponsored programs, which allows them to select particular time slots that will be designated for that program. Consequently, the sponsors will cover the cost of these time slots, rather than requiring clients to pay.
 
@@ -219,7 +219,7 @@ Secondly, for each week day, the provider has to choose between being available 
 
 <figure><img src="../.gitbook/assets/image (233).png" alt=""><figcaption><p>Figure 9: Template availability form</p></figcaption></figure>
 
-### 6. Preview the Activity History
+### 5. Preview the Activity History
 
 Step 1: Login to the Provider Interface.
 
@@ -242,9 +242,9 @@ Furthermore, at the bottom of the right side, there is a button “Propose consu
 
 <figure><img src="../.gitbook/assets/image (234).png" alt=""><figcaption><p>Figure 11: Propose consultation pop up</p></figcaption></figure>
 
-### 7. Upcoming Consultations
+### 6. Upcoming Consultations
 
-#### 7.1. Preview Scheduled Consultations:
+#### 6.1. Preview Scheduled Consultations:
 
 Step 1: Login to the Provider Interface.
 
@@ -267,7 +267,7 @@ Each consultation is presented via a rectangle and contains the following inform
 
 <figure><img src="../.gitbook/assets/image (236).png" alt=""><figcaption><p>Figure 12: Consultations screen</p></figcaption></figure>
 
-#### 7.2. Edit Scheduled Consultations:
+#### 6.2. Edit Scheduled Consultations:
 
 Step 1: Select Cancel consultation (see figure 12).
 
@@ -279,7 +279,7 @@ Step 2: Select to either Suggest new time (which client has to accept to become 
 
 
 
-### 8. Preview all Clients
+### 7. Preview all Clients
 
 Step 1: Login to the Provider Interface
 
@@ -287,7 +287,7 @@ Step 2: On the “Navigation Menu” select “Clients”
 
 <figure><img src="../.gitbook/assets/image (237).png" alt=""><figcaption><p>Figure 15: Clients screen</p></figcaption></figure>
 
-### 9. Profile settings
+### 8. Profile settings
 
 Step 1: Login to the Provider Interface
 
@@ -340,7 +340,7 @@ The information which is presented inside this screen is managed by the country 
 
 <figure><img src="../.gitbook/assets/image (121).png" alt=""><figcaption><p>Figure 23: Frequently asked questions screen</p></figcaption></figure>
 
-### 10. Campaigns
+### 9. Campaigns
 
 Step 1: Login to the Provider Interface
 
@@ -371,7 +371,7 @@ The providers can participate in a campaign by selecting the three dots next to 
 
 In order for a provider to take part in a campaign he/she will need to agree with the Terms of Use for that specific campaign.
 
-### 11. Campaigns availability <a href="#ole_link90" id="ole_link90"></a>
+### 10. Campaigns availability <a href="#ole_link90" id="ole_link90"></a>
 
 Step 1: Login to the Provider Interface
 
@@ -397,7 +397,7 @@ To access this template, providers must first enroll in a campaign and click the
 
 Using this template not only streamlines the scheduling process but also ensures that providers are able to dedicate the appropriate amount of time to campaign-related appointments.
 
-### 12. View campaigns details <a href="#ole_link12" id="ole_link12"></a>
+### 11. View campaigns details <a href="#ole_link12" id="ole_link12"></a>
 
 Step 1: Login to the Provider Interface
 
@@ -413,7 +413,7 @@ Step 4: Click the three dots at the end of the row and select “View details”
 
 After successfully enrolling and adding their availability, providers can view the activities generated by a specific campaign by accessing campaign details from their account, as depicted in Figure 28. This screen is divided into two parts, with the top section displaying all upcoming consultations and the second section showing completed consultations under the same campaign. This enables providers to have a clear overview of the campaigns they choose to participate in, allowing for better organization and management of their time.
 
-### 13. My Q\&A
+### 12. My Q\&A
 
 Step 1: Login to the Provider Interface
 

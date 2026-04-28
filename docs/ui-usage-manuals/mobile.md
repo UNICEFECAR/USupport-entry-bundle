@@ -282,11 +282,11 @@ Note: The payment form is presented in more details in section 10 Make a payment
 
 After a successful payment and registration of the booking by the system, the user will be shown the confirmation screen, as depicted in Figure 17.
 
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption><p>Figure 18: Unsuccessful payment screen</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption><p>Figure 18: Unsuccessful payment screen</p></figcaption></figure>
 
 In the event that the payment is unsuccessful, the user will be directed to the screen displayed in Figure 18. This screen provides the user with relevant information and instructions for resolving the payment issue and completing the transaction.
 
-<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption><p>Figure 19: Consultations screen visualises upcoming appointments</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption><p>Figure 19: Consultations screen visualises upcoming appointments</p></figcaption></figure>
 
 As previously mentioned, all the upcoming consultations can be seen within the Consultations screen, as shown above.
 
@@ -418,7 +418,7 @@ Clients are able to view a complete record of their purchases on the platform th
 
 To obtain more detailed information about a specific payment, the client can select the "More details" option located on the right-hand side of the screen, which will display comprehensive payment details. Furthermore, this feature also enables the client to download the payment receipt associated with the transaction (see Figure 35). Furthermore, clients have the option to export the data in CSV format by simply clicking the "Export" button.
 
-<figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption><p>Figure 35: Payment History more information about a payment.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption><p>Figure 35: Payment History more information about a payment.</p></figcaption></figure>
 
 The ‘contact us’ screen allows clients to raise any questions or issues they might encounter. These will be received and addressed by the country administrators. To raise an enquiry, the client needs to select an issue from a predefined list and add any message, if necessary (see Figure 36).
 
