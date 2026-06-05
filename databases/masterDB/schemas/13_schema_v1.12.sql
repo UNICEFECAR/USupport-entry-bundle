@@ -1,0 +1,1 @@
+ALTER TABLE "country" ADD COLUMN "pinned_articles" varchar [] DEFAULT array [] :: varchar [];
