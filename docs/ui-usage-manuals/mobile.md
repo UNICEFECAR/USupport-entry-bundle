@@ -38,93 +38,89 @@
 
 Figure 1: Welcome screen
 
-Figure 2: Client Interface entry screen
+Figure 2: Registration with email Step 1
 
-Figure 3: Registration with email Step 1
+Figure 3: Registration with email Step 2
 
-Figure 4: Registration with email Step 2
+Figure 4: Anonymously registration
 
-Figure 5: Registration Step 3
+Figure 5: Login screen
 
-Figure 6: Anonymously registration Step 1
+Figure 6: Forgot Password screen
 
-Figure 7: Login screen
+Figure 7: Consultations screen
 
-Figure 8: Forgot Password screen
+Figure 8: Select a Provider screen
 
-Figure 9: Consultations screen
+Figure 9: Using coupon code for finding providers
 
-Figure 10: Select a Provider screen
+Figure 10: List of providers for valid coupon
 
-Figure 11: Using coupon code for finding providers
+Figure 11: Filtering options for the list of providers
 
-Figure 12: List of providers for valid coupon
+Figure 12: Provider Overview screen
 
-Figure 13: Filtering options for the list of providers
+Figure 13: Select the appointment date and time
 
-Figure 14: Provider Overview screen
+Figure 14: Payment screen within consultation booking process
 
-Figure 15: Select the appointment date and time
+Figure 15: Payment and Appointment confirmation
 
-Figure 16: Payment screen within consultation booking process
+Figure 16: Unsuccessful payment screen
 
-Figure 17: Payment and Appointment confirmation
+Figure 17: Upcoming appointments
 
-Figure 18: Unsuccessful payment screen
+Figure 18: Consultation screen edit appointment
 
-Figure 19: Consultations screen visualizes upcoming appointments
+Figure 19: Consultation screen edit appointment options
 
-Figure 20: Consultation screen edit appointment
+Figure 20: Information Portal initial screen
 
-Figure 21: Consultation screen edit appointment options
+Figure 21: Information Portal Search screen
 
-Figure 22: Information Portal initial screen
+Figure 22: Full view of an article
 
-Figure 23: Information Portal Search screen
+Figure 23: SOS Centers screen
 
-Figure 24: Full view of an article
+Figure 24: Access mobile application settings
 
-Figure 25: SOS Centers screen
+Figure 25: Client account settings screen
 
-Figure 26: Access mobile application settings
+Figure 26: Edit profile details screen
 
-Figure 27: Client account settings screen
+Figure 27: Settings biometrics screen
 
-Figure 28: Edit profile details screen
+Figure 28: Mood Tracker screen
 
-Figure 29: Settings biometrics screen
+Figure 29: Notifications settings screen
 
-Figure 30: Mood Tracker screen
+Figure 30: Application Feedback screen
 
-Figure 31: Notifications settings screen
+Figure 31: Change Language screen
 
-Figure 32: Application Feedback screen
+Figure 32: Payment History screen
 
-Figure 33: Change Language screen
+Figure 33: Payment History more information about a payment.
 
-Figure 34: Payment History screen
+Figure 34: Contact us screen
 
-Figure 35: Payment History more information about a payment.
+Figure 35: Privacy policies screen
 
-Figure 36: Contact us screen
+Figure 36: Frequently asked questions screen
 
-Figure 37: Privacy policies screen
+Figure 37: Dashboard screen
 
-Figure 38: Frequently asked questions screen
+Figure 38: Payment form
 
-Figure 39: Dashboard screen
+Figure 39: My Q\&A screen.
 
-Figure 40: Payment form
+Figure 40: My Q\&A ad new question.
 
-Figure 41: My Q\&A screen.
+Figure 41: My Q\&A entry example.
 
-Figure 42: My Q\&A ad new question.
+Figure 42: My Q\&A full text of a question.
 
-Figure 43: My Q\&A entry example.
-
-Figure 44: My Q\&A full text of a question.
-
-Figure 45: My Q\&A filtering options.
+Figure 43: My Q\&A filtering options.
 
 ### Introduction <a href="#toc109836811" id="toc109836811"></a>
 
@@ -146,43 +142,33 @@ Step 1: Open the mobile application.
 
 Step 2: Select a country and a language from the Welcome Screen.
 
-Step 3: From the next screen select one of the registration options “Register with email” or “Register anonymously” (see Figure 2).
+Step 3: Select one of the registration options “Register with email” or “Register anonymously” (see Figure 1).
 
 Step 4: Insert valid login credentials - either an email or an access token.
 
-<figure><img src="../.gitbook/assets/image (148).png" alt=""><figcaption><p>Figure 1: Welcome Screen</p></figcaption></figure>
-
-<figure><img src="../.gitbook/assets/image (157).png" alt=""><figcaption><p>Figure 2: Client Interface entry screen</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (323).png" alt="" width="188"><figcaption><p>Figure 1: Welcome Screen</p></figcaption></figure>
 
 #### 1.1. Registration Options
 
-####
-
-All the registration options are highlighted in Figure 2.
+All the registration options are highlighted in Figure 1.
 
 Option 1: This option requires the client to register using an existing email address. This registration method provides full access to the features available within the client interface.
 
-<figure><img src="../.gitbook/assets/image (141).png" alt=""><figcaption><p>Figure 3: Registration with email Step 1</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (324).png" alt="" width="188"><figcaption><p>Figure 2: Registration with email Step 1</p></figcaption></figure>
 
 The first step for registering into the platform using Option 1 is to provide a valid email address which was not used for previous registrations, a nickname and a password. Additionally, the client is required to agree with the “Privacy Policy” and “Terms of Conditions”.
 
-<figure><img src="../.gitbook/assets/image (156).png" alt=""><figcaption><p>Figure 4: Registration with email Step 2</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (325).png" alt="" width="188"><figcaption><p>Figure 3: Registration with email Step 2</p></figcaption></figure>
 
 The second step in the option 1 registration flow requires further information such as name, surname, sex, year of birth and place of living. This information will be securely stored by the platform and can be modified by the client later on from the account settings.
 
-<figure><img src="../.gitbook/assets/image (74).png" alt=""><figcaption><p>Figure 5: Registration Step 3</p></figcaption></figure>
-
-The third step for this registration option asks the client if he/she needs urgent support. In case the client’s answer is “yes”, the application will automatically redirect the user to schedule an appointment for psychological support. This procedure will be described later on.
-
 Option 2: This option allows the client to get access to the mobile app anonymously. This means that no personal identifiable information is required from the client, apart from a nickname and password. By choosing this option, the client will be provided with a unique access token that needs to be securely saved for future use. In comparison with the email registration presented above, using this type of registration means that there is no link between the client and the account on the platform. Following this, it is very important to understand that the access token generated in the registration process is the only key to access the account in the future and the client should make sure to remember it every time they want to log in.
 
-<figure><img src="../.gitbook/assets/image (139).png" alt=""><figcaption><p>Figure 6: Anonymously registration Step 1</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (326).png" alt="" width="188"><figcaption><p>Figure 4: Anonymously registration</p></figcaption></figure>
 
-The first step for registration option 2 differs slightly from the previous option. Specifically, the email field (see Figure 3) is replaced by a unique access token (see in Figure 6).
+The registration option 2 differs slightly from the previous one. Specifically, the email field is replaced by a unique access token (see in Figure 4).
 
-The second step of this registration flow is similar to the third step of the previously discussed option 1, asking the client if he/she requires urgent support (see Figure 5).
-
-Option 3: This option allows the client to get access to the mobile application without going through the registration process. By using this option, the client can explore the limited features available for non-registered users and decide if they would like to fully register by creating an account.
+Option 3: This option allows the client to get access to the mobile application without going through the registration process - Continue without registration (see in Figure 1). By using this option, the client can explore the limited features available for non-registered users and decide if they would like to fully register by creating an account.
 
 ### 2. Login to the mobile application
 
@@ -190,11 +176,11 @@ Step 1: Open the uSupport mobile application
 
 Step 2: Select a country and a language from the Welcome screen.
 
-Step 3: From the next screen select “Login to the app” button (see Figure 2)
+Step 3: Select “Login” button (see Figure 1)
 
-Step 4: Insert valid login credentials - either an email or an access token
+Step 4: Insert valid login credentials - either an email or an access token (see Figure 5)
 
-<figure><img src="../.gitbook/assets/image (160).png" alt=""><figcaption><p>Figure 7: Login screen</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (327).png" alt="" width="188"><figcaption><p>Figure 5: Login screen</p></figcaption></figure>
 
 ### 3. Forgot Password
 
@@ -202,15 +188,15 @@ Step 1: Open the uSupport mobile application.
 
 Step 2: Select a country and a language from the Welcome Screen.
 
-Step 3: From the next screen select “Login to the app” button (see Figure 2).
+Step 3: Select “Login” button (see Figure 1).
 
-Step 4: Select “I forgot my password” see Figure 7.
+Step 4: Select “I forgot my password” (see Figure 5).
 
-Step 5: Insert a valid email address see Figure 8.
+Step 5: Insert a valid email address see (Figure 6).
 
 Step 6: Check your email address for recovery email.
 
-<figure><img src="../.gitbook/assets/image (130).png" alt=""><figcaption><p>Figure 8: Forgot Password screen</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (328).png" alt="" width="188"><figcaption><p>Figure 6: Forgot Password screen</p></figcaption></figure>
 
 If a valid and registered email address within the platform was provided, an automated email will be sent to it. The email will contain a temporary valid link that can be used to set a new password. Following this procedure, the user can access the account using the email address and the new set password.
 
@@ -220,33 +206,25 @@ Step 1: Login to the mobile application.
 
 Step 2: On the “Navigation Menu” select “Consultations” icon which is the third button in the menu.
 
-Step 3: Click the “Schedule a consultation” button see Figure 9.
+Step 3: Click the “Schedule a consultation” button see Figure 7.
 
-Step 4: From the list of providers select one to preview his/her details see Figure 10.
+Step 4: From the list of providers select one to preview his/her details see Figure 8.
 
-Step 5: From the provider overview screen select the “Schedule consultation” button see Figure 11.
+Step 5: From the provider overview screen select the “Schedule consultation” button see Figure 9.
 
-Step 6: From the time availability pop-up select date and time and click the “Save” button see Figure 12.
+Step 6: From the time availability pop-up select date and time and click the “Save” button see Figure 10.
 
-Step 7: Once the appointment is scheduled a confirmation pop-up will be shown see Figure 17.
+Step 7: Once the appointment is scheduled a confirmation pop-up will be shown see Figure 15.
 
-<figure><img src="../.gitbook/assets/image (153).png" alt=""><figcaption><p>Figure 9: Consultations screen</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (329).png" alt="" width="188"><figcaption><p>Figure 7: Consultations screen</p></figcaption></figure>
 
-Figure 9 presents the consultations screen. Two different tabs can be seen in the middle of the screen, namely “Upcoming” and “Past. These are available in order to provide the client with the capability to track their previous appointments with providers and their upcoming ones. We can notice that at this stage there are no upcoming appointments therefore this is clearly indicated, using an appropriate message “You have no upcoming consultations”.
+Figure 7 presents the consultations screen. Two different boxes can be seen on the screen, namely “Upcoming” and “Past. These are available in order to provide the client with the capability to track their previous appointments with providers and their upcoming ones. At initial stage there are no upcoming appointments therefore this is clearly indicated, using an appropriate message “You have no upcoming consultations”.
 
-<figure><img src="../.gitbook/assets/image (150).png" alt=""><figcaption><p>Figure 10: Select a Provider screen</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (330).png" alt="" width="188"><figcaption><p>Figure 10: Select a Provider screen</p></figcaption></figure>
 
-Each shadowed box, as highlighted in red in Figure 10, represents a provider profile.
+Upon accessing this screen, the client will see a default list of available providers. However, if the user has a coupon code, they can enter it into the system, and the platform will generate an updated list of providers that participate in the campaign associated with that coupon. Moreover, clients have the ability to filter for free consultations or establish a maximum price according to their preferences.
 
-Initially, upon accessing this screen, the client will see a default list of available providers. However, if the user has a coupon code, they can enter it into the system, and the platform will generate an updated list of providers that participate in the campaign associated with that coupon. Moreover, clients have the ability to filter for free consultations or establish a maximum price according to their preferences.
-
-<figure><img src="../.gitbook/assets/image (133).png" alt=""><figcaption><p>Figure 11: Using coupon code for finding providers</p></figcaption></figure>
-
-To utilize a coupon code, users must input a valid code into the designated field displayed in Figure 11. Once they click the "Submit coupon" button and the code is successfully validated, the list of providers will be updated to display only those who are participating in the campaign associated with the coupon. This updated list will be shown in Figure 12.
-
-<figure><img src="../.gitbook/assets/image (132).png" alt=""><figcaption><p>Figure 12: List of providers for valid coupon</p></figcaption></figure>
-
-By clicking on the "Remove coupon" button located in the top right corner, the user can eliminate the coupon filter.
+Once they click the "Submit coupon" button and the code is successfully validated, the list of providers will be updated to display only those who are participating in the campaign associated with the coupon.&#x20;
 
 <figure><img src="../.gitbook/assets/image (163).png" alt=""><figcaption><p>Figure 13: Filtering options for the list of providers</p></figcaption></figure>
 
@@ -286,7 +264,7 @@ After a successful payment and registration of the booking by the system, the us
 
 In the event that the payment is unsuccessful, the user will be directed to the screen displayed in Figure 18. This screen provides the user with relevant information and instructions for resolving the payment issue and completing the transaction.
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption><p>Figure 19: Consultations screen visualises upcoming appointments</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (321).png" alt="" width="188"><figcaption><p>Figure 19: Upcoming appointments</p></figcaption></figure>
 
 As previously mentioned, all the upcoming consultations can be seen within the Consultations screen, as shown above.
 
