@@ -52,11 +52,7 @@ Figure 7: Consultations screen
 
 Figure 8: Select a Provider screen
 
-Figure 9: Using coupon code for finding providers
-
-Figure 10: List of providers for valid coupon
-
-Figure 11: Filtering options for the list of providers
+Figure 9: Filtering options for the list of providers
 
 Figure 12: Provider Overview screen
 
@@ -220,13 +216,13 @@ Step 7: Once the appointment is scheduled a confirmation pop-up will be shown se
 
 Figure 7 presents the consultations screen. Two different boxes can be seen on the screen, namely “Upcoming” and “Past. These are available in order to provide the client with the capability to track their previous appointments with providers and their upcoming ones. At initial stage there are no upcoming appointments therefore this is clearly indicated, using an appropriate message “You have no upcoming consultations”.
 
-<figure><img src="../.gitbook/assets/image (330).png" alt="" width="188"><figcaption><p>Figure 10: Select a Provider screen</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (330).png" alt="" width="188"><figcaption><p>Figure 8: Select a Provider screen</p></figcaption></figure>
 
 Upon accessing this screen, the client will see a default list of available providers. However, if the user has a coupon code, they can enter it into the system, and the platform will generate an updated list of providers that participate in the campaign associated with that coupon. Moreover, clients have the ability to filter for free consultations or establish a maximum price according to their preferences.
 
 Once they click the "Submit coupon" button and the code is successfully validated, the list of providers will be updated to display only those who are participating in the campaign associated with the coupon.&#x20;
 
-<figure><img src="../.gitbook/assets/image (163).png" alt=""><figcaption><p>Figure 13: Filtering options for the list of providers</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (163).png" alt=""><figcaption><p>Figure 9: Filtering options for the list of providers</p></figcaption></figure>
 
 Furthermore, the client has the ability to filter providers using the options displayed in Figure 13, which are also listed below.
 
