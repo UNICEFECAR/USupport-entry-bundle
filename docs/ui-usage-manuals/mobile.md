@@ -98,25 +98,23 @@ Figure 30: Payment History screen
 
 Figure 31: Payment History more information about a payment.
 
-Figure 34: Contact us screen
+Figure 32: Contact us screen
 
-Figure 35: Privacy policies screen
+Figure 33: Privacy policies screen
 
-Figure 36: Frequently asked questions screen
+Figure 34: FAQ screen
 
 Figure 37: Dashboard screen
 
-Figure 38: Payment form
+Figure 36: Payment form
 
-Figure 39: My Q\&A screen.
+Figure 37: My Q\&A screen
 
-Figure 40: My Q\&A ad new question.
+Figure 38: My Q\&A add new question
 
-Figure 41: My Q\&A entry example.
+Figure 39: My Q\&A full text of a question
 
-Figure 42: My Q\&A full text of a question.
-
-Figure 43: My Q\&A filtering options.
+Figure 40: My Q\&A filtering options
 
 ### Introduction <a href="#toc109836811" id="toc109836811"></a>
 
@@ -389,9 +387,9 @@ To obtain more detailed information about a specific payment, the client can sel
 
 <figure><img src="../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption><p>Figure 31: Payment History more information about a payment.</p></figcaption></figure>
 
-The ‘contact us’ screen allows clients to raise any questions or issues they might encounter. These will be received and addressed by the country administrators. To raise an enquiry, the client needs to select an issue from a predefined list and add any message, if necessary (see Figure 36).
+The ‘contact us’ screen allows clients to raise any questions or issues they might encounter. These will be received and addressed by the country administrators. To raise an enquiry, the client needs to select an issue from a predefined list and add any message, if necessary (see Figure 32).
 
-<figure><img src="../.gitbook/assets/image (138).png" alt=""><figcaption><p>Figure 36: Contact us screen</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (353).png" alt="" width="188"><figcaption><p>Figure 32: Contact us screen</p></figcaption></figure>
 
 The privacy policy can be previewed from the profile settings screen, as well.
 
@@ -399,13 +397,13 @@ Note:
 
 * Privacy policies, terms of use and cookie policies are country specific. Clients should read and make sure the existing content is understood and their activity within the platform follows the established rules.
 
-<figure><img src="../.gitbook/assets/image (151).png" alt=""><figcaption><p>Figure 37: Privacy policies screen</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (354).png" alt="" width="188"><figcaption><p>Figure 33: Privacy policies screen</p></figcaption></figure>
 
 Within frequently asked questions clients can find answers to the most commonly asked questions. It is recommended to visit this page every time there is any ambiguity regarding the use of the platform as the answer already might be there.
 
 The information which is presented on this screen is managed by the country administrators and is country specific.
 
-<figure><img src="../.gitbook/assets/image (162).png" alt=""><figcaption><p>Figure 38: Frequently asked questions screen</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (355).png" alt="" width="188"><figcaption><p>Figure 34: FAQ screen</p></figcaption></figure>
 
 Note:
 
@@ -417,11 +415,11 @@ Step 1: Login to the Mobile Application.
 
 Step 2: On the “Navigation Menu” select “Home” icon which is the first button in the menu..
 
-This screen provides quick access to different functionalities provided within the mobile application interface, which have all been covered within this document, see Figure 39.
+This screen provides quick access to different functionalities provided within the mobile application interface, which have all been covered within this document (see Figure 35).
 
 The top of the screen displays the client's upcoming consultation and provides an option to manage it. Directly below this, the client can quickly access the mood tracker. Using this feature, they can record their current emotional state by selecting one of the presented options, such as happy, good, sad, depressed, or worried, and adding an explanation if desired. Once the client submits this information, it will be stored in the system and used to generate an ongoing overview of their mood over time.
 
-<figure><img src="../.gitbook/assets/Screenshot 2023-07-11 at 10.44.09.png" alt=""><figcaption><p>Figure 39: Dashboard screen</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (356).png" alt=""><figcaption><p>Figure 35: Dashboard screen</p></figcaption></figure>
 
 ### 10. Make a payment
 
@@ -429,7 +427,7 @@ Step 1: Login to the Mobile application.
 
 Step 2: Follow the ‘Schedule consultation’ flow described in section 4 Schedule a consultation.
 
-<figure><img src="../.gitbook/assets/image (126).png" alt=""><figcaption><p>Figure 40: Payment form</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (126).png" alt=""><figcaption><p>Figure 36: Payment form</p></figcaption></figure>
 
 Clients who wish to make a payment will be directed to the payment screen, where they can enter their payment details manually or use the auto fill functionality by scanning their card using the camera of their phone.
 
@@ -449,17 +447,15 @@ Step 1: Login to the Mobile Application.
 
 Step 2: On the bottom navigation click “Message Icon”
 
-<figure><img src="../.gitbook/assets/Screenshot 2023-07-11 at 10.45.22.png" alt=""><figcaption><p>Figure 41: My Q&#x26;A screen.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (357).png" alt=""><figcaption><p>Figure 37: My Q&#x26;A screen</p></figcaption></figure>
 
 This screen allows clients to access a question and answer directory that is designed to help them clarify any questions they may have. Clients can ask questions anonymously and experienced providers will provide answers to them. The answers to questions will also be available to other clients.
 
-As shown in Figure 41, the questions are organized into different tabs: All, Most Popular, Newest, and Your Questions. The first tab presents all the questions raised on the platform and answered by providers. The tab category displays the questions that are most popular, based on the number of likes they have received from clients. The third tab shows the newest questions that have been raised. The fourth tab displays the questions raised by the current client.
+As shown in Figure 37, the questions are organized into different tabs: All, Most Popular, Newest, and Your Questions. The first tab presents all the questions raised on the platform and answered by providers. The tab category displays the questions that are most popular, based on the number of likes they have received from clients. The third tab shows the newest questions that have been raised. The fourth tab displays the questions raised by the current client.
 
-To ask a new question, clients need to click on the “Ask anonymously” button on the right side of the screen, then add their question as shown in Figure 2. After the client has finished adding their question, they can submit it by clicking the “Send your question” button. Following this procedure, the question will be displayed in the “Your Questions” tab and will be available to providers.
+To ask a new question, clients need to click on the “Ask anonymously” button on the right side of the screen, then add their question as shown in Figure 37. After the client has finished adding their question, they can submit it by clicking the “Send your question” button. Following this procedure, the question will be displayed in the “Your Questions” tab and will be available to providers.
 
-<figure><img src="../.gitbook/assets/Screenshot 2023-07-11 at 10.46.06.png" alt=""><figcaption><p>Figure 42: My Q&#x26;A ad new question.</p></figcaption></figure>
-
-<figure><img src="../.gitbook/assets/image (131).png" alt=""><figcaption><p>Figure 43: My Q&#x26;A entry example.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (358).png" alt=""><figcaption><p>Figure 38: My Q&#x26;A add new question</p></figcaption></figure>
 
 The My Q\&A screen contains several elements for each entry, as shown in Figure 3:
 
@@ -479,10 +475,10 @@ The schedule consultation shortcut is located in the bottom right corner of the 
 
 The like and dislike functionality can be accessed using the thumbs up and thumbs down buttons in the top right corner. The counters displayed indicate the number of clients who have expressed their opinion.
 
-The read more functionality allows clients to view the entire answer to a question, as shown in Figure 4.
+The read more functionality allows clients to view the entire answer to a question, as shown in Figure 39.
 
-<figure><img src="../.gitbook/assets/image (23).png" alt=""><figcaption><p>Figure 44: My Q&#x26;A full text of a question.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (359).png" alt="" width="188"><figcaption><p>Figure 39: My Q&#x26;A full text of a question</p></figcaption></figure>
 
-Furthermore, the clients have the ability to filter the answered questions by tags or utilize the search function, which will match the results based on the Q\&A entry's title and tags as presented in Figure 5.
+Furthermore, the clients have the ability to filter the answered questions by tags or utilize the search function, which will match the results based on the Q\&A entry's title and tags as presented in Figure 40.
 
-<figure><img src="../.gitbook/assets/Screenshot 2023-07-11 at 10.47.17.png" alt=""><figcaption><p>Figure 45: My Q&#x26;A filtering options.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (360).png" alt=""><figcaption><p>Figure 40: My Q&#x26;A filtering options</p></figcaption></figure>
