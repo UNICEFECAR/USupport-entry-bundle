@@ -52,23 +52,23 @@ Figure 7: Consultations screen
 
 Figure 8: Select a Provider screen
 
-Figure 9: Filtering options for the list of providers
+Figure 9: Providers filtering options&#x20;
 
-Figure 12: Provider Overview screen
+Figure 10: Provider Overview screen
 
-Figure 13: Select the appointment date and time
+Figure 11: Appointment date and time
 
-Figure 14: Payment screen within consultation booking process
+Figure 12: Payment screen within consultation booking process
 
-Figure 15: Payment and Appointment confirmation
+Figure 13: Payment and Appointment confirmation
 
-Figure 16: Unsuccessful payment screen
+Figure 14: Unsuccessful payment screen
 
-Figure 17: Upcoming appointments
+Figure 15: Upcoming appointments
 
-Figure 18: Consultation screen edit appointment
+Figure 16: Edit appointment
 
-Figure 19: Consultation screen edit appointment options
+Figure 17: Edit appointment options
 
 Figure 20: Information Portal initial screen
 
@@ -222,45 +222,42 @@ Upon accessing this screen, the client will see a default list of available prov
 
 Once they click the "Submit coupon" button and the code is successfully validated, the list of providers will be updated to display only those who are participating in the campaign associated with the coupon.&#x20;
 
-<figure><img src="../.gitbook/assets/image (163).png" alt=""><figcaption><p>Figure 9: Filtering options for the list of providers</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (333).png" alt="" width="188"><figcaption><p>Figure 9: Providers filtering options </p></figcaption></figure>
 
-Furthermore, the client has the ability to filter providers using the options displayed in Figure 13, which are also listed below.
+Furthermore, the client has the ability to filter providers using the options displayed in Figure 9, which are also listed below.
 
 Providers filtering options:
 
-* Type of provider
 * Gender
-* Maximum price
 * Language
-* Free consultations
 * Available after
 * Available before
 
-<figure><img src="../.gitbook/assets/Screenshot 2023-07-11 at 10.34.11.png" alt=""><figcaption><p>Figure 14: Provider Overview screen</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (335).png" alt="" width="188"><figcaption><p>Figure 10: Provider Overview screen</p></figcaption></figure>
 
-Clicking on any of the listed providers allows the client to access additional information about their background and support capabilities, as depicted in Figure 14. This feature provides the client with a more in-depth understanding of each provider, allowing them to make a more informed decision when selecting a provider to work with.
+Clicking on any of the listed providers allows the client to access additional information about their background and support capabilities, as depicted in Figure 10. This feature provides the client with a more in-depth understanding of each provider, allowing them to make a more informed decision when selecting a provider to work with.
 
-<figure><img src="../.gitbook/assets/image (135).png" alt=""><figcaption><p>Figure 15: Select the appointment date and time</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (336).png" alt="" width="188"><figcaption><p>Figure 11: Appointment date and time</p></figcaption></figure>
 
-Once a client decides to progress with scheduling an appointment with a specific provider and clicks the “Schedule consultation” button (see Figure 14) they will be presented with the time availability of the provider. This is represented by a back drop, as presented in Figure 15 from where the client can select a month, day and time and find a slot for the consultation. Additionally, clients have the option to utilize a coupon in this section as well. If the provider has set availability, the corresponding slots related to the entered coupon will be displayed.
+Once a client decides to progress with scheduling an appointment with a specific provider and clicks the “Schedule consultation” button (see Figure 10) they will be presented with the time availability of the provider. This is represented by a back drop, as presented in Figure 11 from where the client can select a month, day and time and find a slot for the consultation. Additionally, clients have the option to utilize a coupon in this section as well. If the provider has set availability, the corresponding slots related to the entered coupon will be displayed.
 
 Note: The slots that are presented here are based on the availability put in place by the specific provider. There might be days that don’t have available slots due to either the provider being fully booked or the provider not being available for consultations on that specific date.
 
-<figure><img src="../.gitbook/assets/Screenshot 2023-07-11 at 10.35.02.png" alt=""><figcaption><p>Figure 16: Payment screen within consultation booking process</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2023-07-11 at 10.35.02.png" alt=""><figcaption><p>Figure 12: Payment screen within consultation booking process</p></figcaption></figure>
 
-After choosing a consultation slot, the user will be directed to proceed with the payment. Figure 16 illustrates what details are required to complete the final step of booking a consultation. Two crucial aspects of the payment screen are worth noting. The first is that the time counter, although not presented on the screen, begins counting down from 5 minutes as soon as the payment screen is loaded. This counter indicates the duration for which the selected consultation slot is reserved and cannot be booked by other clients. If the time runs out, the client can no longer make the payment, and the slot becomes available again to all clients. If the client still wishes to book the same slot after the time has expired, they must select it again, provided it is still available and has not been booked by another user. The second important element on the screen is the total cost of the consultation, which will be charged to the user.
+After choosing a consultation slot, the user will be directed to proceed with the payment. Figure 12 illustrates what details are required to complete the final step of booking a consultation. Two crucial aspects of the payment screen are worth noting. The first is that the time counter, although not presented on the screen, begins counting down from 5 minutes as soon as the payment screen is loaded. This counter indicates the duration for which the selected consultation slot is reserved and cannot be booked by other clients. If the time runs out, the client can no longer make the payment, and the slot becomes available again to all clients. If the client still wishes to book the same slot after the time has expired, they must select it again, provided it is still available and has not been booked by another user. The second important element on the screen is the total cost of the consultation, which will be charged to the user.
 
 Note: The payment form is presented in more details in section 10 Make a payment
 
-<figure><img src="../.gitbook/assets/image (136).png" alt=""><figcaption><p>Figure 17: Payment and Appointment confirmation</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (136).png" alt=""><figcaption><p>Figure 13: Payment and Appointment confirmation</p></figcaption></figure>
 
-After a successful payment and registration of the booking by the system, the user will be shown the confirmation screen, as depicted in Figure 17.
+After a successful payment and registration of the booking by the system, the user will be shown the confirmation screen, as depicted in Figure 13.
 
-<figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption><p>Figure 18: Unsuccessful payment screen</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption><p>Figure 14: Unsuccessful payment screen</p></figcaption></figure>
 
-In the event that the payment is unsuccessful, the user will be directed to the screen displayed in Figure 18. This screen provides the user with relevant information and instructions for resolving the payment issue and completing the transaction.
+In the event that the payment is unsuccessful, the user will be directed to the screen displayed in Figure 14. This screen provides the user with relevant information and instructions for resolving the payment issue and completing the transaction.
 
-<figure><img src="../.gitbook/assets/image (321).png" alt="" width="188"><figcaption><p>Figure 19: Upcoming appointments</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (321).png" alt="" width="188"><figcaption><p>Figure 15: Upcoming appointments</p></figcaption></figure>
 
 As previously mentioned, all the upcoming consultations can be seen within the Consultations screen, as shown above.
 
@@ -268,7 +265,7 @@ As previously mentioned, all the upcoming consultations can be seen within the C
 
 Step 1: Login to the Mobile application.
 
-Step 8: On the “Navigation Menu” select “Consultations” icon which is the third button in the menu.
+Step 8: On the “Navigation Menu” select “Consultations” icon which is the middle button in the menu.
 
 Step 2: Find the consultation that needs to be edited.
 
@@ -276,9 +273,9 @@ Step 3: Select the “edit” button.
 
 Step 4: From the displayed pop-up select one of the two options “Change the date and time” or “Cancel the consultation”.
 
-<figure><img src="../.gitbook/assets/image (13).png" alt=""><figcaption><p>Figure 20: Consultation screen edit appointment</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (337).png" alt="" width="188"><figcaption><p>Figure 16: Edit appointment</p></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (142).png" alt=""><figcaption><p>Figure 21: Consultation screen edit appointment options</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (338).png" alt="" width="188"><figcaption><p>Figure 17: Edit appointment options</p></figcaption></figure>
 
 The first option “Change the date and time” will prompt the client to select another time slot from the availability of the same provider. The process is similar to the booking an appointment one.
 
