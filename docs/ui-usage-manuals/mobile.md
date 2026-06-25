@@ -78,25 +78,25 @@ Figure 20: Full view of an article
 
 Figure 21: SOS Centers screen
 
-Figure 24: Access mobile application settings
+Figure 22: Мobile application settings
 
-Figure 25: Client account settings screen
+Figure 23: Client account settings screen
 
-Figure 26: Edit profile details screen
+Figure 24: Edit profile details screen
 
-Figure 27: Settings biometrics screen
+Figure 25: Settings biometrics screen
 
-Figure 28: Mood Tracker screen
+Figure 26: Mood Tracker screen
 
-Figure 29: Notifications settings screen
+Figure 27: Notifications settings
 
-Figure 30: Application Feedback screen
+Figure 28: Application feedback
 
-Figure 31: Change Language screen
+Figure 29: Change language screen
 
-Figure 32: Payment History screen
+Figure 30: Payment History screen
 
-Figure 33: Payment History more information about a payment.
+Figure 31: Payment History more information about a payment.
 
 Figure 34: Contact us screen
 
@@ -202,15 +202,15 @@ Step 1: Login to the mobile application.
 
 Step 2: On the “Navigation Menu” select “Consultations” icon which is the third button in the menu.
 
-Step 3: Click the “Schedule a consultation” button see Figure 7.
+Step 3: Click the “Schedule a consultation” button (see Figure 7).
 
-Step 4: From the list of providers select one to preview his/her details see Figure 8.
+Step 4: From the list of providers select one to preview his/her details (see Figure 10).
 
-Step 5: From the provider overview screen select the “Schedule consultation” button see Figure 9.
+Step 5: From the provider overview screen select the “Schedule consultation” button (see Figure 8).
 
-Step 6: From the time availability pop-up select date and time and click the “Save” button see Figure 10.
+Step 6: From the time availability pop-up select date and time and click the “Save” button (see Figure 11).
 
-Step 7: Once the appointment is scheduled a confirmation pop-up will be shown see Figure 15.
+Step 7: Once the appointment is scheduled a confirmation pop-up will be shown and the consultation will be part of Upcoming appointments (see Figure 15).
 
 <figure><img src="../.gitbook/assets/image (329).png" alt="" width="188"><figcaption><p>Figure 7: Consultations screen</p></figcaption></figure>
 
@@ -294,7 +294,7 @@ Step 2: On the “Navigation Menu” select “Content" icon which is the second
 
 <figure><img src="../.gitbook/assets/image (340).png" alt=""><figcaption><p>Figure 18: Information Portal</p></figcaption></figure>
 
-The initial entry screen for the information portal, as presented in Figure 18 is divided into three groups - Articles, Videos and Podcasts where Articles show the most read article on top.&#x20;
+The initial entry screen for the information portal, as presented in Figure 18 is divided into three groups - Articles, Videos and Podcasts where Articles show the most read article on top. Each groups are part of Parent and Adolescents separator. On search results are combined.
 
 <figure><img src="../.gitbook/assets/image (341).png" alt=""><figcaption><p>Figure 19: Information Portal Search screen</p></figcaption></figure>
 
@@ -337,7 +337,7 @@ Step 1: Login to the Mobile Application.
 
 Step 2: On the top left click the “Profile Icon” select “Your Profile” (see Figure 26 & Figure 27).
 
-<figure><img src="../.gitbook/assets/image (129).png" alt=""><figcaption><p>Figure 26: Access mobile application settings</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (345).png" alt="" width="179"><figcaption><p>Figure 22: Мobile application settings</p></figcaption></figure>
 
 From this screen the client can proceed with the following actions:
 
@@ -351,43 +351,43 @@ From this screen the client can proceed with the following actions:
 * Access the privacy policy.
 * Access the frequently asked questions.
 
-<figure><img src="../.gitbook/assets/Screenshot 2023-07-11 at 10.39.24.png" alt=""><figcaption><p>Figure 27: Client account settings screen</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (346).png" alt=""><figcaption><p>Figure 23: Client account settings screen</p></figcaption></figure>
 
-By accessing the profile details screen, the client can visualise the personal information associated with the uSupport mobile application account, see Figure 27-. The client is able to change this data by selecting the “Save changes” button.
+By accessing the profile details screen, the client can visualize the personal information associated with the uSupport mobile application account (see Figure 24). The client is able to change this data by selecting the “Save changes” button.
 
 Moreover, from here the client can change the password for the account, enable or disable consent for personal data processing, log out and delete the account.
 
-<figure><img src="../.gitbook/assets/Screenshot 2023-07-11 at 10.39.51.png" alt=""><figcaption><p>Figure 28: Edit profile details screen</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (347).png" alt=""><figcaption><p>Figure 24: Edit profile details screen</p></figcaption></figure>
 
 The "Passcode and Biometrics" screen presents the client with two options for securing and accessing the application. The first option is to establish an access code, which can be personalized to the client's preference and will be required every time the application is opened. This access code provides an added layer of security and prevents unauthorized access to the client's information.
 
 The second option is to enable biometrics functionality such as touch ID or face ID, which allows for faster and more seamless access to the application. Biometric authentication utilizes the unique physiological characteristics of the client, such as their fingerprint or facial features, to grant access without the need for manual entry of a passcode. This not only saves time but also enhances the user experience by providing a more intuitive and effortless way of accessing the application.
 
-<figure><img src="../.gitbook/assets/Screenshot 2023-07-11 at 10.40.19.png" alt=""><figcaption><p>Figure 29: Settings biometrics screen</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (348).png" alt=""><figcaption><p>Figure 25: Settings biometrics screen</p></figcaption></figure>
 
 From the bottom navigation, the client can access the mood tracker past activity page from where they can keep track of their progress while using the platform and see how their state of mind evolves.
 
-<figure><img src="../.gitbook/assets/image (134).png" alt=""><figcaption><p>Figure 30:Mood Tracker screen</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (349).png" alt="" width="188"><figcaption><p>Figure 26: Mood Tracker screen</p></figcaption></figure>
 
-From the notification settings screen the client can enable or disable the email notifications or the scheduled appointments notifications. Furthermore, clients can choose how long before an appointment they want to be notified - 15, 30, 45 or 60 minutes (see Figure 31).
+From the notification settings screen the client can enable or disable the email notifications or the scheduled appointments notifications. Furthermore, clients can choose how long before an appointment they want to be notified - 15, 30, 45 or 60 minutes (see Figure 27).
 
-<figure><img src="../.gitbook/assets/image (137).png" alt=""><figcaption><p>Figure 31: Notifications settings screen</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (350).png" alt="" width="188"><figcaption><p>Figure 27: Notifications settings </p></figcaption></figure>
 
 The application feedback form can be accessed as well from the profile settings. This form was created so that clients can provide their opinion about the platform. The screen, as we can see in the , contains two parts, a star rating and a text message field. Once the client submits their feedback and sends the rating this will be received by the country administrators and managed accordingly.
 
-<figure><img src="../.gitbook/assets/image (155).png" alt=""><figcaption><p>Figure 32: Application Feedback screen</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (351).png" alt="" width="188"><figcaption><p>Figure 28: Application feedback</p></figcaption></figure>
 
-Moreover, users can modify the language settings within the application from the profile settings, see Figure 33
+Moreover, users can modify the language settings within the application from the profile settings (see Figure 29).
 
-<figure><img src="../.gitbook/assets/image (18).png" alt=""><figcaption><p>Figure 33: Change Language screen</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (352).png" alt="" width="188"><figcaption><p>Figure 29: Change language screen</p></figcaption></figure>
 
 Clients are able to view a complete record of their purchases on the platform through the 'payment history' screen. This screen displays details such as the service purchased, the total price paid, and the date and time of the payment.
 
-<figure><img src="../.gitbook/assets/Screenshot 2023-07-11 at 10.42.23.png" alt=""><figcaption><p>Figure 34: Payment History screen</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2023-07-11 at 10.42.23.png" alt=""><figcaption><p>Figure 30: Payment History screen</p></figcaption></figure>
 
 To obtain more detailed information about a specific payment, the client can select the "More details" option located on the right-hand side of the screen, which will display comprehensive payment details. Furthermore, this feature also enables the client to download the payment receipt associated with the transaction (see Figure 35). Furthermore, clients have the option to export the data in CSV format by simply clicking the "Export" button.
 
-<figure><img src="../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption><p>Figure 35: Payment History more information about a payment.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption><p>Figure 31: Payment History more information about a payment.</p></figcaption></figure>
 
 The ‘contact us’ screen allows clients to raise any questions or issues they might encounter. These will be received and addressed by the country administrators. To raise an enquiry, the client needs to select an issue from a predefined list and add any message, if necessary (see Figure 36).
 
