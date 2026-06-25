@@ -70,13 +70,13 @@ Figure 16: Edit appointment
 
 Figure 17: Edit appointment options
 
-Figure 20: Information Portal initial screen
+Figure 18: Information Portal
 
-Figure 21: Information Portal Search screen
+Figure 19: Information Portal Search screen
 
-Figure 22: Full view of an article
+Figure 20: Full view of an article
 
-Figure 23: SOS Centers screen
+Figure 21: SOS Centers screen
 
 Figure 24: Access mobile application settings
 
@@ -290,23 +290,21 @@ Note:
 
 Step 1: Login to the Mobile application.
 
-Step 2: On the “Navigation Menu” select “Information Portal” icon which is the second button in the navigation menu.
+Step 2: On the “Navigation Menu” select “Content" icon which is the second button in the navigation menu.
 
-Step 3: Select the “View all” buttons on the right hand side, see Figure 22.
+<figure><img src="../.gitbook/assets/image (340).png" alt=""><figcaption><p>Figure 18: Information Portal</p></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/Screenshot 2023-07-11 at 10.37.14.png" alt=""><figcaption><p>Figure 22: Information Portal initial screen</p></figcaption></figure>
+The initial entry screen for the information portal, as presented in Figure 18 is divided into three groups - Articles, Videos and Podcasts where Articles show the most read article on top.&#x20;
 
-The initial entry screen for the information portal, as presented in Figure 22 is divided into two article groups - newest and most popular. For each section clients can choose the “View all” button which will redirect them to the Search screen in which more functionalities can be used to find the right content (see Figure 23).
-
-<figure><img src="../.gitbook/assets/image (164).png" alt=""><figcaption><p>Figure 23: Information Portal Search screen</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (341).png" alt=""><figcaption><p>Figure 19: Information Portal Search screen</p></figcaption></figure>
 
 Clients can use the search input to find different articles. Following the client's input, the view will dynamically update by displaying the articles that match the search criteria. Furthermore, clients can filter articles by choosing from a list of predefined categories.
 
-Once the client finds an article about which he/she wants to read more, he/she can do so by selecting the “Read more” button within the article overview box, as highlighted in Figure 23.
+Once the client finds an article about which he/she wants to read more, he/she can do so by selecting the “Read more” button within the article overview box, as highlighted in Figure 19.
 
-<figure><img src="../.gitbook/assets/Screenshot 2023-07-11 at 10.38.19.png" alt=""><figcaption><p>Figure 24: Full view of an article</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (342).png" alt=""><figcaption><p>Figure 20: Full view of an article</p></figcaption></figure>
 
-Figure 24 shows the full view of an article. The first part is a cover image. Next, we are presented with a list of tags that represent different psychological topics that are covered by the article. Following this, the title of the article together with the body and bibliography are displayed.
+Figure 20 shows the full view of an article. The first part is a Article's title. Next, we are presented with a list of tags that represent different psychological topics that are covered by the article. Following this, the cover image of the article together with the body and text to speech option are displayed.
 
 Note:
 
@@ -316,13 +314,13 @@ Note:
 
 Step 1: Login to the Mobile application.
 
-Step 2: Select the “SOS Center” button on the bottom right corner from any screen within the uSupport mobile applicaiton.
+Step 2: Select the “SOS Center” button on the bottom right corner from any screen within the uSupport mobile application.
 
-<figure><img src="../.gitbook/assets/image (158).png" alt=""><figcaption><p>Figure 25: SOS Centers screen</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (343).png" alt="" width="188"><figcaption><p>Figure 21: SOS Centers screen</p></figcaption></figure>
 
 The SOS center screen is the place which provides quick access to emergency lines available in different countries.
 
-Figure 25 presents the available helplines, each within a different rectangle. The information which can be displayed is the following:
+Figure 21 presents the available helplines, each within a different rectangle. The information which can be displayed is the following:
 
 * Name of the emergency center
 * A description which should include relevant details about the center so that the clients can know if the specific center can solve their issue.
