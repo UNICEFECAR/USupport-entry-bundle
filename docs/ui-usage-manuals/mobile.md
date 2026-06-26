@@ -104,7 +104,7 @@ Figure 33: Privacy policies screen
 
 Figure 34: FAQ screen
 
-Figure 37: Dashboard screen
+Figure 35: Dashboard screen
 
 Figure 36: Payment form
 
