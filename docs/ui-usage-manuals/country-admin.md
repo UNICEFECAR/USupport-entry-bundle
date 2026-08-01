@@ -56,6 +56,12 @@
 
 [16. Access My Q\&A](country-admin.md#16.-access-my-q-and-a)
 
+[17. Enable or Disable Two-Factor Authentication](country-admin.md#17.-enable-or-disable-two-factor-authentication)
+
+[18. Add a Passkey](country-admin.md#18.-add-a-passkey)
+
+[19. Remove a Passkey](country-admin.md#19.-remove-a-passkey)
+
 ### Table of Figures
 
 Figure 1: Welcome Screen
@@ -136,6 +142,20 @@ Figure 38: My Q\&A screen
 
 Figure 39: My Q\&A filtering options.
 
+Figure 40: Security Settings screen
+
+Figure 41: Confirm password to enable two-factor authentication
+
+Figure 42: Passkeys section — empty state
+
+Figure 43: Add a new passkey form
+
+Figure 44: Registered passkey in the passkeys list
+
+Figure 45: MFA verification modal — passkey or email fallback
+
+Figure 46: Email code verification screen
+
 ### Introduction
 
 Dear colleagues,
@@ -167,19 +187,27 @@ This role provides the capabilities of managing the uSupport platform on a count
 
 ### 1. Login to the Country Admin Interface
 
-Step 1: Navigate to the Global Admin Interface (https://usupport.online/country-admin).
+Step 1: Navigate to the Country Admin Interface (https://usupport.online/country-admin).
 
 Step 2: From the Welcome Screen select a country and a language.
 
 Step 3: Insert valid login credentials.
 
-Step 4: Insert OTP which was sent to the email address.
+Step 4: Complete the two-factor authentication check (if enabled for your account):
+
+- **Passkey (faster):** If you have registered a passkey on this device, the browser will automatically prompt you to verify using your device's biometrics (e.g. Face ID, fingerprint, or PIN). Approve the prompt to sign in instantly.
+- **Email code:** If passkeys are not set up or not supported by your browser, a one-time password (OTP) will be sent to your email address. Enter the code on the verification screen to complete sign-in.
+- **Fallback:** If the passkey prompt appears but you prefer to use an email code, select "Use email code instead" in the verification dialog.
 
 <figure><img src="../.gitbook/assets/image005 (2).png" alt=""><figcaption><p>Figure 1: Welcome Screen</p></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/image006 (3).png" alt=""><figcaption><p>Figure 2: Login Screen</p></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image007.png" alt=""><figcaption><p>Figure 3: : One time password verification screen</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image007.png" alt=""><figcaption><p>Figure 3: One time password verification screen</p></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/mfa-verification-modal.png" alt=""><figcaption><p>Figure 45: MFA verification modal — passkey or email fallback</p></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/email-code-verification.png" alt=""><figcaption><p>Figure 46: Email code verification screen</p></figcaption></figure>
 
 ### 2. Forgot Password
 
@@ -612,3 +640,85 @@ Filter options:
 - Provider
 - Start date
 - End date
+
+### 17. Enable or Disable Two-Factor Authentication
+
+Two-factor authentication (2FA) adds a second verification step at sign-in, protecting your account even if your password is compromised. When enabled, you must verify your identity with a passkey or an email code after entering your credentials.
+
+Step 1: Login to the Country Admin Interface.
+
+Step 2: Open the profile menu by clicking your name or avatar in the top corner of the screen.
+
+Step 3: Select "Security" from the menu.
+
+Step 4: On the Security Settings screen, locate the "Two-factor authentication" section.
+
+Step 5: Click the toggle next to "Require a second factor at login" to enable or disable 2FA.
+
+Step 6: Enter your current password in the confirmation dialog and click confirm.
+
+<figure><img src="../.gitbook/assets/security-settings.png" alt=""><figcaption><p>Figure 40: Security Settings screen</p></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/confirm-password-2fa.png" alt=""><figcaption><p>Figure 41: Confirm password to enable two-factor authentication</p></figcaption></figure>
+
+Note:
+
+\- After enabling 2FA, you will be required to complete a second factor at every subsequent sign-in.
+
+\- If no passkeys are registered on your device, the email code method will be used automatically.
+
+\- Disabling 2FA removes the second-factor requirement. Your registered passkeys are preserved and will be available if 2FA is re-enabled later.
+
+### 18. Add a Passkey
+
+A passkey is a device-based credential that replaces the email one-time password as the second factor at login. Passkeys use your device's built-in authentication (e.g. Face ID, Touch ID, Windows Hello, or a device PIN) and are faster and more secure than email codes.
+
+Step 1: Login to the Country Admin Interface.
+
+Step 2: Open the profile menu and select "Security".
+
+Step 3: Ensure two-factor authentication is enabled (see Section 17). The "Passkeys" section is only visible when 2FA is active.
+
+Step 4: Under the "Passkeys" section, optionally type a name for this passkey in the "Device name" field (e.g. "MacBook Pro"). This helps you identify the device later.
+
+Step 5: Click the "Add passkey" button.
+
+Step 6: Follow the prompt displayed by your browser or operating system. Depending on your device, you may be asked to use Face ID, Touch ID, a fingerprint reader, Windows Hello, or a device PIN.
+
+Step 7: Once verified, the new passkey appears in the passkeys list and is immediately active for future sign-ins.
+
+<figure><img src="../.gitbook/assets/passkeys-empty.png" alt=""><figcaption><p>Figure 42: Passkeys section — empty state</p></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/add-passkey-form.png" alt=""><figcaption><p>Figure 43: Add a new passkey form</p></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/passkey-registered.png" alt=""><figcaption><p>Figure 44: Registered passkey in the passkeys list</p></figcaption></figure>
+
+Note:
+
+\- Passkeys are tied to the device and browser where they are created. A passkey added on one device is not automatically available on another.
+
+\- You can register multiple passkeys — one for each device you use regularly.
+
+\- If your browser does not support passkeys, the "Add passkey" form will not be displayed and a message indicating that passkeys are not supported will appear. Email codes remain available as the fallback second factor.
+
+\- If passkey registration is cancelled or fails, the existing email code fallback is unaffected.
+
+### 19. Remove a Passkey
+
+If a device is lost, retired, or you no longer want it used for sign-in, remove its passkey from the Security Settings screen.
+
+Step 1: Login to the Country Admin Interface.
+
+Step 2: Open the profile menu and select "Security".
+
+Step 3: Under the "Passkeys" section, locate the passkey you want to remove.
+
+Step 4: Click the "Remove" button next to that passkey.
+
+Step 5: The passkey is removed immediately. Future sign-ins from that device will fall back to the email code method.
+
+Note:
+
+\- Removing a passkey does not disable two-factor authentication. The email code method remains active as a fallback.
+
+\- If you remove all passkeys and want to continue using a passkey for sign-in, add a new one by following the steps in Section 18.
