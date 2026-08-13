@@ -74,11 +74,11 @@ Step 3: Insert valid login credentials.
 
 Step 4: Insert OTP which was sent to the email address.
 
-<figure><img src="../.gitbook/assets/image006 (1).png" alt=""><figcaption><p>Figure 1: Welcome screen</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image006 (2).png" alt=""><figcaption><p>Figure 1: Welcome screen</p></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (229).png" alt=""><figcaption><p>Figure 2: Login screen</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (237).png" alt=""><figcaption><p>Figure 2: Login screen</p></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image008 (1).png" alt=""><figcaption><p>Figure 3: One time password verification screen</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image008.png" alt=""><figcaption><p>Figure 3: One time password verification screen</p></figcaption></figure>
 
 ### 2. Forgot Password
 
@@ -88,7 +88,7 @@ Step 2: Insert a valid email address (see Figure 4).
 
 Step 3: Check provided email address for access recovery email.
 
-<figure><img src="../.gitbook/assets/image (230).png" alt=""><figcaption><p>Figure 4: Forgot Password screen</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (238).png" alt=""><figcaption><p>Figure 4: Forgot Password screen</p></figcaption></figure>
 
 If a valid and registered email address within the platform was provided, an automated email will be sent to it. The email will contain a temporary valid link that can be used to set a new password. Following this procedure, the user can access the account using the email address and the newly created password.
 
@@ -104,9 +104,9 @@ Step 4: Fulfil the new global admin form (see Figure 5).
 
 Step 5: Create a new global admin by pressing the “Add” button.
 
-<figure><img src="../.gitbook/assets/image (222).png" alt=""><figcaption><p>Figure 5: Dashboard Global Admins screen</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (230).png" alt=""><figcaption><p>Figure 5: Dashboard Global Admins screen</p></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (223).png" alt=""><figcaption><p>Figure 6: New Global Admin form</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (231).png" alt=""><figcaption><p>Figure 6: New Global Admin form</p></figcaption></figure>
 
 ### 4. Visualize country-specific statistics
 
@@ -116,9 +116,9 @@ Step 2: On the navigation menu select “Countries”
 
 Step 3: From the list of countries, select one (see Figure 7)
 
-<figure><img src="../.gitbook/assets/image (226).png" alt=""><figcaption><p>Figure 7: uSupport Active Countries</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (234).png" alt=""><figcaption><p>Figure 7: uSupport Active Countries</p></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (225).png" alt=""><figcaption><p>Figure 8: Selected Country Information view</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (233).png" alt=""><figcaption><p>Figure 8: Selected Country Information view</p></figcaption></figure>
 
 For each country available in the uSupport platform the following statistics will be available, as presented in Figure 7.
 
@@ -147,7 +147,7 @@ Step 5: Select the “Edit button” and alter the account information according
 
 Step 6: Once the changes are in place select the “Save changes” button.
 
-<figure><img src="../.gitbook/assets/image (228).png" alt=""><figcaption><p>Figure 9: Edit Country Admin account</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (236).png" alt=""><figcaption><p>Figure 9: Edit Country Admin account</p></figcaption></figure>
 
 The Global admin is able to alter the following information for a country administrator account:
 

@@ -213,9 +213,9 @@ Step 3: Insert valid login credentials.
 
 Step 4: Insert OTP which was sent to the email address.
 
-<figure><img src="../.gitbook/assets/image005 (2).png" alt=""><figcaption><p>Figure 1: Welcome screen</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image005.png" alt=""><figcaption><p>Figure 1: Welcome screen</p></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image006 (3).png" alt=""><figcaption><p>Figure 2: Login screen</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image006.png" alt=""><figcaption><p>Figure 2: Login screen</p></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/image007.png" alt=""><figcaption><p>Figure 3: : One time password verification screen</p></figcaption></figure>
 
@@ -227,7 +227,7 @@ Step 2: Insert a valid email address (see Figure 3)
 
 Step 3: Check provided email address for recovery email
 
-<figure><img src="../.gitbook/assets/image008.png" alt=""><figcaption><p>Figure 4: Forgot Password Screen</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image008 (1).png" alt=""><figcaption><p>Figure 4: Forgot Password Screen</p></figcaption></figure>
 
 If a valid and registered email address within the platform was provided, an automated email will be sent to it. The email will contain a temporary valid link that can be used to set a new password. Following this procedure, the user can access the account using the email address and the newly created password.
 
@@ -243,15 +243,15 @@ Step 4: Fulfil the form with providers’ details.
 
 Step 5: Click the “Create provider” button to save the new details.
 
-<figure><img src="../.gitbook/assets/image (213).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (221).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (214).png" alt="Figure 5: Providers Screen table view and list view"><figcaption><p>Figure 5: Providers Screen table view and list view</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (222).png" alt="Figure 5: Providers Screen table view and list view"><figcaption><p>Figure 5: Providers Screen table view and list view</p></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (198).png" alt=""><figcaption><p>Figure 6: Add new Provider form</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (206).png" alt=""><figcaption><p>Figure 6: Add new Provider form</p></figcaption></figure>
 
 Note: Some of the input fields are mandatory and have validation in place. In order to create a new provider all the required fields have to be fulfilled. When the validation for one of the fields fails, the error will be shown below the input field, in red text (see Figure 6).
 
-<figure><img src="../.gitbook/assets/image012 (3).png" alt=""><figcaption><p>Figure 7: Input field validation error</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image012.png" alt=""><figcaption><p>Figure 7: Input field validation error</p></figcaption></figure>
 
 ### 4. Edit Provider Details
 
@@ -267,9 +267,9 @@ Step 5: Update the provider data.
 
 Step 6: Click on the “Save Changes” button.
 
-<figure><img src="../.gitbook/assets/image (216).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (224).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (215).png" alt=""><figcaption><p>Figure 8: Edit Provider details</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (223).png" alt=""><figcaption><p>Figure 8: Edit Provider details</p></figcaption></figure>
 
 ### 5. Deactivate Provider <a href="#toc130509591" id="toc130509591"></a>
 
@@ -281,11 +281,11 @@ Step 3: Choose a provider and click on the three dots at the top-right corner of
 
 Step 4: From the dropdown menu select “Deactivate”.
 
-<figure><img src="../.gitbook/assets/image (218).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (226).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (217).png" alt=""><figcaption><p>Figure 9: Deactivate existing provide account in list / table view</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (225).png" alt=""><figcaption><p>Figure 9: Deactivate existing provide account in list / table view</p></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (219).png" alt=""><figcaption><p>Figure 10: Deactivate provider profile confirmation.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (227).png" alt=""><figcaption><p>Figure 10: Deactivate provider profile confirmation.</p></figcaption></figure>
 
 Note: After the provider's account is deactivated, they will lose the ability to make changes to their availability, join campaigns, propose consultations to clients, or show up in client searches. However, it's important to note that the provider will still have access to their account, be able to view their previous consultations, and conduct consultations that have already been scheduled.
 
@@ -299,17 +299,17 @@ Step 3: Choose a provider and click on the three dots at the top-right corner of
 
 Step 4: From the dropdown menu select “Activities”.
 
-<figure><img src="../.gitbook/assets/image (221).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (229).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (220).png" alt=""><figcaption><p>Figure 11: Visualize Provider activities</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (228).png" alt=""><figcaption><p>Figure 11: Visualize Provider activities</p></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (207).png" alt=""><figcaption><p>Figure 12: Provider Activities history</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (215).png" alt=""><figcaption><p>Figure 12: Provider Activities history</p></figcaption></figure>
 
 By reviewing the activity history, the country administrator can access details regarding the consultations performed by the provider. This information includes the client's name, date and time of the consultation, consultation price, and the campaign through which the consultation was booked.
 
 Additionally, the country administrator can export the displayed data in CSV format by clicking the export button and apply filters to the table using the filtering options provided below.
 
-<figure><img src="../.gitbook/assets/image (115).png" alt=""><figcaption><p>Figure 13: Provider activity history filtering options</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (56).png" alt=""><figcaption><p>Figure 13: Provider activity history filtering options</p></figcaption></figure>
 
 Filter options:
 
@@ -324,7 +324,7 @@ Step 2: On the “Navigation Menu” select “Articles”.
 
 Step 3: From the list of Articles tick the checkbox for the ones that should be displayed in the Information Portal.
 
-<figure><img src="../.gitbook/assets/image (168).png" alt=""><figcaption><p>Figure 14: Articles screen</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (176).png" alt=""><figcaption><p>Figure 14: Articles screen</p></figcaption></figure>
 
 In Figure 14 we can see how a country administrator can preview the pool of available articles. Each article presents a summary that includes an image, the title and a description. To see the entire content, the “view” button should be clicked. This action will redirect to a new page that presents the entire information about the selected article.
 
@@ -344,7 +344,7 @@ Step 2: On the “Navigation Menu” select ”SOS center”.
 
 Step 3: From the list of SOS center's tick the checkbox for the ones that should be displayed to the clients for the current country.
 
-<figure><img src="../.gitbook/assets/image (175).png" alt=""><figcaption><p>Figure 15: SOS center screen</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (183).png" alt=""><figcaption><p>Figure 15: SOS center screen</p></figcaption></figure>
 
 Note:
 
@@ -362,7 +362,7 @@ Step 3: From the tab bar select a user interface.
 
 Step 4: From the list of FAQs tick the checkbox for the ones that should be displayed for the currently selected interface.
 
-<figure><img src="../.gitbook/assets/image (176).png" alt=""><figcaption><p>Figure 16: FAQs screen</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (184).png" alt=""><figcaption><p>Figure 16: FAQs screen</p></figcaption></figure>
 
 Frequently asked questions are created using the uSupport CMS platform by moderators. The FAQs are presented in three different interfaces: Commercial Website, Client, and Provider, as for each interface, different questions might be more relevant than others. Therefore, the country administrators are able to choose different FAQs for each of the interfaces.
 
@@ -388,9 +388,9 @@ Step 4: Fulfil the form with sponsors’ details.
 
 Step 5: Click the “Create sponsor” button.
 
-<figure><img src="../.gitbook/assets/image (177).png" alt=""><figcaption><p>Figure 17: Campaign sponsor screen</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (185).png" alt=""><figcaption><p>Figure 17: Campaign sponsor screen</p></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (178).png" alt=""><figcaption><p>Figure 18: Add new Sponsor form</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (186).png" alt=""><figcaption><p>Figure 18: Add new Sponsor form</p></figcaption></figure>
 
 The following information is required for creating a new sponsor:
 
@@ -417,9 +417,9 @@ Step 5: Update the sponsor data.
 
 Step 6: Click on the “Save Changes” button.
 
-<figure><img src="../.gitbook/assets/image (179).png" alt=""><figcaption><p>Figure 19: Edit Sponsor details</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (187).png" alt=""><figcaption><p>Figure 19: Edit Sponsor details</p></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (180).png" alt=""><figcaption><p>Figure 20: Edit Sponsor details</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (188).png" alt=""><figcaption><p>Figure 20: Edit Sponsor details</p></figcaption></figure>
 
 ### 12. Creating a campaign
 
@@ -437,11 +437,11 @@ Step 6: Fulfil the form with campaign details.
 
 Step 7: Click the “Create campaign” button.
 
-<figure><img src="../.gitbook/assets/image (104).png" alt=""><figcaption><p>Figure 21: Sponsors screen</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (74).png" alt=""><figcaption><p>Figure 21: Sponsors screen</p></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (181).png" alt=""><figcaption><p>Figure 22: Sponsor screen add new campaign</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (189).png" alt=""><figcaption><p>Figure 22: Sponsor screen add new campaign</p></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (182).png" alt=""><figcaption><p>Figure 23: Creating new campaign form</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (190).png" alt=""><figcaption><p>Figure 23: Creating new campaign form</p></figcaption></figure>
 
 The following information is required for creating a new campaign:
 
@@ -477,9 +477,9 @@ Step 6: Update the sponsor data.
 
 Step 7: Click on the “Save Changes” button.
 
-<figure><img src="../.gitbook/assets/image (183).png" alt=""><figcaption><p>Figure 24: Edit campaign</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (191).png" alt=""><figcaption><p>Figure 24: Edit campaign</p></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (184).png" alt=""><figcaption><p>Figure 25: Edit campaign details</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (192).png" alt=""><figcaption><p>Figure 25: Edit campaign details</p></figcaption></figure>
 
 ### 14. View details about campaign
 
@@ -495,9 +495,9 @@ Step 5: Choose a campaign and click on the three dots at the top-right corner of
 
 Step 6: Select the “Details” option.
 
-<figure><img src="../.gitbook/assets/image (185).png" alt=""><figcaption><p>Figure 26: Navigate to campaign details</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (193).png" alt=""><figcaption><p>Figure 26: Navigate to campaign details</p></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (186).png" alt=""><figcaption><p>Figure 27: Campaign details screen</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (194).png" alt=""><figcaption><p>Figure 27: Campaign details screen</p></figcaption></figure>
 
 The screen will present a list of the number of times the selected campaign coupon has been utilized (see Figure 27). The list is dynamically updated whenever a client utilizes an active coupon to book a consultation. It presents various details, including the provider's name, client's initials, client's gender, client's birth year, client's place of residence, and the date the coupon was used. By clicking on the header of a specific column, country administrators can easily sort the displayed information according to their preferences.
 
@@ -520,7 +520,7 @@ Step 2: On the “Navigation Menu” select “Reports”.
 
 Step 3: From the “Reports Tabs” select one of the report tabs.
 
-<figure><img src="../.gitbook/assets/image (169).png" alt=""><figcaption><p>Figure 28: Reports visualization screen</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (177).png" alt=""><figcaption><p>Figure 28: Reports visualization screen</p></figcaption></figure>
 
 Available reports:
 
@@ -532,7 +532,7 @@ A report is generated and added by the clients after each consultation following
 
 The report consist of a predefined set of questions and the answers which were provided by the client as presented bellow.
 
-<figure><img src="../.gitbook/assets/image (187).png" alt=""><figcaption><p>Figure 29: Consultation issue report</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (195).png" alt=""><figcaption><p>Figure 29: Consultation issue report</p></figcaption></figure>
 
 The report consists of:
 
@@ -542,7 +542,7 @@ The report consists of:
 * The number of issues reported
 * The questions and the answers provided by the client
 
-<figure><img src="../.gitbook/assets/image (86).png" alt=""><figcaption><p>Figure 30: Consultation issues filtering options</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (90).png" alt=""><figcaption><p>Figure 30: Consultation issues filtering options</p></figcaption></figure>
 
 Filter options:
 
@@ -559,7 +559,7 @@ Note:
 
 The purpose of this report is to inform the country administrator about the topics that are of interest to clients, so that they can tailor the content development process accordingly.
 
-<figure><img src="../.gitbook/assets/image (231).png" alt=""><figcaption><p>Figure 31: Statistics Portal Suggestion report</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (239).png" alt=""><figcaption><p>Figure 31: Statistics Portal Suggestion report</p></figcaption></figure>
 
 The report consists of:
 
@@ -567,7 +567,7 @@ The report consists of:
 * Time and date when the suggestion was made
 * Suggestion text as written by the client
 
-<figure><img src="../.gitbook/assets/image (89).png" alt=""><figcaption><p>Figure 32: Information Portal Suggestions filtering options</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (92).png" alt=""><figcaption><p>Figure 32: Information Portal Suggestions filtering options</p></figcaption></figure>
 
 Filter options:
 
@@ -578,7 +578,7 @@ Filter options:
 
 The reports presented in this section represent clients' evaluations of the platform itself and are not assessments of the providers or mobile applications.
 
-<figure><img src="../.gitbook/assets/image (171).png" alt=""><figcaption><p>Figure 33: Ratings report</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (179).png" alt=""><figcaption><p>Figure 33: Ratings report</p></figcaption></figure>
 
 The report consists of:
 
@@ -587,7 +587,7 @@ The report consists of:
 * Time and date
 * Feedback text as written by the client
 
-<figure><img src="../.gitbook/assets/image (70).png" alt=""><figcaption><p>Figure 34: Ratings filtering options</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (79).png" alt=""><figcaption><p>Figure 34: Ratings filtering options</p></figcaption></figure>
 
 Filter options:
 
@@ -599,7 +599,7 @@ Filter options:
 
 The purpose of this report is to outline various inquiries or questions raised by clients that need to be addressed by the country administrators.
 
-<figure><img src="../.gitbook/assets/image (172).png" alt=""><figcaption><p>Figure 35: Contact form report</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (180).png" alt=""><figcaption><p>Figure 35: Contact form report</p></figcaption></figure>
 
 The report consists of:
 
@@ -608,7 +608,7 @@ The report consists of:
 * Subject
 * Time and date
 
-<figure><img src="../.gitbook/assets/image (48).png" alt=""><figcaption><p>Figure 36: Contact form filtering options</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (154).png" alt=""><figcaption><p>Figure 36: Contact form filtering options</p></figcaption></figure>
 
 Filter options:
 
@@ -622,7 +622,7 @@ Filter options:
 
 This report aims to give country administrators an overview of the inquiries raised by clients and subsequently archived by providers for various reasons.
 
-<figure><img src="../.gitbook/assets/image (173).png" alt=""><figcaption><p>Figure 37: My Q&#x26;A archive</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (181).png" alt=""><figcaption><p>Figure 37: My Q&#x26;A archive</p></figcaption></figure>
 
 The report consists of:
 
@@ -638,13 +638,13 @@ Step 1: Login to the Country Admin Interface.
 
 Step 2: On the “Navigation Menu” select “My Q\&A”.
 
-<figure><img src="../.gitbook/assets/image (174).png" alt=""><figcaption><p>Figure 38: My Q&#x26;A screen</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (182).png" alt=""><figcaption><p>Figure 38: My Q&#x26;A screen</p></figcaption></figure>
 
 This screen showcases all the Q\&A sessions that have taken place within the platform. It provides country administrators with the flexibility to view unanswered questions or those that have been answered by providers, as depicted in Figure 38.
 
 Furthermore, the country administrators have the ability to filter the presented results using the options above or utilize the search function, which will match the results based on the Q\&A entry's title and tags.
 
-<figure><img src="../.gitbook/assets/image (96).png" alt=""><figcaption><p>Figure 39: My Q&#x26;A filtering options</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (70).png" alt=""><figcaption><p>Figure 39: My Q&#x26;A filtering options</p></figcaption></figure>
 
 Filter options:
 
@@ -659,29 +659,29 @@ Step 1: Login to the Country Admin Interface.
 
 Step 2: On the “Navigation Menu” select “Organizations”.
 
-<figure><img src="../.gitbook/assets/image (188).png" alt=""><figcaption><p>Figure 40: Organizations screen</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (196).png" alt=""><figcaption><p>Figure 40: Organizations screen</p></figcaption></figure>
 
 This screen showcases all the organizations a provider can enroll to. Additional information includes the total number of providers, clients and consultations connected to the organization.
 
 New organizations can be added by country admin as per figure 41:
 
-<figure><img src="../.gitbook/assets/image (189).png" alt=""><figcaption><p>Figure 41: Add organization</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (197).png" alt=""><figcaption><p>Figure 41: Add organization</p></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (190).png" alt=""><figcaption><p>Figure 42: Create organization screen</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (198).png" alt=""><figcaption><p>Figure 42: Create organization screen</p></figcaption></figure>
 
 Multiple actions are available for active organizations as per Figure 43 - View, Edit, Delete:
 
-<figure><img src="../.gitbook/assets/image (191).png" alt=""><figcaption><p>Figure 43: Organizations actions</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (199).png" alt=""><figcaption><p>Figure 43: Organizations actions</p></figcaption></figure>
 
 View allows to see all of the currently enrolled providers. Providers can be added within. Currently active providers can be additionally filtered. Export report is also available.
 
-<figure><img src="../.gitbook/assets/image (192).png" alt=""><figcaption><p>Figure 44: View organization</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (200).png" alt=""><figcaption><p>Figure 44: View organization</p></figcaption></figure>
 
 Edit and delete allow altering and erasing an organization as per figures 45 and 46:
 
-<figure><img src="../.gitbook/assets/image (193).png" alt=""><figcaption><p>Figure 45: Edit organization</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (201).png" alt=""><figcaption><p>Figure 45: Edit organization</p></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (195).png" alt=""><figcaption><p>Figure 46: Delete organization</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (203).png" alt=""><figcaption><p>Figure 46: Delete organization</p></figcaption></figure>
 
 ### 18. Two-Factor Authentication
 
@@ -699,9 +699,9 @@ Step 5: Click the toggle next to "Require a second factor at login" to enable or
 
 Step 6: Enter your current password in the confirmation dialog and click confirm.
 
-<figure><img src="../.gitbook/assets/image (275).png" alt=""><figcaption><p>Figure 47: Security Settings screen</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (283).png" alt=""><figcaption><p>Figure 47: Security Settings screen</p></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (276).png" alt=""><figcaption><p>Figure 48: Confirm password to enable two-factor authentication</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (284).png" alt=""><figcaption><p>Figure 48: Confirm password to enable two-factor authentication</p></figcaption></figure>
 
 Note:
 
@@ -721,7 +721,7 @@ Step 1: Login to the Country Admin Interface.
 
 Step 2: Open the profile menu and select "Security".
 
-<figure><img src="../.gitbook/assets/image (277).png" alt=""><figcaption><p>Figure 49: Passkeys section - empty state</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (285).png" alt=""><figcaption><p>Figure 49: Passkeys section - empty state</p></figcaption></figure>
 
 Step 3: Ensure two-factor authentication is enabled (see Section 17). The "Passkeys" section is only visible when 2FA is active.
 
@@ -729,13 +729,13 @@ Step 4: Under the "Passkeys" section, optionally type a name for this passkey in
 
 Step 5: Click the "Add passkey" button.
 
-<figure><img src="../.gitbook/assets/image (278).png" alt=""><figcaption><p>Figure 50: Add a new passkey form</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (286).png" alt=""><figcaption><p>Figure 50: Add a new passkey form</p></figcaption></figure>
 
 Step 6: Follow the prompt displayed by your browser or operating system. Depending on your device, you may be asked to use Face ID, Touch ID, a fingerprint reader, Windows Hello, or a device PIN.
 
 Step 7: Once verified, the new passkey appears in the passkeys list and is immediately active for future sign-ins.
 
-<figure><img src="../.gitbook/assets/image (279).png" alt=""><figcaption><p>Figure 51: Registered passkey in the passkeys list</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (287).png" alt=""><figcaption><p>Figure 51: Registered passkey in the passkeys list</p></figcaption></figure>
 
 Note:
 

@@ -141,7 +141,7 @@ It serves as the primary entry point for personalized support by identifying use
 
 The assessment can be retaken at any time. The system always displays the most recent results, and when retaken, it highlights changes in the user’s condition, indicating whether there has been improvement or increased need for support.
 
-<figure><img src="../../.gitbook/assets/image (246).png" alt=""><figcaption><p>Figure 6: Baseline assessment</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (254).png" alt=""><figcaption><p>Figure 6: Baseline assessment</p></figcaption></figure>
 
 The assessment consists of 26 questions covering three key dimensions:
 
@@ -151,7 +151,7 @@ The assessment consists of 26 questions covering three key dimensions:
 
 Each question contributes to an overall evaluation of the user’s current condition.
 
-<figure><img src="../../.gitbook/assets/image (247).png" alt=""><figcaption><p>Figure 7: Baseline assessment questionnaire view</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (255).png" alt=""><figcaption><p>Figure 7: Baseline assessment questionnaire view</p></figcaption></figure>
 
 Upon completion, the system generates a summarized assessment based on the user's responses.
 
@@ -163,13 +163,13 @@ Results are categorized into three levels:
 
 In addition to the scoring, users receive a personalized assessment text providing context and guidance.
 
-<figure><img src="../../.gitbook/assets/image (248).png" alt=""><figcaption><p>Figure 8: Recommendations generated based on the score obtained</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (256).png" alt=""><figcaption><p>Figure 8: Recommendations generated based on the score obtained</p></figcaption></figure>
 
 After viewing the results, users are guided to the Organizations Map, where relevant filters are automatically applied based on the assessment outcome.
 
 This ensures that the displayed organizations match the user’s specific needs, reducing the effort required to find appropriate support.
 
-<figure><img src="../../.gitbook/assets/image (249).png" alt=""><figcaption><p>Figure 9: Recommendations organizations filter</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (257).png" alt=""><figcaption><p>Figure 9: Recommendations organizations filter</p></figcaption></figure>
 
 The Baseline Assessment replaces the traditional provider selection flow by introducing a needs-based approach.
 
@@ -181,7 +181,7 @@ The Decision Tree, accessible through the “User Guide” button on the Home da
 
 It is designed to assist users who may not be sure where to start by offering structured paths based on their immediate needs.
 
-<figure><img src="../../.gitbook/assets/image (250).png" alt=""><figcaption><p>Figure 10: User guide</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (258).png" alt=""><figcaption><p>Figure 10: User guide</p></figcaption></figure>
 
 Upon opening, the Decision Tree presents three main options:
 
@@ -189,7 +189,7 @@ Upon opening, the Decision Tree presents three main options:
 * Find Support Services - allows users to apply filters and explore relevant organizations through the Organizations Map
 * Informational Guidance - provides a short questionnaire that delivers helpful content based on user responses
 
-<figure><img src="../../.gitbook/assets/image (251).png" alt=""><figcaption><p>Figure 11: User guide available options</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (259).png" alt=""><figcaption><p>Figure 11: User guide available options</p></figcaption></figure>
 
 The Decision Tree complements the Baseline Assessment by offering a quicker, alternative way to access support.
 
@@ -222,7 +222,7 @@ Each organization includes key information such as:
 
 Proper configuration of this data ensures that organizations are correctly filtered and recommended to users.
 
-<figure><img src="../../.gitbook/assets/image (252).png" alt=""><figcaption><p>Figure 12: Organizations in Country Admin </p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (260).png" alt=""><figcaption><p>Figure 12: Organizations in Country Admin </p></figcaption></figure>
 
 Country Admins can configure threshold values for the Baseline Assessment dimensions (psychological, social, and biological).
 
@@ -234,7 +234,7 @@ These thresholds define how user responses are categorized into:
 
 By adjusting the threshold values, administrators can fine-tune how user needs are evaluated and how results are interpreted within the platform.
 
-<figure><img src="../../.gitbook/assets/image (253).png" alt=""><figcaption><p>Figure 13: Baseline assessment thresholds</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (261).png" alt=""><figcaption><p>Figure 13: Baseline assessment thresholds</p></figcaption></figure>
 
 ### 3.2 CMS
 
@@ -242,7 +242,7 @@ The CMS is used to manage content related to the Romania-specific implementation
 
 It allows administrators to define the messages and resources presented to users based on their assessment outcomes and broader informational needs.
 
-<figure><img src="../../.gitbook/assets/image (254).png" alt=""><figcaption><p>Figure 14: Baseline assessment recommendation content editor</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (262).png" alt=""><figcaption><p>Figure 14: Baseline assessment recommendation content editor</p></figcaption></figure>
 
 Within the CMS, administrators can configure recommendation entries for the Baseline Assessment.
 

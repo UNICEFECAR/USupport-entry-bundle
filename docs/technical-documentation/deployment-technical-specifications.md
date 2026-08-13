@@ -26,7 +26,7 @@ uSupport is an on-demand digital mental health (MH) solution for young people an
 
 ### The Technology
 
-The underlying technology behind the platform is leading-edge, open source and cloud based. The platform has been built from the ground-up to support the highest standards of security and privacy and exceed the requirements for GDPR (General Data Protection Regulation). The platform incorporates “privacy by design” principles and practices. The modular system utilises a microservices architecture and distributed databases to reduce the chances of a data breach.&#x20;
+The underlying technology behind the platform is leading-edge, open source and cloud based. The platform has been built from the ground-up to support the highest standards of security and privacy and exceed the requirements for GDPR (General Data Protection Regulation). The platform incorporates “privacy by design” principles and practices. The modular system utilises a microservices architecture and distributed databases to reduce the chances of a data breach.
 
 The platform has been designed to be regionally hosted on the cloud and support multiple country-based databases, allowing for data sovereignty.
 
@@ -34,7 +34,7 @@ A single instance of the platform is designed to support multiple countries, lan
 
 ### Platform Components
 
-<figure><img src="../.gitbook/assets/image (140).png" alt=""><figcaption><p>Figure 1: Technical specifications</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (10).png" alt=""><figcaption><p>Figure 1: Technical specifications</p></figcaption></figure>
 
 ### Globally managed Server
 
@@ -50,10 +50,10 @@ Apart from the globally managed server and databases, the uSupport platform requ
 
 The minimum technical specifications of the server that will host those two databases are as follows:
 
-- **2 vCPUs**
-- **4GB memory**
-- **30GB SSD**
-- **100GB Backup Storage**
+* **2 vCPUs**
+* **4GB memory**
+* **30GB SSD**
+* **100GB Backup Storage**
 
 In addition to the above requirements, the hosting provider should support the hosting of PostgreSQL databases and it should also allow for scaling the server power in case the technical requirements change (i.e., increase the backup storage, memory usage, etc.)
 

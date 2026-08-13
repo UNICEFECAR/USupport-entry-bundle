@@ -140,7 +140,7 @@ Step 3: Select one of the registration options “Register with email” or “R
 
 Step 4: Insert valid login credentials - either an email or an access token.
 
-<figure><img src="../.gitbook/assets/image (323).png" alt="" width="188"><figcaption><p>Figure 1: Welcome Screen</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (331).png" alt="" width="188"><figcaption><p>Figure 1: Welcome Screen</p></figcaption></figure>
 
 #### 1.1. Registration Options
 
@@ -148,17 +148,17 @@ All the registration options are highlighted in Figure 1.
 
 Option 1: This option requires the client to register using an existing email address. This registration method provides full access to the features available within the client interface.
 
-<figure><img src="../.gitbook/assets/image (324).png" alt="" width="188"><figcaption><p>Figure 2: Registration with email Step 1</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (332).png" alt="" width="188"><figcaption><p>Figure 2: Registration with email Step 1</p></figcaption></figure>
 
 The first step for registering into the platform using Option 1 is to provide a valid email address which was not used for previous registrations, a nickname and a password. Additionally, the client is required to agree with the “Privacy Policy” and “Terms of Conditions”.
 
-<figure><img src="../.gitbook/assets/image (325).png" alt="" width="188"><figcaption><p>Figure 3: Registration with email Step 2</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (333).png" alt="" width="188"><figcaption><p>Figure 3: Registration with email Step 2</p></figcaption></figure>
 
 The second step in the option 1 registration flow requires further information such as name, surname, sex, year of birth and place of living. This information will be securely stored by the platform and can be modified by the client later on from the account settings.
 
 Option 2: This option allows the client to get access to the mobile app anonymously. This means that no personal identifiable information is required from the client, apart from a nickname and password. By choosing this option, the client will be provided with a unique access token that needs to be securely saved for future use. In comparison with the email registration presented above, using this type of registration means that there is no link between the client and the account on the platform. Following this, it is very important to understand that the access token generated in the registration process is the only key to access the account in the future and the client should make sure to remember it every time they want to log in.
 
-<figure><img src="../.gitbook/assets/image (326).png" alt="" width="188"><figcaption><p>Figure 4: Anonymously registration</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (334).png" alt="" width="188"><figcaption><p>Figure 4: Anonymously registration</p></figcaption></figure>
 
 The registration option 2 differs slightly from the previous one. Specifically, the email field is replaced by a unique access token (see in Figure 4).
 
@@ -174,7 +174,7 @@ Step 3: Select “Login” button (see Figure 1)
 
 Step 4: Insert valid login credentials - either an email or an access token (see Figure 5)
 
-<figure><img src="../.gitbook/assets/image (327).png" alt="" width="188"><figcaption><p>Figure 5: Login screen</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (335).png" alt="" width="188"><figcaption><p>Figure 5: Login screen</p></figcaption></figure>
 
 ### 3. Forgot Password
 
@@ -190,7 +190,7 @@ Step 5: Insert a valid email address see (Figure 6).
 
 Step 6: Check your email address for recovery email.
 
-<figure><img src="../.gitbook/assets/image (328).png" alt="" width="188"><figcaption><p>Figure 6: Forgot Password screen</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (336).png" alt="" width="188"><figcaption><p>Figure 6: Forgot Password screen</p></figcaption></figure>
 
 If a valid and registered email address within the platform was provided, an automated email will be sent to it. The email will contain a temporary valid link that can be used to set a new password. Following this procedure, the user can access the account using the email address and the new set password.
 
@@ -210,17 +210,17 @@ Step 6: From the time availability pop-up select date and time and click the “
 
 Step 7: Once the appointment is scheduled a confirmation pop-up will be shown and the consultation will be part of Upcoming appointments (see Figure 15).
 
-<figure><img src="../.gitbook/assets/image (329).png" alt="" width="188"><figcaption><p>Figure 7: Consultations screen</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (337).png" alt="" width="188"><figcaption><p>Figure 7: Consultations screen</p></figcaption></figure>
 
 Figure 7 presents the consultations screen. Two different boxes can be seen on the screen, namely “Upcoming” and “Past. These are available in order to provide the client with the capability to track their previous appointments with providers and their upcoming ones. At initial stage there are no upcoming appointments therefore this is clearly indicated, using an appropriate message “You have no upcoming consultations”.
 
-<figure><img src="../.gitbook/assets/image (330).png" alt="" width="188"><figcaption><p>Figure 8: Select a Provider screen</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (338).png" alt="" width="188"><figcaption><p>Figure 8: Select a Provider screen</p></figcaption></figure>
 
 Upon accessing this screen, the client will see a default list of available providers. However, if the user has a coupon code, they can enter it into the system, and the platform will generate an updated list of providers that participate in the campaign associated with that coupon. Moreover, clients have the ability to filter for free consultations or establish a maximum price according to their preferences.
 
 Once they click the "Submit coupon" button and the code is successfully validated, the list of providers will be updated to display only those who are participating in the campaign associated with the coupon.&#x20;
 
-<figure><img src="../.gitbook/assets/image (333).png" alt="" width="188"><figcaption><p>Figure 9: Providers filtering options </p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (341).png" alt="" width="188"><figcaption><p>Figure 9: Providers filtering options </p></figcaption></figure>
 
 Furthermore, the client has the ability to filter providers using the options displayed in Figure 9, which are also listed below.
 
@@ -231,11 +231,11 @@ Providers filtering options:
 * Available after
 * Available before
 
-<figure><img src="../.gitbook/assets/image (335).png" alt="" width="188"><figcaption><p>Figure 10: Provider Overview screen</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (343).png" alt="" width="188"><figcaption><p>Figure 10: Provider Overview screen</p></figcaption></figure>
 
 Clicking on any of the listed providers allows the client to access additional information about their background and support capabilities, as depicted in Figure 10. This feature provides the client with a more in-depth understanding of each provider, allowing them to make a more informed decision when selecting a provider to work with.
 
-<figure><img src="../.gitbook/assets/image (336).png" alt="" width="188"><figcaption><p>Figure 11: Appointment date and time</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (344).png" alt="" width="188"><figcaption><p>Figure 11: Appointment date and time</p></figcaption></figure>
 
 Once a client decides to progress with scheduling an appointment with a specific provider and clicks the “Schedule consultation” button (see Figure 10) they will be presented with the time availability of the provider. This is represented by a back drop, as presented in Figure 11 from where the client can select a month, day and time and find a slot for the consultation. Additionally, clients have the option to utilize a coupon in this section as well. If the provider has set availability, the corresponding slots related to the entered coupon will be displayed.
 
@@ -247,15 +247,15 @@ After choosing a consultation slot, the user will be directed to proceed with th
 
 Note: The payment form is presented in more details in section 10 Make a payment
 
-<figure><img src="../.gitbook/assets/image (136).png" alt=""><figcaption><p>Figure 13: Payment and Appointment confirmation</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (48).png" alt=""><figcaption><p>Figure 13: Payment and Appointment confirmation</p></figcaption></figure>
 
 After a successful payment and registration of the booking by the system, the user will be shown the confirmation screen, as depicted in Figure 13.
 
-<figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption><p>Figure 14: Unsuccessful payment screen</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (106).png" alt=""><figcaption><p>Figure 14: Unsuccessful payment screen</p></figcaption></figure>
 
 In the event that the payment is unsuccessful, the user will be directed to the screen displayed in Figure 14. This screen provides the user with relevant information and instructions for resolving the payment issue and completing the transaction.
 
-<figure><img src="../.gitbook/assets/image (321).png" alt="" width="188"><figcaption><p>Figure 15: Upcoming appointments</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (329).png" alt="" width="188"><figcaption><p>Figure 15: Upcoming appointments</p></figcaption></figure>
 
 As previously mentioned, all the upcoming consultations can be seen within the Consultations screen, as shown above.
 
@@ -271,9 +271,9 @@ Step 3: Select the “edit” button.
 
 Step 4: From the displayed pop-up select one of the two options “Change the date and time” or “Cancel the consultation”.
 
-<figure><img src="../.gitbook/assets/image (337).png" alt="" width="188"><figcaption><p>Figure 16: Edit appointment</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (345).png" alt="" width="188"><figcaption><p>Figure 16: Edit appointment</p></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (338).png" alt="" width="188"><figcaption><p>Figure 17: Edit appointment options</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (346).png" alt="" width="188"><figcaption><p>Figure 17: Edit appointment options</p></figcaption></figure>
 
 The first option “Change the date and time” will prompt the client to select another time slot from the availability of the same provider. The process is similar to the booking an appointment one.
 
@@ -290,17 +290,17 @@ Step 1: Login to the Mobile application.
 
 Step 2: On the “Navigation Menu” select “Content" icon which is the second button in the navigation menu.
 
-<figure><img src="../.gitbook/assets/image (340).png" alt=""><figcaption><p>Figure 18: Information Portal</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (348).png" alt=""><figcaption><p>Figure 18: Information Portal</p></figcaption></figure>
 
 The initial entry screen for the information portal, as presented in Figure 18 is divided into three groups - Articles, Videos and Podcasts where Articles show the most read article on top. Each groups are part of Parent and Adolescents separator. On search results are combined.
 
-<figure><img src="../.gitbook/assets/image (341).png" alt=""><figcaption><p>Figure 19: Information Portal Search screen</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (349).png" alt=""><figcaption><p>Figure 19: Information Portal Search screen</p></figcaption></figure>
 
 Clients can use the search input to find different articles. Following the client's input, the view will dynamically update by displaying the articles that match the search criteria. Furthermore, clients can filter articles by choosing from a list of predefined categories.
 
 Once the client finds an article about which he/she wants to read more, he/she can do so by selecting the “Read more” button within the article overview box, as highlighted in Figure 19.
 
-<figure><img src="../.gitbook/assets/image (342).png" alt=""><figcaption><p>Figure 20: Full view of an article</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (350).png" alt=""><figcaption><p>Figure 20: Full view of an article</p></figcaption></figure>
 
 Figure 20 shows the full view of an article. The first part is a Article's title. Next, we are presented with a list of tags that represent different psychological topics that are covered by the article. Following this, the cover image of the article together with the body and text to speech option are displayed.
 
@@ -314,7 +314,7 @@ Step 1: Login to the Mobile application.
 
 Step 2: Select the “SOS Center” button on the bottom right corner from any screen within the uSupport mobile application.
 
-<figure><img src="../.gitbook/assets/image (343).png" alt="" width="188"><figcaption><p>Figure 21: SOS Centers screen</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (351).png" alt="" width="188"><figcaption><p>Figure 21: SOS Centers screen</p></figcaption></figure>
 
 The SOS center screen is the place which provides quick access to emergency lines available in different countries.
 
@@ -335,7 +335,7 @@ Step 1: Login to the Mobile Application.
 
 Step 2: On the top left click the “Profile Icon” select “Your Profile” (see Figure 26 & Figure 27).
 
-<figure><img src="../.gitbook/assets/image (345).png" alt="" width="179"><figcaption><p>Figure 22: Мobile application settings</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (353).png" alt="" width="179"><figcaption><p>Figure 22: Мobile application settings</p></figcaption></figure>
 
 From this screen the client can proceed with the following actions:
 
@@ -349,35 +349,35 @@ From this screen the client can proceed with the following actions:
 * Access the privacy policy.
 * Access the frequently asked questions.
 
-<figure><img src="../.gitbook/assets/image (346).png" alt=""><figcaption><p>Figure 23: Client account settings screen</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (354).png" alt=""><figcaption><p>Figure 23: Client account settings screen</p></figcaption></figure>
 
 By accessing the profile details screen, the client can visualize the personal information associated with the uSupport mobile application account (see Figure 24). The client is able to change this data by selecting the “Save changes” button.
 
 Moreover, from here the client can change the password for the account, enable or disable consent for personal data processing, log out and delete the account.
 
-<figure><img src="../.gitbook/assets/image (347).png" alt=""><figcaption><p>Figure 24: Edit profile details screen</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (355).png" alt=""><figcaption><p>Figure 24: Edit profile details screen</p></figcaption></figure>
 
 The "Passcode and Biometrics" screen presents the client with two options for securing and accessing the application. The first option is to establish an access code, which can be personalized to the client's preference and will be required every time the application is opened. This access code provides an added layer of security and prevents unauthorized access to the client's information.
 
 The second option is to enable biometrics functionality such as touch ID or face ID, which allows for faster and more seamless access to the application. Biometric authentication utilizes the unique physiological characteristics of the client, such as their fingerprint or facial features, to grant access without the need for manual entry of a passcode. This not only saves time but also enhances the user experience by providing a more intuitive and effortless way of accessing the application.
 
-<figure><img src="../.gitbook/assets/image (348).png" alt=""><figcaption><p>Figure 25: Settings biometrics screen</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (356).png" alt=""><figcaption><p>Figure 25: Settings biometrics screen</p></figcaption></figure>
 
 From the bottom navigation, the client can access the mood tracker past activity page from where they can keep track of their progress while using the platform and see how their state of mind evolves.
 
-<figure><img src="../.gitbook/assets/image (349).png" alt="" width="188"><figcaption><p>Figure 26: Mood Tracker screen</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (357).png" alt="" width="188"><figcaption><p>Figure 26: Mood Tracker screen</p></figcaption></figure>
 
 From the notification settings screen the client can enable or disable the email notifications or the scheduled appointments notifications. Furthermore, clients can choose how long before an appointment they want to be notified - 15, 30, 45 or 60 minutes (see Figure 27).
 
-<figure><img src="../.gitbook/assets/image (350).png" alt="" width="188"><figcaption><p>Figure 27: Notifications settings </p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (358).png" alt="" width="188"><figcaption><p>Figure 27: Notifications settings </p></figcaption></figure>
 
 The application feedback form can be accessed as well from the profile settings. This form was created so that clients can provide their opinion about the platform. The screen, as we can see in the , contains two parts, a star rating and a text message field. Once the client submits their feedback and sends the rating this will be received by the country administrators and managed accordingly.
 
-<figure><img src="../.gitbook/assets/image (351).png" alt="" width="188"><figcaption><p>Figure 28: Application feedback</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (359).png" alt="" width="188"><figcaption><p>Figure 28: Application feedback</p></figcaption></figure>
 
 Moreover, users can modify the language settings within the application from the profile settings (see Figure 29).
 
-<figure><img src="../.gitbook/assets/image (352).png" alt="" width="188"><figcaption><p>Figure 29: Change language screen</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (360).png" alt="" width="188"><figcaption><p>Figure 29: Change language screen</p></figcaption></figure>
 
 Clients are able to view a complete record of their purchases on the platform through the 'payment history' screen. This screen displays details such as the service purchased, the total price paid, and the date and time of the payment.
 
@@ -385,11 +385,11 @@ Clients are able to view a complete record of their purchases on the platform th
 
 To obtain more detailed information about a specific payment, the client can select the "More details" option located on the right-hand side of the screen, which will display comprehensive payment details. Furthermore, this feature also enables the client to download the payment receipt associated with the transaction (see Figure 35). Furthermore, clients have the option to export the data in CSV format by simply clicking the "Export" button.
 
-<figure><img src="../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption><p>Figure 31: Payment History more information about a payment.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (108).png" alt=""><figcaption><p>Figure 31: Payment History more information about a payment.</p></figcaption></figure>
 
 The ‘contact us’ screen allows clients to raise any questions or issues they might encounter. These will be received and addressed by the country administrators. To raise an enquiry, the client needs to select an issue from a predefined list and add any message, if necessary (see Figure 32).
 
-<figure><img src="../.gitbook/assets/image (353).png" alt="" width="188"><figcaption><p>Figure 32: Contact us screen</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (361).png" alt="" width="188"><figcaption><p>Figure 32: Contact us screen</p></figcaption></figure>
 
 The privacy policy can be previewed from the profile settings screen, as well.
 
@@ -397,13 +397,13 @@ Note:
 
 * Privacy policies, terms of use and cookie policies are country specific. Clients should read and make sure the existing content is understood and their activity within the platform follows the established rules.
 
-<figure><img src="../.gitbook/assets/image (354).png" alt="" width="188"><figcaption><p>Figure 33: Privacy policies screen</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (362).png" alt="" width="188"><figcaption><p>Figure 33: Privacy policies screen</p></figcaption></figure>
 
 Within frequently asked questions clients can find answers to the most commonly asked questions. It is recommended to visit this page every time there is any ambiguity regarding the use of the platform as the answer already might be there.
 
 The information which is presented on this screen is managed by the country administrators and is country specific.
 
-<figure><img src="../.gitbook/assets/image (355).png" alt="" width="188"><figcaption><p>Figure 34: FAQ screen</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (363).png" alt="" width="188"><figcaption><p>Figure 34: FAQ screen</p></figcaption></figure>
 
 Note:
 
@@ -419,7 +419,7 @@ This screen provides quick access to different functionalities provided within t
 
 The top of the screen displays the client's upcoming consultation and provides an option to manage it. Directly below this, the client can quickly access the mood tracker. Using this feature, they can record their current emotional state by selecting one of the presented options, such as happy, good, sad, depressed, or worried, and adding an explanation if desired. Once the client submits this information, it will be stored in the system and used to generate an ongoing overview of their mood over time.
 
-<figure><img src="../.gitbook/assets/image (356).png" alt=""><figcaption><p>Figure 35: Dashboard screen</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (364).png" alt=""><figcaption><p>Figure 35: Dashboard screen</p></figcaption></figure>
 
 ### 10. Make a payment
 
@@ -427,7 +427,7 @@ Step 1: Login to the Mobile application.
 
 Step 2: Follow the ‘Schedule consultation’ flow described in section 4 Schedule a consultation.
 
-<figure><img src="../.gitbook/assets/image (126).png" alt=""><figcaption><p>Figure 36: Payment form</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (25).png" alt=""><figcaption><p>Figure 36: Payment form</p></figcaption></figure>
 
 Clients who wish to make a payment will be directed to the payment screen, where they can enter their payment details manually or use the auto fill functionality by scanning their card using the camera of their phone.
 
@@ -447,7 +447,7 @@ Step 1: Login to the Mobile Application.
 
 Step 2: On the bottom navigation click “Message Icon”
 
-<figure><img src="../.gitbook/assets/image (357).png" alt=""><figcaption><p>Figure 37: My Q&#x26;A screen</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (365).png" alt=""><figcaption><p>Figure 37: My Q&#x26;A screen</p></figcaption></figure>
 
 This screen allows clients to access a question and answer directory that is designed to help them clarify any questions they may have. Clients can ask questions anonymously and experienced providers will provide answers to them. The answers to questions will also be available to other clients.
 
@@ -455,7 +455,7 @@ As shown in Figure 37, the questions are organized into different tabs: All, Mos
 
 To ask a new question, clients need to click on the “Ask anonymously” button on the right side of the screen, then add their question as shown in Figure 37. After the client has finished adding their question, they can submit it by clicking the “Send your question” button. Following this procedure, the question will be displayed in the “Your Questions” tab and will be available to providers.
 
-<figure><img src="../.gitbook/assets/image (358).png" alt=""><figcaption><p>Figure 38: My Q&#x26;A add new question</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (366).png" alt=""><figcaption><p>Figure 38: My Q&#x26;A add new question</p></figcaption></figure>
 
 The My Q\&A screen contains several elements for each entry, as shown in Figure 3:
 
@@ -477,8 +477,8 @@ The like and dislike functionality can be accessed using the thumbs up and thumb
 
 The read more functionality allows clients to view the entire answer to a question, as shown in Figure 39.
 
-<figure><img src="../.gitbook/assets/image (359).png" alt="" width="188"><figcaption><p>Figure 39: My Q&#x26;A full text of a question</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (367).png" alt="" width="188"><figcaption><p>Figure 39: My Q&#x26;A full text of a question</p></figcaption></figure>
 
 Furthermore, the clients have the ability to filter the answered questions by tags or utilize the search function, which will match the results based on the Q\&A entry's title and tags as presented in Figure 40.
 
-<figure><img src="../.gitbook/assets/image (360).png" alt=""><figcaption><p>Figure 40: My Q&#x26;A filtering options</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (368).png" alt=""><figcaption><p>Figure 40: My Q&#x26;A filtering options</p></figcaption></figure>

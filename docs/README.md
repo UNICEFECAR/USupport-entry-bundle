@@ -10,4 +10,4 @@ uSupport project introduces an innovative webapp and mobile app for psychosocial
 
 ## Documentation
 
-Use the following link to access our documentation - [uSupport documentation](SUMMARY.md)
+Use the following link to access our documentation - [uSupport documentation](https://github.com/UNICEFECAR/USupport-entry-bundle/blob/gitbook/docs/SUMMARY.md)
