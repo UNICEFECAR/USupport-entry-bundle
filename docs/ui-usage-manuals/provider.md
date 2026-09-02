@@ -44,25 +44,25 @@ Figure 3: Forgot Password screen
 
 Figure 4: Dashboard screen
 
-Figure 5: Calendar screen
+Figure 5: Day slots
 
-Figure 6: Calendar screen - Personal Scheduler
+Figure 6: Week slots
 
-Figure 7: Slot states
+Figure 7: Month slots
 
-Figure 8: Changing the state of a box
+Figure 8: Add availability template
 
-Figure 9: Template availability form
+Figure 9: Manage availability template
 
-Figure 10: Activity history screen
+Figure 10: Cancel consultation options
 
-Figure 11: Propose consultation pop up
+Figure 11: Edit scheduled consultation flow
 
-Figure 12: Consultations screen
+Figure 12: Test audio & camera
 
-Figure 13: Edit scheduled consultations
+Figure 13: Activity history screen
 
-Figure 14: Edit scheduled consultation flow
+Figure 14: Propose consultation pop up
 
 Figure 15: Clients screen
 
@@ -94,17 +94,15 @@ Figure 28: Availability campaign for campaigns
 
 Figure 29: Visualize campaign activity
 
-Figure 30: Campaign activity screen
+Figure 30: My Q\&A screen
 
-Figure 31: My Q\&A screen
+Figure 31: My Q\&A answering to a question
 
-Figure 32: My Q\&A answering to a questions.
+Figure 32: My Q\&A archive question
 
-Figure 33: My Q\&A archive question.
+Figure 33: My Q\&A answer tags
 
-Figure 34: My Q\&A answer tags.
-
-Figure 35: My Q\&A add new answer.
+Figure 34: My Q\&A add new answer
 
 ### Introduction
 
@@ -469,7 +467,7 @@ This feature enables providers to manage client inquiries more efficiently and p
 
 Providers have the ability to archive questions that are deemed inappropriate for publication on the platform. To do so, providers can click on the "Archive" button located in the bottom right corner of a question. Figure 32 illustrates how providers can provide reasoning for archiving a question. This feature generates a report for country administrators to ensure the platform operates effectively and maintains its integrity by preventing potential harm.
 
-<figure><img src="../.gitbook/assets/image (8).png" alt=""><figcaption><p>Figure 31: My Q&#x26;A answering to a questions.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (8).png" alt=""><figcaption><p>Figure 31: My Q&#x26;A answering to a question</p></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/image (9).png" alt=""><figcaption><p>Figure 32: My Q&#x26;A archive question</p></figcaption></figure>
 
