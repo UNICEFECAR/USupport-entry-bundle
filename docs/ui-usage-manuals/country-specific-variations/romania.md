@@ -72,7 +72,7 @@ The Organizations Map is the primary feature for discovering support services in
 
 The map can be accessed directly from the Home dashboard (see Figure 1) or through guided flows such as the Baseline Assessment and Decision Tree, where filters may be automatically applied.
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption><p>Figure 1: Organizations access from home dashboard</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (11).png" alt=""><figcaption><p>Figure 1: Organizations access from home dashboard</p></figcaption></figure>
 
 The map provides a geographical overview of all available support organizations. Each organization is represented by a pin placed at its physical location.
 
@@ -80,7 +80,7 @@ Users can navigate the map (see Figure 2) by zooming and panning to explore diff
 
 Selecting a pin highlights the corresponding organization and provides a quick entry point to view more detailed information about the selected service.
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption><p>Figure 2: Organizations displayed on the map</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption><p>Figure 2: Organizations displayed on the map</p></figcaption></figure>
 
 Users can refine the displayed organizations using the available search and filtering options located above the map.
 
@@ -98,7 +98,7 @@ Filters can be applied individually or in combination to narrow down results.
 
 In guided flows, such as the Baseline Assessment or Decision Tree, filters may be automatically prefilled based on user needs, helping surface the most relevant organizations.
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption><p>Figure 3: Organizations map filters</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption><p>Figure 3: Organizations map filters</p></figcaption></figure>
 
 Below the map, organizations are displayed in a card-based list format, providing a structured overview of available support services.
 
@@ -113,7 +113,7 @@ This layout allows users to quickly scan and compare multiple organizations with
 
 Selecting a card provides access to more detailed information about the organization.
 
-<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption><p>Figure 4: Organizations cards</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1).png" alt=""><figcaption><p>Figure 4: Organizations cards</p></figcaption></figure>
 
 Selecting an organization from the map or the list opens a detailed information (see Figure 5) panel directly on the map.
 
@@ -131,7 +131,7 @@ Users can take further actions such as:
 
 This allows users to quickly access relevant information and decide on the most appropriate support service.
 
-<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption><p>Figure 5: Organization contact/directions modal</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5) (1).png" alt=""><figcaption><p>Figure 5: Organization contact/directions modal</p></figcaption></figure>
 
 #### 2.2 Baseline Assessment
 
