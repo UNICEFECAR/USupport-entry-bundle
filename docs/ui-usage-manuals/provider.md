@@ -132,9 +132,9 @@ Step 2: From the Welcome Screen select a country and a language.
 
 Step 3: Insert valid login credentials.
 
-<figure><img src="../.gitbook/assets/image005 (1).png" alt=""><figcaption><p>Figure 1: Welcome Screen</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (370).png" alt=""><figcaption><p>Figure 1: Welcome Screen</p></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (247).png" alt=""><figcaption><p>Figure 2: Login Screen</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (372).png" alt=""><figcaption><p>Figure 2: Login Screen</p></figcaption></figure>
 
 ### 2. Forgot Password
 
@@ -144,25 +144,67 @@ Step 2: Insert a valid email address see Figure 3.
 
 Step 3: Check provided email address for a recovery email.
 
-<figure><img src="../.gitbook/assets/image (248).png" alt=""><figcaption><p>Figure 3: Forgot Password Screen</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (374).png" alt=""><figcaption><p>Figure 3: Forgot Password Screen</p></figcaption></figure>
 
 If a valid and registered email address within the platform was provided, an automated email will be sent to it. The email will contain a temporary valid link that can be used to set a new password. Following this procedure, the user can access the account using the email address and the newly created password.
 
 ### 3. Dashboard Screen
 
-Step 1: Login to the Provider Interface.
+<figure><img src="../.gitbook/assets/image (375).png" alt=""><figcaption><p>Figure 4: Dashboard screen</p></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (216).png" alt=""><figcaption><p>Figure 4: Dashboard screen</p></figcaption></figure>
+On login provider is navigated to the Dashboard screen. It is split into three parts. The top left panel shows the how many available days the provider has scheduled with available slots from the current month along with the quantity of upcoming consultations in the next 7 days. The left bottom part (Schedule & Availability) presents a calendar containing information about provider's availability for day, week and month.&#x20;
 
-Step 2: On the “Navigation Menu” select “Dashboard”.
+* Highlighted day of the week presents the current day;
+* The turquoise box shadow represents day with set availability slots and purple box highlight  presents the selected day;
+* The gray box represents a day in the calendar when the provider is not available for consultations.
 
-<figure><img src="../.gitbook/assets/image (69).png" alt=""><figcaption><p>Figure 5: Calendar screen</p></figcaption></figure>
+The right container presents the Upcoming consultations.&#x20;
 
-This screen is split into two parts. The left part presents a calendar containing information about each day for a period of 5 weeks in the future. Each day can be represented by either a blue, grey or blurred box.
+#### 3.1. Schedule & Availability:
 
-* The blue box represents a day in the calendar that contains set availability by the provider and there are scheduled consultations.
-* The grey box represents a day in the calendar that contains set availability by the provider but there are no scheduled consultations.
-* The blurred box represents a day in the calendar when the provider is not available for consultations.
+Upon selection of Day the slots are separated hourly with unavailable set as default. Individually on clicking on particular time of the selected day the provider might assign a slot for consultation related to certain organization or campaign:&#x20;
+
+<figure><img src="../.gitbook/assets/image (376).png" alt=""><figcaption><p>Figure 5: Day slots</p></figcaption></figure>
+
+Within Week view the provider can see the hourly slots separated by dates which are part of the selected week with organizations and campaigns available on selection similarly to what the day view presented:
+
+<figure><img src="../.gitbook/assets/image (377).png" alt=""><figcaption><p>Figure 6: Week slots</p></figcaption></figure>
+
+Upon selecting Month view the provider can select particular date and a new modal will open - again with hourly slots available:
+
+<figure><img src="../.gitbook/assets/image (378).png" alt=""><figcaption><p>Figure 7: Month slots</p></figcaption></figure>
+
+The Day, Week, and Month views provide the same core functionality: providers can mark individual hourly time slots as available for consultations or remove existing availability.
+
+The three views differ only in how the schedule is presented, allowing providers to manage their availability using the view that is most convenient for their planning needs.
+
+For larger or recurring availability changes across future dates, providers do not need to update each time slot individually. The Add Availability Template button is always available in the top-right corner of the Schedule & Availability page and allows providers to configure availability in bulk.
+
+<figure><img src="../.gitbook/assets/image (379).png" alt=""><figcaption><p>Figure 8: Add availability template</p></figcaption></figure>
+
+When the provider clicks **Add Availability Template**, the system opens the **Availability Template** form.
+
+This form allows the provider to define availability in bulk across a selected period, instead of updating individual time slots one by one.
+
+The template includes the following sections:
+
+* **Campaign and Organization**\
+  The provider selects the relevant organization or campaign for which the availability will apply.
+* **Date Range**\
+  The provider specifies the **start date** and **end date** for the period in which the template should be applied.
+* **Weekly Schedule**\
+  The provider configures availability for each day of the week separately.\
+  For every day, the provider can:
+  * define a **From** and **To** time range for consultations, or
+  * mark the day as **unavailable** by selecting the corresponding checkbox.
+
+Once completed, the provider clicks **Add Template Availability** to apply the template. The system then creates availability slots across the selected date range according to the defined weekly schedule.
+
+<figure><img src="../.gitbook/assets/image (369).png" alt=""><figcaption><p>Figure 9: Manage availability template</p></figcaption></figure>
+
+#### 3.2. Upcoming Consultations:
+
+
 
 ### 4. Personal Calendar – add availability <a href="#ref130504090" id="ref130504090"></a>
 
