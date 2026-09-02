@@ -152,13 +152,32 @@ If a valid and registered email address within the platform was provided, an aut
 
 <figure><img src="../.gitbook/assets/image (375).png" alt=""><figcaption><p>Figure 4: Dashboard screen</p></figcaption></figure>
 
-On login provider is navigated to the Dashboard screen. It is split into three parts. The top left panel shows the how many available days the provider has scheduled with available slots from the current month along with the quantity of upcoming consultations in the next 7 days. The left bottom part (Schedule & Availability) presents a calendar containing information about provider's availability for day, week and month.&#x20;
+Upon login, the provider is directed to the **Dashboard**. The screen is divided into three main areas:
 
-* Highlighted day of the week presents the current day;
-* The turquoise box shadow represents day with set availability slots and purple box highlight  presents the selected day;
-* The gray box represents a day in the calendar when the provider is not available for consultations.
+* **Availability and Consultation Summary**\
+  The top-left section provides a quick overview of the provider’s schedule. It shows:
+  * the number of **available days in the current month** that contain consultation availability;
+  * the number of **upcoming consultations within the next 7 days**.
+*   **Schedule & Availability**\
+    The main calendar area displays the provider’s availability and scheduled consultations. The provider can switch between **Day, Week, and Month views**, depending on the level of detail required for schedule management.
 
-The right container presents the Upcoming consultations.&#x20;
+    Within the calendar:
+
+    * the **highlighted day-of-week label** indicates the current day;
+    * a **turquoise highlight** indicates a day containing scheduled consultation availability;
+    * a **purple outline/highlight** indicates the currently selected day;
+    * a **gray/default calendar box** indicates a day for which no consultation availability has been set;
+    * days containing consultations display the corresponding number of scheduled consultations.
+*   **Upcoming Consultations**\
+    The right-hand panel displays the provider’s upcoming scheduled consultations together with the most relevant related actions.
+
+    From this section, the provider can:
+
+    * review the participant and consultation date and time;
+    * access the **Test Audio & Camera** functionality before a consultation;
+    * cancel or manage an upcoming consultation through the available consultation actions.
+
+The Dashboard therefore combines a high-level schedule summary, availability management, and quick access to upcoming consultations within a single screen.
 
 #### 3.1. Schedule & Availability:
 
@@ -204,64 +223,64 @@ Once completed, the provider clicks **Add Template Availability** to apply the t
 
 #### 3.2. Upcoming Consultations:
 
+The **Upcoming Consultations** section displays the provider’s next scheduled consultation and provides quick access to the main actions required before or around the appointment.
 
+The section includes:
 
-### 4. Personal Calendar – add availability <a href="#ref130504090" id="ref130504090"></a>
+* **Test Audio & Camera**\
+  Before joining a consultation, the provider can test their microphone and camera to confirm that their devices are working correctly.
+* **Consultation Details**\
+  Each consultation card displays the participant’s name together with the scheduled **date and time** of the consultation.
+* **Consultation Actions**\
+  The additional actions menu allows the provider to access further consultation-related options when required.
+* **Cancel Consultation**\
+  The provider can cancel the scheduled consultation directly from the consultation card.
 
-Step 1: Login to the Provider Interface.
+The section is designed to keep the provider’s next appointment and the most relevant preparation and management actions easily accessible from the dashboard.
 
-Step 2: On the “Navigation Menu” select “Calendar”.
+<figure><img src="../.gitbook/assets/image (381).png" alt=""><figcaption><p>Figure 10: Cancel consultation options</p></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (249).png" alt=""><figcaption><p>Figure 6: Calendar screen - Personal scheduler</p></figcaption></figure>
+When the provider clicks **Cancel Consultation** from the **Upcoming Consultations** card, the system opens a confirmation modal.
 
-This screen provides the necessary functionality for a provider to set their availability. More exactly, the time intervals when they can undertake online activity such as audio-video-chat consultations. This information will dynamically update based on the provider’s actions. It will be stored within the system and presented to the clients when they try to book an appointment with a specific provider.
+The purpose of this modal is to prevent accidental cancellation and to give the provider alternative options before the consultation is removed.
 
-Figure 6 presents the following elements:
+The modal includes:
 
-* Each box inside the presented table represents an hour in a day.
-* In the top-right corner, we can see the date interval for which the availability is presented.
-* Each column is preceded by the day name and date.
-* The leftmost column presents the hours of the day from 00:00 until 23:00, which the provider can choose based on their schedule.
+* **Consultation Summary**\
+  The modal displays the participant’s name together with the scheduled **date and time** of the consultation, so the provider can clearly confirm which consultation is being managed.
+* **Suggest New Time**\
+  The provider can choose to suggest a new time instead of cancelling the consultation completely. This supports rescheduling when the consultation cannot take place at the originally planned time.
+* **Keep the Consultation**\
+  The provider can close the cancellation flow and keep the consultation unchanged.
+* **Cancel Consultation**\
+  The provider can confirm the cancellation of the consultation.
+* **Close Option**\
+  The modal can also be dismissed using the close icon without applying any changes.
 
-A box inside the table can have three different states, unavailable, available and scheduled. The unavailable state is presented in Figure 7 as the grey block on the left, the available states are the two in the center - part of specific campaign and organization. The scheduled state is represented on the right. For the first option ( unavailable state) the box will present a text describing its state when the user hovers over it. The box that is in the scheduled state will display the avatar and name of the client, all the time.
+This confirmation step ensures that cancellation is intentional and gives the provider the possibility to reschedule rather than immediately remove the appointment.
 
-<figure><img src="../.gitbook/assets/image (240).png" alt=""><figcaption><p>Figure 7: Slot states</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (385).png" alt=""><figcaption><p>Figure 11: Edit scheduled consultation flow</p></figcaption></figure>
 
-The state of the boxes can be changed by clicking the three dots at the top-right corner and selecting the new state which pops up. The first slot shows the provider as unavailable. The second shows organization related availability slot and the third one shows campaign(coupon) related availability slot.
+When the provider selects **Test Audio & Camera** from the **Upcoming Consultations** section, the system opens a device testing modal.
 
-Once this action is performed the state of the box will change and the information will be stored in the system.
+The purpose of this functionality is to allow providers to verify that their camera and microphone are working correctly before starting a consultation.
 
-For a box to transition into one of the states from the second row presented in Figure 8, a consultation needs to be booked by a client. The client can book consultations either by direct purchase, select free slots that are marked by the provider or by using existent campaigns.
+The modal includes:
 
-<figure><img src="../.gitbook/assets/image (7).png" alt=""><figcaption><p>Figure 8: Changing the state of a box</p></figcaption></figure>
+* **Camera Preview**\
+  A live video preview allows the provider to confirm that the selected camera is functioning and positioned correctly.
+* **Microphone Test**\
+  The microphone indicator responds to detected audio, allowing the provider to verify that their microphone is receiving sound correctly.
+* **Camera Control**\
+  The provider can enable or disable the camera during the test.
+* **Microphone Control**\
+  The provider can enable or disable the microphone during the test.
 
-Providers can opt to participate in various sponsored programs, which allows them to select particular time slots that will be designated for that program. Consequently, the sponsors will cover the cost of these time slots, rather than requiring clients to pay.
+The device test does not start or join a consultation. It is intended only as a preparation step to ensure that the required audio and video devices are working correctly before the scheduled consultation.
 
-Based on the provider's selection of campaigns, they can allocate particular time slots to those campaigns, as demonstrated in the accompanying image. Subsequently, the provider's calendar will display the assigned campaign along with the sponsor's logo and the campaign name, as showcased in _Figure 8_.
+<figure><img src="../.gitbook/assets/image (386).png" alt=""><figcaption><p>Figure 12: Test audio &#x26; camera</p></figcaption></figure>
 
-5\. Using the Template availability
-
-Step 1: Login to the Provider Interface.
-
-Step 2: On the “Navigation Menu” select “Calendar”.
-
-Step 3: At the top-left corner select “Add template availability” (see Figure 6).
-
-Step 4: Fulfil the availability form.
-
-Step 5: Save the changes by selecting “Add template availability” button at the bottom of the page.
-
-The template availability form helps the providers to set their availability for a longer period for each week day.
-
-Figure 9 presents the form and all the fields that need to be fulfilled.
-
-Firstly, the provider needs to select a start date and an end date which will represent the period for which the availability will be set. The start dates are only Mondays and the end dates are only Sundays, following this approach we ensure that availability is scheduled for full weeks.
-
-Secondly, for each week day, the provider has to choose between being available or not. In the case when a specific day should be unavailable, the checkbox with the label “Set the day as unavailable” should be selected. Otherwise, the provider needs to select the time interval - from which hour until which hour he/she is available. For example, we can see in Figure 9 that on Tuesday the available time interval is set from 06:00 until 10:00. This will state that for each Tuesday within the selected period the provider is available for online consultations at the set time interval. After the provider has completed the form and saved it, the personal calendar will automatically update.
-
-<figure><img src="../.gitbook/assets/image (241).png" alt=""><figcaption><p>Figure 9: Template availability form</p></figcaption></figure>
-
-### 5. Preview the Activity History
+### 4. Preview the Activity History
 
 Step 1: Login to the Provider Interface.
 
@@ -269,104 +288,89 @@ Step 2: On the “Navigation Menu” select “Activity History”.
 
 The activity history screen presents the full activity which a provider undertook in the past using the platform. This consists of detailed information about the clients, their personal data, the time when consultations took place and the text messages that were exchanged in the chat during consultations.
 
-As we can see in Figure 10 the activity history screen presents a split view. The left-hand side contains a list of all the consultations that took place. Once one consultation is selected by the provider the right-hand side will present more information about the specific consultation. The following information can be visualized:
+As we can see in Figure 13 the activity history screen presents a split view. The left-hand side contains a list of all the consultations that took place. Once one consultation is selected by the provider the right-hand side will present more information about the specific consultation. The following information can be visualized:
 
 * Date and time when either a client or provider joined the consultation.
 * Date and time when either a client or provider switched on/off their camera.
 * Date and time when either a client or provider switched on/off their microphone.
 * Exchanged messages during the consultation.
 
+<figure><img src="../.gitbook/assets/image (383).png" alt=""><figcaption><p>Figure 13: Activity history screen</p></figcaption></figure>
 
+Furthermore, at the bottom, there is a button “Propose consultation” which allows providers to propose new consultations to clients (see Figure 14).
 
-<figure><img src="../.gitbook/assets/image (243).png" alt=""><figcaption><p>Figure 10: Activity history screen</p></figcaption></figure>
-
-Furthermore, at the bottom of the right side, there is a button “Propose consultation” which allows providers to propose new consultations to clients (see Figure 11).
-
-<figure><img src="../.gitbook/assets/image (242).png" alt=""><figcaption><p>Figure 11: Propose consultation pop up</p></figcaption></figure>
-
-### 6. Upcoming Consultations
-
-#### 6.1. Preview Scheduled Consultations:
-
-Step 1: Login to the Provider Interface.
-
-Step 2: On the “Navigation Menu” select “Consultations”.
-
-This screen presents to the provider all upcoming consultations. They can either be suggested by the provider or booked by the clients.
-
-The screen provides search functionality so if providers have numerous consultations with different clients they can easily find a specific consultation by typing the name of the client.
-
-Each consultation is presented via a rectangle and contains the following information:
-
-* icon of the client,
-* name of the client,
-* date and time of the appointment,
-* type of the appointment - suggested or paid,
-* price of the consultation and logo of the sponsor in case the client booked using a sponsored coupon or a free badge showing that the consultation will be conducted without the client to be charged.
-* a drop-down menu for quick access to the client’s profile.
+<figure><img src="../.gitbook/assets/image (384).png" alt=""><figcaption><p>Figure 14: Propose consultation pop up</p></figcaption></figure>
 
 
 
-<figure><img src="../.gitbook/assets/image (244).png" alt=""><figcaption><p>Figure 12: Consultations screen</p></figcaption></figure>
-
-#### 6.2. Edit Scheduled Consultations:
-
-Step 1: Select Cancel consultation (see figure 12).
-
-Step 2: Select to either Suggest new time (which client has to accept to become scheduled), keep the current consultation or Cancel the current one entirely (see figure 13)
-
-<figure><img src="../.gitbook/assets/image (250).png" alt="Edit scheduled consultations"><figcaption><p>Figure 13: Edit scheduled consultations</p></figcaption></figure>
-
-<figure><img src="../.gitbook/assets/Scheduled Sessions Flow Provider.drawio.png" alt=""><figcaption><p>Figure 14: Edit scheduled consultation flow</p></figcaption></figure>
-
-
-
-### 7. Preview all Clients
+### 5. Preview all Clients
 
 Step 1: Login to the Provider Interface
 
 Step 2: On the “Navigation Menu” select “Clients”
 
-<figure><img src="../.gitbook/assets/image (245).png" alt=""><figcaption><p>Figure 15: Clients screen</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (387).png" alt=""><figcaption><p>Figure 15: Clients screen</p></figcaption></figure>
+
+The **Clients** screen provides the provider with an overview of all clients with whom they have previously had consultations and allows quick access to client-related actions.
+
+The screen includes:
+
+* **Search**\
+  The search field allows the provider to quickly locate a specific client from the list.
+* **Client Cards**\
+  Each client is presented in an individual card containing:
+  * the client’s **name and profile image/avatar**;
+  * the total number of **past consultations** completed with that client;
+  * information about the client’s **next scheduled consultation**, when one exists.
+* **Next Consultation**\
+  If a future consultation is already scheduled, the corresponding **date and time** are displayed directly within the client card.\
+  If there is no upcoming appointment, the card displays **No consultation scheduled**.
+* **See Profile**\
+  The provider can open the client’s profile to review additional information related to that client.
+* **Suggest Consultation**\
+  When no upcoming consultation is scheduled, the provider can initiate the process of suggesting a new consultation directly from the client card.
+* **Cancel Consultation**\
+  When an upcoming consultation already exists, the provider can start the cancellation or rescheduling flow directly from the client card.
+
+The **Clients** screen therefore serves as a central place for reviewing existing client relationships, checking consultation history and upcoming appointments, and initiating the most common consultation-related actions.
 
 ### 8. Profile settings
 
 Step 1: Login to the Provider Interface
 
-Step 2: On the “Navigation Menu” select “Your Profile”
+Step 2: On the “Navigation Menu” select providers avatar
 
 From this screen the provider can:
 
-* change their account’s personal details,
-* change their notification settings,
-* visualise their activity report
-* raise an issue to the country administrator,
-* access the privacy policy,
+* change their account’s personal details;
+* change their notification settings;
+* visualize their activity report;
+* raise an issue to the country administrator;
+* access the privacy policy;
+* access platforms manuals;
 * access the frequently asked questions.
 
-
-
-<figure><img src="../.gitbook/assets/image (246).png" alt=""><figcaption><p>Figure 16: Provider account settings screen</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (388).png" alt=""><figcaption><p>Figure 16: Provider account settings screen</p></figcaption></figure>
 
 By accessing the profile details screen, the provider can preview the data that is displayed to the clients, see Figure 17 - the information inside the red rectangle. The provider is able to change this data by selecting the “Edit details” button.
 
 Moreover, from here the provider can change the password for the account and delete the account.
 
-<figure><img src="../.gitbook/assets/image (20).png" alt=""><figcaption><p>Figure 17: Edit profile details screen</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (389).png" alt=""><figcaption><p>Figure 17: Edit profile details screen</p></figcaption></figure>
 
 From the notification settings screen the provider can enable/disable the email notifications or the scheduled appointments notifications. Another setting is available for providers to adjust how long before an appointment they want to be notified: 15, 30, 45 or 60 minutes. Based on their preference they can select one of the options (see Figure 18).
 
-<figure><img src="../.gitbook/assets/image (73).png" alt=""><figcaption><p>Figure 18: Notification settings screen</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (390).png" alt=""><figcaption><p>Figure 18: Notification settings screen</p></figcaption></figure>
 
 The providers can access their activity history through the provided reports, which include details such as the client's name, date and time of the consultation, the price paid, and whether a campaign sponsored the session. Moreover, the provider has the option to export all the information displayed on the screen in a CSV file and filter the information based on the campaign, client, and time period.
 
-<figure><img src="../.gitbook/assets/image (99).png" alt=""><figcaption><p>Figure 19: Reports screen</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (391).png" alt=""><figcaption><p>Figure 19: Reports screen</p></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (132).png" alt=""><figcaption><p>Figure 20: Reports filtering options</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (392).png" alt=""><figcaption><p>Figure 20: Reports filtering options</p></figcaption></figure>
 
 The contact us screen allows providers to raise questions or issues they might encounter. These will be received and addressed by the country administrators. To raise an enquiry, the provider needs to select an issue from a predefined list and add a message if required, see Figure 21.
 
-<figure><img src="../.gitbook/assets/image (82).png" alt=""><figcaption><p>Figure 21: Contact us screen</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (393).png" alt=""><figcaption><p>Figure 21: Contact us screen</p></figcaption></figure>
 
 The privacy policy, terms of use and cookie policy screens are available from the profile settings, as well.
 
@@ -374,13 +378,13 @@ Note:
 
 * Privacy policies, terms of use and cookie policies are country-specific. Providers should read and make sure the existing content is understood and their activity within the platform follows the established rules.
 
-<figure><img src="../.gitbook/assets/image (162).png" alt=""><figcaption><p>Figure 22: Privacy policies screen</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (394).png" alt=""><figcaption><p>Figure 22: Privacy policies screen</p></figcaption></figure>
 
 The frequently asked questions screen represents a place where providers can navigate when searching for answers to their questions. It is recommended to visit this page every time there is any uncertainty regarding the use of the platform as the answer might already be here.
 
 The information which is presented inside this screen is managed by the country administrators and is country specific.
 
-<figure><img src="../.gitbook/assets/image (62).png" alt=""><figcaption><p>Figure 23: Frequently asked questions screen</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (395).png" alt=""><figcaption><p>Figure 23: Frequently asked questions screen</p></figcaption></figure>
 
 ### 9. Campaigns
 
