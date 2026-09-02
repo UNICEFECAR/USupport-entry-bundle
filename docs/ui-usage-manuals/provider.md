@@ -20,27 +20,19 @@
 
 [3.2. Upcoming Consultations](provider.md#id-3.2.-upcoming-consultations)
 
-[4. Personal Calendar – add availability](provider.md#ref130504090)
+[4. Preview the Activity History](provider.md#id-4.-preview-the-activity-history)
 
-[5. Preview the Activity History](provider.md#id-5.-preview-the-activity-history)
+[5. Preview all Clients](provider.md#id-5.-preview-all-clients)
 
-[6 Upcoming Consultations](provider.md#id-6.-upcoming-consultations)
+[6. Profile settings](provider.md#id-6.-profile-settings)
 
-[6.1. Preview Scheduled Consultations](provider.md#id-6.1.-preview-scheduled-consultations)
+[7. Campaigns](provider.md#id-7.-campaigns)
 
-[6.2. Edit Scheduled Consultations](provider.md#id-6.2.-edit-scheduled-consultations)
+[8. Campaigns availability](provider.md#ole_link90)
 
-[7. Preview all Clients](provider.md#id-7.-preview-all-clients)
+[9. View campaigns details](provider.md#ole_link12)
 
-[8. Profile settings](provider.md#id-8.-profile-settings)
-
-[9. Campaigns](provider.md#id-9.-campaigns)
-
-[10. Campaigns availability](provider.md#ole_link90)
-
-[11. View campaigns details](provider.md#ole_link12)
-
-[12. My Q\&A](provider.md#id-12.-my-q-and-a)
+[10. My Q\&A](provider.md#id-10.-my-q-and-a)
 
 ### Table of Figures <a href="#ref130504120" id="ref130504120"></a>
 
