@@ -16,6 +16,10 @@
 
 [3. Dashboard Screen](provider.md#id-3.-dashboard-screen)
 
+[3.1. Schedule & Availability](provider.md#id-3.1.-schedule-and-availability)
+
+[3.2. Upcoming Consultations](provider.md#id-3.2.-upcoming-consultations)
+
 [4. Personal Calendar – add availability](provider.md#ref130504090)
 
 [5. Preview the Activity History](provider.md#id-5.-preview-the-activity-history)
