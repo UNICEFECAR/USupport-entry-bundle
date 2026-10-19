@@ -7,3 +7,8 @@ WHERE NOT EXISTS (SELECT 1 FROM "country" WHERE "alpha2" = 'XH');
 
 -- Hosn El Hal website visits, stored under the XH country
 ALTER TYPE event_type ADD VALUE IF NOT EXISTS 'hosnelhal_visit';
+
+
+-- Hosn El Hal resource opens in content_engagement_event (content_type + action view).
+-- Format and pillar stay in CMS; admin joins on content_id when aggregating.
+ALTER TYPE content_type ADD VALUE IF NOT EXISTS 'hosn_asset';
