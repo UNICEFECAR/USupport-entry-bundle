@@ -32,3 +32,6 @@ UPDATE "country" SET "timezone" = 'Asia/Nicosia'     WHERE "alpha2" = 'CY';
 UPDATE "country" SET "timezone" = 'Asia/Hebron'      WHERE "alpha2" = 'PS'; 
 
 ALTER TABLE "country" ALTER COLUMN timezone SET NOT NULL;
+
+ALTER TYPE event_type ADD VALUE 'web_my_qa_nav_click';
+ALTER TABLE content_engagement_event ADD COLUMN visitor_id UUID;
