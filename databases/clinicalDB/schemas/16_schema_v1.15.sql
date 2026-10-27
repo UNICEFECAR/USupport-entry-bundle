@@ -17,13 +17,4 @@ CREATE TABLE consultation_problem_report (
 );
 CREATE INDEX consultation_problem_report_submitted_idx ON consultation_problem_report(submitted_at DESC, report_id);
 CREATE INDEX consultation_problem_report_consultation_idx ON consultation_problem_report(consultation_id);
--- Transactional email outbox: one job per report, retried independently of submission.
-CREATE TABLE consultation_problem_report_email_outbox (
-  report_id UUID PRIMARY KEY REFERENCES consultation_problem_report(report_id),
-  attempts INTEGER NOT NULL DEFAULT 0,
-  next_attempt_at TIMESTAMPTZ NOT NULL DEFAULT now(),
-  sent_at TIMESTAMPTZ,
-  last_error VARCHAR(500)
-);
-CREATE INDEX consultation_report_email_pending_idx ON consultation_problem_report_email_outbox(next_attempt_at) WHERE sent_at IS NULL;
 COMMIT;
