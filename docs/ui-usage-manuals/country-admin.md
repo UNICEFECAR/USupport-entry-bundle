@@ -52,7 +52,7 @@
 
 [15.4 Contact Forms](country-admin.md#ole_link1)
 
-[15.5 My Q\&A Archive](country-admin.md#id-15.4-my-q-and-a-archive)
+[15.5 My Q\&A Archive](country-admin.md#id-15.5-my-q-and-a-archive)
 
 [16. Access My Q\&A](country-admin.md#id-16.-access-my-q-and-a)
 
@@ -286,7 +286,7 @@ Step 4: From the dropdown menu select “Deactivate”.
 
 <figure><img src="../.gitbook/assets/image (226).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (225).png" alt=""><figcaption><p>Figure 9: Deactivate existing provide account in list / table view</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (225).png" alt=""><figcaption><p>Figure 9: Deactivate existing provider account in list / table view</p></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/image (227).png" alt=""><figcaption><p>Figure 10: Deactivate provider profile confirmation.</p></figcaption></figure>
 
