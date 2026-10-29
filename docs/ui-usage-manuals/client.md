@@ -122,7 +122,7 @@ Figure 42: Payment form Link authentication completed
 
 Figure 43: My Q\&A screen
 
-Figure 44: My Q\&A ad new question
+Figure 44: My Q\&A add new question
 
 Figure 45: My Q\&A entry example
 
@@ -150,9 +150,9 @@ Step 1: Navigate to the Client Interface ([https://usupport.online/client](https
 
 Step 2: Select a country and a language from the Welcome screen.
 
-Step 3: From the next screen select one of the registration options “Register with email” or “Register anonymously” (see Figure 2).
+Step 3: From the next screen select one of the registration options “Register with email”, “Register anonymously” or “Continue without registration” (see Figure 2).
 
-Step 4: Insert valid login credentials - either an email or an access token.
+Step 4: Fill in the registration form for the selected option (see Figures 3–5).
 
 <figure><img src="../.gitbook/assets/image (289).png" alt=""><figcaption><p>Figure 1: Welcome Screen</p></figcaption></figure>
 
@@ -164,7 +164,7 @@ Register with email: This option requires the client to register using an existi
 
 <figure><img src="../.gitbook/assets/image (291).png" alt=""><figcaption><p>Figure 3: Registration with email Step 1</p></figcaption></figure>
 
-The first step for registering into the platform using "Register with email" is to provide a valid email address which was not used for previous registrations, a nickname a and password. Additionally, the client is required to agree with the “Privacy Policy” and “Terms of Conditions” and complete reCAPTCHA verification.
+The first step for registering into the platform using "Register with email" is to provide a valid email address which was not used for previous registrations, a nickname and a password. Additionally, the client is required to agree with the “Privacy Policy” and “Terms of Use” and complete reCAPTCHA verification.
 
 <figure><img src="../.gitbook/assets/image (292).png" alt=""><figcaption><p>Figure 4: Registration with email Step 2</p></figcaption></figure>
 
@@ -174,7 +174,7 @@ Register anonymously: This option allows the client to get access to the client 
 
 <figure><img src="../.gitbook/assets/image (293).png" alt=""><figcaption><p>Figure 5: Anonymously registration</p></figcaption></figure>
 
-The registration using "Register anonymously" differs slightly from the previous option. Specifically, the email field (see Figure 3) is replaced by a unique access token (see in Figure 5).
+The registration using "Register anonymously" differs slightly from the previous option. Specifically, the email field (see Figure 3) is replaced by a unique access token (see Figure 5).
 
 Continue without registration: This option allows the client to get access to the client interface without going through the registration process. By using this option, the client can explore the limited features available for non-registered users and decide if they would like to fully register by creating an account.
 
@@ -214,19 +214,19 @@ Step 1: Login to the Client Interface.
 
 Step 2: On the “Navigation Menu” select “Consultations”.
 
-Step 3: Click the “Schedule a consultation” button see Figure 8.
+Step 3: Click the “Schedule a consultation” button (see Figure 8).
 
-Step 4: From the list of providers select one to preview his/her details see Figure 13.
+Step 4: From the list of providers select one to preview his/her details (see Figure 13).
 
-Step 5: From the provider overview screen select the “Schedule consultation” button .
+Step 5: From the provider overview screen select the “Schedule consultation” button (see Figure 13).
 
-Step 6: From the time availability pop-up select date and time and click the “Save” button see Figure 14
+Step 6: From the time availability pop-up select date and time and click the “Save” button (see Figure 14).
 
-Step 7: Once the appointment is scheduled a confirmation pop-up will be shown see Figure 16
+Step 7: Once the appointment is scheduled a confirmation pop-up will be shown (see Figure 16).
 
 <figure><img src="../.gitbook/assets/image (268).png" alt=""><figcaption><p>Figure 8: Consultations Screen</p></figcaption></figure>
 
-Figure 8 presents the consultations screen. Two different tabs can be seen in the left  side of the screen, namely “Upcoming” and “Past. These are available in order to provide the client with the capability to track their previous appointments with providers and their upcoming ones. If there are no upcoming appointments therefore this is clearly indicated, using an appropriate message “You have no upcoming consultations”.
+Figure 8 presents the consultations screen. Two different tabs can be seen in the left  side of the screen, namely “Upcoming” and “Past”. These are available in order to provide the client with the capability to track their previous appointments with providers and their upcoming ones. If there are no upcoming appointments, this is clearly indicated using an appropriate message “You have no upcoming consultations”.
 
 <figure><img src="../.gitbook/assets/image (273).png" alt=""><figcaption><p>Figure 9: Select a Provider screen</p></figcaption></figure>
 
@@ -236,7 +236,7 @@ Initially, upon accessing this screen, the client will see a default list of ava
 
 <figure><img src="../.gitbook/assets/image (274).png" alt=""><figcaption><p>Figure 10: Using coupon code for finding providers</p></figcaption></figure>
 
-To utilize a coupon code, users must input a valid code into the designated field displayed in Figure 10. Once they click the "Submit coupon" button and the code is successfully validated, he list of providers will be updated to display only those who are participating in the campaign associated with the coupon. This updated list will be shown in Figure 12
+To utilize a coupon code, users must input a valid code into the designated field displayed in Figure 10. Once they click the "Submit coupon" button and the code is successfully validated, the list of providers will be updated to display only those who are participating in the campaign associated with the coupon. This updated list is shown in Figure 11.
 
 <figure><img src="../.gitbook/assets/image (275).png" alt=""><figcaption><p>Figure 11: List of providers for valid coupon</p></figcaption></figure>
 
@@ -259,23 +259,23 @@ Clicking on any of the listed providers allows the client to access additional i
 
 <figure><img src="../.gitbook/assets/image (278).png" alt=""><figcaption><p>Figure 14: Select the appointment date and time</p></figcaption></figure>
 
-Once a client decides to progress with scheduling an appointment with a specific provider and clicks the “Schedule consultation” button (see Figure 14) they will be presented with the time availability of the provider. This is represented by a pop-up, as presented in Figure 14, from where the client can select a month, day and time and find a slot for the consultation.
+Once a client decides to progress with scheduling an appointment with a specific provider and clicks the “Schedule consultation” button (see Figure 13), they will be presented with the time availability of the provider. This is represented by a pop-up, as presented in Figure 14, from where the client can select a month, day and time and find a slot for the consultation.
 
 Note: The slots that are presented here are based on the availability put in place by the specific provider. There might be days that don’t have available slots due to either the provider being fully booked or the provider not being available for consultations on that specific date.
 
 <figure><img src="../.gitbook/assets/image (93).png" alt=""><figcaption><p>Figure 15: Payment screen within consultation booking process</p></figcaption></figure>
 
-After choosing a consultation slot, the user will be directed to proceed with payment. Figure 16 illustrates what payment details are required to complete the final step of booking a consultation. Two crucial aspects of the payment screen are worth noting. The first is the time counter, located at the top of the form, which shows the remaining time to complete the payment. The countdown begins at 5 minutes and indicates the duration the selected consultation slot is reserved and cannot be booked by other clients. If the time runs out, the client can no longer make the payment, and the slot becomes available again to all clients. If the client still wishes to book the same slot after the time has expired, they must select it again, provided it is still available and has not been booked by another user. The second important element on the screen is the total cost of the consultation, which will be charged to the user.
+After choosing a consultation slot, the user will be directed to proceed with payment. Figure 15 illustrates what payment details are required to complete the final step of booking a consultation. Two crucial aspects of the payment screen are worth noting. The first is the time counter, located at the top of the form, which shows the remaining time to complete the payment. The countdown begins at 5 minutes and indicates the duration the selected consultation slot is reserved and cannot be booked by other clients. If the time runs out, the client can no longer make the payment, and the slot becomes available again to all clients. If the client still wishes to book the same slot after the time has expired, they must select it again, provided it is still available and has not been booked by another user. The second important element on the screen is the total cost of the consultation, which will be charged to the user.
 
 Note: The payment form is presented in more details in section 10 Make a payment
 
 <figure><img src="../.gitbook/assets/image (161).png" alt=""><figcaption><p>Figure 16: Payment and Appointment confirmation</p></figcaption></figure>
 
-After a successful payment and registration of the booking by the system, the user will be shown the confirmation screen, as depicted in Figure 17.
+After a successful payment and registration of the booking by the system, the user will be shown the confirmation screen, as depicted in Figure 16.
 
 <figure><img src="../.gitbook/assets/image (160).png" alt=""><figcaption><p>Figure 17: Unsuccessful payment screen</p></figcaption></figure>
 
-In the event that the payment is unsuccessful, the user will be directed to the screen displayed in Figure 18. This screen provides the user with relevant information and instructions for resolving the payment issue and completing the transaction.
+In the event that the payment is unsuccessful, the user will be directed to the screen displayed in Figure 17. This screen provides the user with relevant information and instructions for resolving the payment issue and completing the transaction.
 
 <figure><img src="../.gitbook/assets/image (279).png" alt=""><figcaption><p>Figure 18: Consultations screen visualizes upcoming appointments</p></figcaption></figure>
 
@@ -299,7 +299,7 @@ Step 5: From the displayed pop-up select one of the two options “Change the da
 
 <figure><img src="../.gitbook/assets/image (282).png" alt=""><figcaption><p>Figure 21: Consultation screen edit appointment options (less than 24 hours before consultation)</p></figcaption></figure>
 
-The first option “Change the date and time” will prompt the client to select another time slot from the availability of the same provider. The process is similar to the booking an appointment one. Changing time is available up to 24 hours before scheduled consultation. After than cancellation becomes only option.&#x20;
+The first option “Change the date and time” will prompt the client to select another time slot from the availability of the same provider. The process is similar to booking an appointment. Changing time is available up to 24 hours before scheduled consultation. After that, cancellation is the only option.&#x20;
 
 The second option “Cancel the consultation” will cancel the appointment for both the client and the provider.
 
@@ -371,18 +371,18 @@ From this screen the client can proceed with the following actions:
 * Preview mood tracker past activity.
 * Change the notification settings.
 * Provide feedback for the application.
-* Visualize payment History
+* View payment history
 * Raise an issue to the country administrator.
 * Access the privacy policy.
 * Access the frequently asked questions.
 
-By accessing the profile details screen, the client can visualize the personal information associated with the uSupport client interface account, see Figure 28. The client is able to change this data by selecting the “Save changes” button.
+By accessing the profile details screen, the client can view the personal information associated with the uSupport client interface account, see Figure 28. The client is able to change this data by selecting the “Save changes” button.
 
 Moreover, from here the client can change the password for the account, enable or disable consent for personal data processing, log out and delete the account.
 
 <figure><img src="../.gitbook/assets/image (302).png" alt=""><figcaption><p>Figure 28: Edit profile details screen</p></figcaption></figure>
 
-From the profile settings, the client also has access to the mood tracker past activity page from where they can keep track of their progress while using the platform and see how their state of mind evolves.
+From the profile settings, the client also has access to the mood tracker past activity page from where they can keep track of their progress while using the platform and see how their state of mind evolves (see Figure 29).
 
 <figure><img src="../.gitbook/assets/image (303).png" alt=""><figcaption></figcaption></figure>
 
@@ -461,11 +461,9 @@ The first payment option available to users is to proceed with the standard paym
 
 <figure><img src="../.gitbook/assets/image (144).png" alt=""><figcaption><p>Figure 39: Saving payment details for future usage</p></figcaption></figure>
 
-The users can also utilize the auto-fill features offered by “Link” as an alternative payment option. When entering an email address that has not been previously used for payments and is not associated with an existing Link account, an automatic check will be initiated. The user will then be given the option to save the payment details for future use (as shown in
+The users can also utilize the auto-fill features offered by “Link” as an alternative payment option. When entering an email address that has not been previously used for payments and is not associated with an existing Link account, an automatic check will be initiated. The user will then be given the option to save the payment details for future use (as shown in Figure 39). The auto-fill functionality of “Link” is a product provided by Stripe that enables secure storage and auto-completion of payment information, thus streamlining the checkout process.
 
-Figure 41). The auto-fill functionality of “Link” is a product provided by Stripe that enables secure storage and auto-completion of payment information, thus streamlining the checkout process.
-
-Figure 41 shows an example where a client enters an email address that is not recognized by Stripe. In response, the form displayed below prompts the user to provide additional information for securely storing and creating an account, namely a valid phone number, legal first and last names. Once the user enters this information along with valid card details to complete the payment, the information is securely linked to a new “Link” account. The result is that when the user accesses the payment form next time and enters the same email address followed by the two-factor authentication code, the form will be automatically filled with the previously saved payment details, as illustrated in Figure 39.
+Figure 39 shows an example where a client enters an email address that is not recognized by Stripe. In response, the form displayed below prompts the user to provide additional information for securely storing and creating an account, namely a valid phone number, legal first and last names. Once the user enters this information along with valid card details to complete the payment, the information is securely linked to a new “Link” account. The result is that when the user accesses the payment form next time and enters the same email address followed by the two-factor authentication code, the form will be automatically filled with the previously saved payment details, as illustrated in Figures 40 and 41.
 
 <figure><img src="../.gitbook/assets/image (173).png" alt=""><figcaption><p>Figure 40: Payment form Link account verification</p></figcaption></figure>
 
@@ -485,15 +483,15 @@ Step 2: On the “Navigation Menu” select “My Q\&A”.
 
 This screen allows clients to access a question and answer directory that is designed to help them clarify any questions they may have. Clients can ask questions anonymously and experienced providers will provide answers to them. The answers to questions will also be available to other clients.
 
-As shown in Figure 43, the questions are organized into different tabs: All, Most Popular, Newest, and Your Questions. The first tab presents all the questions raised on the platform and answered by providers. The tab category displays the questions that are most popular, based on the number of likes they have received from clients. The third tab shows the newest questions that have been raised. The fourth tab displays the questions raised by the current client.
+As shown in Figure 43, the questions are organized into different tabs: All, Most Popular, Newest, and Your Questions. The first tab presents all the questions raised on the platform and answered by providers. The second tab displays the questions that are most popular, based on the number of likes they have received from clients. The third tab shows the newest questions that have been raised. The fourth tab displays the questions raised by the current client.
 
 To ask a new question, clients need to click on the “Ask anonymously” button on the right side of the screen, then add their question as shown in Figure 44. After the client has finished adding their question, they can submit it by clicking the “Send your question” button. Following this procedure, the question will be displayed in the “Your Questions” tab and will be available to providers.
 
-<figure><img src="../.gitbook/assets/image (314).png" alt=""><figcaption><p>Figure 44: My Q&#x26;A ad new question</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (314).png" alt=""><figcaption><p>Figure 44: My Q&#x26;A add new question</p></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/image (316).png" alt=""><figcaption><p>Figure 45: My Q&#x26;A entry example</p></figcaption></figure>
 
-The My Q\&A screen contains several elements for each entry, as shown in Figure 44:
+The My Q\&A screen contains several elements for each entry, as shown in Figure 45:
 
 * Title
 * Tags

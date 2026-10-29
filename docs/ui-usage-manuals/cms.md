@@ -46,11 +46,11 @@
 
 [8.5. Terms of use Collection Type](cms.md#id-8.5.-terms-of-use-collection-type)
 
-[8.6. Cookie Policies Content Type](cms.md#id-8.6.-cookie-policies-content-type)
+[8.6. C](cms.md#id-8.6.-cookie-policies-content-type)ookie Policies Content Type
 
-[8.7. FAQs Content Type](cms.md#id-8.7.-faqs-content-type)
+[8.7. F](cms.md#id-8.7.-faqs-content-type)AQs Content Type
 
-[8.8. SOS Center Content Type](cms.md#id-8.8.-sos-center-content-type)
+[8.8. S](cms.md#id-8.8.-sos-center-content-type)OS Center Content Type
 
 [8. Approving content](cms.md#id-9.-approving-content)
 
@@ -98,15 +98,15 @@ Table 1: Available Collection Types based on user roles
 
 Dear colleagues,
 
-In the past few months, the team of 7DIGIT has been working on the Content Management System (CMS) as part of the uSupport platform. It serves as a core element, storing all content related to the Information Portal, SOS Centers, Frequently asked questions, Terms of use and Cookie Policies.
+The Content Management System (CMS) is part of the uSupport platform. It serves as a core element, storing all content related to the Information Portal, SOS Centers, Frequently asked questions, Terms of use and Cookie Policies.
 
-We hereby share with you the detailed user manual for the CMS.
+This guide is the user manual for the CMS.
 
 ### What is the CMS?
 
-The CMS tool is a manually designed software, build on top of the functionality provided by Strapi after custom adaptation based on the needs of the uSupport project.
+The CMS is custom software built on top of the functionality provided by Strapi after custom adaptation based on the needs of the uSupport project.
 
-This platform is aiming to provide an easy-to-use interface for content creators internationally, operating with straightforward and intuitive flows.
+This platform aims to provide an easy-to-use interface for content creators internationally, operating with straightforward and intuitive flows.
 
 ### User Roles Description
 
@@ -248,7 +248,7 @@ Notes:
 
 The Collection Types are tables of structured data each of which serves a different purpose. For example, the Articles are stored within the “Articles” collection type and each article consists of specific data entries that together are used to present content.
 
-Step 1: Navigate to the CMS Interface and log in with a moderator account.
+Step 1: Navigate to the CMS Interface and log in.
 
 Step 2: From the Navigation Menu select "Content Manager" (see Figure 8).
 
@@ -256,7 +256,7 @@ Step 3: From the new menu that is presented, under "Collection Types" select the
 
 Step 4: On the top right corner click “Create new entry” button (see Figure 8).
 
-Step 5: Fulfil the required fields (see Figure 9).
+Step 5: Fill in the required fields (see Figure 9).
 
 Step 6: On the top right corner click the “Save” button (see Figure 9).
 
@@ -264,7 +264,7 @@ Step 6: On the top right corner click the “Save” button (see Figure 9).
 
 <figure><img src="../.gitbook/assets/image (15).png" alt=""><figcaption><p>Figure 9: Creating a new Collection Type</p></figcaption></figure>
 
-There are multiple available content types within the uSupport CMS platform, e.g. Articles, SOS Centers, and FAQs. The user role defines the access rights to the different Collection Types – see Table 1 bellow.
+There are multiple available content types within the uSupport CMS platform, e.g. Articles, SOS Centers, and FAQs. The user role defines the access rights to the different Collection Types – see Table 1 below.
 
 |                 | Moderator | Editor | Author |
 | --------------- | --------- | ------ | ------ |
@@ -279,7 +279,7 @@ There are multiple available content types within the uSupport CMS platform, e.g
 
 Table 1: Available Collection Types based on user roles
 
-Note: Entries within collections have specific validation put in place. After the Save button has been pressed the popup presented in the image below should be displayed. This means that your changes were successfully saved in the Database. In case you don't see it after trying to save the changes, most probably it happens because some of the fields that need to be fulfilled do not match the required validation. The fields that do not comply with the validation rules will show a red-coloured text, containing an error message. Check for these errors for all the available fields.
+Note: Entries within collections have specific validation put in place. After the Save button has been pressed the popup presented in the image below should be displayed. This means that your changes were successfully saved in the Database. In case you don't see it after trying to save the changes, most probably it happens because some of the fields that need to be filled in do not match the required validation. The fields that do not comply with the validation rules will show a red-coloured text, containing an error message. Check for these errors for all the available fields.
 
 <figure><img src="../.gitbook/assets/image (17).png" alt=""><figcaption><p>Figure 10: Popup showing that data was successfully saved</p></figcaption></figure>
 
@@ -306,7 +306,7 @@ Creation process:
 
 Usage by other interfaces:
 
-* This is not a collection that is expected to change very often. Adding further content might result in requiring small design adjustments of the following parts of the Usupport platform – Commercial Website Interface and Client Interface.
+* This is not a collection that is expected to change very often. Adding further content might result in requiring small design adjustments of the following parts of the uSupport platform – Commercial Website Interface and Client Interface.
 
 #### 8.2. Tags Collection Type
 
@@ -441,7 +441,7 @@ Creation process:
 
 Usage by other interfaces:
 
-* Each entry into the collection will contain content for the three Usupport UI interfaces: Commercial Website Interface, Client Interface and Provider Interface.
+* Each entry into the collection will contain content for the three uSupport UI interfaces: Commercial Website Interface, Client Interface and Provider Interface.
 * Each entry will be assigned to no more than one country, there should not be 1 country, having two or more entries.
 * Every entry which is in a "published" state will be displayed to the general public without country admin approval.
 
@@ -509,19 +509,19 @@ When we create a new piece of content (e.g., Article, Tag, Category etc.) and it
 
 At any time, the article can be transitioned back from the “published” state to “draft” by clicking the “Unpublish” button that will be shown instead of the highlighted button in Figure 14.
 
-Note: The Authors can just create content but they don’t have the capability to publish it. Only the moderator and editor roles are allowed to create and publish content without the approval of another users.
+Note: The Authors can just create content but they don’t have the capability to publish it. Only the moderator and editor roles are allowed to create and publish content without approval from another user.
 
 ### 10. Creating translations for existing content <a href="#ref121062657" id="ref121062657"></a>
 
-We previously presented the internalization capabilities which enable us to store localized versions of the existing content. Moreover, it was mentioned that choosing a default language at the beginning is very important.
+We previously presented the internationalization capabilities which enable us to store localized versions of the existing content. Moreover, it was mentioned that choosing a default language at the beginning is very important.
 
-Let’s consider the following example. Assume we want to create a new article and the default language is English. The first step will be to create a new entry within the Articles collection type, fulfil the data correctly, and save the changes.
+Let’s consider the following example. Assume we want to create a new article and the default language is English. The first step will be to create a new entry within the Articles collection type, fill in the data correctly, and save the changes.
 
 Now we need to create a localized version of the article we just created, for the Kazakh language. The steps for doing this are simple and consist of opening the entry that needs to be translated, in our case the Article we just created. Then from the “Locales” dropdown, we need to select the new language (see Figure 15). It is very important that for every new content we first create the version in the default language, in our case English, and then we create translations of that initial version. This is needed because each translated version is linked to the Initially created one (in the default language).
 
 Figure 15: Choosing a new locale for an existing article in English version
 
-Once we select the new locale we will be prompted to fulfil the translated information. Now we have two options. We can either write the content in the new language and fulfil all the empty fields by hand or we can tell to the CMS to copy the content from other locales and then replace it, see Figure 16.
+Once we select the new locale we will be prompted to fill in the translated information. Now we have two options. We can either write the content in the new language and fill in all the empty fields by hand or we can tell the CMS to copy the content from other locales and then replace it, see Figure 16.
 
 <figure><img src="../.gitbook/assets/image (159).png" alt=""><figcaption><p>Figure 16: New Article entry for Kazakh locale</p></figcaption></figure>
 

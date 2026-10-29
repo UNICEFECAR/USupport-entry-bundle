@@ -84,7 +84,7 @@ Figure 7: Input field validation error
 
 Figure 8: Edit Provider details
 
-Figure 9: Deactivate existing provide account in list / table view
+Figure 9: Deactivate existing provider account in list / table view
 
 Figure 10: Deactivate provider profile confirmation.
 
@@ -194,8 +194,11 @@ This role provides the capabilities of managing the uSupport platform on a count
 * create and update providers' accounts,
 * manage which content to be displayed within the information portal,
 * manage which frequently asked questions to be displayed within the Client interface,
-* manage which SOS centers to be displayed within the Client interface.
-* analyze reports submitted by clients.
+* manage which SOS centers to be displayed within the Client interface,
+* analyze reports submitted by clients,
+* manage sponsors, campaigns and coupons,
+* manage organizations and the providers enrolled in them,
+* review My Q\&A activity.
 
 
 
@@ -205,7 +208,7 @@ This role provides the capabilities of managing the uSupport platform on a count
 
 ### 1. Login to the Country Admin Interface
 
-Step 1: Navigate to the Global Admin Interface (https://usupport.online/country-admin).
+Step 1: Navigate to the Country Admin Interface (https://usupport.online/country-admin).
 
 Step 2: From the Welcome Screen select a country and a language.
 
@@ -223,7 +226,7 @@ Step 4: Insert OTP which was sent to the email address.
 
 Step 1: Select “I forgot my password” (see Figure 2).
 
-Step 2: Insert a valid email address (see Figure 3)
+Step 2: Insert a valid email address (see Figure 4)
 
 Step 3: Check provided email address for recovery email
 
@@ -239,7 +242,7 @@ Step 2: On the “Navigation Menu” select “Providers”.
 
 Step 3: Click “Add provider” button.
 
-Step 4: Fulfil the form with providers’ details.
+Step 4: Fill in the form with the provider’s details.
 
 Step 5: Click the “Create provider” button to save the new details.
 
@@ -249,7 +252,7 @@ Step 5: Click the “Create provider” button to save the new details.
 
 <figure><img src="../.gitbook/assets/image (206).png" alt=""><figcaption><p>Figure 6: Add new Provider form</p></figcaption></figure>
 
-Note: Some of the input fields are mandatory and have validation in place. In order to create a new provider all the required fields have to be fulfilled. When the validation for one of the fields fails, the error will be shown below the input field, in red text (see Figure 6).
+Note: Some of the input fields are mandatory and have validation in place. In order to create a new provider, all the required fields have to be filled in. When the validation for one of the fields fails, the error will be shown below the input field, in red text (see Figure 7).
 
 <figure><img src="../.gitbook/assets/image012.png" alt=""><figcaption><p>Figure 7: Input field validation error</p></figcaption></figure>
 
@@ -342,7 +345,7 @@ Step 1: Login to the Country Admin Interface.
 
 Step 2: On the “Navigation Menu” select ”SOS center”.
 
-Step 3: From the list of SOS center's tick the checkbox for the ones that should be displayed to the clients for the current country.
+Step 3: From the list of SOS centers, tick the checkbox for the ones that should be displayed to the clients for the current country.
 
 <figure><img src="../.gitbook/assets/image (183).png" alt=""><figcaption><p>Figure 15: SOS center screen</p></figcaption></figure>
 
@@ -384,7 +387,7 @@ Step 2: On the “Navigation Menu” select “Coupons”.
 
 Step 3: Click “Add sponsor” button.
 
-Step 4: Fulfil the form with sponsors’ details.
+Step 4: Fill in the form with the sponsor’s details.
 
 Step 5: Click the “Create sponsor” button.
 
@@ -401,7 +404,7 @@ The following information is required for creating a new sponsor:
 
 Note:
 
-\- Some of the input fields are mandatory and have validation in place. In order to create a new campaign all the required fields have to be fulfilled.
+\- Some of the input fields are mandatory and have validation in place. In order to create a new sponsor, all the required fields have to be filled in.
 
 ### 11. Edit existing Sponsor details
 
@@ -433,7 +436,7 @@ Step 4: From the dropdown menu select “View”.
 
 Step 5: Click the “Create campaign” button.
 
-Step 6: Fulfil the form with campaign details.
+Step 6: Fill in the form with the campaign details.
 
 Step 7: Click the “Create campaign” button.
 
@@ -457,8 +460,8 @@ The following information is required for creating a new campaign:
 
 Note:
 
-* Some of the input fields are mandatory and have validation in place. In order to create a new campaign all the required fields have to be fulfilled.
-* The total budget and the total number of coupons are information that is required to be fulfilled by the admin user. Based on those the single coupon price is calculated and displayed. This price represents the benefit that the clients will be entitled for when using the coupon code.
+* Some of the input fields are mandatory and have validation in place. In order to create a new campaign, all the required fields have to be filled in.
+* The total budget and the total number of coupons must be filled in by the admin user. Based on those the single coupon price is calculated and displayed. This price represents the benefit that the clients will be entitled to when using the coupon code.
 * The campaign can be deactivated at any time during the campaign period by switching on or off the status toggle.
 
 ### 13. Edit Campaign
@@ -473,7 +476,7 @@ Step 4: From the dropdown menu select “View”.
 
 Step 5: Choose a campaign and click on the three dots at the top-right corner of the box.
 
-Step 6: Update the sponsor data.
+Step 6: Select “Edit” and update the campaign data.
 
 Step 7: Click on the “Save Changes” button.
 
@@ -526,11 +529,11 @@ Available reports:
 
 #### 15.1 Consultation Issues
 
-The reports in this section desire to highlight to the Country Administrator any issues that might exist from client’s perspective following consultations with providers. Therefore, in case the client does not report any issue after his/her consultation, there will be no report generated for this section.
+The reports in this section aim to highlight to the Country Administrator any issues that might exist from client’s perspective following consultations with providers. Therefore, in case the client does not report any issue after his/her consultation, there will be no report generated for this section.
 
 A report is generated and added by the clients after each consultation following a series of questions for which they need to answer. Once they submit the questionnaire the system will check the answers and will either generate a report or not.
 
-The report consist of a predefined set of questions and the answers which were provided by the client as presented bellow.
+The report consists of a predefined set of questions and the answers which were provided by the client as presented below.
 
 <figure><img src="../.gitbook/assets/image (195).png" alt=""><figcaption><p>Figure 29: Consultation issue report</p></figcaption></figure>
 
@@ -583,7 +586,7 @@ The reports presented in this section represent clients' evaluations of the plat
 The report consists of:
 
 * Email address of the client
-* Start rating (from 1 to 5)
+* Star rating (from 1 to 5)
 * Time and date
 * Feedback text as written by the client
 
@@ -618,7 +621,7 @@ Filter options:
 * Start date
 * End date
 
-#### 15.4 My Q\&A Archive
+#### 15.5 My Q\&A Archive
 
 This report aims to give country administrators an overview of the inquiries raised by clients and subsequently archived by providers for various reasons.
 
@@ -628,7 +631,7 @@ The report consists of:
 
 * Provider name
 * Provider email
-* Achieving reason
+* Archiving reason
 * Time when it was archived
 * Client Question
 
@@ -723,7 +726,7 @@ Step 2: Open the profile menu and select "Security".
 
 <figure><img src="../.gitbook/assets/image (285).png" alt=""><figcaption><p>Figure 49: Passkeys section - empty state</p></figcaption></figure>
 
-Step 3: Ensure two-factor authentication is enabled (see Section 17). The "Passkeys" section is only visible when 2FA is active.
+Step 3: Ensure two-factor authentication is enabled (see Section 18). The "Passkeys" section is only visible when 2FA is active.
 
 Step 4: Under the "Passkeys" section, optionally type a name for this passkey in the "Device name" field (e.g. "MacBook Pro"). This helps you identify the device later.
 

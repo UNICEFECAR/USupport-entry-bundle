@@ -136,9 +136,9 @@ Step 1: Open the mobile application.
 
 Step 2: Select a country and a language from the Welcome Screen.
 
-Step 3: Select one of the registration options “Register with email” or “Register anonymously” (see Figure 1).
+Step 3: Select one of the registration options “Register with email”, “Register anonymously” or “Continue without registration” (see Figure 1).
 
-Step 4: Insert valid login credentials - either an email or an access token.
+Step 4: Fill in the registration form for the selected option (see Figures 2–4).
 
 <figure><img src="../.gitbook/assets/image (331).png" alt="" width="188"><figcaption><p>Figure 1: Welcome Screen</p></figcaption></figure>
 
@@ -150,7 +150,7 @@ Option 1: This option requires the client to register using an existing email ad
 
 <figure><img src="../.gitbook/assets/image (332).png" alt="" width="188"><figcaption><p>Figure 2: Registration with email Step 1</p></figcaption></figure>
 
-The first step for registering into the platform using Option 1 is to provide a valid email address which was not used for previous registrations, a nickname and a password. Additionally, the client is required to agree with the “Privacy Policy” and “Terms of Conditions”.
+The first step for registering into the platform using Option 1 is to provide a valid email address which was not used for previous registrations, a nickname and a password. Additionally, the client is required to agree with the “Privacy Policy” and “Terms of Use”.
 
 <figure><img src="../.gitbook/assets/image (333).png" alt="" width="188"><figcaption><p>Figure 3: Registration with email Step 2</p></figcaption></figure>
 
@@ -186,7 +186,7 @@ Step 3: Select “Login” button (see Figure 1).
 
 Step 4: Select “I forgot my password” (see Figure 5).
 
-Step 5: Insert a valid email address see (Figure 6).
+Step 5: Insert a valid email address (see Figure 6).
 
 Step 6: Check your email address for recovery email.
 
@@ -202,9 +202,9 @@ Step 2: On the “Navigation Menu” select “Consultations” icon which is th
 
 Step 3: Click the “Schedule a consultation” button (see Figure 7).
 
-Step 4: From the list of providers select one to preview his/her details (see Figure 10).
+Step 4: From the list of providers select one to preview his/her details (see Figure 8).
 
-Step 5: From the provider overview screen select the “Schedule consultation” button (see Figure 8).
+Step 5: From the provider overview screen select the “Schedule consultation” button (see Figure 10).
 
 Step 6: From the time availability pop-up select date and time and click the “Save” button (see Figure 11).
 
@@ -212,7 +212,7 @@ Step 7: Once the appointment is scheduled a confirmation pop-up will be shown an
 
 <figure><img src="../.gitbook/assets/image (337).png" alt="" width="188"><figcaption><p>Figure 7: Consultations screen</p></figcaption></figure>
 
-Figure 7 presents the consultations screen. Two different boxes can be seen on the screen, namely “Upcoming” and “Past. These are available in order to provide the client with the capability to track their previous appointments with providers and their upcoming ones. At initial stage there are no upcoming appointments therefore this is clearly indicated, using an appropriate message “You have no upcoming consultations”.
+Figure 7 presents the consultations screen. Two different boxes can be seen on the screen, namely “Upcoming” and “Past”. These are available in order to provide the client with the capability to track their previous appointments with providers and their upcoming ones. If there are no upcoming appointments, this is clearly indicated using an appropriate message “You have no upcoming consultations”.
 
 <figure><img src="../.gitbook/assets/image (338).png" alt="" width="188"><figcaption><p>Figure 8: Select a Provider screen</p></figcaption></figure>
 
@@ -237,7 +237,7 @@ Clicking on any of the listed providers allows the client to access additional i
 
 <figure><img src="../.gitbook/assets/image (344).png" alt="" width="188"><figcaption><p>Figure 11: Appointment date and time</p></figcaption></figure>
 
-Once a client decides to progress with scheduling an appointment with a specific provider and clicks the “Schedule consultation” button (see Figure 10) they will be presented with the time availability of the provider. This is represented by a back drop, as presented in Figure 11 from where the client can select a month, day and time and find a slot for the consultation. Additionally, clients have the option to utilize a coupon in this section as well. If the provider has set availability, the corresponding slots related to the entered coupon will be displayed.
+Once a client decides to progress with scheduling an appointment with a specific provider and clicks the “Schedule consultation” button (see Figure 10), they will be presented with the time availability of the provider. This is represented by a backdrop, as presented in Figure 11 from where the client can select a month, day and time and find a slot for the consultation. Additionally, clients have the option to utilize a coupon in this section as well. If the provider has set availability, the corresponding slots related to the entered coupon will be displayed.
 
 Note: The slots that are presented here are based on the availability put in place by the specific provider. There might be days that don’t have available slots due to either the provider being fully booked or the provider not being available for consultations on that specific date.
 
@@ -263,19 +263,19 @@ As previously mentioned, all the upcoming consultations can be seen within the C
 
 Step 1: Login to the Mobile application.
 
-Step 8: On the “Navigation Menu” select “Consultations” icon which is the middle button in the menu.
+Step 2: On the “Navigation Menu” select the “Consultations” icon, which is the third button in the menu.
 
-Step 2: Find the consultation that needs to be edited.
+Step 3: Find the consultation that needs to be edited.
 
 Step 3: Select the “edit” button.
 
-Step 4: From the displayed pop-up select one of the two options “Change the date and time” or “Cancel the consultation”.
+Step 5: From the displayed pop-upStep 4: Select the “edit” button select one of the two options “Change the date and time” or “Cancel the consultation”.
 
 <figure><img src="../.gitbook/assets/image (345).png" alt="" width="188"><figcaption><p>Figure 16: Edit appointment</p></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/image (346).png" alt="" width="188"><figcaption><p>Figure 17: Edit appointment options</p></figcaption></figure>
 
-The first option “Change the date and time” will prompt the client to select another time slot from the availability of the same provider. The process is similar to the booking an appointment one.
+The first option “Change the date and time” will prompt the client to select another time slot from the availability of the same provider. The process is similar to booking an appointment.
 
 The second option “Cancel the consultation” will cancel the appointment for both the client and the provider.
 
@@ -292,7 +292,7 @@ Step 2: On the “Navigation Menu” select “Content" icon which is the second
 
 <figure><img src="../.gitbook/assets/image (348).png" alt=""><figcaption><p>Figure 18: Information Portal</p></figcaption></figure>
 
-The initial entry screen for the information portal, as presented in Figure 18 is divided into three groups - Articles, Videos and Podcasts where Articles show the most read article on top. Each groups are part of Parent and Adolescents separator. On search results are combined.
+The initial entry screen for the information portal, as presented in Figure 18 is divided into three groups - Articles, Videos and Podcasts where Articles show the most read article on top. Each group is split into Parents and Adolescents sections; search results combine both sections.
 
 <figure><img src="../.gitbook/assets/image (349).png" alt=""><figcaption><p>Figure 19: Information Portal Search screen</p></figcaption></figure>
 
@@ -302,7 +302,7 @@ Once the client finds an article about which he/she wants to read more, he/she c
 
 <figure><img src="../.gitbook/assets/image (350).png" alt=""><figcaption><p>Figure 20: Full view of an article</p></figcaption></figure>
 
-Figure 20 shows the full view of an article. The first part is a Article's title. Next, we are presented with a list of tags that represent different psychological topics that are covered by the article. Following this, the cover image of the article together with the body and text to speech option are displayed.
+Figure 20 shows the full view of an article. The first part is the article's title. Next, we are presented with a list of tags that represent different psychological topics that are covered by the article. Following this, the cover image of the article together with the body and text to speech option are displayed.
 
 Note:
 
@@ -333,7 +333,7 @@ Note:
 
 Step 1: Login to the Mobile Application.
 
-Step 2: On the top left click the “Profile Icon” select “Your Profile” (see Figure 26 & Figure 27).
+Step 2: On the top left click the “Profile Icon” select “Your Profile” (see Figure 22 and Figure 23)the client can view the personal information.
 
 <figure><img src="../.gitbook/assets/image (353).png" alt="" width="179"><figcaption><p>Figure 22: Мobile application settings</p></figcaption></figure>
 
@@ -344,7 +344,7 @@ From this screen the client can proceed with the following actions:
 * Change settings for Passcode and Biometrics
 * Change the notification settings.
 * Provide feedback for the application.
-* Visualize payment History
+* View payment history
 * Raise an issue to the country administrator.
 * Access the privacy policy.
 * Access the frequently asked questions.
@@ -363,7 +363,7 @@ The second option is to enable biometrics functionality such as touch ID or face
 
 <figure><img src="../.gitbook/assets/image (356).png" alt=""><figcaption><p>Figure 25: Settings biometrics screen</p></figcaption></figure>
 
-From the bottom navigation, the client can access the mood tracker past activity page from where they can keep track of their progress while using the platform and see how their state of mind evolves.
+From the bottom navigation, the client can access the mood tracker past activity page from where they can keep track of their progress while using the platform and see how their state of mind evolves (see Figure 26).as we can see in Figure 28, contains
 
 <figure><img src="../.gitbook/assets/image (357).png" alt="" width="188"><figcaption><p>Figure 26: Mood Tracker screen</p></figcaption></figure>
 
@@ -383,7 +383,7 @@ Clients are able to view a complete record of their purchases on the platform th
 
 <figure><img src="../.gitbook/assets/Screenshot 2023-07-11 at 10.42.23.png" alt=""><figcaption><p>Figure 30: Payment History screen</p></figcaption></figure>
 
-To obtain more detailed information about a specific payment, the client can select the "More details" option located on the right-hand side of the screen, which will display comprehensive payment details. Furthermore, this feature also enables the client to download the payment receipt associated with the transaction (see Figure 35). Furthermore, clients have the option to export the data in CSV format by simply clicking the "Export" button.
+To obtain more detailed information about a specific payment, the client can select the "More details" option located on the right-hand side of the screen, which will display comprehensive payment details. Furthermore, this feature also enables the client to download the payment receipt associated with the transaction (see Figure 31). In addition, clients have the option to export the data in CSV format by simply clicking the "Export" button.
 
 <figure><img src="../.gitbook/assets/image (108).png" alt=""><figcaption><p>Figure 31: Payment History more information about a payment.</p></figcaption></figure>
 
@@ -413,7 +413,7 @@ Note:
 
 Step 1: Login to the Mobile Application.
 
-Step 2: On the “Navigation Menu” select “Home” icon which is the first button in the menu..
+Step 2: On the “Navigation Menu” select “Home” icon which is the first button in the menu.
 
 This screen provides quick access to different functionalities provided within the mobile application interface, which have all been covered within this document (see Figure 35).
 
@@ -451,9 +451,9 @@ Step 2: On the bottom navigation click “Message Icon”
 
 This screen allows clients to access a question and answer directory that is designed to help them clarify any questions they may have. Clients can ask questions anonymously and experienced providers will provide answers to them. The answers to questions will also be available to other clients.
 
-As shown in Figure 37, the questions are organized into different tabs: All, Most Popular, Newest, and Your Questions. The first tab presents all the questions raised on the platform and answered by providers. The tab category displays the questions that are most popular, based on the number of likes they have received from clients. The third tab shows the newest questions that have been raised. The fourth tab displays the questions raised by the current client.
+As shown in Figure 37, the questions are organized into different tabs: All, Most Popular, Newest, and Your Questions. The first tab presents all the questions raised on the platform and answered by providers. The second tab displays the questions that are most popular, based on the number of likes they have received from clients. The third tab shows the newest questions that have been raised. The fourth tab displays the questions raised by the current client.
 
-To ask a new question, clients need to click on the “Ask anonymously” button on the right side of the screen, then add their question as shown in Figure 37. After the client has finished adding their question, they can submit it by clicking the “Send your question” button. Following this procedure, the question will be displayed in the “Your Questions” tab and will be available to providers.
+To ask a new question, clients need to click on the “Ask anonymously” button on the right side of the screen, then add their question as shown in Figure 38.for each entry, as shown in Figure 37: After the client has finished adding their question, they can submit it by clicking the “Send your question” button. Following this procedure, the question will be displayed in the “Your Questions” tab and will be available to providers.
 
 <figure><img src="../.gitbook/assets/image (366).png" alt=""><figcaption><p>Figure 38: My Q&#x26;A add new question</p></figcaption></figure>
 

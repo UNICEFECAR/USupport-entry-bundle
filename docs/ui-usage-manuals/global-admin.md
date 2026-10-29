@@ -60,7 +60,7 @@ The Global Admin interface has a single role.
 
 ### 1. Global Admin Role
 
-This role provides the capabilities of managing the entire uSupport platform from an administrative perspective. The Global admins have the power to create and update global or country-based administrator accounts and visualise important statistics about the state of the platform. Information such as the number of active clients, number of consultations and existent administrators is available.
+This role provides the capabilities of managing the entire uSupport platform from an administrative perspective. The Global admins have the power to create and update global or country-based administrator accounts and visualise important statistics about the state of the platform. Information such as the number of active clients, number of consultations and existing administrators is available.
 
 ### Processes
 
@@ -100,7 +100,7 @@ Step 2: On the “Navigation Menu” select “Dashboard”.
 
 Step 3: Scroll to “Global admins” section and press “Add admin” button.
 
-Step 4: Fulfil the new global admin form (see Figure 5).
+Step 4: Fill in the new global admin form (see Figure 6).
 
 Step 5: Create a new global admin by pressing the “Add” button.
 
@@ -120,14 +120,14 @@ Step 3: From the list of countries, select one (see Figure 7)
 
 <figure><img src="../.gitbook/assets/image (233).png" alt=""><figcaption><p>Figure 8: Selected Country Information view</p></figcaption></figure>
 
-For each country available in the uSupport platform the following statistics will be available, as presented in Figure 7.
+For each country available in the uSupport platform the following statistics will be available, as presented in Figure 8.
 
 * number of active users,
 * number of providers,
 * number of approved articles,
 * number of conducted consultations.
 
-Furthermore, each country will have one or more country administrators that can be managed from the Global Admin Interface. From the above-presented interface, Global Admins can create new Country Admins accounts by selecting the “Add admin” button. The process of adding a new Country Admin is similar to the one presented in Creating a new global admin section. As we can see in Figure 4, the list of Country Administrators provides meaningful information about individuals. The name, the status of their account, and contact details (email or phone) are displayed.
+Furthermore, each country will have one or more country administrators that can be managed from the Global Admin Interface. From the above-presented interface, Global Admins can create new Country Admin accounts by selecting the “Add admin” button. The process of adding a new Country Admin is similar to the one presented in Creating a new global admin section. As we can see in Figure 8, the list of Country Administrators provides meaningful information about individuals. The name, the status of their account, and contact details (email or phone) are displayed.
 
 The status of the account can have two values, namely “active” or “disabled”. The “active” state means that the country admin can access the Country Administrator Interface and manage the specific country. On the other hand, the “disabled” state restricts access to the account, so that it still exists but the user cannot use it. This mechanism allows the Global Admins to control access to the uSupport platform on a country level.
 
@@ -143,7 +143,7 @@ Step 3: Scroll to “Country admins” section and identify the account that has
 
 Step 4: Open the drop-down menu by clicking the three dots icon at the end of the row (see Figure 5).
 
-Step 5: Select the “Edit button” and alter the account information accordingly (see Figure 8).
+Step 5: Select the “Edit” button and alter the account information accordingly (see Figure 9).
 
 Step 6: Once the changes are in place select the “Save changes” button.
 
