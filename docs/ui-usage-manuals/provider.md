@@ -482,3 +482,50 @@ In addition, providers have the option to view questions that were previously an
 <figure><img src="../.gitbook/assets/image (396).png" alt=""><figcaption><p>Figure 34: My Q&#x26;A add new answer</p></figcaption></figure>
 
 Furthermore, the providers have the ability to filter the answered questions by tags or utilize the search function, which will match the results based on the Q\&A entry's title and tags.
+
+### 11. Consultations
+
+Step 1: Login to the Provider Interface.
+
+Step 2: In the footer, under “Support”, select “Consultations”.
+
+The Consultations screen lists the provider’s consultations in two tabs: “Today” and “Upcoming”. The search field allows the provider to find a consultation by client name. Each consultation card shows the client’s name, the date and the time or status (e.g. “Live”), together with the “Join” button. The actions menu (three dots) provides the “View profile” option for the client.
+
+Note: The provider is also redirected to this screen after leaving a consultation.
+
+### 12. Join a consultation
+
+Step 1: Login to the Provider Interface.
+
+Step 2: Find the consultation marked “Live” in the “Upcoming Consultations” section of the Dashboard or on the Consultations screen, and click the “Join” button.
+
+Step 3: In the “Choose how you want to communicate” pop-up, select “Video/audio consultation” or “Text consultation”.
+
+Step 4: For a video/audio consultation, check your camera and microphone in the “Check your camera and microphone” pop-up and click the “Join consultation” button.
+
+With a video/audio consultation, the provider joins with the camera and microphone in the state selected in the pre-join check. With a text consultation, the provider joins with the camera and microphone switched off and can switch them on at any time during the consultation.
+
+### 13. During the consultation
+
+The consultation screen is the same for providers and clients. The header in the top-left corner displays the client’s name, the scheduled time and the remaining time of the consultation. A status indicator shows “Waiting” until the client joins and changes to a green connection icon once both participants are connected.
+
+The toolbar at the bottom of the screen contains the following controls:
+
+* Camera – switch the camera on or off.
+* Microphone – switch the microphone on or off.
+* Chat – open or close the chat panel. A red dot on the button indicates new activity.
+* Settings – select the camera, microphone and speaker, and set a video background (none, blur or an image) through the “Background” option.
+* Report a problem – describe an issue in the “Describe the problem” field and click “Send report”.
+* Leave – leave the consultation (see section 14).
+
+The chat panel opens on the right side of the screen. Messages are sent with the “Send” button or the Enter key. System messages record events such as participants joining or leaving the consultation and switching their camera or microphone on or off. The “Settings” button at the top of the chat panel allows the provider to show or hide system messages, include the chat history of previous consultations with the same client, and search the chat history. The chat history of the consultation is preserved if a participant leaves and rejoins during the scheduled slot.
+
+### 14. Leave a consultation
+
+Step 1: Click the “Leave” button in the toolbar.
+
+The provider leaves the consultation immediately and is redirected to the Consultations screen (see section 11). The provider can rejoin at any time during the scheduled slot. After the consultation ends, it becomes available in the Activity History (see section 4), where the provider can review the exchanged messages and propose a new consultation to the client.
+
+### 15. Accessibility options
+
+An accessibility toolbar is displayed at the bottom of the screen. It allows the provider to decrease or increase the font size and to switch the high contrast mode on or off.

@@ -228,6 +228,17 @@ Step 7: Once the appointment is scheduled a confirmation pop-up will be shown (s
 
 Figure 8 presents the consultations screen. Two different tabs can be seen in the left  side of the screen, namely “Upcoming” and “Past”. These are available in order to provide the client with the capability to track their previous appointments with providers and their upcoming ones. If there are no upcoming appointments, this is clearly indicated using an appropriate message “You have no upcoming consultations”.
 
+Each consultation card displays the provider’s name and specialization, the date and time of the consultation, and its status:
+
+* LIVE – the consultation is in progress and can be joined (see section 12).
+* UPCOMING – the consultation is scheduled for a later time.
+* CONSULTATION ENDED – the consultation took place; the “See details” button opens its chat history (see section 15).
+* NOT CONDUCTED – the consultation did not take place.
+
+Upcoming consultations also include the “Test audio & camera” option for checking devices in advance, and the “Edit” button for changing or cancelling the consultation (see section 5).
+
+<figure><img src="../.gitbook/assets/client-consultations-statuses (1).jpg" alt=""><figcaption><p>Consultations screen with consultation statuses</p></figcaption></figure>
+
 <figure><img src="../.gitbook/assets/image (273).png" alt=""><figcaption><p>Figure 9: Select a Provider screen</p></figcaption></figure>
 
 Each box, as highlighted in red in Figure 9, represents a provider profile.
@@ -516,3 +527,104 @@ The read more functionality allows clients to view the entire answer to a questi
 Furthermore, the clients have the ability to utilize the search function, which will match the results based on the Q\&A entry's title, tags or content as presented in Figure 47.
 
 <figure><img src="../.gitbook/assets/image (318).png" alt=""><figcaption><p>Figure 47: My Q&#x26;A search option</p></figcaption></figure>
+
+### 12. Join a consultation
+
+Step 1: Login to the Client Interface.
+
+Step 2: On the “Navigation Menu” select “Home” or “Consultations”.
+
+Step 3: Find the consultation marked “LIVE” and click the “Join” button.
+
+Step 4: In the “Choose how you want to communicate” pop-up, select “Video/audio consultation” or “Text consultation”.
+
+Step 5: For a video/audio consultation, check your camera and microphone in the preview and click the “Join consultation” button.
+
+<figure><img src="../.gitbook/assets/client-choose-communication-type.jpg" alt=""><figcaption><p>Choose how you want to communicate pop-up</p></figcaption></figure>
+
+The “Join” button is available on the consultation card on the Home screen (“Upcoming consultations”) and on the Consultations screen. It becomes active only when the consultation is live. For consultations that have not started yet, the button is shown but disabled, and a “Test audio & camera” option allows the client to check their devices in advance.
+
+The client can choose between two communication types:
+
+* Video/audio consultation – before joining, a “Check your camera and microphone” pop-up shows a live camera preview and a microphone level indicator. The camera and microphone can be switched on or off from this pop-up before clicking “Join consultation”.
+* Text consultation – the client joins directly, with their camera and microphone switched off. The client can still see and hear the provider, communicate through the chat, and switch their own camera and microphone on at any time.
+
+Note: The browser or the mobile device may ask for permission to use the camera and microphone. If access is not allowed, the camera and microphone will not work during the consultation.
+
+<figure><img src="../.gitbook/assets/client-check-camera-microphone.jpg" alt=""><figcaption><p>Check your camera and microphone pop-up</p></figcaption></figure>
+
+### 13. During the consultation
+
+The consultation screen shows the provider’s video in the main area (or their avatar when the provider’s camera is off) and the client’s own video in a smaller tile.
+
+The header in the top-left corner displays the provider’s name, the scheduled time and the remaining time of the consultation (e.g. “34 min left”). A status indicator shows “Waiting” until the provider joins and changes to a green connection icon once both participants are connected.
+
+<figure><img src="../.gitbook/assets/client-consultation-screen.jpg" alt=""><figcaption><p>Consultation screen</p></figcaption></figure>
+
+The toolbar at the bottom of the screen contains the following controls:
+
+<figure><img src="../.gitbook/assets/client-call-settings.jpg" alt=""><figcaption><p>Consultation settings</p></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/client-report-a-problem.jpg" alt=""><figcaption><p>Report a problem pop-up</p></figcaption></figure>
+
+* Camera – switch the camera on or off.
+* Microphone – switch the microphone on or off.
+* Chat – open or close the chat panel. A red dot on the button indicates new activity.
+* Settings – select the camera, microphone and speaker, and set a video background (none, blur or an image) through the “Background” option.
+* Report a problem – describe an issue in the “Describe the problem” field and click “Send report”.
+* Leave – leave the consultation (see section 14).
+
+The chat panel opens on the right side of the screen. Messages are sent with the “Send” button or the Enter key. The client’s messages are shown on the right and the provider’s on the left. System messages record events such as participants joining or leaving the consultation and switching their camera or microphone on or off.
+
+The “Settings” button at the top of the chat panel provides the following options:
+
+* Show system messages – show or hide the system messages (enabled by default).
+* Show previous consultations – include the chat history of previous consultations with the same provider.
+* Search – search within the chat history.
+
+Note: The client can leave and rejoin the consultation at any time during the scheduled slot. The chat history of the consultation is preserved. The client is also notified 10 minutes and 5 minutes before the scheduled end of the consultation.
+
+<figure><img src="../.gitbook/assets/client-chat-panel-settings.jpg" alt=""><figcaption><p>Chat panel with chat settings</p></figcaption></figure>
+
+### 14. Leave a consultation and complete the post-consultation questionnaire
+
+Step 1: Click the “Leave” button in the toolbar.
+
+Step 2: In the “Are you sure you want to leave the consultation?” pop-up, click “Leave” to confirm or “Stay” to remain in the consultation.
+
+<figure><img src="../.gitbook/assets/client-leave-confirmation.jpg" alt=""><figcaption><p>Leave consultation confirmation</p></figcaption></figure>
+
+Step 3: Complete the post-consultation questionnaire and click “Send feedback”.
+
+After leaving the consultation, the client is presented with a questionnaire about the session. It consists of the following parts:
+
+* Five safety questions with “Yes” or “No” answers: whether the provider attended the session; whether the provider asked the client to disclose their address and contact details; whether the provider asked to meet outside the platform (in person or in another application); whether the provider asked for photos or to turn on video against the client’s wishes; and whether the client felt unsafe in any way during the session.
+* Satisfaction with the session: Very Satisfied, Satisfied, Neutral, Dissatisfied or Very Dissatisfied.
+* Three questions rated on a scale from 1 to 10: whether the client’s needs were addressed, whether the client understands how to improve their wellbeing, and how the client feels compared to before the session.
+* An optional free-text field for any other comments.
+
+By submitting the questionnaire, the client declares that the answers provided are true. After the feedback is sent, the client is returned to the Consultations screen.
+
+<figure><img src="../.gitbook/assets/client-questionnaire-safety-questions.jpg" alt=""><figcaption><p>Post-consultation questionnaire – safety questions</p></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/client-questionnaire-ratings.jpg" alt=""><figcaption><p>Post-consultation questionnaire – ratings and feedback</p></figcaption></figure>
+
+Note: Answers indicating a problem generate a report for the country administrators (see the Country Admin manual, section 15.1 Consultation Issues). The questionnaire is displayed every time the client leaves the consultation, pre-filled with any answers given previously for the same consultation. In that case, a “Keep answers” button is also displayed, which keeps the answers that were already submitted.
+
+### 15. View consultation history
+
+Step 1: Login to the Client Interface.
+
+Step 2: On the “Navigation Menu” select “Consultations”.
+
+Step 3: In the “Past” section, find a consultation with the status “Consultation ended” and click “See details”.
+
+The “Consultation chat history” screen displays all messages and system messages exchanged with the provider during the consultation. As in the consultation chat, the client can search the history and use the “Show system messages” and “Show previous consultations” options.
+
+Additionally, the “Export” button allows the client to export the chat history, and the “Schedule consultation” button provides a shortcut for booking a new consultation with the same provider.
+
+<figure><img src="../.gitbook/assets/client-consultation-chat-history.jpg" alt=""><figcaption><p>Consultation chat history screen</p></figcaption></figure>
+
+### 16. Accessibility options
+
+An accessibility toolbar is displayed at the bottom of the screen. It allows the client to decrease or increase the font size and to switch the high contrast mode on or off.

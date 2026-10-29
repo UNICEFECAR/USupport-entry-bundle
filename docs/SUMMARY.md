@@ -13,6 +13,7 @@
 * [Mobile](ui-usage-manuals/mobile.md)
 * [Country-Specific Variations](ui-usage-manuals/country-specific-variations/README.md)
   * [Romania](ui-usage-manuals/country-specific-variations/romania.md)
+  * [Armenia](ui-usage-manuals/country-specific-variations/armenia.md)
 
 ## TECHNICAL DOCUMENTATION
 
