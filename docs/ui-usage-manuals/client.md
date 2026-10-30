@@ -52,83 +52,105 @@ Figure 7: Forgot Password screen
 
 Figure 8: Consultations screen
 
-Figure 9: Select a Provider screen
+Figure 9: Consultations screen with consultation statuses
 
-Figure 10: Using coupon code for finding providers
+Figure 10: Select a Provider screen
 
-Figure 11: List of providers for valid coupon
+Figure 11: Using coupon code for finding providers
 
-Figure 12: Filtering options for the list of providers
+Figure 12: List of providers for valid coupon
 
-Figure 13: Provider Overview screen
+Figure 13: Filtering options for the list of providers
 
-Figure 14: Select the appointment date and time
+Figure 14: Provider Overview screen
 
-Figure 15: Payment screen within consultation booking process
+Figure 15: Select the appointment date and time
 
-Figure 16: Payment and Appointment confirmation
+Figure 16: Payment screen within consultation booking process
 
-Figure 17: Unsuccessful payment screen
+Figure 17: Payment and Appointment confirmation
 
-Figure 18: Consultations screen visualizes upcoming appointments
+Figure 18: Unsuccessful payment screen
 
-Figure 19: Consultation screen edit appointment
+Figure 19: Consultations screen visualizes upcoming appointments
 
-Figure 20: Consultation screen edit appointment options (up to 24 hours before consultation)
+Figure 20: Consultation screen edit appointment
 
-Figure 21: Consultation screen edit appointment options (less than 24 hours before consultation)
+Figure 21: Consultation screen edit appointment options (up to 24 hours before consultation)
 
-Figure 22: Edit scheduled consultation flow
+Figure 22: Consultation screen edit appointment options (less than 24 hours before consultation)
 
-Figure 23: Information Portal initial screen
+Figure 23: Edit scheduled consultation flow
 
-Figure 24: Information Portal Search screen
+Figure 24: Information Portal initial screen
 
-Figure 25: Full view of an article
+Figure 25: Information Portal Search screen
 
-Figure 26: SOS Centers screen
+Figure 26: Full view of an article
 
-Figure 27: Client account settings screen
+Figure 27: SOS Centers screen
 
-Figure 28: Edit profile details screen
+Figure 28: Client account settings screen
 
-Figure 29: Mood Tracker screen
+Figure 29: Edit profile details screen
 
-Figure 30: Notifications settings screen
+Figure 30: Mood Tracker screen
 
-Figure 31: Application Feedback screen
+Figure 31: Notifications settings screen
 
-Figure 32: Payment History screen
+Figure 32: Application Feedback screen
 
-Figure 33: Payment History more information about a payment
+Figure 33: Payment History screen
 
-Figure 34: Contact us screen
+Figure 34: Payment History more information about a payment
 
-Figure 35: Privacy policies screen
+Figure 35: Contact us screen
 
-Figure 36: Frequently asked questions screen
+Figure 36: Privacy policies screen
 
-Figure 37: Dashboard screen
+Figure 37: Frequently asked questions screen
 
-Figure 38: Default payment form
+Figure 38: Dashboard screen
 
-Figure 39: Saving payment details for future usage
+Figure 39: Default payment form
 
-Figure 40: Payment form Link account verification
+Figure 40: Saving payment details for future usage
 
-Figure 41: Payment form use saved payment information
+Figure 41: Payment form Link account verification
 
-Figure 42: Payment form Link authentication completed
+Figure 42: Payment form use saved payment information
 
-Figure 43: My Q\&A screen
+Figure 43: Payment form Link authentication completed
 
-Figure 44: My Q\&A add new question
+Figure 44: My Q\&A screen
 
-Figure 45: My Q\&A entry example
+Figure 45: My Q\&A add new question
 
-Figure 46: My Q\&A full text of a question
+Figure 46: My Q\&A entry example
 
-Figure 47: My Q\&A search option
+Figure 47: My Q\&A full text of a question
+
+Figure 48: My Q\&A search option
+
+Figure 49: Choose how you want to communicate pop-up
+
+Figure 50: Check your camera and microphone pop-up
+
+Figure 51: Consultation screen
+
+Figure 52: Consultation settings
+
+Figure 53: Report a problem pop-up
+
+Figure 54: Chat panel with chat settings
+
+Figure 55: Leave consultation confirmation
+
+Figure 56: Post-consultation questionnaire – safety questions
+
+Figure 57: Post-consultation questionnaire – ratings and feedback
+
+Figure 58: Consultation chat history screen
 
 ### Introduction
 
@@ -216,19 +238,19 @@ Step 2: On the “Navigation Menu” select “Consultations”.
 
 Step 3: Click the “Schedule a consultation” button (see Figure 8).
 
-Step 4: From the list of providers select one to preview his/her details (see Figure 13).
+Step 4: From the list of providers select one to preview his/her details (see Figure 14).
 
-Step 5: From the provider overview screen select the “Schedule consultation” button (see Figure 13).
+Step 5: From the provider overview screen select the “Schedule consultation” button (see Figure 14).
 
-Step 6: From the time availability pop-up select date and time and click the “Save” button (see Figure 14).
+Step 6: From the time availability pop-up select date and time and click the “Save” button (see Figure 15).
 
-Step 7: Once the appointment is scheduled a confirmation pop-up will be shown (see Figure 16).
+Step 7: Once the appointment is scheduled a confirmation pop-up will be shown (see Figure 17).
 
 <figure><img src="../.gitbook/assets/image (268).png" alt=""><figcaption><p>Figure 8: Consultations Screen</p></figcaption></figure>
 
 Figure 8 presents the consultations screen. Two different tabs can be seen in the left  side of the screen, namely “Upcoming” and “Past”. These are available in order to provide the client with the capability to track their previous appointments with providers and their upcoming ones. If there are no upcoming appointments, this is clearly indicated using an appropriate message “You have no upcoming consultations”.
 
-Each consultation card displays the provider’s name and specialization, the date and time of the consultation, and its status:
+Each consultation card displays the provider’s name and specialization, the date and time of the consultation, and its status (see Figure 9):
 
 * LIVE – the consultation is in progress and can be joined (see section 12).
 * UPCOMING – the consultation is scheduled for a later time.
@@ -237,25 +259,25 @@ Each consultation card displays the provider’s name and specialization, the da
 
 Upcoming consultations also include the “Test audio & camera” option for checking devices in advance, and the “Edit” button for changing or cancelling the consultation (see section 5).
 
-<figure><img src="../.gitbook/assets/client-consultations-statuses (1).jpg" alt=""><figcaption><p>Consultations screen with consultation statuses</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/client-consultations-statuses (1).jpg" alt=""><figcaption><p>Figure 9: Consultations screen with consultation statuses</p></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (273).png" alt=""><figcaption><p>Figure 9: Select a Provider screen</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (273).png" alt=""><figcaption><p>Figure 10: Select a Provider screen</p></figcaption></figure>
 
-Each box, as highlighted in red in Figure 9, represents a provider profile.
+Each box, as highlighted in red in Figure 10, represents a provider profile.
 
 Initially, upon accessing this screen, the client will see a default list of available providers. However, if the user has a coupon code, they can enter it into the system, and the platform will generate an updated list of providers that participate in the campaign associated with that coupon.
 
-<figure><img src="../.gitbook/assets/image (274).png" alt=""><figcaption><p>Figure 10: Using coupon code for finding providers</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (274).png" alt=""><figcaption><p>Figure 11: Using coupon code for finding providers</p></figcaption></figure>
 
-To utilize a coupon code, users must input a valid code into the designated field displayed in Figure 10. Once they click the "Submit coupon" button and the code is successfully validated, the list of providers will be updated to display only those who are participating in the campaign associated with the coupon. This updated list is shown in Figure 11.
+To utilize a coupon code, users must input a valid code into the designated field displayed in Figure 11. Once they click the "Submit coupon" button and the code is successfully validated, the list of providers will be updated to display only those who are participating in the campaign associated with the coupon. This updated list is shown in Figure 12.
 
-<figure><img src="../.gitbook/assets/image (275).png" alt=""><figcaption><p>Figure 11: List of providers for valid coupon</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (275).png" alt=""><figcaption><p>Figure 12: List of providers for valid coupon</p></figcaption></figure>
 
 By clicking on the "Remove coupon" button, the user can eliminate the coupon filter.
 
-<figure><img src="../.gitbook/assets/image (276).png" alt=""><figcaption><p>Figure 12: Filtering options for the list of providers</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (276).png" alt=""><figcaption><p>Figure 13: Filtering options for the list of providers</p></figcaption></figure>
 
-Furthermore, the client has the ability to filter providers using the options displayed in Figure 12, which are also listed below.
+Furthermore, the client has the ability to filter providers using the options displayed in Figure 13, which are also listed below.
 
 Providers filtering options:
 
@@ -264,31 +286,31 @@ Providers filtering options:
 * Available before
 * Language
 
-<figure><img src="../.gitbook/assets/image (277).png" alt=""><figcaption><p>Figure 13: Provider Overview screen</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (277).png" alt=""><figcaption><p>Figure 14: Provider Overview screen</p></figcaption></figure>
 
-Clicking on any of the listed providers allows the client to access additional information about their background and support capabilities, as depicted in Figure 13. This feature provides the client with a more in-depth understanding of each provider, allowing them to make a more informed decision when selecting a provider to work with.
+Clicking on any of the listed providers allows the client to access additional information about their background and support capabilities, as depicted in Figure 14. This feature provides the client with a more in-depth understanding of each provider, allowing them to make a more informed decision when selecting a provider to work with.
 
-<figure><img src="../.gitbook/assets/image (278).png" alt=""><figcaption><p>Figure 14: Select the appointment date and time</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (278).png" alt=""><figcaption><p>Figure 15: Select the appointment date and time</p></figcaption></figure>
 
-Once a client decides to progress with scheduling an appointment with a specific provider and clicks the “Schedule consultation” button (see Figure 13), they will be presented with the time availability of the provider. This is represented by a pop-up, as presented in Figure 14, from where the client can select a month, day and time and find a slot for the consultation.
+Once a client decides to progress with scheduling an appointment with a specific provider and clicks the “Schedule consultation” button (see Figure 14), they will be presented with the time availability of the provider. This is represented by a pop-up, as presented in Figure 15, from where the client can select a month, day and time and find a slot for the consultation.
 
 Note: The slots that are presented here are based on the availability put in place by the specific provider. There might be days that don’t have available slots due to either the provider being fully booked or the provider not being available for consultations on that specific date.
 
-<figure><img src="../.gitbook/assets/image (93).png" alt=""><figcaption><p>Figure 15: Payment screen within consultation booking process</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (93).png" alt=""><figcaption><p>Figure 16: Payment screen within consultation booking process</p></figcaption></figure>
 
-After choosing a consultation slot, the user will be directed to proceed with payment. Figure 15 illustrates what payment details are required to complete the final step of booking a consultation. Two crucial aspects of the payment screen are worth noting. The first is the time counter, located at the top of the form, which shows the remaining time to complete the payment. The countdown begins at 5 minutes and indicates the duration the selected consultation slot is reserved and cannot be booked by other clients. If the time runs out, the client can no longer make the payment, and the slot becomes available again to all clients. If the client still wishes to book the same slot after the time has expired, they must select it again, provided it is still available and has not been booked by another user. The second important element on the screen is the total cost of the consultation, which will be charged to the user.
+After choosing a consultation slot, the user will be directed to proceed with payment. Figure 16 illustrates what payment details are required to complete the final step of booking a consultation. Two crucial aspects of the payment screen are worth noting. The first is the time counter, located at the top of the form, which shows the remaining time to complete the payment. The countdown begins at 5 minutes and indicates the duration the selected consultation slot is reserved and cannot be booked by other clients. If the time runs out, the client can no longer make the payment, and the slot becomes available again to all clients. If the client still wishes to book the same slot after the time has expired, they must select it again, provided it is still available and has not been booked by another user. The second important element on the screen is the total cost of the consultation, which will be charged to the user.
 
 Note: The payment form is presented in more details in section 10 Make a payment
 
-<figure><img src="../.gitbook/assets/image (161).png" alt=""><figcaption><p>Figure 16: Payment and Appointment confirmation</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (161).png" alt=""><figcaption><p>Figure 17: Payment and Appointment confirmation</p></figcaption></figure>
 
-After a successful payment and registration of the booking by the system, the user will be shown the confirmation screen, as depicted in Figure 16.
+After a successful payment and registration of the booking by the system, the user will be shown the confirmation screen, as depicted in Figure 17.
 
-<figure><img src="../.gitbook/assets/image (160).png" alt=""><figcaption><p>Figure 17: Unsuccessful payment screen</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (160).png" alt=""><figcaption><p>Figure 18: Unsuccessful payment screen</p></figcaption></figure>
 
-In the event that the payment is unsuccessful, the user will be directed to the screen displayed in Figure 17. This screen provides the user with relevant information and instructions for resolving the payment issue and completing the transaction.
+In the event that the payment is unsuccessful, the user will be directed to the screen displayed in Figure 18. This screen provides the user with relevant information and instructions for resolving the payment issue and completing the transaction.
 
-<figure><img src="../.gitbook/assets/image (279).png" alt=""><figcaption><p>Figure 18: Consultations screen visualizes upcoming appointments</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (279).png" alt=""><figcaption><p>Figure 19: Consultations screen visualizes upcoming appointments</p></figcaption></figure>
 
 As previously mentioned, all the upcoming consultations can be seen within the Consultations Screen, as shown above.
 
@@ -304,11 +326,11 @@ Step 4: Select the “edit” button.
 
 Step 5: From the displayed pop-up select one of the two options “Change the date and time” or “Cancel the consultation”.
 
-<figure><img src="../.gitbook/assets/image (280).png" alt=""><figcaption><p>Figure 19: Consultation screen edit appointment</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (280).png" alt=""><figcaption><p>Figure 20: Consultation screen edit appointment</p></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (281).png" alt=""><figcaption><p>Figure 20: Consultation screen edit appointment options (up to 24 hours before consultation)</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (281).png" alt=""><figcaption><p>Figure 21: Consultation screen edit appointment options (up to 24 hours before consultation)</p></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (282).png" alt=""><figcaption><p>Figure 21: Consultation screen edit appointment options (less than 24 hours before consultation)</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (282).png" alt=""><figcaption><p>Figure 22: Consultation screen edit appointment options (less than 24 hours before consultation)</p></figcaption></figure>
 
 The first option “Change the date and time” will prompt the client to select another time slot from the availability of the same provider. The process is similar to booking an appointment. Changing time is available up to 24 hours before scheduled consultation. After that, cancellation is the only option.&#x20;
 
@@ -321,7 +343,7 @@ Note:
 
 
 
-<figure><img src="../.gitbook/assets/Scheduled Sessions Flow Client.jpg" alt=""><figcaption><p>Figure 22: Edit scheduled consultation flow</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Scheduled Sessions Flow Client.jpg" alt=""><figcaption><p>Figure 23: Edit scheduled consultation flow</p></figcaption></figure>
 
 ### 6. Access the Information portal
 
@@ -329,19 +351,19 @@ Step 1: Login to the Client Interface.
 
 Step 2: On the “Navigation Menu” select “Information Portal”.
 
-<figure><img src="../.gitbook/assets/image (296).png" alt=""><figcaption><p>Figure 23: Information Portal initial screen</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (296).png" alt=""><figcaption><p>Figure 24: Information Portal initial screen</p></figcaption></figure>
 
-The initial entry screen for the information portal, as presented in Figure 23 is divided into two article groups - most read and adolescents/parents sections.&#x20;
+The initial entry screen for the information portal, as presented in Figure 24 is divided into two article groups - most read and adolescents/parents sections.&#x20;
 
-<figure><img src="../.gitbook/assets/image (298).png" alt=""><figcaption><p>Figure 24: Information Portal Search Screen</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (298).png" alt=""><figcaption><p>Figure 25: Information Portal Search Screen</p></figcaption></figure>
 
 Clients can use the search input to find different articles. Following the client's input, the view will dynamically update by displaying the articles that match the search criteria. The search merges the adolescents/parents section results. Furthermore, clients can filter articles by choosing from a list of predefined categories.
 
-Once the client finds an article about which he/she wants to read more, he/she can do so by selecting the “Read more” button within the article overview box, as highlighted in Figure 24.
+Once the client finds an article about which he/she wants to read more, he/she can do so by selecting the “Read more” button within the article overview box, as highlighted in Figure 25.
 
-<figure><img src="../.gitbook/assets/image (299).png" alt=""><figcaption><p>Figure 25: Full view of an article</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (299).png" alt=""><figcaption><p>Figure 26: Full view of an article</p></figcaption></figure>
 
-Figure 25 shows the full view of an article. The first part is a title. Next, we are presented with a list of tags that represent different psychological topics that are covered by the article. Following this, the cover image of the article together with the body and text to speech option are displayed.
+Figure 26 shows the full view of an article. The first part is a title. Next, we are presented with a list of tags that represent different psychological topics that are covered by the article. Following this, the cover image of the article together with the body and text to speech option are displayed.
 
 Note:
 
@@ -353,11 +375,11 @@ Step 1: Login to the Client Interface.
 
 Step 2: Select the “SOS Center” button on the bottom right corner from any screen within the uSupport platform.
 
-<figure><img src="../.gitbook/assets/image (300).png" alt=""><figcaption><p>Figure 26: SOS Centers Screen</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (300).png" alt=""><figcaption><p>Figure 27: SOS Centers Screen</p></figcaption></figure>
 
 The SOS center screen is the place which provides quick access to emergency lines available in different countries.
 
-Figure 26 presents the available helplines, each within a different rectangle. The information which can be displayed is the following:
+Figure 27 presents the available helplines, each within a different rectangle. The information which can be displayed is the following:
 
 * Name of the emergency center
 * A description which should include relevant details about the center so that the clients can know if the specific center can solve their issue.
@@ -374,7 +396,7 @@ Step 1: Login to the Client Interface.
 
 Step 2: On the “Navigation Menu” select “Your Profile”.
 
-<figure><img src="../.gitbook/assets/image (301).png" alt=""><figcaption><p>Figure 27: Client account settings screen</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (301).png" alt=""><figcaption><p>Figure 28: Client account settings screen</p></figcaption></figure>
 
 From this screen the client can proceed with the following actions:
 
@@ -387,35 +409,35 @@ From this screen the client can proceed with the following actions:
 * Access the privacy policy.
 * Access the frequently asked questions.
 
-By accessing the profile details screen, the client can view the personal information associated with the uSupport client interface account, see Figure 28. The client is able to change this data by selecting the “Save changes” button.
+By accessing the profile details screen, the client can view the personal information associated with the uSupport client interface account, see Figure 29. The client is able to change this data by selecting the “Save changes” button.
 
 Moreover, from here the client can change the password for the account, enable or disable consent for personal data processing, log out and delete the account.
 
-<figure><img src="../.gitbook/assets/image (302).png" alt=""><figcaption><p>Figure 28: Edit profile details screen</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (302).png" alt=""><figcaption><p>Figure 29: Edit profile details screen</p></figcaption></figure>
 
-From the profile settings, the client also has access to the mood tracker past activity page from where they can keep track of their progress while using the platform and see how their state of mind evolves (see Figure 29).
+From the profile settings, the client also has access to the mood tracker past activity page from where they can keep track of their progress while using the platform and see how their state of mind evolves (see Figure 30).
 
-<figure><img src="../.gitbook/assets/image (303).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (303).png" alt=""><figcaption><p>Figure 30: Mood Tracker screen</p></figcaption></figure>
 
-From the notification settings screen the client can enable or disable the email notifications or the scheduled appointments notifications. Furthermore, clients can choose how long before an appointment they want to be notified - 15, 30, 45 or 60 minutes (see Figure 30).
+From the notification settings screen the client can enable or disable the email notifications or the scheduled appointments notifications. Furthermore, clients can choose how long before an appointment they want to be notified - 15, 30, 45 or 60 minutes (see Figure 31).
 
-<figure><img src="../.gitbook/assets/image (305).png" alt=""><figcaption><p>Figure 30: Notifications settings screen</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (305).png" alt=""><figcaption><p>Figure 31: Notifications settings screen</p></figcaption></figure>
 
-The application feedback form can be accessed as well from the profile settings. This form was created so that clients can provide their opinion about the platform. The screen, as we can see in the Figure 31, contains two parts, a star rating and a text message field. Once the client submits their feedback and sends the rating this will be received by the country administrators and managed accordingly.
+The application feedback form can be accessed as well from the profile settings. This form was created so that clients can provide their opinion about the platform. The screen, as we can see in the Figure 32, contains two parts, a star rating and a text message field. Once the client submits their feedback and sends the rating this will be received by the country administrators and managed accordingly.
 
-<figure><img src="../.gitbook/assets/image (306).png" alt=""><figcaption><p>Figure 31: Application Feedback screen</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (306).png" alt=""><figcaption><p>Figure 32: Application Feedback screen</p></figcaption></figure>
 
 Clients are able to view a complete record of their purchases on the platform through the 'payment history' screen. This screen displays details such as the service purchased, the total price paid, and the date and time of the payment.
 
-<figure><img src="../.gitbook/assets/image (127).png" alt=""><figcaption><p>Figure 32: Payment History screen</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (127).png" alt=""><figcaption><p>Figure 33: Payment History screen</p></figcaption></figure>
 
-To obtain more detailed information about a specific payment, the client can select the "More details" option located on the right-hand side of the screen, which will display comprehensive payment details. Furthermore, this feature also enables the client to download the payment receipt associated with the transaction (see Figure 33). In addition, clients have the option to export the data in CSV format by simply clicking the "Export" button.
+To obtain more detailed information about a specific payment, the client can select the "More details" option located on the right-hand side of the screen, which will display comprehensive payment details. Furthermore, this feature also enables the client to download the payment receipt associated with the transaction (see Figure 34). In addition, clients have the option to export the data in CSV format by simply clicking the "Export" button.
 
-<figure><img src="../.gitbook/assets/image (142).png" alt=""><figcaption><p>Figure 33: Payment History more information about a payment.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (142).png" alt=""><figcaption><p>Figure 34: Payment History more information about a payment.</p></figcaption></figure>
 
-The ‘contact us’ screen allows clients to raise any questions or issues they might encounter. These will be received and addressed by the country administrators. To raise an enquiry, the client needs to select an issue from a predefined list and add any message if necessary, see Figure 34
+The ‘contact us’ screen allows clients to raise any questions or issues they might encounter. These will be received and addressed by the country administrators. To raise an enquiry, the client needs to select an issue from a predefined list and add any message if necessary, see Figure 35
 
-<figure><img src="../.gitbook/assets/image (308).png" alt=""><figcaption><p>Figure 34: Contact us screen</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (308).png" alt=""><figcaption><p>Figure 35: Contact us screen</p></figcaption></figure>
 
 The privacy policy can be previewed from the profile settings screen, as well.
 
@@ -423,13 +445,13 @@ Note:
 
 * Privacy policies, terms of use and cookie policies are country specific. Clients should read and make sure the existing content is understood and their activity within the platform follows the established rules.
 
-<figure><img src="../.gitbook/assets/image (309).png" alt=""><figcaption><p>Figure 35: Privacy policies screen</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (309).png" alt=""><figcaption><p>Figure 36: Privacy policies screen</p></figcaption></figure>
 
 Within frequently asked questions clients can find answers to the most commonly asked questions. It is recommended to visit this page every time there is any ambiguity regarding the use of the platform as the answer already might be there.
 
 The information which is presented on this screen is managed by the country administrators and is country specific.
 
-<figure><img src="../.gitbook/assets/image (310).png" alt=""><figcaption><p>Figure 36: Frequently asked questions screen</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (310).png" alt=""><figcaption><p>Figure 37: Frequently asked questions screen</p></figcaption></figure>
 
 Note:
 
@@ -441,7 +463,7 @@ Step 1: Login to the Client Interface.
 
 Step 2: On the “Navigation Menu” select “Home”.
 
-This screen provides quick access to the main functionalities available within the client interface, all of which are described throughout this document (see Figure 37).
+This screen provides quick access to the main functionalities available within the client interface, all of which are described throughout this document (see Figure 38).
 
 At the top of the screen, the Mood Tracker is displayed, allowing clients to record their current mood and access their mood history.
 
@@ -449,7 +471,7 @@ Below this section, the Consultation area presents upcoming scheduled sessions a
 
 The Articles section is located at the bottom of the screen, offering access to informational content and resources relevant to the client.
 
-<figure><img src="../.gitbook/assets/image (312).png" alt=""><figcaption><p>Figure 37: Dashboard screen</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (312).png" alt=""><figcaption><p>Figure 38: Dashboard screen</p></figcaption></figure>
 
 ### 10. Make a payment <a href="#ref130341549" id="ref130341549"></a>
 
@@ -459,7 +481,7 @@ Step 2: Follow the ‘Schedule consultation’ flow described in section 4 Sched
 
 Clients who wish to make a payment will be directed to the payment screen, which presents two different payment options. These options are outlined below, along with explanations for each of the fields required to complete the payment process.
 
-<figure><img src="../.gitbook/assets/image (139).png" alt=""><figcaption><p>Figure 38: Default payment form</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (139).png" alt=""><figcaption><p>Figure 39: Default payment form</p></figcaption></figure>
 
 The first payment option available to users is to proceed with the standard payment process by completing all of the fields within the form presented above. These fields include:
 
@@ -470,19 +492,19 @@ The first payment option available to users is to proceed with the standard paym
 * Country or region
 * Additional details required based on country (e.g. postcode for United Kingdom)
 
-<figure><img src="../.gitbook/assets/image (144).png" alt=""><figcaption><p>Figure 39: Saving payment details for future usage</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (144).png" alt=""><figcaption><p>Figure 40: Saving payment details for future usage</p></figcaption></figure>
 
-The users can also utilize the auto-fill features offered by “Link” as an alternative payment option. When entering an email address that has not been previously used for payments and is not associated with an existing Link account, an automatic check will be initiated. The user will then be given the option to save the payment details for future use (as shown in Figure 39). The auto-fill functionality of “Link” is a product provided by Stripe that enables secure storage and auto-completion of payment information, thus streamlining the checkout process.
+The users can also utilize the auto-fill features offered by “Link” as an alternative payment option. When entering an email address that has not been previously used for payments and is not associated with an existing Link account, an automatic check will be initiated. The user will then be given the option to save the payment details for future use (as shown in Figure 40). The auto-fill functionality of “Link” is a product provided by Stripe that enables secure storage and auto-completion of payment information, thus streamlining the checkout process.
 
-Figure 39 shows an example where a client enters an email address that is not recognized by Stripe. In response, the form displayed below prompts the user to provide additional information for securely storing and creating an account, namely a valid phone number, legal first and last names. Once the user enters this information along with valid card details to complete the payment, the information is securely linked to a new “Link” account. The result is that when the user accesses the payment form next time and enters the same email address followed by the two-factor authentication code, the form will be automatically filled with the previously saved payment details, as illustrated in Figures 40 and 41.
+Figure 40 shows an example where a client enters an email address that is not recognized by Stripe. In response, the form displayed below prompts the user to provide additional information for securely storing and creating an account, namely a valid phone number, legal first and last names. Once the user enters this information along with valid card details to complete the payment, the information is securely linked to a new “Link” account. The result is that when the user accesses the payment form next time and enters the same email address followed by the two-factor authentication code, the form will be automatically filled with the previously saved payment details, as illustrated in Figures 41 and 42.
 
-<figure><img src="../.gitbook/assets/image (173).png" alt=""><figcaption><p>Figure 40: Payment form Link account verification</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (173).png" alt=""><figcaption><p>Figure 41: Payment form Link account verification</p></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (123).png" alt=""><figcaption><p>Figure 41: Payment form use saved payment information</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (123).png" alt=""><figcaption><p>Figure 42: Payment form use saved payment information</p></figcaption></figure>
 
-After accessing the payment form shown in Figure 42, the client can manage their payment methods by adding or removing them. Additionally, they have the option to use existing payment methods to complete the payment process.
+After accessing the payment form shown in Figure 43, the client can manage their payment methods by adding or removing them. Additionally, they have the option to use existing payment methods to complete the payment process.
 
-<figure><img src="../.gitbook/assets/image (169).png" alt=""><figcaption><p>Figure 42: Payment form Link authentication completed</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (169).png" alt=""><figcaption><p>Figure 43: Payment form Link authentication completed</p></figcaption></figure>
 
 ### 11. Access My Q\&A
 
@@ -490,19 +512,19 @@ Step 1: Login to the Client Interface.
 
 Step 2: On the “Navigation Menu” select “My Q\&A”.
 
-<figure><img src="../.gitbook/assets/image (313).png" alt=""><figcaption><p>Figure 43: My Q&#x26;A screen</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (313).png" alt=""><figcaption><p>Figure 44: My Q&#x26;A screen</p></figcaption></figure>
 
 This screen allows clients to access a question and answer directory that is designed to help them clarify any questions they may have. Clients can ask questions anonymously and experienced providers will provide answers to them. The answers to questions will also be available to other clients.
 
-As shown in Figure 43, the questions are organized into different tabs: All, Most Popular, Newest, and Your Questions. The first tab presents all the questions raised on the platform and answered by providers. The second tab displays the questions that are most popular, based on the number of likes they have received from clients. The third tab shows the newest questions that have been raised. The fourth tab displays the questions raised by the current client.
+As shown in Figure 44, the questions are organized into different tabs: All, Most Popular, Newest, and Your Questions. The first tab presents all the questions raised on the platform and answered by providers. The second tab displays the questions that are most popular, based on the number of likes they have received from clients. The third tab shows the newest questions that have been raised. The fourth tab displays the questions raised by the current client.
 
-To ask a new question, clients need to click on the “Ask anonymously” button on the right side of the screen, then add their question as shown in Figure 44. After the client has finished adding their question, they can submit it by clicking the “Send your question” button. Following this procedure, the question will be displayed in the “Your Questions” tab and will be available to providers.
+To ask a new question, clients need to click on the “Ask anonymously” button on the right side of the screen, then add their question as shown in Figure 45. After the client has finished adding their question, they can submit it by clicking the “Send your question” button. Following this procedure, the question will be displayed in the “Your Questions” tab and will be available to providers.
 
-<figure><img src="../.gitbook/assets/image (314).png" alt=""><figcaption><p>Figure 44: My Q&#x26;A add new question</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (314).png" alt=""><figcaption><p>Figure 45: My Q&#x26;A add new question</p></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (316).png" alt=""><figcaption><p>Figure 45: My Q&#x26;A entry example</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (316).png" alt=""><figcaption><p>Figure 46: My Q&#x26;A entry example</p></figcaption></figure>
 
-The My Q\&A screen contains several elements for each entry, as shown in Figure 45:
+The My Q\&A screen contains several elements for each entry, as shown in Figure 46:
 
 * Title
 * Tags
@@ -520,13 +542,13 @@ The schedule consultation shortcut is located in the bottom right corner of the 
 
 The like and dislike functionality can be accessed using the thumbs up and thumbs down buttons in the top right corner. The counters displayed indicate the number of clients who have expressed their opinion.
 
-The read more functionality allows clients to view the entire answer to a question, as shown in Figure 46.
+The read more functionality allows clients to view the entire answer to a question, as shown in Figure 47.
 
-<figure><img src="../.gitbook/assets/image (317).png" alt=""><figcaption><p>Figure 46: My Q&#x26;A full text of a question</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (317).png" alt=""><figcaption><p>Figure 47: My Q&#x26;A full text of a question</p></figcaption></figure>
 
-Furthermore, the clients have the ability to utilize the search function, which will match the results based on the Q\&A entry's title, tags or content as presented in Figure 47.
+Furthermore, the clients have the ability to utilize the search function, which will match the results based on the Q\&A entry's title, tags or content as presented in Figure 48.
 
-<figure><img src="../.gitbook/assets/image (318).png" alt=""><figcaption><p>Figure 47: My Q&#x26;A search option</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (318).png" alt=""><figcaption><p>Figure 48: My Q&#x26;A search option</p></figcaption></figure>
 
 ### 12. Join a consultation
 
@@ -536,11 +558,11 @@ Step 2: On the “Navigation Menu” select “Home” or “Consultations”.
 
 Step 3: Find the consultation marked “LIVE” and click the “Join” button.
 
-Step 4: In the “Choose how you want to communicate” pop-up, select “Video/audio consultation” or “Text consultation”.
+Step 4: In the “Choose how you want to communicate” pop-up, select “Video/audio consultation” or “Text consultation” (see Figure 49).
 
-Step 5: For a video/audio consultation, check your camera and microphone in the preview and click the “Join consultation” button.
+Step 5: For a video/audio consultation, check your camera and microphone in the preview and click the “Join consultation” button (see Figure 50).
 
-<figure><img src="../.gitbook/assets/client-choose-communication-type.jpg" alt=""><figcaption><p>Choose how you want to communicate pop-up</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/client-choose-communication-type.jpg" alt=""><figcaption><p>Figure 49: Choose how you want to communicate pop-up</p></figcaption></figure>
 
 The “Join” button is available on the consultation card on the Home screen (“Upcoming consultations”) and on the Consultations screen. It becomes active only when the consultation is live. For consultations that have not started yet, the button is shown but disabled, and a “Test audio & camera” option allows the client to check their devices in advance.
 
@@ -551,32 +573,32 @@ The client can choose between two communication types:
 
 Note: The browser or the mobile device may ask for permission to use the camera and microphone. If access is not allowed, the camera and microphone will not work during the consultation.
 
-<figure><img src="../.gitbook/assets/client-check-camera-microphone.jpg" alt=""><figcaption><p>Check your camera and microphone pop-up</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/client-check-camera-microphone.jpg" alt=""><figcaption><p>Figure 50: Check your camera and microphone pop-up</p></figcaption></figure>
 
 ### 13. During the consultation
 
 The consultation screen shows the provider’s video in the main area (or their avatar when the provider’s camera is off) and the client’s own video in a smaller tile.
 
-The header in the top-left corner displays the provider’s name, the scheduled time and the remaining time of the consultation (e.g. “34 min left”). A status indicator shows “Waiting” until the provider joins and changes to a green connection icon once both participants are connected.
+The header in the top-left corner displays the provider’s name, the scheduled time and the remaining time of the consultation (e.g. “34 min left”). A status indicator shows “Waiting” until the provider joins and changes to a green connection icon once both participants are connected (see Figure 51).
 
-<figure><img src="../.gitbook/assets/client-consultation-screen.jpg" alt=""><figcaption><p>Consultation screen</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/client-consultation-screen.jpg" alt=""><figcaption><p>Figure 51: Consultation screen</p></figcaption></figure>
 
 The toolbar at the bottom of the screen contains the following controls:
 
-<figure><img src="../.gitbook/assets/client-call-settings.jpg" alt=""><figcaption><p>Consultation settings</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/client-call-settings.jpg" alt=""><figcaption><p>Figure 52: Consultation settings</p></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/client-report-a-problem.jpg" alt=""><figcaption><p>Report a problem pop-up</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/client-report-a-problem.jpg" alt=""><figcaption><p>Figure 53: Report a problem pop-up</p></figcaption></figure>
 
 * Camera – switch the camera on or off.
 * Microphone – switch the microphone on or off.
 * Chat – open or close the chat panel. A red dot on the button indicates new activity.
-* Settings – select the camera, microphone and speaker, and set a video background (none, blur or an image) through the “Background” option.
-* Report a problem – describe an issue in the “Describe the problem” field and click “Send report”.
+* Settings – select the camera, microphone and speaker, and set a video background (none, blur or an image) through the “Background” option (see Figure 52).
+* Report a problem – describe an issue in the “Describe the problem” field and click “Send report” (see Figure 53).
 * Leave – leave the consultation (see section 14).
 
 The chat panel opens on the right side of the screen. Messages are sent with the “Send” button or the Enter key. The client’s messages are shown on the right and the provider’s on the left. System messages record events such as participants joining or leaving the consultation and switching their camera or microphone on or off.
 
-The “Settings” button at the top of the chat panel provides the following options:
+The “Settings” button at the top of the chat panel provides the following options (see Figure 54):
 
 * Show system messages – show or hide the system messages (enabled by default).
 * Show previous consultations – include the chat history of previous consultations with the same provider.
@@ -584,19 +606,19 @@ The “Settings” button at the top of the chat panel provides the following op
 
 Note: The client can leave and rejoin the consultation at any time during the scheduled slot. The chat history of the consultation is preserved. The client is also notified 10 minutes and 5 minutes before the scheduled end of the consultation.
 
-<figure><img src="../.gitbook/assets/client-chat-panel-settings.jpg" alt=""><figcaption><p>Chat panel with chat settings</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/client-chat-panel-settings.jpg" alt=""><figcaption><p>Figure 54: Chat panel with chat settings</p></figcaption></figure>
 
 ### 14. Leave a consultation and complete the post-consultation questionnaire
 
 Step 1: Click the “Leave” button in the toolbar.
 
-Step 2: In the “Are you sure you want to leave the consultation?” pop-up, click “Leave” to confirm or “Stay” to remain in the consultation.
+Step 2: In the “Are you sure you want to leave the consultation?” pop-up, click “Leave” to confirm or “Stay” to remain in the consultation (see Figure 55).
 
-<figure><img src="../.gitbook/assets/client-leave-confirmation.jpg" alt=""><figcaption><p>Leave consultation confirmation</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/client-leave-confirmation.jpg" alt=""><figcaption><p>Figure 55: Leave consultation confirmation</p></figcaption></figure>
 
 Step 3: Complete the post-consultation questionnaire and click “Send feedback”.
 
-After leaving the consultation, the client is presented with a questionnaire about the session. It consists of the following parts:
+After leaving the consultation, the client is presented with a questionnaire about the session. It consists of the following parts (see Figures 56 and 57):
 
 * Five safety questions with “Yes” or “No” answers: whether the provider attended the session; whether the provider asked the client to disclose their address and contact details; whether the provider asked to meet outside the platform (in person or in another application); whether the provider asked for photos or to turn on video against the client’s wishes; and whether the client felt unsafe in any way during the session.
 * Satisfaction with the session: Very Satisfied, Satisfied, Neutral, Dissatisfied or Very Dissatisfied.
@@ -605,9 +627,9 @@ After leaving the consultation, the client is presented with a questionnaire abo
 
 By submitting the questionnaire, the client declares that the answers provided are true. After the feedback is sent, the client is returned to the Consultations screen.
 
-<figure><img src="../.gitbook/assets/client-questionnaire-safety-questions.jpg" alt=""><figcaption><p>Post-consultation questionnaire – safety questions</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/client-questionnaire-safety-questions.jpg" alt=""><figcaption><p>Figure 56: Post-consultation questionnaire – safety questions</p></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/client-questionnaire-ratings.jpg" alt=""><figcaption><p>Post-consultation questionnaire – ratings and feedback</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/client-questionnaire-ratings.jpg" alt=""><figcaption><p>Figure 57: Post-consultation questionnaire – ratings and feedback</p></figcaption></figure>
 
 Note: Answers indicating a problem generate a report for the country administrators (see the Country Admin manual, section 15.1 Consultation Issues). The questionnaire is displayed every time the client leaves the consultation, pre-filled with any answers given previously for the same consultation. In that case, a “Keep answers” button is also displayed, which keeps the answers that were already submitted.
 
@@ -617,13 +639,13 @@ Step 1: Login to the Client Interface.
 
 Step 2: On the “Navigation Menu” select “Consultations”.
 
-Step 3: In the “Past” section, find a consultation with the status “Consultation ended” and click “See details”.
+Step 3: In the “Past” section, find a consultation with the status “Consultation ended” and click “See details” (see Figure 58).
 
 The “Consultation chat history” screen displays all messages and system messages exchanged with the provider during the consultation. As in the consultation chat, the client can search the history and use the “Show system messages” and “Show previous consultations” options.
 
 Additionally, the “Export” button allows the client to export the chat history, and the “Schedule consultation” button provides a shortcut for booking a new consultation with the same provider.
 
-<figure><img src="../.gitbook/assets/client-consultation-chat-history.jpg" alt=""><figcaption><p>Consultation chat history screen</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/client-consultation-chat-history.jpg" alt=""><figcaption><p>Figure 58: Consultation chat history screen</p></figcaption></figure>
 
 ### 16. Accessibility options
 
