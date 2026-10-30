@@ -2,7 +2,7 @@
 
 ### Table of Contents
 
-[Table of Figures](cms.md#table-of-contents)
+[Table of Figures](cms.md#table-of-figures)
 
 [List of Tables](cms.md#list-of-tables)
 
@@ -46,15 +46,15 @@
 
 [8.5. Terms of use Collection Type](cms.md#id-8.5.-terms-of-use-collection-type)
 
-[8.6. C](cms.md#id-8.6.-cookie-policies-content-type)ookie Policies Content Type
+[8.6. Cookie Policies Content Type](cms.md#id-8.6.-cookie-policies-content-type)
 
-[8.7. F](cms.md#id-8.7.-faqs-content-type)AQs Content Type
+[8.7. FAQs Content Type](cms.md#id-8.7.-faqs-content-type)
 
-[8.8. S](cms.md#id-8.8.-sos-center-content-type)OS Center Content Type
+[8.8. SOS Center Content Type](cms.md#id-8.8.-sos-center-content-type)
 
-[8. Approving content](cms.md#id-9.-approving-content)
+[9. Approving content](cms.md#id-9.-approving-content)
 
-[9. Creating translations for existing content](cms.md#ref121062657)
+[10. Creating translations for existing content](cms.md#ref121062657)
 
 ### Table of Figures
 

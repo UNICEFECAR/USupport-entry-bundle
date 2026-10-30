@@ -24,7 +24,7 @@
 
 [5. Deactivate Provider](country-admin.md#toc130509591)
 
-[6. Visualize Provider Activities](country-admin.md#id-6.-visualize-provider-activitie)
+[6. Visualize Provider Activities](country-admin.md#id-6.-visualize-provider-activities)
 
 [7. Manage Articles](country-admin.md#id-7.-manage-articles)
 

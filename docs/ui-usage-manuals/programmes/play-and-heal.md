@@ -1,5 +1,33 @@
 # Play and Heal
 
+### Table of Contents
+
+[Table of Figures](play-and-heal.md#table-of-figures)
+
+[Introduction](play-and-heal.md#introduction)
+
+[What is the Play and Heal website?](play-and-heal.md#what-is-the-play-and-heal-website)
+
+[Processes](play-and-heal.md#processes)
+
+[1. Access Play and Heal](play-and-heal.md#id-1.-access-play-and-heal)
+
+[2. Explore the home page](play-and-heal.md#id-2.-explore-the-home-page)
+
+[3. Search the toolkit](play-and-heal.md#id-3.-search-the-toolkit)
+
+[4. Read the foundational booklet](play-and-heal.md#id-4.-read-the-foundational-booklet)
+
+[5. Open the activity cards](play-and-heal.md#id-5.-open-the-activity-cards)
+
+[6. Watch the facilitator competency microvideos](play-and-heal.md#id-6.-watch-the-facilitator-competency-microvideos)
+
+[7. Read the toolkit guidance](play-and-heal.md#id-7.-read-the-toolkit-guidance)
+
+[8. Access the caregiver guidance](play-and-heal.md#id-8.-access-the-caregiver-guidance)
+
+[9. Learn about the programme](play-and-heal.md#id-9.-learn-about-the-programme)
+
 ### Table of Figures
 
 Figure 1: Navigation menu and language selection

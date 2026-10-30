@@ -34,6 +34,16 @@
 
 [10. My Q\&A](provider.md#id-10.-my-q-and-a)
 
+[11. Consultations](provider.md#id-11.-consultations)
+
+[12. Join a consultation](provider.md#id-12.-join-a-consultation)
+
+[13. During the consultation](provider.md#id-13.-during-the-consultation)
+
+[14. Leave a consultation](provider.md#id-14.-leave-a-consultation)
+
+[15. Accessibility options](provider.md#id-15.-accessibility-options)
+
 ### Table of Figures <a href="#ref130504120" id="ref130504120"></a>
 
 Figure 1: Welcome screen

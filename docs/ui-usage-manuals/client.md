@@ -8,7 +8,7 @@
 
 [What is the Client Interface?](client.md#what-is-the-client-interface)
 
-[Processes](client.md#_ref122386267)
+[Processes](client.md#ref122386267)
 
 [1. Register into the Client Interface](client.md#id-1.-register-into-the-client-interface)
 
@@ -33,6 +33,16 @@
 [10. Make a payment](client.md#ref130341549)
 
 [11. Access My Q\&A](client.md#id-11.-access-my-q-and-a)
+
+[12. Join a consultation](client.md#id-12.-join-a-consultation)
+
+[13. During the consultation](client.md#id-13.-during-the-consultation)
+
+[14. Leave a consultation and complete the post-consultation questionnaire](client.md#id-14.-leave-a-consultation-and-complete-the-post-consultation-questionnaire)
+
+[15. View consultation history](client.md#id-15.-view-consultation-history)
+
+[16. Accessibility options](client.md#id-16.-accessibility-options)
 
 ### Table of Figures
 

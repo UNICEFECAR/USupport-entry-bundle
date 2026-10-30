@@ -1,5 +1,11 @@
 # Armenia
 
+### Table of Contents
+
+[1. Key Differences](armenia.md#id-1.-key-differences)
+
+[2. U-FRIEND specialists](armenia.md#id-2.-u-friend-specialists)
+
 ### 1. Key Differences
 
 The Armenia implementation follows the default platform behavior, with one addition: a country-specific category of specialists called U-FRIEND.
