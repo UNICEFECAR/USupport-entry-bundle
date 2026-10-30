@@ -12,3 +12,11 @@ ALTER TYPE event_type ADD VALUE IF NOT EXISTS 'hosnelhal_visit';
 -- Hosn El Hal resource opens in content_engagement_event (content_type + action view).
 -- Format and pillar stay in CMS; admin joins on content_id when aggregating.
 ALTER TYPE content_type ADD VALUE IF NOT EXISTS 'hosn_asset';
+
+
+-- Hosn El Hal feedback card: "Would you recommend the resources?" votes and
+-- clicks through to UNICEF's survey, stored under the XH country like the
+-- visits (hosnelhal_visit)
+ALTER TYPE event_type ADD VALUE IF NOT EXISTS 'hosnelhal_feedback_up';
+ALTER TYPE event_type ADD VALUE IF NOT EXISTS 'hosnelhal_feedback_down';
+ALTER TYPE event_type ADD VALUE IF NOT EXISTS 'hosnelhal_feedback_survey_click';
