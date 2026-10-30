@@ -80,7 +80,7 @@ Users can navigate the map (see Figure 2) by zooming and panning to explore diff
 
 Selecting a pin highlights the corresponding organization and provides a quick entry point to view more detailed information about the selected service.
 
-<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption><p>Figure 2: Organizations displayed on the map</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption><p>Figure 2: Organizations displayed on the map</p></figcaption></figure>
 
 Users can refine the displayed organizations using the available search and filtering options located above the map.
 
@@ -98,7 +98,7 @@ Filters can be applied individually or in combination to narrow down results.
 
 In guided flows, such as the Baseline Assessment or Decision Tree, filters may be automatically prefilled based on user needs, helping surface the most relevant organizations.
 
-<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption><p>Figure 3: Organizations map filters</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption><p>Figure 3: Organizations map filters</p></figcaption></figure>
 
 Below the map, organizations are displayed in a card-based list format, providing a structured overview of available support services.
 

@@ -386,7 +386,7 @@ Step 1: Login to the Provider Interface
 
 Step 2: On the “Navigation Menu” select “Campaigns”
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption><p>Figure 24: Campaigns screen</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption><p>Figure 24: Campaigns screen</p></figcaption></figure>
 
 The provider is presented with three distinct tabs on this screen, which are as follows:
 
@@ -405,7 +405,7 @@ The available information for each campaign consists of the following:
 
 The providers can participate in a campaign by selecting the three dots next to each available one and use the actions presented in Figure 25
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption><p>Figure 25: Enroll to a new campaign</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption><p>Figure 25: Enroll to a new campaign</p></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption><p>Figure 26: Campaign Terms of Use</p></figcaption></figure>
 

@@ -14,6 +14,9 @@
 * [Country-Specific Variations](ui-usage-manuals/country-specific-variations/README.md)
   * [Romania](ui-usage-manuals/country-specific-variations/romania.md)
   * [Armenia](ui-usage-manuals/country-specific-variations/armenia.md)
+* [Programmes](ui-usage-manuals/programmes/README.md)
+  * [Play and Heal](ui-usage-manuals/programmes/play-and-heal.md)
+  * [Hosn El Hal](ui-usage-manuals/programmes/hosn-el-hal.md)
 
 ## TECHNICAL DOCUMENTATION
 
