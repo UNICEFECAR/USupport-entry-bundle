@@ -17,5 +17,6 @@ COPY ./schemas/14_schema_v1.13.sql /docker-entrypoint-initdb.d
 COPY ./schemas/15_schema_v1.14.sql /docker-entrypoint-initdb.d
 COPY ./schemas/16_schema_v1.15.sql /docker-entrypoint-initdb.d
 COPY ./schemas/18_schema_v1.17.sql /docker-entrypoint-initdb.d
+COPY ./schemas/19_schema_v1.18.sql /docker-entrypoint-initdb.d
 
 RUN chmod a+r /docker-entrypoint-initdb.d/*
